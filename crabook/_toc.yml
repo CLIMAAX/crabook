@@ -1,0 +1,60 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Preamble
+  chapters:
+  - file: mission
+    title: Our mission
+  - file: contribute
+    title: Contribute
+- caption: Notebooks
+  chapters:
+  - file: notebooks/about
+    title: About workflows
+    sections:
+    - file: notebooks/about/aims-and-scope
+      title: Aims and Scope
+    - file: notebooks/about/review-process
+      title: Our review process
+  - file: notebooks/workflows
+    title: CLIMAAX workflows
+    sections:
+    - file: notebooks/workflows/riverine_floods
+      title: Riverine floods
+    - file: notebooks/workflows/flood_risk_matrix
+      title: Flood risk matrix framework
+    - file: notebooks/workflows/eu_risk
+      title: EU Risk assessment framework
+    - file: notebooks/workflows/inform
+      title: INFORM Risk assessment framework
+    - file: notebooks/workflows/droughts
+      title: Droughts
+  - file: notebooks/data
+    title: Explore data
+    sections:
+    - file: notebooks/data/hazard
+      title: Hazard data
+    - file: notebooks/data/exposure
+      title: Exposure data
+    - file: notebooks/data/vulnerability
+      title: Vulnerability data
+    - file: notebooks/data/combine
+      title: Combine data
+- caption: Resources
+  chapters:
+  - file: resources/useful
+    title: Useful materials
+  - file: resources/glossary
+    title: Glossary
+  - file: resources/FAQ
+- caption: Example files
+  chapters:
+  - file: markdown-notebooks
+    title: Markdown notebooks example
+  - file: markdown
+    title: Markdown example
+  - file: notebooks
+    title: Notebook example  
