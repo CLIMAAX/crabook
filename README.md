@@ -17,7 +17,7 @@ If you'd like to develop and/or build this Climate Risk Assesment book, you shou
 
 A fully-rendered HTML version of the book will be built in `crabook/_build/html/`.
 
-Open the file intro.html and navigate to the material you changed to check if everything is as expected.
+Open the file `crabook/_build/html/intro.html` and navigate to the material you changed to check if everything is as expected.
 
 Once you're happy with the changes, you can push to the repo.
 
