@@ -23,9 +23,10 @@ Once you're happy with the changes, you can push to the repo.
 
 ### Useful notes
 
-- _build directory has been added to .gitignore, so when you build it, it will not be not pushed to GitHub
-- If you clone the repo in this early phase and work on Jupyter notebooks, you might download some data. Please keep all data in folder named **data**, as that is also set up in .gitignore and not pushed to the repo
+- `_build` directory has been added to .gitignore, so when you build it, it will not be not pushed to GitHub
+- If you clone the repo in this early phase and work on Jupyter notebooks, you might download some data. Please keep all data in folder named `data`, as that is also set up in .gitignore and not pushed to the repo
 - Please do not add new notebooks to this repo without them being reviewed by project partners
+- If you did add some markdown files or notebooks, make sure they are listed in the `_toc.yml` file too, otherwise they will not be added to the book 
 
 ### Quick links to Jupyter Book documentation
 - If you are unsure of what to do you can go through [Jupyter Book tutorial](https://jupyterbook.org/en/stable/start/your-first-book.html#) and build an example book to practice before contributing here
