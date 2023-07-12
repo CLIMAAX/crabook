@@ -4,22 +4,69 @@ Climate Risk Assessment Book
 
 ## Usage
 
-### Building the book
+### Building the book 
+
+#### For the first time
 
 If you'd like to develop and/or build this Climate Risk Assesment book, you should:
 
 1. Clone this repository
-2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment (Python or Conda))
-3. Edit the book's source files located in the `crabook/` directory
-4. Activate the environment
-5. Run `jupyter-book clean crabook/` to remove any existing builds
-6. Run `jupyter-book build crabook/`
+   ```bash
+    git clone git@github.com:CLIMAAX/crabook.git
+    ```
+2. Create Python or Conda virtual environment (example for Conda)
+   ```bash
+    conda env create -n crabook
+    ```
+3. Activate the environment
+    ```bash
+    conda activate crabook
+    ```
+4. Install pip
+   ```bash
+    conda install pip
+    ```
+4. Install the libraries
+   ```bash
+   pip install -r requirements.txt
+   ```
+7. Edit the book's source files located in the `crabook/` directory
+   ```bash
+   cd crabook
+   ```
+9. Remove any existing builds by running
+    ```bash
+   jupyter-book clean crabook/
+    ```
+11. Finally build the book
+    ```bash
+    jupyter-book build crabook/
+    ```
 
 A fully-rendered HTML version of the book will be built in `crabook/_build/html/`.
 
 Open the file `crabook/_build/html/intro.html` and navigate to the material you changed to check if everything is as expected.
 
 Once you're happy with the changes, you can push to the repo.
+
+#### Every next time
+The Python/Conda environment is needed only for building the book, so you can activate it after editing the files.
+1. Edit the book's source files located in the `crabook/` directory
+   ```bash
+   cd crabook
+   ```
+2. Activate the environment
+   ```bash
+    conda activate crabook
+    ```
+4. Remove any existing builds by running
+    ```bash
+   jupyter-book clean crabook/
+    ```
+5. Finally build the book
+    ```bash
+    jupyter-book build crabook/
+    ```
 
 ### Useful notes
 
