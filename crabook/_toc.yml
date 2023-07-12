@@ -4,13 +4,13 @@
 format: jb-book
 root: intro
 parts:
-- caption: Preamble
+- caption: Introduction to CLIMAAX
   chapters:
   - file: mission
     title: Our mission
   - file: contribute
-    title: Contribute
-- caption: Notebooks
+    title: Aim and funcitonality of the toolbox
+- caption: Risk assessments
   chapters:
   - file: notebooks/about
     title: About workflows
@@ -22,7 +22,7 @@ parts:
   - file: notebooks/workflows
     title: CLIMAAX workflows
     sections:
-    - file: notebooks/workflows/riverine_floods
+    - file: notebooks/workflows/FLOOD
       title: Riverine floods
     - file: notebooks/workflows/flood_risk_matrix
       title: Flood risk matrix framework
