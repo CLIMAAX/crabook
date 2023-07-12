@@ -23,7 +23,7 @@ Once you're happy with the changes, you can push to the repo.
 
 ### Useful notes
 
-- `_build` directory has been added to .gitignore, so when you build it, it will not be not pushed to GitHub
+- `_build` directory has been added to .gitignore, so when you build it, it will not be pushed to GitHub
 - If you clone the repo in this early phase and work on Jupyter notebooks, you might download some data. Please keep all data in folder named `data`, as that is also set up in .gitignore and not pushed to the repo
 - Please do not add new notebooks to this repo without them being reviewed by project partners
 - If you did add some markdown files or notebooks, make sure they are listed in the `_toc.yml` file too, otherwise they will not be added to the book 
@@ -31,7 +31,7 @@ Once you're happy with the changes, you can push to the repo.
 ### Quick links to Jupyter Book documentation
 - If you are unsure of what to do you can go through [Jupyter Book tutorial](https://jupyterbook.org/en/stable/start/your-first-book.html#) and build an example book to practice before contributing here
 - Find out how to structure the book here: [Structure of the book](https://jupyterbook.org/en/stable/basics/organize.html#)
-- Read about writing narative content without the executable part in [this section](https://jupyterbook.org/en/stable/content/index.html)
+- Read about writing narrative content without the executable part in [this section](https://jupyterbook.org/en/stable/content/index.html)
 
 ### Quick links to MyST markdown documentation
 We are using powerful MyST Markdown flavour of Markdown which is very convenient for technical and scientific documentation.  
