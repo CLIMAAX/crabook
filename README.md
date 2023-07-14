@@ -26,7 +26,7 @@ If you'd like to develop and/or build this Climate Risk Assesment book, you shou
    ```bash
     conda install pip
     ```
-5. Edit the book's source files located in the `crabook/` directory
+5. Go to the the `crabook/` directory
    ```bash
    cd crabook
    ```
@@ -34,11 +34,13 @@ If you'd like to develop and/or build this Climate Risk Assesment book, you shou
    ```bash
    pip install -r requirements.txt
    ```
-7. Remove any existing builds by running
+7. Find the markdown files and edit what you need
+8. Go back to the `crabook/` directory
+9. Remove any existing builds by running
     ```bash
    jupyter-book clean crabook/
     ```
-8. Finally build the book
+10. Finally build the book
     ```bash
     jupyter-book build crabook/
     ```
