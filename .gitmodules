@@ -5,3 +5,19 @@
 	path = crabook/notebooks/workflows/DROUGHTS
 	url = https://github.com/CLIMAAX/DROUGHTS
 	branch = main
+[submodule "crabook/notebooks/workflows/HEATWAVES"]
+	path = crabook/notebooks/workflows/HEATWAVES
+	url = https://github.com/CLIMAAX/HEATWAVES
+	branch = main
+[submodule "crabook/notebooks/workflows/SNOW"]
+	path = crabook/notebooks/workflows/SNOW
+	url = https://github.com/CLIMAAX/SNOW
+	branch = main
+[submodule "crabook/notebooks/workflows/FIRE"]
+	path = crabook/notebooks/workflows/FIRE
+	url = https://github.com/CLIMAAX/FIRE
+	branch = main
+[submodule "crabook/notebooks/workflows/STORMS"]
+	path = crabook/notebooks/workflows/STORMS
+	url = https://github.com/CLIMAAX/STORMS
+	branch = main

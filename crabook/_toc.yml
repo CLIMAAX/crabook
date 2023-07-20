@@ -22,16 +22,18 @@ parts:
   - file: notebooks/workflows
     title: CLIMAAX workflows
     sections:
-    - file: notebooks/workflows/FLOOD
-      title: Riverine floods
-    - file: notebooks/workflows/flood_risk_matrix
-      title: Flood risk matrix framework
-    - file: notebooks/workflows/eu_risk
-      title: EU Risk assessment framework
-    - file: notebooks/workflows/inform
-      title: INFORM Risk assessment framework
-    - file: notebooks/workflows/droughts
-      title: Droughts
+    - file: notebooks/workflows/FLOODS/FLOOD
+      title: Floods workflow
+    - file: notebooks/workflows/DROUGHTS/DROUGHT_notebook
+      title: Droughts workflow
+    - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
+      title: Heatwave worflow
+    - file: notebooks/workflows/FIRE/FIRE_notebook
+      title: FIRE workflow
+    - file: notebooks/workflows/SNOW/SNOW_notebook
+      title: SNOW workflow
+    - file: notebooks/workflows/STORMS/WIND_raster
+      title: WIND workflow
   - file: notebooks/data
     title: Explore data
     sections:
