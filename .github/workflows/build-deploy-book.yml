@@ -16,8 +16,9 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
-# This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
+
+  # This job installs dependencies and builds the book
   build:
     runs-on: ubuntu-latest
     steps:
@@ -46,6 +47,7 @@ jobs:
       with:
         path: crabook/_build/html
 
+  # This job publishes the book to Github Pages
   deploy:
     if: github.ref == 'refs/heads/main'
 
