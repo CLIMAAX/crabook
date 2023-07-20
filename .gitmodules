@@ -1,0 +1,3 @@
+[submodule "crabook/notebooks/workflows/FLOODS"]
+	path = crabook/notebooks/workflows/FLOODS
+	url = https://github.com/CLIMAAX/FLOODS
