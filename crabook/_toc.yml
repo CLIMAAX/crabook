@@ -19,6 +19,8 @@ parts:
       title: Aims and Scope
     - file: notebooks/about/review-process
       title: Our review process
+    - file: notebooks/about/vulnerability-curves-adjustment
+      title: Our review process
   - file: notebooks/workflows
     title: CLIMAAX workflows
     sections:
