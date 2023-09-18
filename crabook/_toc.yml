@@ -25,9 +25,11 @@ parts:
     title: CLIMAAX workflows
     sections:
     - file: notebooks/workflows/FLOODS/FLOOD
-      title: Floods workflow
-    - file: notebooks/workflows/DROUGHTS/DROUGHT_notebook
-      title: Droughts workflow
+      title: FLOODS workflow
+    - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
+      title: DROUGHTS workflow - simple
+    - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
+      title: DROUGHTS workflow - advanced
     - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
       title: Heatwave worflow
     - file: notebooks/workflows/FIRE/FIRE_notebook
