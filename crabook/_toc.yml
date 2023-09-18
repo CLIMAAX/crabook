@@ -36,7 +36,7 @@ parts:
       title: FIRE workflow
     - file: notebooks/workflows/SNOW/SNOW_notebook
       title: SNOW workflow
-    - file: notebooks/workflows/STORMS/WIND_raster
+    - file: notebooks/workflows/STORMS/WIND_raster_LUISA
       title: WIND workflow
   - file: notebooks/data
     title: Explore data
