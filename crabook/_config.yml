@@ -42,9 +42,9 @@ exclude_patterns: [content.md, "**.ipynb_checkpoints", "**README.md"]
 
 #######################################################################################
 # Launch button settings
-launch_buttons:
-  notebook_interface        : jupyterlab  # The interface interactive links will activate ["classic", "jupyterlab"]
-  binderhub_url             : "https://mybinder.org" # The URL of the BinderHub (e.g., https://mybinder.org or https://binder.pangeo.io, https://aws-uswest2-binder.pangeo.io)
+#launch_buttons:
+#  notebook_interface        : jupyterlab  # The interface interactive links will activate ["classic", "jupyterlab"]
+#  binderhub_url             : "https://mybinder.org" # The URL of the BinderHub (e.g., https://mybinder.org or https://binder.pangeo.io, https://aws-uswest2-binder.pangeo.io)
 
 search_bar_position: left
 
