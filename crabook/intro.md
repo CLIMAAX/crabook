@@ -1,4 +1,4 @@
-# About CLIMAAX
+# Welcome to CLIMAAX
 
 CLIMAte risk and vulnerability Assessment framework and toolboX (CLIMAAX) is a 4-year Horizon Europe project that provides financial, analytical, and practical support to improve regional climate and emergency risk management plans. CLIMAAX is designed to contribute to the harmonization and consolidation of the practice of climate risk assessment, leaving a legacy for upcoming European initiatives while turning the European Commission Climate Change Mission on Adaptation. into practice. The project started in January 2023 and runs until December 2026.
 

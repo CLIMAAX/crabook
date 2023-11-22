@@ -1,14 +1,21 @@
 Risk assessment workflows 
 =======================
 
-The different risk assessment workflows were identified from a review process based on the existing criteria: 
-- Scientific research with high citations number 
-- Official EU reports 
-- Frameworks implemented in the CLIMAAX pilots 
+In the initial conception of the CLIMAAX toolbox, different sample risk assessment workflows were identified and implemented.  
+Each workflow follows a 'stepwise’ data processing scheme to calculate risk as a combination of hazard, exposure and vulnerability information.  
 
-Frameworks “feasible” to be implemented within the CLIMAAX toolbox. For example, I did not consider flood risk frameworks that included the calculation of probabilistic water level if no data were available and frameworks based on the residual flood risk (in case of levee breach). This is done considering that the toolbox will need to be implemented within the first 8 months and we won’t have time to apply complex frameworks.   
+The code to compute the workflows was selected from existing research following a review process based on the following criteria: 
 
-However, we could include some specific guidelines for experts users so that they can implement more complex risk approaches by downloading the data and assess the risk offline 
+- Scientific research with sufficient number of citations; 
+- Official EU reports; 
+- Frameworks implemented in the CLIMAAX pilots. 
+
+Other important criteria for the risk workflow selection are that  
+
+**a)** they should be feasible to be implemented within the CLIMAAX toolbox, and  
+**b)** they should be understandable and comprehensive also for users that are not trained in the technical or conceptual construction of risk assessment tools. 
+
+
 
 Each workflow is described by first introducing the main methodological framework and components, e.g. $R=H*E*V$ or risk matrix (see {numref}`Flood risk` below). Then, the way each risk component is calculated and link to useful datasets is described. Finally, references to main papers and/or reports are included. 
 

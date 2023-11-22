@@ -4,63 +4,97 @@
 format: jb-book
 root: intro
 parts:
-- caption: Introduction to CLIMAAX
+- caption: About us
   chapters:
-  - file: mission
-    title: Our mission
-  - file: contribute
-    title: Aim and funcitonality of the toolbox
-- caption: Risk assessments
+  - file: aboutclimaax
+    title: The CLIMAAX project
+  - file: funding
+    title: Funding opportunities
+
+- caption: Scoping
   chapters:
-  - file: notebooks/about
-    title: About workflows
+  - file: scoping/context
+    title: Context setting
+  - file: scoping/objectives
+    title: Objectives and criteria
+  - file: scoping/principles
+    title:  Risk assessment principles
+  - file: scoping/concepts
+    title: Risk concepts
+
+- caption: Risk identification 
+  chapters:
+  - file: identification/previous
+    title: Previous work
+  - file: identification/eu_risks_sets
+    title: EU risks sets 
+  - file: identification/datasets
+    title:  Climate Risk Assessment Datasets
     sections:
-    - file: notebooks/about/aims-and-scope
-      title: Aims and Scope
-    - file: notebooks/about/review-process
-      title: Our review process
-    - file: notebooks/about/vulnerability-curves-adjustment
-      title: Our review process
-  - file: notebooks/workflows
-    title: CLIMAAX workflows
+    - file: identification/exposure_data
+      title: Exposure datasets
+    - file: identification/hazard_data
+      title: Hazard datasets
+    - file: identification/vulnerability_data
+      title: Vulnerability datasets
+
+- caption: Risk analysis
+  chapters:
+  - file: analysis/calculation
+    title: Risk calculation overview
+  - file: analysis/tools
+    title: Introduction to the tools
+  - file: analysis/recipes
+    title: Risk recipes
     sections:
     - file: notebooks/workflows/FLOODS/FLOOD
-      title: FLOODS workflow
-    - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
-      title: DROUGHTS workflow - simple
-    - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
-      title: DROUGHTS workflow - advanced
+      title: FLOODS
+    - file: notebooks/workflows/droughts
+      title: DROUGHTS
+      sections:
+      - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
+        title: Simple workflow
+      - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
+        title: Advanced workflow
     - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
-      title: Heatwave worflow
+      title: HEATWAVES 
     - file: notebooks/workflows/FIRE/FIRE_notebook
-      title: FIRE workflow
+      title: FIRE
     - file: notebooks/workflows/SNOW/SNOW_notebook
-      title: SNOW workflow
+      title: SNOW
     - file: notebooks/workflows/STORMS/WIND_raster_LUISA
-      title: WIND workflow
-  - file: notebooks/data
-    title: Explore data
-    sections:
-    - file: notebooks/data/hazard
-      title: Hazard data
-    - file: notebooks/data/exposure
-      title: Exposure data
-    - file: notebooks/data/vulnerability
-      title: Vulnerability data
-    - file: notebooks/data/combine
-      title: Combine data
+      title: WIND
+
+- caption: Key Risks Assessment
+  chapters:
+  - file: key_risks/comparing
+    title: Comparing risks
+  - file: key_risks/key_risks
+    title: Key risks
+  - file: key_risks/less_urgent_risks
+    title: Less urgent risks 
+  - file: key_risks/comparison
+    title: Comparisson risks recipes
+
+- caption: Monitoring and evaluation
+  chapters:
+  - file: monitoring/need
+    title: The need for monitoring 
+  - file: monitoring/reiterate
+    title: Reiterate the risk assessment cycle 
+
 - caption: Resources
   chapters:
+  - file: resources/definitions
+    title: Risk definition resources
+  - file: resources/datasets
+    title: Datasets
   - file: resources/useful
-    title: Useful materials
-  - file: resources/glossary
-    title: Glossary
-  - file: resources/FAQ
-- caption: Example files
+    title: Coding resources
+ 
+- caption: Join the community
   chapters:
-  - file: markdown-notebooks
-    title: Markdown notebooks example
-  - file: markdown
-    title: Markdown example
-  - file: notebooks
-    title: Notebook example  
+  - file: community/engage
+    title: Engage with other regions
+  - file: community/contribute
+    title: Contribute to Risk recipes 
