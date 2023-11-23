@@ -35,7 +35,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  announcement: "⚠️This book is not published yet. You should only build it locally!⚠️"
+  announcement: "⚠️This is a work in progress! The first operational version will be published in December 2023⚠️"
 
 # Do not include these files in the build
 exclude_patterns: [content.md, "**.ipynb_checkpoints", "**README.md"] 
