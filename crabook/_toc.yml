@@ -29,7 +29,7 @@ parts:
   - file: identification/eu_risks_sets
     title: EU risks sets 
   - file: identification/datasets
-    title:  Climate Risk Assessment Datasets
+    title:  CRA Datasets
     sections:
     - file: identification/exposure_data
       title: Exposure datasets
