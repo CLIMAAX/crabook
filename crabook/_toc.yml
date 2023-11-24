@@ -47,6 +47,8 @@ parts:
   - file: analysis/recipes
     title: Risk recipes
     sections:
+    - file: analysis/how_to
+      title: How to use risk recipes
     - file: notebooks/workflows/FLOODS/FLOOD
       title: FLOODS
     - file: notebooks/workflows/droughts
