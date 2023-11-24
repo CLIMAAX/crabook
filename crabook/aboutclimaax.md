@@ -28,7 +28,7 @@ The CLIMAAX Framework is designed to empower regions to conduct inclusive and ha
 
 The Framework adheres to key principles such as social justice and equity, puts participatory processes central to the process, and provides guidance on the selection of sound technical choices for conducting climate risk assessments. The framework proposes five risk assessment steps which form an iterative climate risk assessment cycle aimed at informing climate adaptation and risk management strategies.
 
-```{figure} ../crabook/images/Framework_for_Landing_Page.png
+```{figure} images/FrameworkforLandingPage.png
 ---
 height: 400px
 name: framework-fig

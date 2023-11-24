@@ -4,88 +4,91 @@
 format: jb-book
 root: intro
 parts:
-- caption: About us
+- caption: About us 
   chapters:
   - file: aboutclimaax
     title: The CLIMAAX project
   - file: funding
     title: Funding opportunities
 
-- caption: Scoping
+- caption: CRA Steps 🌍 
   chapters:
-  - file: scoping/context
-    title: Context setting
-  - file: scoping/objectives
-    title: Objectives and criteria
-  - file: scoping/principles
-    title:  Risk assessment principles
-  - file: scoping/concepts
-    title: Risk concepts
-
-- caption: Risk identification 
-  chapters:
-  - file: identification/previous
-    title: Previous work
-  - file: identification/eu_risks_sets
-    title: EU risks sets 
-  - file: identification/datasets
-    title:  CRA Datasets
+  - file: CRA_steps/scoping/scoping
+    title: Scoping
     sections:
-    - file: identification/exposure_data
-      title: Exposure datasets
-    - file: identification/hazard_data
-      title: Hazard datasets
-    - file: identification/vulnerability_data
-      title: Vulnerability datasets
-
-- caption: Risk analysis
-  chapters:
-  - file: analysis/calculation
-    title: Risk calculation overview
-  - file: analysis/tools
-    title: Introduction to the tools
-  - file: analysis/recipes
-    title: Risk recipes
+    - file: CRA_steps/scoping/context
+      title: Context setting
+    - file: CRA_steps/scoping/objectives
+      title: Objectives and criteria
+    - file: CRA_steps/scoping/principles
+      title:  Risk assessment principles
+    - file: CRA_steps/scoping/concepts
+      title: Risk concepts
+  - file: CRA_steps/identification/risk_identification
+    title: Risk identification 
     sections:
-    - file: analysis/how_to
-      title: How to use risk recipes
-    - file: notebooks/workflows/FLOODS/FLOOD
-      title: FLOODS
-    - file: notebooks/workflows/droughts
-      title: DROUGHTS
+    - file: CRA_steps/identification/previous
+      title: Previous work
+    - file: CRA_steps/identification/eu_risks_sets
+      title: EU risks sets 
+    - file: CRA_steps/identification/datasets
+      title:  CRA Datasets
       sections:
-      - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
-        title: Simple workflow
-      - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
-        title: Advanced workflow
-    - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
-      title: HEATWAVES 
-    - file: notebooks/workflows/FIRE/FIRE_notebook
-      title: FIRE
-    - file: notebooks/workflows/SNOW/SNOW_notebook
-      title: SNOW
-    - file: notebooks/workflows/STORMS/WIND_raster_LUISA
-      title: WIND
+      - file: CRA_steps/identification/exposure_data
+        title: Exposure datasets
+      - file: CRA_steps/identification/hazard_data
+        title: Hazard datasets
+      - file: CRA_steps/identification/vulnerability_data
+        title: Vulnerability datasets
+  - file: CRA_steps/analysis/risk_analysis
+    title: Risk analysis
+    sections:
+    - file: CRA_steps/analysis/calculation
+      title: Risk calculation overview
+    - file: CRA_steps/analysis/tools
+      title: Introduction to the tools
+    - file: CRA_steps/analysis/recipes
+      title: Risk recipes 📖
+      sections:
+      - file: CRA_steps/analysis/how_to
+        title: How to use risk recipes
+      - file: notebooks/workflows/FLOODS/FLOOD
+        title: FLOODS 🌊
+      - file: notebooks/workflows/droughts
+        title: DROUGHTS 🏜️
+        sections:
+        - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
+          title: Simple workflow
+        - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
+          title: Advanced workflow
+      - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
+        title: HEATWAVES 🌡️
+      - file: notebooks/workflows/FIRE/FIRE_notebook
+        title: FIRE 🔥
+      - file: notebooks/workflows/SNOW/SNOW_notebook
+        title: SNOW ❄️
+      - file: notebooks/workflows/STORMS/WIND_raster_LUISA
+        title: WIND 💨
+  - file: CRA_steps/key_risks/key_risks_assessment
+    title: Key Risks Assessment
+    sections:
+    - file: CRA_steps/key_risks/comparing
+      title: Comparing risks
+    - file: CRA_steps/key_risks/key_risks
+      title: Key risks
+    - file: CRA_steps/key_risks/less_urgent_risks
+      title: Less urgent risks 
+    - file: key_risks/comparison
+      title: Comparisson risks recipes
+  - file: CRA_steps/monitoring/monitoring
+    title: Monitoring and evaluation
+    sections:
+    - file: CRA_steps/monitoring/need
+      title: The need for monitoring 
+    - file: CRA_steps/monitoring/reiterate
+      title: Reiterate the risk assessment cycle 
 
-- caption: Key Risks Assessment
-  chapters:
-  - file: key_risks/comparing
-    title: Comparing risks
-  - file: key_risks/key_risks
-    title: Key risks
-  - file: key_risks/less_urgent_risks
-    title: Less urgent risks 
-  - file: key_risks/comparison
-    title: Comparisson risks recipes
-
-- caption: Monitoring and evaluation
-  chapters:
-  - file: monitoring/need
-    title: The need for monitoring 
-  - file: monitoring/reiterate
-    title: Reiterate the risk assessment cycle 
-
-- caption: Resources
+- caption: Resources 📚
   chapters:
   - file: resources/definitions
     title: Risk definition resources
@@ -94,7 +97,7 @@ parts:
   - file: resources/useful
     title: Coding resources
  
-- caption: Join the community
+- caption: Join the community 🙋🏻‍♀️
   chapters:
   - file: community/engage
     title: Engage with other regions
