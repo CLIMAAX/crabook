@@ -13,12 +13,14 @@ The project takes the existing tools and services beyond the state-of-the-art by
 
 CLIMAAX is designed to significantly contribute to the harmonization and consolidation of the practice of climate risk assessment (CRA) by providing:  
 
-1. A standardized CRA framework built on current community experience and best-practices.
+1. A standardized {abbr}`CRA (Climate Risk Assessment)` framework built on current community experience and best-practices.
 2. A Toolbox for conducting risk analyses, which hosts data, models and utilities and provides access to European and global open data archives integrated with local data and procedures.
-3. Five European pilot regional CRAs to shape the framework and toolset.
-4. Financial support for at least 50 regions to execute a context specific CRA.
-5. CRA guidance material and online helpdesk for other European regions.
-6. A proposal to upscale results into the future operationalization of the regional CRA support function.
+3. Five European pilot regional {abbr}`CRA (Climate Risk Assessment)`s to shape the framework and toolset.
+4. Financial support for at least 50 regions to execute a context specific {abbr}`CRA (Climate Risk Assessment)`.
+5. {abbr}`CRA (Climate Risk Assessment)` guidance material and online helpdesk for other European regions.
+6. A proposal to upscale results into the future operationalization of the regional {abbr}`CRA (Climate Risk Assessment)` support function.
+
+
 
 ## Framework Description
 
@@ -33,7 +35,7 @@ name: framework-fig
 ---
 The framework is based on established and widely assessed principles (e.g., related to governance, equity, social justice), technical choices (e.g., for parameters, climate scenarios etc.), and participatory processes (learning, communication, consultation). These three conceptual dimensions frame the climate risk assessment steps lead, through continued implementation, to information on climate risk that can support adaptation and risk management planning. Source: CLIMAAX consortium.
 ```
-## CRA steps
+## {abbr}`CRA (Climate Risk Assessment)` steps
 
 The **main steps** for assessing climate risk are:
 

@@ -10,14 +10,14 @@ CLIMAAX builds upon existing risk assessment frameworks, methods and tools, and 
 
 CLIMAAX framework and toolbox are designed to contribute to the harmonization and consolidation of the practice of climate risk assessment (CRA) by providing:
 
-- A **standardized CRA framework** built on current community experience and best-practices.
+- A **standardized {abbr}`CRA (Climate Risk Assessment)` framework** built on current community experience and best-practices.
 
 - A **Toolbox for conducting risk analyses**, which hosts data, models and utilities and provides access to European and global open data archives integrated with local data and procedures.
 
 - Five European pilot regional CRAs to shape the framework and toolset.
 
-- **Financial support** for at least 50 regions to execute a context specific CRA.
+- **Financial support** for at least 50 regions to execute a context specific {abbr}`CRA (Climate Risk Assessment)`.
 
-- **CRA guidance material** and online helpdesk for other European regions.
+- **{abbr}`CRA (Climate Risk Assessment)` guidance material** and online helpdesk for other European regions.
 
-- A **proposal to upscale results** into the future operationalization of the regional CRA support function.
+- A **proposal to upscale results** into the future operationalization of the regional {abbr}`CRA (Climate Risk Assessment)` support function.
