@@ -11,7 +11,7 @@ parts:
   - file: funding
     title: Funding opportunities
 
-- caption: CRA Steps 🌍 
+- caption: CRA Steps 🌍
   chapters:
   - file: CRA_steps/scoping/scoping
     title: Scoping
@@ -78,7 +78,7 @@ parts:
       title: Key risks
     - file: CRA_steps/key_risks/less_urgent_risks
       title: Less urgent risks 
-    - file: key_risks/comparison
+    - file: CRA_steps/key_risks/comparison
       title: Comparisson risks recipes
   - file: CRA_steps/monitoring/monitoring
     title: Monitoring and evaluation

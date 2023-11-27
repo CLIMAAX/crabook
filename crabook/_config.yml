@@ -33,6 +33,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  favicon: https://www.climaax.eu/wp-content/uploads/2023/03/cropped-Climaax_logo_singolo-32x32.png
   use_issues_button: true
   use_repository_button: true
   announcement: "⚠️This is a work in progress! The first operational version will be published in December 2023⚠️"

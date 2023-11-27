@@ -1,6 +1,6 @@
 # CLIMAAX Framework and Toolbox
 
-A framework and collection of tools deveoped for the [CLIMAAX](https://www.climaax.eu/s) (CLIMAte risk and vulnerability Assessment framework and toolboX ) Horizon Europe project.
+A framework and collection of tools deveoped for the __[CLIMAAX](https://www.climaax.eu)__ (CLIMAte risk and vulnerability Assessment framework and toolboX ) Horizon Europe project.
 
 ```{image} https://www.climaax.eu/wp-content/uploads/2023/03/pexels-singkham-1108572-1024x683.jpg
 :width: 600px
