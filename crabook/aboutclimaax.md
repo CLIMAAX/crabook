@@ -39,19 +39,19 @@ The framework is based on established and widely assessed principles (e.g., rela
 
 The **main steps** for assessing climate risk are:
 
-Scoping
+[Scoping](CRA_steps/scoping/scoping.md)
  : The first step of the risk assessment cycle is to determine context, objectives and criteria, which are embedded in a pre-defined set of principles. This step is of key importance as it sets the ground for further steps.
 
-Risk Identification
+[Risk Identification](CRA_steps/identification/risk_identification.md)
  : The Toolbox provides a set of workflows for multiple climate hazards (floods, drought, heatwave, fire, snow, wind). In addition to hazard information, exposure and vulnerability data are to be considered as key indicators for the risk assessment.
 
-Risk Analysis
+[Risk Analysis](CRA_steps/analysis/risk_analysis.md)
  : The analysis of climate risks is conducted by the Toolbox. Risk outcomes are explored, for example, by using future scenarios and probabilistic or event-based approaches. Also, further guidance is provided to the user with regard to hazard, exposure and vulnerability data as well as the selection of future scenarios.
 
-Key Risks Assessment
+[Key Risks Assessment](CRA_steps/key_risks/key_risks.md)
  : Key risks that are particularly important to the region or in the local context are identified from the risk analysis. While key risks need to be addressed by climate risk management strategies to foster adaptation, it is important to also identify less urgent risks due to the dynamic nature of climate change that may amplify all or some of these risks.
 
-Monitoring and Evaluation
+[Monitoring and Evaluation](CRA_steps/monitoring/monitoring.md)
  : Key risks, as well as less urgent risks, and the effectiveness of adaptation and risk management measures need monitoring and evaluation leading to an iterative repetition of the risk assessment cycle with new insights for the scoping step and so forth.
 
 Regions are encouraged to iteratively carry out the steps of the climate risk assessment cycle which will lead to more comprehensive scoping, enhanced insights from adaptation action, more customized data, overall resulting in improved outputs.
