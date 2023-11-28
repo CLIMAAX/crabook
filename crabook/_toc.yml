@@ -11,7 +11,7 @@ parts:
   - file: funding
     title: Funding opportunities
 
-- caption: CRA Steps 🌍
+- caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/scoping/scoping
     title: Scoping
@@ -48,27 +48,27 @@ parts:
     - file: CRA_steps/analysis/tools
       title: Introduction to the tools
     - file: CRA_steps/analysis/recipes
-      title: Risk recipes 📖
+      title: Risk recipes
       sections:
       - file: CRA_steps/analysis/how_to
         title: How to use risk recipes
       - file: notebooks/workflows/FLOODS/FLOOD
-        title: FLOODS 🌊
+        title: 🌊 FLOODS
       - file: notebooks/workflows/droughts
-        title: DROUGHTS 🏜️
+        title: 🏜️ DROUGHTS
         sections:
         - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
           title: Simple workflow
         - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
           title: Advanced workflow
       - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
-        title: HEATWAVES 🌡️
+        title: 🌡️ HEATWAVES
       - file: notebooks/workflows/FIRE/FIRE_notebook
-        title: FIRE 🔥
+        title: 🔥 FIRE
       - file: notebooks/workflows/SNOW/SNOW_notebook
-        title: SNOW ❄️
+        title: ❄️ SNOW
       - file: notebooks/workflows/STORMS/WIND_raster_LUISA
-        title: WIND 💨
+        title: 💨 WIND
   - file: CRA_steps/key_risks/key_risks_assessment
     title: Key Risks Assessment
     sections:
@@ -88,7 +88,7 @@ parts:
     - file: CRA_steps/monitoring/reiterate
       title: Reiterate the risk assessment cycle 
 
-- caption: Resources 📚
+- caption: 📚 Resources
   chapters:
   - file: resources/definitions
     title: Risk definition resources
@@ -97,7 +97,7 @@ parts:
   - file: resources/useful
     title: Coding resources
  
-- caption: Join the community 🙋🏻‍♀️
+- caption: 🙋🏻‍♀️ Join the community
   chapters:
   - file: community/engage
     title: Engage with other regions
