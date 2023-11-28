@@ -82,3 +82,14 @@ We're road-testing everything with five European regions, so you know it works w
 :::
 ::::
 
+````{admonition} Why Should You Care?
+:class: seealso
+```{image} images/image40.jpeg
+:width: 150px
+:align: right
+:name: funding-box
+```
+- **Funding Support**: At least 50 regions are getting [financial support](funding.md) for personalised risk assessments.
+- **Guidance on Speed Dial**: An online helpdesk and guidance materials are just a click away.
+````
+
