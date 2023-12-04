@@ -14,7 +14,7 @@ The project takes the existing tools and services beyond the state-of-the-art by
 CLIMAAX is designed to significantly contribute to the harmonization and consolidation of the practice of climate risk assessment (CRA) by providing:  
 
 1. A standardized {abbr}`CRA (Climate Risk Assessment)` framework built on current community experience and best-practices.
-2. A Toolbox for conducting risk analyses, which hosts data, models and utilities and provides access to European and global open data archives integrated with local data and procedures.
+2. A toolbox for conducting risk analyses, which hosts data, models and utilities and provides access to European and global open data archives integrated with local data and procedures.
 3. Five European pilot regional {abbr}`CRA (Climate Risk Assessment)`s to shape the framework and toolset.
 4. Financial support for at least 50 regions to execute a context specific {abbr}`CRA (Climate Risk Assessment)`.
 5. {abbr}`CRA (Climate Risk Assessment)` guidance material and online helpdesk for other European regions.
@@ -22,7 +22,7 @@ CLIMAAX is designed to significantly contribute to the harmonization and consoli
 
 
 
-## Framework Description
+## Framework description
 
 The CLIMAAX Framework is designed to empower regions to conduct inclusive and harmonised climate risk assessments (CRAs). It translates the ambitions of the EU Mission on Adaptation towards transformational adaptation strategies that build resilience into practice by supporting the advancement and implementation of climate risk assessments.
 
@@ -42,16 +42,16 @@ The **main steps** for assessing climate risk are:
 [Scoping](CRA_steps/scoping/scoping.md)
  : The first step of the risk assessment cycle is to determine context, objectives and criteria, which are embedded in a pre-defined set of principles. This step is of key importance as it sets the ground for further steps.
 
-[Risk Identification](CRA_steps/identification/risk_identification.md)
+[Risk identification](CRA_steps/identification/risk_identification.md)
  : The Toolbox provides a set of workflows for multiple climate hazards (floods, drought, heatwave, fire, snow, wind). In addition to hazard information, exposure and vulnerability data are to be considered as key indicators for the risk assessment.
 
-[Risk Analysis](CRA_steps/analysis/risk_analysis.md)
+[Risk analysis](CRA_steps/analysis/risk_analysis.md)
  : The analysis of climate risks is conducted by the Toolbox. Risk outcomes are explored, for example, by using future scenarios and probabilistic or event-based approaches. Also, further guidance is provided to the user with regard to hazard, exposure and vulnerability data as well as the selection of future scenarios.
 
-[Key Risks Assessment](CRA_steps/key_risks/key_risks.md)
+[Key risks assessment](CRA_steps/key_risks/key_risks.md)
  : Key risks that are particularly important to the region or in the local context are identified from the risk analysis. While key risks need to be addressed by climate risk management strategies to foster adaptation, it is important to also identify less urgent risks due to the dynamic nature of climate change that may amplify all or some of these risks.
 
-[Monitoring and Evaluation](CRA_steps/monitoring/monitoring.md)
+[Monitoring and evaluation](CRA_steps/monitoring/monitoring.md)
  : Key risks, as well as less urgent risks, and the effectiveness of adaptation and risk management measures need monitoring and evaluation leading to an iterative repetition of the risk assessment cycle with new insights for the scoping step and so forth.
 
 Regions are encouraged to iteratively carry out the steps of the climate risk assessment cycle which will lead to more comprehensive scoping, enhanced insights from adaptation action, more customized data, overall resulting in improved outputs.

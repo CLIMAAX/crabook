@@ -70,7 +70,7 @@ parts:
       - file: notebooks/workflows/STORMS/WIND_raster_LUISA
         title: 💨 WIND
   - file: CRA_steps/key_risks/key_risks_assessment
-    title: Key Risks Assessment
+    title: Key risks assessment
     sections:
     - file: CRA_steps/key_risks/comparing
       title: Comparing risks
@@ -102,4 +102,4 @@ parts:
   - file: community/engage
     title: Engage with other regions
   - file: community/contribute
-    title: Contribute to Risk recipes 
+    title: Contribute to risk recipes 
