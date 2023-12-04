@@ -47,8 +47,8 @@ parts:
       title: Risk calculation overview
     - file: CRA_steps/analysis/tools
       title: Introduction to the tools
-    - file: CRA_steps/analysis/recipes
-      title: Risk recipes
+    - file: CRA_steps/analysis/workflows
+      title: Risk workflows
       sections:
       - file: CRA_steps/analysis/how_to
         title: How to use risk recipes
