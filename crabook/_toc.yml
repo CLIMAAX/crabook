@@ -51,7 +51,7 @@ parts:
       title: Risk workflows
       sections:
       - file: CRA_steps/analysis/how_to
-        title: How to use risk recipes
+        title: How to use risk workflows
       - file: notebooks/workflows/FLOODS/FLOOD
         title: 🌊 FLOODS
       - file: notebooks/workflows/droughts
