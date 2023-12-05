@@ -16,7 +16,7 @@ If you'd like to develop and/or build this Climate Risk Assesment book, you shou
     ```
 2. Create Python or Conda virtual environment (example for Conda)
    ```bash
-    conda env create -n crabook
+    conda create -n crabook
     ```
 3. Activate the environment
     ```bash
