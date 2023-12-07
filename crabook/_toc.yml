@@ -13,40 +13,15 @@ parts:
 
 - caption: 🌍 CRA Steps
   chapters:
+  - file: CRA_steps/framework
+    title: Framework description
   - file: CRA_steps/scoping/scoping
     title: Scoping
-    sections:
-    - file: CRA_steps/scoping/context
-      title: Context setting
-    - file: CRA_steps/scoping/objectives
-      title: Objectives and criteria
-    - file: CRA_steps/scoping/principles
-      title:  Risk assessment principles
-    - file: CRA_steps/scoping/concepts
-      title: Risk concepts
   - file: CRA_steps/identification/risk_identification
     title: Risk identification 
-    sections:
-    - file: CRA_steps/identification/previous
-      title: Previous work
-    - file: CRA_steps/identification/eu_risks_sets
-      title: EU risks sets 
-    - file: CRA_steps/identification/datasets
-      title:  CRA Datasets
-      sections:
-      - file: CRA_steps/identification/exposure_data
-        title: Exposure datasets
-      - file: CRA_steps/identification/hazard_data
-        title: Hazard datasets
-      - file: CRA_steps/identification/vulnerability_data
-        title: Vulnerability datasets
   - file: CRA_steps/analysis/risk_analysis
     title: Risk analysis
     sections:
-    - file: CRA_steps/analysis/calculation
-      title: Risk calculation overview
-    - file: CRA_steps/analysis/tools
-      title: Introduction to the tools
     - file: CRA_steps/analysis/workflows
       title: Risk workflows
       sections:
@@ -71,22 +46,6 @@ parts:
         title: 💨 WIND
   - file: CRA_steps/key_risks/key_risks_assessment
     title: Key risks assessment
-    sections:
-    - file: CRA_steps/key_risks/comparing
-      title: Comparing risks
-    - file: CRA_steps/key_risks/key_risks
-      title: Key risks
-    - file: CRA_steps/key_risks/less_urgent_risks
-      title: Less urgent risks 
-    - file: CRA_steps/key_risks/comparison
-      title: Comparisson risks recipes
-  - file: CRA_steps/monitoring/monitoring
-    title: Monitoring and evaluation
-    sections:
-    - file: CRA_steps/monitoring/need
-      title: The need for monitoring 
-    - file: CRA_steps/monitoring/reiterate
-      title: Reiterate the risk assessment cycle 
 
 - caption: 📚 Resources
   chapters:
