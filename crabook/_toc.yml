@@ -27,8 +27,8 @@ parts:
 #        title: Hazard datasets
       - file: CRA_steps/identification/exposure_data
         title: Exposure datasets
-#      - file: CRA_steps/identification/vulnerability_data
-#        title: Vulnerability datasets
+      - file: CRA_steps/identification/vulnerability_data
+        title: Vulnerability datasets
   - file: CRA_steps/analysis/risk_analysis
     title: Risk Analysis
     sections:
