@@ -23,8 +23,8 @@ parts:
     - file: CRA_steps/identification/datasets
       title:  CRA Datasets
       sections:
-#      - file: CRA_steps/identification/hazard_data
-#        title: Hazard datasets
+      - file: CRA_steps/identification/hazard_data
+        title: Hazard datasets
       - file: CRA_steps/identification/exposure_data
         title: Exposure datasets
       - file: CRA_steps/identification/vulnerability_data
