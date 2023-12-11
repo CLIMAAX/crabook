@@ -37,8 +37,13 @@ parts:
       sections:
       - file: CRA_steps/analysis/how_to
         title: How to use risk workflows
-      - file: notebooks/workflows/FLOODS/FLOOD
+      - file: notebooks/workflows/floods
         title: 🌊 FLOODS
+        sections:
+        - file: notebooks/workflows/FLOODS/FLOOD
+          title: Flood damages
+        - file: notebooks/workflows/vulnerability-curves-adjustment
+          title: Working with vulnerability curves
       - file: notebooks/workflows/droughts
         title: 🏜️ DROUGHTS
         sections:
