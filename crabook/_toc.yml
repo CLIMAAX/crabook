@@ -56,6 +56,8 @@ parts:
         title: 💨 WIND
   - file: CRA_steps/key_risks/key_risks_assessment
     title: Key risks assessment
+  - file: CRA_steps/monitoring/monitoring
+    title: Monitoring and Evaluation
 
 - caption: 📚 Resources
   chapters:

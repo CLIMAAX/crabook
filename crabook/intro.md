@@ -1,95 +1,76 @@
-# CLIMAAX Framework and Toolbox
+# CLIMAAX Handbook
 
-A framework and collection of tools deveoped for the __[CLIMAAX](https://www.climaax.eu)__ (CLIMAte risk and vulnerability Assessment framework and toolboX ) Horizon Europe project.
+Introducing the __[CLIMAAX](https://www.climaax.eu)__ handbook - a dedicated guide for regions navigating the complexities of current and future climate risk. By providing a step-by-step framework and tools, the handbook aims to help regions understand what their climate risk is and inspire action.  The motto of the handbook is **'Standardised Flexibility'**. By blending the two concepts, we created a wealth of material while allowing you to shape it to your requirements.  
 
-````{admonition} How we do it
-:class: tip
-```{image} https://www.climaax.eu/wp-content/uploads/2023/03/pexels-singkham-1108572-1024x683.jpg
-:width: 300px
-:align: right
-:name: climaax
-```
-- We are not reinventing the wheel; we are making it better! CLIMAAX builds on existing tools and methods, making them easier to use and tailored to local needs.
-- We provide a toolkit that combines global know-how with your local insights for smarter risk assessments.
-- Our motto: standardised flexibility
-````
+Our commitment goes beyond exploring new climate values. We aim to move from data to impacts across sectors, providing actionable guidance to stakeholders.
 
-**The Framework**
-```{image} images/image37.jpeg
-:width: 150px
-:align: left
-:name: framework-rubik
-```
-A roadmap and guide for regions to navigate the climate risks.  
-We prioritise clarity, focusing on real-life lessons and proven methods.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-**The Toolbox: Your Swiss army knife for climate resilience**
+**Snapshot**
 
-```{image} images/image38.jpeg
-:width: 200px
-:align: right
-:name: swiss-knife
-```
-::::{grid}
-:gutter: 2
-
-:::{grid-item-card} Clear data access
-Understand European and global data mixed with local insights.
-:::
-
-:::{grid-item-card} For every region
-Tailor it to your region's needs. CLIMAAX Toolbox is like a personalised climate consultant.
-:::
-
-::::
-
-
-**What is inside the Framework?**
 ::::{grid}
 :gutter: 3
 
-:::{grid-item-card} User-friendly design
-No jargon, just practical guide to make climate risk assessment a breeze.
+:::{grid-item-card} 🏆 Practical Solutions
+CLIMAAX goes beyond theory, offering practical solutions for real-world challenges. Our approach ensures that the insights gained through the handbook translate into tangible actions, fostering resilience and sustainability in your region.
 :::
 
-:::{grid-item-card} Community-tested practices
- We took the best practices from real communities and turned them into a clear guide.
+:::{grid-item-card} 🧭 Step-By-Step Guidance
+Navigate your local context with ease using our handbook's structured approach, featuring guiding questions and tips for a thorough risk assessment.
 :::
 
-:::{grid-item-card} For everyone
-Social justice and equity are woven into the framework – making sure no one is left behind.
+:::{grid-item-card} 🤲 Accessible Knowledge
+No advanced expertise required. CLIMAAX is dedicated to providing all the information you need, ensuring accessibility for everyone.
 :::
 ::::
 
-**Why choose CLIMAAX Toolbox?**
 ::::{grid}
 :gutter: 3
 
-:::{grid-item-card} The Swiss army knife
-Packed with data, models, and utilities, it's your one-stop-shop for climate risk assessment.
+:::{grid-item-card} 🎓 Adaptive Learning
+Whether a beginner or expert, CLIMAAX adapts to your understanding. We're committed to making climate risk assessment accessible to all levels of expertise.
 :::
 
-:::{grid-item-card} Real-world testing
-We're road-testing everything with five European regions, so you know it works where it matters.
+:::{grid-item-card} 🧠 Global-Local Integration 
+CLIMAAX seamlessly blends global expertise and data with your local insights for a comprehensive understanding of climate risks.
 :::
 
-:::{grid-item-card} Always improving
- It's not just a tool; it's a journey. We're here to learn and grow with you.
+:::{grid-item-card} 🛠️ Versatile Toolkit
+The Swiss army knife of climate risk assessments, the CLIMAAX handbook is a one-stop-shop, packed with methods and data for all aspects of climate risk assessment
 :::
 ::::
 
-````{admonition} Why Should You Care?
-:class: seealso
-```{image} images/image40.jpeg
-:width: 150px
-:align: right
-:name: funding-box
+::::{grid}
+:gutter: 3
+
+:::{grid-item-card} ⚖️ Equity Emphasis
+Social justice is woven into our framework, ensuring inclusivity and leaving no one behind in the face of climate risks.
+:::
+
+:::{grid-item-card} ✨ Financial Support
+:link: funding.html
+:link-type: url
+:text-align: left
+:shadow: md
+Join over 50 regions benefiting from financial support for personalized risk assessments. Explore opportunities for your region's climate resilience.
+:::
+
+:::{grid-item-card} 🚀 Continuous Improvement
+Beyond a tool, CLIMAAX is a journey. We're dedicated to continuous learning and growth, ensuring our resources evolve with your needs.
+:::
+::::
+
+**Handbook structure**
+
+The handbook unfolds in a structured, step-by-step framework, guiding you through a complete climate risk assessment. Along the way, it provides climate risk analysis tools to address your specific questions and enhance your understanding. Go to the [Framework description](CRA_steps/framework.md) to start your process.
+
+```{image} images/framework_icon.png
+:alt: Framework
+:align: center
 ```
-- **Funding Support**: At least 50 regions are getting [financial support](funding.md) for personalised risk assessments.
-- **Guidance on Speed Dial**: An online helpdesk and guidance materials are just a click away.
+
+````{admonition} Obtain funding
+:class: hint
+Secure up to EUR 300,000 in funding, coupled with practical support by applying to our open call and become more climate resillient.  
+We extend an invitation to public bodies working on climate-related risk assessments and management plans, as well as non-profit organisations committed to addressing climate change impacts and community resilience.  
+More information see: __https://climaax-call4regions.fundingbox.com/__
 ````
 
