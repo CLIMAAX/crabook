@@ -14,7 +14,3 @@ Different workflows have been proposed over the years for assessing climate risk
 - Exposed assets or population to a certai climate-related hazard
 
 These workflows will allow for the climate risk assessment using both historical information and future climate change scenarios to better understand the range of possible outcomes and identify sustainable adaptation strategies.
-
-
-
-
