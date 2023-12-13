@@ -65,3 +65,4 @@ parse:
 sphinx:
   extra_extensions:
     - sphinx_tippy
+    - sphinx_design

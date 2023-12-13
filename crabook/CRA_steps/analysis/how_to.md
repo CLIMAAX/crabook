@@ -99,12 +99,12 @@ This will create the environment called **climaax_droughts**. You will need to a
 7. Edit the notebook(s)
 
 :::
-:::{tab-item} Without git
+:::{tab-item} Without Git
 
 1. Go to the webpage of the wokrflow repositories: https://github.com/orgs/CLIMAAX/repositories and pick up one hazard.
 As an example here we will go to [DROUGHTS repository](https://github.com/CLIMAAX/DROUGHTS).  
 
-2. First click on the green Code button and then Download ZIP file.
+2. First click on the {bdg-success}`<> Code` button and then Download ZIP file.
 
 ```{figure} ../../images/download-repo.png
 :align: center
