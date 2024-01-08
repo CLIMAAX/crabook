@@ -36,7 +36,7 @@ html:
   favicon: https://www.climaax.eu/wp-content/uploads/2023/03/cropped-Climaax_logo_singolo-32x32.png
   use_issues_button: true
   use_repository_button: true
-  announcement: "⚠️This is a work in progress! The first operational version will be published in December 2023⚠️"
+  announcement: "⚠️This is the first operational version of the handobok, but it is still a work in progress and will be heavily updated during 2024!⚠️"
 
 # Do not include these files in the build
 exclude_patterns: [content.md, "**.ipynb_checkpoints", "**README.md"] 
