@@ -42,8 +42,10 @@ parts:
       - file: notebooks/workflows/floods
         title: 🌊 FLOODS
         sections:
-        - file: notebooks/workflows/FLOODS/FLOOD
-          title: Flood damages
+        - file: notebooks/workflows/FLOODS/FLOOD_RIVER
+          title: River Flood damages
+        - file: notebooks/workflows/FLOODS/FLOOD_COASTAL
+          title: Coastal Flood damages
         - file: notebooks/workflows/vulnerability-curves-adjustment
           title: Working with vulnerability curves
       - file: notebooks/workflows/droughts
