@@ -64,6 +64,7 @@ The handbook unfolds in a structured, step-by-step framework, guiding you throug
 
 ```{image} images/framework_icon.png
 :alt: Framework
+:width: 75%
 :align: center
 ```
 
