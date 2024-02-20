@@ -68,7 +68,7 @@ parse:
 
 sphinx:
   extra_extensions:
-    - sphinx_tippy
+   # - sphinx_tippy
     - sphinx_design
   config:
     html_js_files:
