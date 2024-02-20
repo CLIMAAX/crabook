@@ -1,0 +1,15 @@
+.dropdown-download-buttons {
+    display: none;
+}
+
+.theme-switch-button {
+    display: none;
+}
+
+.navbar-brand logo {
+    width: 200px;
+}
+
+.bd-sidebar-primary {
+    overflow: hidden;
+}
