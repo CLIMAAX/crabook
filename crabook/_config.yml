@@ -37,9 +37,13 @@ html:
   use_issues_button: true
   use_repository_button: true
   announcement: "⚠️This is the first operational version of the handobok, but it is still a work in progress and will be heavily updated during 2024!⚠️"
+  #extra_footer: |
+  #  <div>
+  #      MY FOOTER!
+  #  </div>
 
 # Do not include these files in the build
-exclude_patterns: [content.md, "**.ipynb_checkpoints", "**README.md"] 
+exclude_patterns: ["content.md", "**.ipynb_checkpoints", "**README.md", "_build", "Thumbs.db", ".DS_Store"] 
 
 #######################################################################################
 # Launch button settings
