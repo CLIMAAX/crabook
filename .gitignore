@@ -70,6 +70,8 @@ instance/
 
 # Sphinx/Jupyterbook documentation
 crabook/_build/
+_build/
+**/_build/
 **/data/
 
 # PyBuilder
