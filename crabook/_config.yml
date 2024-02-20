@@ -33,6 +33,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  home_page_in_navbar: false
   favicon: https://www.climaax.eu/wp-content/uploads/2023/03/cropped-Climaax_logo_singolo-32x32.png
   use_issues_button: true
   use_repository_button: true

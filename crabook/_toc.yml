@@ -10,6 +10,10 @@ parts:
     title: The CLIMAAX project
   - file: funding
     title: Funding opportunities
+  - file: setubal
+    title: Setubal example
+  - file: zilina
+    title: Žilina example
 
 - caption: 🌍 CRA Steps
   chapters:
