@@ -127,14 +127,14 @@ Future projections of the population until 2100 are available under a range of s
 
 ```{figure} ../../images/ev_data_image7.png
 ---
-name: population projection
+name: population projections
 ---
 Population projections by Merkens et al. 2016: Base year (2000) and SSP1, 3, 5 (2100)
 ```
 
-```{figure} ../../images/ev_data_image8.png
+```{figure} ../../images/ev_data_image8v2.png
 ---
-name: urban land projection
+name: urban land projections
 ---
-Urban land projections under SSP3 and SSP5 in 2100 by Chen et al. 2020
+Urban land projections for North America and Europe in 2100 under SSP2, SSP1 and SSP5. Comparison of 1/8 degree spatial resolution (panel 1) to 1 km (panels 2-4) (adjusted from Gao & Pesaresi 2021)
 ```
