@@ -12,42 +12,42 @@ If you'd like to develop and/or build this Climate Risk Assesment book, you shou
 
 1. Clone this repository
    ```bash
-    git clone git@github.com:CLIMAAX/crabook.git
+    git clone git@github.com:CLIMAAX/crabook-test.git
     ```
 2. Create Python or Conda virtual environment (example for Conda)
    ```bash
-    conda create -n crabook
+    conda create -n crabook-test
     ```
 3. Activate the environment
     ```bash
-    conda activate crabook
+    conda activate crabook-test
     ```
 4. Install pip
    ```bash
     conda install pip
     ```
-5. Go to the the `crabook/` directory
+5. Go to the the `crabook-test/` directory
    ```bash
-   cd crabook
+   cd crabook-test
    ```
 6. Install the libraries
    ```bash
    pip install -r requirements.txt
    ```
 7. Find the markdown files and edit what you need
-8. Go back to the `crabook/` directory
+8. Go back to the `crabook-test/` directory
 9. Remove any existing builds by running
     ```bash
-   jupyter-book clean crabook/
+   jupyter-book clean crabook-test/
     ```
 10. Finally build the book
     ```bash
-    jupyter-book build crabook/
+    jupyter-book build crabook-test/
     ```
 
-A fully-rendered HTML version of the book will be built in `crabook/_build/html/`.
+A fully-rendered HTML version of the book will be built in `crabook-test/_build/html/`.
 
-Open the file `crabook/_build/html/intro.html` and navigate to the material you changed to check if everything is as expected.
+Open the file `crabook-test/_build/html/intro.html` and navigate to the material you changed to check if everything is as expected.
 
 Once you're happy with the changes, you can push to the repo.
 
@@ -55,15 +55,15 @@ Once you're happy with the changes, you can push to the repo.
 The Python/Conda environment is needed only for building the book, so you can activate it after editing the files.
 1. Edit the book's source files located in the `crabook/` directory
    ```bash
-   cd crabook
+   cd crabook-test
    ```
 2. Activate the environment
    ```bash
-    conda activate crabook
+    conda activate crabook-test
     ```
 4. Remove any existing builds by running
     ```bash
-   jupyter-book clean crabook/
+   jupyter-book clean crabook-test/
     ```
 5. Finally build the book
     ```bash
