@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    --pst-font-family-base: "Roboto", var(--pst-font-family-base-system);
+    --pst-font-family-heading: "Roboto", var(--pst-font-family-base-system);
+    --pst-font-family-monospace: "Roboto Mono", var(--pst-font-family-monospace-system);
+}
+
 .dropdown-download-buttons {
     display: none;
 }
