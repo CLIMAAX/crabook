@@ -20,4 +20,4 @@
 
 <iframe src="iframes/setubal/vulnerability.html" width="100%" height="400px"></iframe>
 
-<iframe src="iframes/setubal/adaptation.html" width="100%" height="600px"></iframe>
+<iframe src="iframes/setubal/adaptation.html" width="100%" height="650px"></iframe>
