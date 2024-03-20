@@ -45,29 +45,29 @@ If you'd like to develop and/or build this Climate Risk Assesment book, you shou
     jupyter-book build crabook/
     ```
 
-A fully-rendered HTML version of the book will be built in `crabook-test/_build/html/`.
+A fully-rendered HTML version of the book will be built in `crabook/_build/html/`.
 
-Open the file `crabook-test/_build/html/intro.html` and navigate to the material you changed to check if everything is as expected.
+Open the file `crabook/_build/html/intro.html` and navigate to the material you changed to check if everything is as expected.
 
 Once you're happy with the changes, you can push to the repo.
 
 #### Every next time
 The Python/Conda environment is needed only for building the book, so you can activate it after editing the files.
-1. Edit the book's source files located in the `crabook/` directory
+1. Edit the book's source files located in the `crabook-test/` directory
    ```bash
-   cd crabook-test
+   cd crabook-test/crabook
    ```
 2. Activate the environment
    ```bash
     conda activate crabook-test
     ```
-4. Remove any existing builds by running
+3. Remove any existing builds by running
     ```bash
    jupyter-book clean crabook/
     ```
-5. Finally build the book
+4. Finally build the book
     ```bash
-    jupyter-book build crabook/
+   jupyter-book build crabook/
     ```
 
 ### Useful notes
