@@ -35,14 +35,14 @@ If you'd like to develop and/or build this Climate Risk Assesment book, you shou
    pip install -r requirements.txt
    ```
 7. Find the markdown files and edit what you need
-8. Go back to the `crabook-test/` directory
+8. Go back to the `crabook` directory
 9. Remove any existing builds by running
     ```bash
-   jupyter-book clean crabook-test/
+   jupyter-book clean crabook/
     ```
 10. Finally build the book
     ```bash
-    jupyter-book build crabook-test/
+    jupyter-book build crabook/
     ```
 
 A fully-rendered HTML version of the book will be built in `crabook-test/_build/html/`.
@@ -63,7 +63,7 @@ The Python/Conda environment is needed only for building the book, so you can ac
     ```
 4. Remove any existing builds by running
     ```bash
-   jupyter-book clean crabook-test/
+   jupyter-book clean crabook/
     ```
 5. Finally build the book
     ```bash
