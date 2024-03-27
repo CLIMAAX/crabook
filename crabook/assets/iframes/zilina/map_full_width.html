@@ -33,21 +33,6 @@
 </head>
 <body>    
     <div class="folium-map" id="map_container" ></div>
-    
-    <div style="
-        position: fixed; 
-        bottom: 25px;
-        left: 25px;
-        width: 150px;
-        height: 120px;
-        z-index:9999;
-        background-color: #ffffff;
-        font-size:14px;
-        ">
-        <p><a style="color:#91cf60;font-size:150%;margin-left:20px;">&#9632;</a>&emsp;Completed</p>
-        <p><a style="color:#ffffbf;font-size:150%;margin-left:20px;">&#9632;</a>&emsp;Ongoing</p>
-        <p><a style="color:#fc8d59;font-size:150%;margin-left:20px;">&#9632;</a>&emsp;Planned</p>
-    </div>
 </body>
 <script>    
     
@@ -76,9 +61,9 @@
                 base_layers : {
                     "cartodbpositron" : tile_layer,
                 },
-                overlays :  {
-                    "Countries covered by CCDR-tools analytics" : choropleth_951b4849def84a539a84fac97367cf79,
-                },
+                //overlays :  {
+                //    "Countries covered by CCDR-tools analytics" : choropleth_951b4849def84a539a84fac97367cf79,
+                //},
             };
             L.control.layers(
                 layer_control.base_layers,
