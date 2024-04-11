@@ -87,3 +87,8 @@ parts:
     title: Engage with other regions
   - file: community/contribute
     title: Contribute to risk recipes 
+
+- caption: Internal resources
+  chapters:
+  - file: markdown
+    title: Markdown help
