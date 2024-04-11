@@ -90,7 +90,11 @@ parts:
 
 - caption: Internal resources
   chapters:
-  - file: markdown
-    title: Markdown help
-  - file: CRA_steps/monitoring/need
-    title: Need for monitoring
+  - file: internal/markdown
+    title: Markdown basics
+  - file: internal/images
+    title:  How to add an image
+  - file: internal/tables
+    title:  How to add a table
+  - file: internal/admonitions
+    title: How to add the info boxes
