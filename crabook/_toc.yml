@@ -92,3 +92,5 @@ parts:
   chapters:
   - file: markdown
     title: Markdown help
+  - file: CRA_steps/monitoring/need
+    title: Need for monitoring
