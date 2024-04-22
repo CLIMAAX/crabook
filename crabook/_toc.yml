@@ -18,7 +18,7 @@ parts:
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework
-    title: Framework description
+    title: What is the CLIMAAX Framework?
   - file: CRA_steps/scoping/scoping
     title: Scoping
   - file: CRA_steps/identification/risk_identification
