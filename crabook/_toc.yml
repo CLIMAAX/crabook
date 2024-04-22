@@ -19,6 +19,8 @@ parts:
   chapters:
   - file: CRA_steps/framework
     title: What is the CLIMAAX Framework?
+  - file: CRA_steps/beforeyoustart
+    title: Before you start
   - file: CRA_steps/scoping/scoping
     title: Scoping
   - file: CRA_steps/identification/risk_identification
