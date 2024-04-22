@@ -1,4 +1,4 @@
-Framework description
+What is the CLIMAAX Framework?
 =======================
 
 The CLIMAAX Framework is designed to empower regions to conduct inclusive and harmonised climate risk assessments (CRAs). It translates the ambitions of the EU Mission on Adaptation towards transformational adaptation strategies that build resilience into practice by supporting the advancement and implementation of climate risk assessments.
