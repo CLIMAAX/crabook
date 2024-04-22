@@ -73,6 +73,8 @@ parts:
     title: Key risks assessment
   - file: CRA_steps/monitoring/monitoring
     title: Monitoring and Evaluation
+  - file: CRA_steps/CRM
+    title: Connect CLIMAAX with Climate Risk Management
 
 - caption: 📚 Resources
   chapters:
