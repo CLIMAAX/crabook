@@ -10,7 +10,7 @@ parts:
     title: The CLIMAAX project
   - file: funding
     title: Funding opportunities
- - file: regional-examples
+  - file: regional-examples
     title: Regional examples
     sections:
     - file: setubal
