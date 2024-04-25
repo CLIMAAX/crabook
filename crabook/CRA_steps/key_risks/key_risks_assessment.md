@@ -1,6 +1,32 @@
 Key Risks Assessment
 =======================
+
+```{image} ../../images/Framework_KeyRisk.png
+:width: 400px
+:align: center
+```
+
+```{margin} **Guiding questions**
+- How are risks perceived by stakeholders/experts/relevant groups? What are shortcomings according to these groups?
+- Which stakeholders/experts/relevant groups that have not been identified in the scoping process, may be of relevance now in the light of the Risk Analysis results?
+- Are there adaptation/responses already in place? (e.g. question for stakeholders)
+- What response/adaptation actions are already in place?
+- When and where do you cross your coping capacity?
+- How are the risks affecting stakeholders, systems, sectors or vulnerable groups?
+- What are opportunities emerging from the calculated risk(s)?
+- Which are the less urgent risks that need to feed into the monitoring process?
+```
+
 The outputs of the climate risk analysis generates information on extent, duration, frequency and intensity of risks and thus already provides comprehensive insight on relevant risks to be considered. As a further analytical step, key risks may be identified. This analytical step can provide additional insights into the severity of risks and urgency for further attention to be paid to understanding and eventually managing risks. The two entry points to such analysis are:
+
+```{margin} **Guiding questions - Risk Severity**
+- What are relevant stakeholders, experts or representatives that need to be considered?
+- How important is financial capacity, income, poverty etc. for the risk severity? Which other indicators may be important for risk severity?
+(optional) What is your region’s resilience maturity?
+- How do you evaluate your specific risk outcome in the light of the given resilience maturity?
+- What adaptation options are already in place?
+- Which risk outcome is acceptable/tolerable/intolerable?
+```
 
 **Risk Severity**: Risks may be considered severe if they:
 - Are high in magnitude, likelihood, or duration (e.g. severe impacts, large areas, cascading effects, irreversibility)
@@ -8,6 +34,12 @@ The outputs of the climate risk analysis generates information on extent, durati
 - May occur during critical timing of processes (e.g. increased precipitation projected for harvest seasons
 - Coincide with low ability for risk reduction or management
 - Are reinforced by non-climatic risk drivers such as unsustainable land use or water management, land degradation, urbanization, eutrophication and pollution, etc.
+
+```{margin} **Guiding questions - Risk Urgency**
+- How does Risk Severity affect the Risk Urgency?
+- Which risks need to be addressed urgently? Which aspects influence the urgency?
+- How can you rank your risk outcome (from Risk Analysis/Toolbox) in an urgency scoring?
+```
 
 **Risk Urgency** is related to:
 - Hazards having been observed or projected to worsen significantly
