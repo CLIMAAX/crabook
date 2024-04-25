@@ -70,7 +70,7 @@ Urgency and severity partially overlap (for negative effects associated with ris
 
 Stakeholders and experts would consider adaptation responses and climate risk management in place and the level of adaptive capacity (through indicators such as technological, social, economic, infrastructural or institutional capacity). Indicators may be taken from the Regional Resilience Maturity Framework (see [P2R project](https://www.pathways2resilience.eu/)) and may include regional governance and institutional capacity; plans and policy instruments; human resources and technical skills; participatory governance and stakeholder engagement; public support, awareness and climate change communication; financial capabilities; innovation potential assessment.
 
-```{admonition} You can put your own text here 
+```{admonition} Tip
 :class: tip
 The outcome of the Key Risk Assessment can be assigned to high/medium/low risk profiles which then can be hierarchically ordered and assigned as “key” or “less urgent” risk. Key risks should enter the [Climate Risk Management funnel](https://climaax.github.io/crabook-test/CRA_steps/CRM.html).
 ```
