@@ -17,13 +17,19 @@ parts:
       title: Setubal example
     - file: zilina
       title: Žilina example
-
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework
     title: What is the CLIMAAX Framework?
-  - file: CRA_steps/beforeyoustart
+  - file: CRA_steps/beforeyoustart/beforeyoustart
     title: Before you start
+    sections:
+    - file: CRA_steps/beforeyoustart/principles
+      title: Principles    
+    - file: CRA_steps/beforeyoustart/technical_choices
+      title: Technical choices
+    - file: CRA_steps/beforeyoustart/participatory_processes
+      title: Participatory processes
   - file: CRA_steps/scoping/scoping
     title: Scoping
   - file: CRA_steps/identification/risk_identification
