@@ -1,11 +1,6 @@
 Before you start
 =======================
 
-```{image} ../../images/Definitions.png
-:width: 700px
-:align: center
-:name: Definitions
-```
 :::{card} Risk
 Risk is defined as “[t]he potential for adverse conse-quences for human or ecological systems, recognizing the diversity of values and objectives associated with such systems.” (Reisinger et al., 2020, p. 4). It can be calculated as an interplay of climate hazards (e.g. frequency and intensity of droughts), exposure (e.g. a land area where agriculture is conducted) and vulnerability (e.g. presence or absence of irrigation) and also includes human responses (Ara Begum et al., 2022).
 :::
