@@ -19,6 +19,8 @@ html {
     width: 200px;
 }
 
+ /* disables scrolling on the lefthandside menu
 .bd-sidebar-primary {
     overflow: hidden;
 }
+ */
