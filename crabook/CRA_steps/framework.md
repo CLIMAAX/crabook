@@ -12,7 +12,11 @@ name: framework-simple
 ---
 The framework is based on established principles (related to social justice, equity, transparency), technical choices to be made (e.g., for parameters, climate scenarios, time horizons etc.), and participatory processes (learning, communication, consultation). These three conceptual dimensions frame the climate risk assessment steps and lead, through continued implementation, to information on climate risk that can support adaptation and risk management planning. Source: CLIMAAX Consortium.
 ```
-The Framework is designed to embed and contextualize Climate Risk that can be quantified through CRA workflows. It makes sure that the process as well as its implementation are consistent with the highest standards and best practices as well as state-of the art scientific findings. In particular, the Framework in combination with the Toolbox, provides input on:
+The Framework is designed to embed and contextualize Climate Risk that can be quantified through CRA workflows. It makes sure that the process as well as its implementation are consistent with the highest standards and best practices as well as state-of the art scientific findings. 
+
+The CRA framework identifies five operational steps: Scoping, Risk Identification, Risk Analysis, Key Risk As-sessment and Monitoring and Evaluation. The Scoping phase defines objectives, sets the context and identi-fies stakeholders and risk ownership. Risk Identification is strongly informed by Scoping as it applies gathered knowledge, information and decisions and moves forward through more detailed hazard and risk exploration as well as decisions on workflows and scenarios to use. After the Toolbox application in the Risk Analysis step, the individual Risk Outcome is evaluated and contextualised in the Key Risk Assessment step (severity and urgency of risk resulting in key and less urgent risks), thus identifying potential entry points for CRM and risk reduction. Monitoring and Evaluation puts emphasis on summarising the CRA process and surveilling climate risks while gathering knowledge and data that is relevant for a learning process.
+
+Highlights of the CLIMAAX Framework and Toolbox entail:
 
 1. **Relevant steps** that are encouraged to be followed for a CRA with the possibility of including quantitative and qualitative aspects for maximizing output quality.
 
