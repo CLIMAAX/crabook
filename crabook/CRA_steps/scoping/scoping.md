@@ -3,7 +3,7 @@ Scoping
 
 A comprehensive CRA profits from an extensive scoping as it sets the ground for further steps and therefore also lays the foundation for the extent and quality of the CRA. This initial process defines objectives (desired results of the analysis), context (subject of analysis, conditions), identifies stakeholders and assigns risk ownership. This step should result in an agreement on the approach to be used for the analysis. All sub-steps are informed by a pre-defined set of principles emerging from the conceptual background described in [Before you start](https://climaax.github.io/crabook-test/CRA_steps/beforeyoustart.html). 
 
-```{image} ../images/Framework_scoping.png
+```{image} ../../images/Framework_scoping.png
 :width: 400px
 :align: center
 ```
