@@ -1,7 +1,7 @@
 Risk Identification
 =======================
 
-```{image} ../images/Framework_RiskIdentification.png
+```{image} ../../images/Framework_RiskIdentification.png
 :width: 400px
 :align: center
 ```
