@@ -7,7 +7,7 @@ The Framework proposes to adhere to key principles such as social justice and eq
 
 ```{figure} ../images/Framework_simple.png
 ---
-height: 700px
+height: 400px
 name: framework-simple
 ---
 The framework is based on established principles (related to social justice, equity, transparency), technical choices to be made (e.g., for parameters, climate scenarios, time horizons etc.), and participatory processes (learning, communication, consultation). These three conceptual dimensions frame the climate risk assessment steps and lead, through continued implementation, to information on climate risk that can support adaptation and risk management planning. Source: CLIMAAX Consortium.
