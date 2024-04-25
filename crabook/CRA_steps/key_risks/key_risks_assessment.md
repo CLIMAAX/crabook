@@ -31,11 +31,15 @@ Urgency and severity partially overlap (for negative effects associated with ris
       Derive basic overview of currently planned CRM and emergent devel-opment and business opportunities, which may be affected by risks.
 *   - Expert-driven and stake-holder informed
       Outcome: Quantitative/ qualitative priority ranking of key risks to further closely monitor and manage including concrete actions and timing
-    - Assess consequences of impacts and risks through statistics of ob-served events or models of future risk. Rank risks according to sur-vey-based stakeholder       risk prefer-ence (acceptable, tolerable, intol-erable risks).
+    - Assess consequences of impacts and risks through statistics of observed events or models of future risk. Rank risks according to survey-based stakeholder       risk prefer-ence (acceptable, tolerable, intol-erable risks).
       Assess adaptive capacity and im-plemented and planned CRM using relevant indicators. Consider non-climatic risk drivers.
     - Consider quantitative observed and projected changes in temporal aspects of risk using climate scenarios. Derive basic detailed currently planned CRM and emergent social and business opportunities, which may be affected by risks. Apply Urgency Scoring Framework.
 :::
 
 Stakeholders and experts would consider adaptation responses and climate risk management in place and the level of adaptive capacity (through indicators such as technological, social, economic, infrastructural or institutional capacity). Indicators may be taken from the Regional Resilience Maturity Framework (see [P2R project](https://www.pathways2resilience.eu/)) and may include regional governance and institutional capacity; plans and policy instruments; human resources and technical skills; participatory governance and stakeholder engagement; public support, awareness and climate change communication; financial capabilities; innovation potential assessment.
 
+```{admonition} You can put your own text here 
+:class: tip
 The outcome of the Key Risk Assessment can be assigned to high/medium/low risk profiles which then can be hierarchically ordered and assigned as “key” or “less urgent” risk. Key risks should enter the [Climate Risk Management funnel](https://climaax.github.io/crabook-test/CRA_steps/CRM.html).
+```
+
