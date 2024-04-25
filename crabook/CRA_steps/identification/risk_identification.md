@@ -40,7 +40,8 @@ Hazards or risks can then be prioritized based on the outcomes of this first par
 Utilizing maps and visual aids to depict exposure, vulnerability, climate-related hazards, impacts, and risks facilitates discussion on the nature and extent of impacts, identifying local risk hotspots, and under-standing direct and indirect effects.
 ```
 
-```{admonition} Tip 
+```{admonition} Tip
+:class: hint
 When concluding the risk exploration step, it is important to formulate risk statements that include the system boundaries, the time horizon (e.g., ongoing, near-term, mid-term, long-term), affected entities (e.g., sectors, communities, social groups, sub-regions), relevant hazards, impacts or risks (e.g., increase of heavy rain events, drought and heat impacts), scenario assumptions (such as climate change, population growth). This clarity supports succeeding sub-steps: “Choose Workflow” and “Choose Scenario”.
 ```
 
@@ -55,7 +56,8 @@ Within the CLIMAAX Toolbox, various risk workflows are proposed to conduct a det
 − The evaluation of assets or populations exposed to specific climate-related hazards.
 The workflows allow for both a current risk analysis based on historical data and future climate change projections to quantify future risk emerging regional climatic shifts. The selection of the appropriate workflow(s) is crucial for accurately assessing and understanding the range of possible impacts, facilitating informed decision-making and CRM planning.
 
-```{admonition} Tip 
+```{admonition} Tip
+:class: hint
 One Risk Workflow may have several options (e.g. Drought Risk). Make sure you understand the purpose, focus and advantages of each possibility.
 ```
 
