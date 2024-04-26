@@ -46,38 +46,42 @@ parts:
         title: Vulnerability datasets
   - file: CRA_steps/analysis/risk_analysis
     title: Risk Analysis
+  - file: CRA_steps/analysis/workflows
+    title: Risk workflows
     sections:
-    - file: CRA_steps/analysis/workflows
-      title: Risk workflows
+    - file: CRA_steps/analysis/about_workflows
+      title: About CRA workflows
+    - file: CRA_steps/analysis/how_to
+      title: How to use risk workflows
+    - file: notebooks/workflows/floods
+      title: 🌊 FLOODS
       sections:
-      - file: CRA_steps/analysis/about_workflows
-        title: About CRA workflows
-      - file: CRA_steps/analysis/how_to
-        title: How to use risk workflows
-      - file: notebooks/workflows/floods
-        title: 🌊 FLOODS
+      - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_workflow_description_FLOOD_RIVER
+        title: River Flood damages
         sections:
-        - file: notebooks/workflows/FLOODS/FLOOD_RIVER
-          title: River Flood damages
-        - file: notebooks/workflows/FLOODS/FLOOD_COASTAL
-          title: Coastal Flood damages
-        - file: notebooks/workflows/vulnerability-curves-adjustment
-          title: Working with vulnerability curves
-      - file: notebooks/workflows/droughts
-        title: 🏜️ DROUGHTS
-        sections:
-        - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
-          title: Simple workflow
-        - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
-          title: Advanced workflow
-      - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
-        title: 🌡️ HEATWAVES
-      - file: notebooks/workflows/FIRE/FIRE_notebook
-        title: 🔥 FIRE
-      - file: notebooks/workflows/SNOW/SNOW_notebook
-        title: ❄️ SNOW
-      - file: notebooks/workflows/STORMS/WIND_raster_LUISA
-        title: 💨 WIND
+        - file: notebooks/workflows/FLOODS/02_River_flooding/Hazard_assessment_FLOOD_RIVER
+          title: Hazard assessment
+        - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_assessment_FLOOD_RIVER
+          title: Risk assessment
+      - file: notebooks/workflows/FLOODS/FLOOD_COASTAL
+        title: Coastal Flood damages
+      - file: notebooks/workflows/vulnerability-curves-adjustment
+        title: Working with vulnerability curves
+    - file: notebooks/workflows/droughts
+      title: 🏜️ DROUGHTS
+      sections:
+      - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
+        title: Simple workflow
+      - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
+        title: Advanced workflow
+    - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
+      title: 🌡️ HEATWAVES
+    - file: notebooks/workflows/FIRE/FIRE_notebook
+      title: 🔥 FIRE
+    - file: notebooks/workflows/SNOW/SNOW_notebook
+      title: ❄️ SNOW
+    - file: notebooks/workflows/STORMS/WIND_raster_LUISA
+      title: 💨 WIND
   - file: CRA_steps/key_risks/key_risks_assessment
     title: Key Risk Assessment
   - file: CRA_steps/monitoring/monitoring
