@@ -55,14 +55,13 @@ Frequency, intensity, spatial distribution, and duration of climate events; publ
 | Wind risk | Disruption of public infrastructure; losses and damages (injuries, hospitalisations, fatalities, livestock, business, buildings, forests, etc.))|
 :::
 
-::: {card}**Indicators for the Evaluation of Climate Risk Assessment process**
+**Indicators for the Evaluation of Climate Risk Assessment process**
 
 | Performance Indicators | Examples |
 | -------- | ----------- |
 | Efficacy| Efficient use of resources e.g. time, staff, cost|
 | Usefulness | Raised awareness, improved understanding of risk (Public awareness and engagement, institu-tional capacity, funding and investment)|
 | Impact | Applicability for Risk Assessment and CRM (number of times used, acceptance by experts and stakeholder, translation of results into CRM)|
-:::
 
 
 While Communication is part of the participatory processes and should thus be enforced throughout the whole CRA, at this stage it is reasonable to communicate results to the public and/or key audiences with a focus on policy- and decision-makers. A CRA may inform policy making and policy revision for CRM and supports learning over time.
