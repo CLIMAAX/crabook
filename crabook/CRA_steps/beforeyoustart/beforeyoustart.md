@@ -1,13 +1,12 @@
 Before you start
 =======================
 
-::::{grid}
-:gutter: 3
-
-:::{grid-item-card} Risk
+:::{card} Risk
 Risk is defined as “[t]he potential for adverse conse-quences for human or ecological systems, recognizing the diversity of values and objectives associated with such systems.” (Reisinger et al., 2020, p. 4). It can be calculated as an interplay of climate hazards (e.g. frequency and intensity of droughts), exposure (e.g. a land area where agriculture is conducted) and vulnerability (e.g. presence or absence of irrigation) and also includes human responses (Ara Begum et al., 2022).
 :::
 
+::::{grid}
+:gutter: 2
 :::{grid-item-card} Hazard
 A Climate-related Hazard is “the potential occurrence of a natural or human-induced physical event or trend that may cause loss of life, injury, or other health impacts, as well as damage and loss to property, infrastructure, livelihoods, service provision, ecosystems and environmental resource” (IPCC, 2022, p. 5). Climate change can alter the frequency, magnitude, and duration of extreme weather events which are espe-cially relevant for a climate risk context.
 :::
