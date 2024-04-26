@@ -1,6 +1,4 @@
 Technical choices
 =======================
 
-
-
-Add your text here
+Oh oh. This page is still empty. We are working on it. 👩‍💼👨‍💼💻
