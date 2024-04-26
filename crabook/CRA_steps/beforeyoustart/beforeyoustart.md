@@ -7,6 +7,7 @@ Risk is defined as “[t]he potential for adverse conse-quences for human or eco
 
 ::::{grid}
 :gutter: 2
+
 :::{grid-item-card} Hazard
 A Climate-related Hazard is “the potential occurrence of a natural or human-induced physical event or trend that may cause loss of life, injury, or other health impacts, as well as damage and loss to property, infrastructure, livelihoods, service provision, ecosystems and environmental resource” (IPCC, 2022, p. 5). Climate change can alter the frequency, magnitude, and duration of extreme weather events which are espe-cially relevant for a climate risk context.
 :::
@@ -16,6 +17,7 @@ Exposure refers to “(t)he presence of people; livelihoods, species or ecosys-t
 (Oppenheimer et al., 2014, p. 1048).
 :::
 ::::
+
 
 ::::{grid}
 :gutter: 2
