@@ -12,7 +12,7 @@ The first step is to **Set Up the Environment** for the CRA. The risk workflows,
 Second, the user will **Access Data** on *hazard*, *exposure*, and *vulnerability*. Based on the region of interest, the user can decide whether to use pre-calculated European/large-scala datasets available in the CLIMAAX Toolbox about hazard (e.g. precipitation, water depth and flood extent), exposure (e.g. population, critical infrastructures), and vulnerability (e.g. age, income) or to implement their own, local data. The latter regards advanced users, while basic users profit from data that is provided through workflows. Once this is completed, it will be possible to visualize the maps of hazard, exposure, and vulnerability to have a preliminary idea of the hotspots area possibility affected by high risk.
 Third, the user will be able to **Calculate the Hazard** based on the information and approach selected. As climate risk not only depends on climate-related hazards but also on the exposure and vulnerability of a region/society to the respective hazard, the fourth step **combines hazard data with Exposure and Vulnerability** to assess risk according to the equation
 
-Risk = Hazard × Exposure × Vulnerability
+*Risk = Hazard × Exposure × Vulnerability*
 
 The workflows follow three main approaches:
 - **Exposed assets and/or population** – Risk as overlap between hazard information and exposure.
