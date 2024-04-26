@@ -63,8 +63,15 @@ parts:
           title: Hazard assessment
         - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_assessment_FLOOD_RIVER
           title: Risk assessment
-      - file: notebooks/workflows/FLOODS/FLOOD_COASTAL
+      - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL
         title: Coastal Flood damages
+        sections: 
+        - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_floodmaps
+          title: Hazard assessment floodmaps
+        - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_waterlevel
+          title: Hazard assessment water level
+        - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_assessment_FLOOD_COASTAL
+          title: Risk assessment
       - file: notebooks/workflows/vulnerability-curves-adjustment
         title: Working with vulnerability curves
     - file: notebooks/workflows/droughts
