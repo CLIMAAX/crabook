@@ -12,10 +12,10 @@ The assessment of Key Climate Risks, as part of [Key Risk Assessment](https://cl
 The climate risk profile of a region, including its projected changes over time, is the primary indicator of “what”, “where” and “how” CRM and adaptation responses should be initiated. However, there are additional entry points for CRM. Previous risk management interventions and ongoing adaptation processes in place can reveal valuable opportunities for introducing additional, complementary measures or even maladaptation. Moreover, CRM and adaptation responses undertaken in other areas can offer insights into what could be applicable and how to design and implement it for the region's particular situation. T
 
 ::::{margin}
-{card} [Pahtways2Resilience](https://www.pathways2resilience.eu/regional-resilience-journey-map/)
+:::{card} [Pahtways2Resilience](https://www.pathways2resilience.eu/regional-resilience-journey-map/)
 {image} ../../images/P2R.png
 :width: 100px
-:align: center
+:::
 ::::
 
 CRM is a comprehensive process involving various iterative and dynamic steps (GIZ, 2021; UNDRR, 2022). In the context of the EU Mission on Adaptation to Climate Change, CRM and adaptation planning are further addressed by the Pathways-to-Resilience (P2R) programme — a project complementing CLIMAAX. Figure X presents a simplified view of an approach to CRM, consisting of four major steps:   
