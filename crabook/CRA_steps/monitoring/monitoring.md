@@ -40,10 +40,10 @@ Both M&E steps can facilitate participatory processes and include relevant stake
 
 Selecting **indicators** for this process is crucial to summarize output of the CRA and make it more valuable. Indicators should be linked to specific objectives, sectors as well as stakeholder’s needs and can be assessed quantitatively or qualitatively. While it is difficult to provide a full set of indicators due to the heterogeneity of regions and risk situations, regions can define their individual indicators that are more relevant for their context and purposes.  Tracking changes of indicators, as well as risk thresholds or trigger levels, may be helpful to indicate a potential overshoot of risk tolerance and need to be attributed to (further) CRM measures. Depending on the focus of the M&E indicators may change. Below, a non-exhaustive list of potential M&E indicators is provided; while Climate Risk Monitoring refers to workflow specific and unspecific indicators, the Climate Risk Assessment Evaluation provides an initial set of performance indicators.
 
-:::**Indicators for Climate Risk Monitoring**
-{card} Workflow unspecific indicators
+**Indicators for Climate Risk Monitoring**
+:::{card} Workflow unspecific indicators
 Frequency, intensity, spatial distribution, and duration of climate events; public awareness and engagement; institutional capacity 
-
+:::
 
 | Workflow | Indicators/impact |
 | -------- | ----------- |
@@ -55,8 +55,8 @@ Frequency, intensity, spatial distribution, and duration of climate events; publ
 | Wind risk | Disruption of public infrastructure; losses and damages (injuries, hospitalisations, fatalities, livestock, business, buildings, forests, etc.))|
 :::
 
-:::**Indicators for the Evaluation of Climate Risk Assessment process**
-{card}
+::: {card}**Indicators for the Evaluation of Climate Risk Assessment process**
+
 | Performance Indicators | Examples |
 | -------- | ----------- |
 | Efficacy| Efficient use of resources e.g. time, staff, cost|
