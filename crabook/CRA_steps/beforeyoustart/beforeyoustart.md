@@ -8,7 +8,7 @@ Risk is defined as “[t]he potential for adverse conse-quences for human or eco
 ::::
 
 ::::{grid-item-card} 
-:::{image} ../../images/Risk_concept.png
+:::{image} ../../../images/Risk_concept.png
 :align: center
 :::
 ::::
@@ -40,7 +40,7 @@ In addition to hazard, exposure and vulnerability, climate risk also depends on 
 :::
 ::::
 
-:::{image} ../../images/Risk_concept.png
+:::{image} ../../images/Framework_scoping.png
 :align: center
 :::
 
