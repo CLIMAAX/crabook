@@ -8,9 +8,9 @@ Risk is defined as “[t]he potential for adverse conse-quences for human or eco
 :::
 
 :::{grid-item-card} 
-```{image} ../Risk_concept.png
+::{image} ../Risk_concept.png
 :width: 50px
-```
+::
 :::
 ::::
 
