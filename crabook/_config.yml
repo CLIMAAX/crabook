@@ -37,7 +37,7 @@ html:
   favicon: https://www.climaax.eu/wp-content/uploads/2023/03/cropped-Climaax_logo_singolo-32x32.png
   use_issues_button: true
   use_repository_button: true
-  announcement: "⚠️This is the first operational version of the handobook, but it is still a work in progress and will be heavily updated during 2024!⚠️"
+  announcement: "⚠️This is the first operational version of the handbook, but it is still a work in progress and will be heavily updated during 2024!⚠️"
   #extra_footer: |
   #  <div>
   #      MY FOOTER!
