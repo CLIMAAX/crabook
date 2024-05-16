@@ -10,6 +10,8 @@ parts:
     title: The CLIMAAX project
   - file: funding
     title: Funding opportunities
+  - file: eu_data_viewer/pyleaflet_data_viewer
+    title: European map viewer
   - file: setubal
     title: Setubal example
   - file: zilina
