@@ -26,7 +26,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/CLIMAAX/crabook  # Online location of your book
+  url: https://github.com/CLIMAAX/crabook-test  # Online location of your book
   path_to_book: crabook  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -37,7 +37,7 @@ html:
   favicon: https://www.climaax.eu/wp-content/uploads/2023/03/cropped-Climaax_logo_singolo-32x32.png
   use_issues_button: true
   use_repository_button: true
-  announcement: "⚠️This is the first operational version of the handobok, but it is still a work in progress and will be heavily updated during 2024!⚠️"
+  announcement: "⚠️This is the first operational version of the handbook, but it is still a work in progress and will be heavily updated during 2024!⚠️"
   #extra_footer: |
   #  <div>
   #      MY FOOTER!
@@ -79,3 +79,6 @@ sphinx:
     html_show_copyright: false
     html_js_files:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    html_context: 
+      default_mode: light
+    
