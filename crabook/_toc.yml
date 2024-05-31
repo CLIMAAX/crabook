@@ -104,7 +104,11 @@ parts:
     title: Datasets
   - file: resources/useful
     title: Coding resources
- 
+  - file: resources/glossary
+    title: Glossary
+#  - file: resources/FAQ
+#    title: FAQ
+
 - caption: 🙋🏻‍♀️ Join the community
   chapters:
   - file: community/engage
