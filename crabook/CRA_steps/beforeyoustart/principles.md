@@ -6,7 +6,6 @@ Adhering to key principles throughout a CRA process is helpful to ensure a commo
 ```{figure} ../../images/Illustration_principles_Page.jpg
 ---
 scale: 60%
-align: center
 ---
 This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
