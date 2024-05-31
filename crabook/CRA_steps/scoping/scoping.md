@@ -14,10 +14,6 @@ Click below for Guiding questions
 ```
 ````
 
-:::{.card-custom}
-The text on the card
-:::
-
 ::::{margin}
 :::{dropdown} Guiding questions - Objectives
 :animate: fade-in

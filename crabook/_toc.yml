@@ -51,8 +51,6 @@ parts:
   - file: CRA_steps/analysis/workflows
     title: Risk workflows
     sections:
-    - file: CRA_steps/analysis/about_workflows
-      title: About CRA workflows
     - file: CRA_steps/analysis/how_to
       title: How to use risk workflows
     - file: notebooks/workflows/floods
@@ -106,7 +104,11 @@ parts:
     title: Datasets
   - file: resources/useful
     title: Coding resources
- 
+  - file: resources/glossary
+    title: Glossary
+#  - file: resources/FAQ
+#    title: FAQ
+
 - caption: 🙋🏻‍♀️ Join the community
   chapters:
   - file: community/engage

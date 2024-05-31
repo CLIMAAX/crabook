@@ -17,15 +17,15 @@ For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/co
 
 ## Headers
 
-Headers are not just big letters. JupyterBook uses headers to create the table of content for every page. 
+Headers are not just big letters. JupyterBook uses headers to create the table of content for every page.
 
 ```{hint}
-Take a look at the top right and you will see the content of this page! 🧑‍🏫  
+Take a look at the top right and you will see the content of this page! 🧑‍🏫
 It is created using all the headers.
 ```
 
-You can also use them in the link to send someone exactly the part of the page you want them to look.  
-For example,   
+You can also use them in the link to send someone exactly the part of the page you want them to look.
+For example,
 Clicking on this link 👉 https://climaax.github.io/crabook-test/markdown.html#bold-italic-text-links-and-lists will take you down to the part of this page about bold and italic text.
 
 ``````{list-table}
@@ -61,7 +61,7 @@ You make the text *italic* by putting it betweeen *.
 
 ````
 
-Result:  
+Result:
 
 You make the text **bold** by putting it between **.
 
@@ -71,18 +71,18 @@ You make the text *italic* by putting it betweeen *.
 
 List is created using dash line - :
 ````md
-- First element 
+- First element
 - Second element
 - Third element
 ````
-Results in: 
-- First element 
+Results in:
+- First element
 - Second element
 - Third element
 
 ## Links
 
-Links are done by putting the text under [] and target under ().  
+Links are done by putting the text under [] and target under ().
 ``````{list-table}
 :header-rows: 1
 :widths: 20 20 10
@@ -101,9 +101,9 @@ Links are done by putting the text under [] and target under ().
     [text](relative_path)
     ```
   - ```md
-    [CRA datasets](CRA_steps/identification/datasets)
+    [CRA datasets](../CRA_steps/identification/datasets)
     ```
-  - [CRA datasets](CRA_steps/identification/datasets)
+  - [CRA datasets](../CRA_steps/identification/datasets)
 * - ```md
     [text](target "title")
     ```

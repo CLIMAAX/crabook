@@ -1,10 +1,10 @@
 # Images
 
 ## Upload image to GitHub
-In order to display the image in the Handbook you first need to add it to the **images** directory in the crabook repository.  
+In order to display the image in the Handbook you first need to add it to the **images** directory in the crabook repository.
 
-Quick way to do it is to navigate to the `crabook/images` folder  
-and click on the `Add file` 
+Quick way to do it is to navigate to the `crabook/images` folder
+and click on the `Add file`
 
 ```{image} ../images/add_an_image_to_github01.png
 :width: 1000px
@@ -35,11 +35,10 @@ This is how you add image to the page:
 ````
 `../images/open_call.jpeg` is the **path to the image file**.
 
-Result: 
+Result:
 ```{image} ../images/open_call.jpeg
 :width: 400px
 :align: center
-:name: open-call
 ```
 
 If you want, you can also make your image be a link to a web page. In this example we have next image linking to the Open call page on the CLIMAAX website.
@@ -53,17 +52,16 @@ If you want, you can also make your image be a link to a web page. In this examp
 ```
 ````
 
-Result: 
+Result:
 ```{image} ../images/open_call.jpeg
 :target: https://www.climaax.eu/fstp-open-call/
 :width: 400px
 :align: center
-:name: open-call
 ```
 
 ## Add a figure to the page
 
-You can also add a numbered figure like this:  
+You can also add a numbered figure like this:
 ````md
 ```{figure} ../images/ev_data_image2.png
 ---
@@ -74,9 +72,6 @@ Comparison of the spatial population distribution in GHS-POP, WorldPop, and GPW 
 ````
 
 ```{figure} ../images/ev_data_image2.png
----
-name: population
----
 Comparison of the spatial population distribution in GHS-POP, WorldPop, and GPW v4
 ```
 
