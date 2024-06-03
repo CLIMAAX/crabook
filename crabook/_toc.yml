@@ -85,6 +85,15 @@ parts:
         title: Risk assessment
       - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment_examples
         title: Risk assessment local examples
+    - file: notebooks/workflows/HEATWAVES/Heat_Wave_risk_descrtiption
+      title: 🌡️ HEATWAVES
+      sections: 
+      - file: notebooks/workflows/HEATWAVES/Heat_Wave_Hazard_assessment_basic
+        title: Hazard assessment - basic
+      - file: notebooks/workflows/HEATWAVES/Heat_Wave_Hazard_assessment_advanced
+        title: Hazard assessment - advanced
+      - file: notebooks/workflows/HEATWAVES/Heat_wave_Risk_assessment
+        title: Risk assessment
     - file: notebooks/workflows/droughts
       title: 🏜️ DROUGHTS
       sections:
@@ -92,8 +101,6 @@ parts:
         title: Simple workflow
       - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
         title: Advanced workflow
-    - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
-      title: 🌡️ HEATWAVES
     - file: notebooks/workflows/FIRE/FIRE_notebook
       title: 🔥 FIRE
     - file: notebooks/workflows/SNOW/SNOW_notebook
