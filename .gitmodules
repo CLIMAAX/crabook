@@ -21,3 +21,6 @@
 	path = crabook/notebooks/workflows/STORMS
 	url = https://github.com/CLIMAAX/STORMS
 	branch = main
+[submodule "crabook/notebooks/workflows/HEAVY_RAINFALL"]
+	path = crabook/notebooks/workflows/HEAVY_RAINFALL
+	url = https://github.com/CLIMAAX/HEAVY_RAINFALL.git

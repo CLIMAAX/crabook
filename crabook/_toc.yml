@@ -74,6 +74,17 @@ parts:
           title: Risk assessment
       - file: notebooks/workflows/vulnerability-curves-adjustment
         title: Working with vulnerability curves
+    - file: notebooks/workflows/HEAVY_RAINFALL/Extreme_precipitation_Intro
+      title: 🌧️ HEAVY RAINFALL
+      sections:
+      - file: notebooks/workflows/HEAVY_RAINFALL/Extreme_precipitation_criticalthresholds
+        title: Critical thresholds
+      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Hazard_Assessment
+        title: Hazard assessment
+      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment
+        title: Risk assessment
+      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment_examples
+        title: Risk assessment local examples
     - file: notebooks/workflows/droughts
       title: 🏜️ DROUGHTS
       sections:
