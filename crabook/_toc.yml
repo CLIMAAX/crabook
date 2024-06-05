@@ -4,19 +4,19 @@
 format: jb-book
 root: intro
 parts:
-- caption: About us 
+- caption: About us
   chapters:
   - file: aboutclimaax
     title: The CLIMAAX project
   - file: funding
     title: Funding opportunities
-  - file: regional-examples
-    title: Regional examples
-    sections:
-    - file: setubal
-      title: Setubal example
-    - file: zilina
-      title: Žilina example
+#  - file: regional-examples
+#    title: Regional examples
+#    sections:
+#    - file: setubal
+#      title: Setubal example
+#    - file: zilina
+#      title: Žilina example
   - file: eu_data_viewer/pyleaflet_data_viewer
     title: European map viewer
 - caption: 🌍 CRA Steps
@@ -27,7 +27,7 @@ parts:
     title: Before you start
     sections:
     - file: CRA_steps/beforeyoustart/principles
-      title: Principles    
+      title: Principles
     - file: CRA_steps/beforeyoustart/technical_choices
       title: Technical choices
     - file: CRA_steps/beforeyoustart/participatory_processes
@@ -35,7 +35,7 @@ parts:
   - file: CRA_steps/scoping/scoping
     title: Scoping
   - file: CRA_steps/identification/risk_identification
-    title: Risk Identification 
+    title: Risk Identification
     sections:
     - file: CRA_steps/identification/datasets
       title:  CRA Datasets
@@ -65,7 +65,7 @@ parts:
           title: Risk assessment
       - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL
         title: Coastal Flood damages
-        sections: 
+        sections:
         - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_floodmaps
           title: Hazard assessment floodmaps
         - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_waterlevel
@@ -87,7 +87,7 @@ parts:
         title: Risk assessment local examples
     - file: notebooks/workflows/HEATWAVES/Heat_Wave_risk_descrtiption
       title: 🌡️ HEATWAVES
-      sections: 
+      sections:
       - file: notebooks/workflows/HEATWAVES/Heat_Wave_Hazard_assessment_basic
         title: Hazard assessment - basic
       - file: notebooks/workflows/HEATWAVES/Heat_Wave_Hazard_assessment_advanced
@@ -132,7 +132,7 @@ parts:
   - file: community/engage
     title: Engage with other regions
   - file: community/contribute
-    title: Contribute to risk recipes 
+    title: Contribute to risk recipes
 
 - caption: Internal resources
   chapters:
