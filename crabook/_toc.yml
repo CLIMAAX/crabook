@@ -10,15 +10,15 @@ parts:
     title: The CLIMAAX project
   - file: funding
     title: Funding opportunities
-#  - file: regional-examples
-#    title: Regional examples
-#    sections:
-#    - file: setubal
-#      title: Setubal example
-#    - file: zilina
-#      title: Žilina example
-#  - file: eu_data_viewer/pyleaflet_data_viewer
-#    title: European map viewer
+  - file: regional-examples
+    title: Regional examples
+    sections:
+    - file: setubal
+      title: Setubal example
+    - file: zilina
+      title: Žilina example
+  - file: eu_data_viewer/pyleaflet_data_viewer
+    title: European map viewer
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework
