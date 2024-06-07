@@ -19,4 +19,6 @@ html {
     width: 200px;
 }
 
-
+.bd-header-article .btn {
+    color: #0A1D6B;
+}
