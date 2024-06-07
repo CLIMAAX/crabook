@@ -22,3 +22,7 @@ html {
 .bd-header-article .btn {
     color: #0A1D6B;
 }
+
+figcaption {
+    font-size: 0.9rem;
+}
