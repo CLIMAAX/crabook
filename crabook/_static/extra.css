@@ -22,6 +22,15 @@ html {
 .bd-header-article .btn {
     color: #0A1D6B;
 }
+.bd-header-article .dropdown-source-buttons .btn {
+    color: #0EAF94;
+}
+.bd-header-article .btn-fullscreen-button {
+    color: #F9BC12;
+}
+.bd-header-article .theme-switch-button {
+    color: #F47A00;
+}
 
 figcaption {
     font-size: 0.9rem;
