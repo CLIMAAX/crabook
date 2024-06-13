@@ -122,8 +122,13 @@ parts:
           title: Risk assessment
     - file: notebooks/workflows/FIRE/FIRE_notebook
       title: 🔥 FIRE
-    - file: notebooks/workflows/SNOW/SNOW_notebook
+    - file: notebooks/workflows/SNOW/Risk_workflow_description
       title: ❄️ SNOW
+      sections:
+      - file: notebooks/workflows/SNOW/Hazard_assessment_Snow_Blizzards
+        title: Hazard assessment
+      - file: notebooks/workflows/SNOW/Risk_assessment_Snow_Blizzards
+        title: Risk assessment
     - file: notebooks/workflows/STORMS/WIND_raster_LUISA
       title: 💨 WIND
   - file: CRA_steps/key_risks/key_risks_assessment
