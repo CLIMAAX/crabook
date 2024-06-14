@@ -128,14 +128,14 @@ parts:
           title: Risk assessment
     - file: notebooks/workflows/fire
       title: 🔥 FIRE
-#      sections:
-#        - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML
-#          title: Wildfire (ML approach)
-#          sections:
-#          - file: notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML
-#            title: Hazard assessment
-#          - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_assessment_FIRE_ML
-#            title: Risk assessment
+      sections:
+        - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML
+          title: Wildfire (ML approach)
+          sections:
+          - file: notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML
+            title: Hazard assessment
+          - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_assessment_FIRE_ML
+            title: Risk assessment
     - file: notebooks/workflows/snow
       title: ❄️ SNOW
       sections:
