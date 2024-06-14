@@ -148,14 +148,14 @@ parts:
           title: Risk assessment
     - file: notebooks/workflows/storms
       title: 💨 WIND
-#      sections:
-#      - file: notebooks/workflows/STORMS/01_windstorm/Risk_workflow_description_STORMS
-#        title: Windstorm
-#        sections:
-#        - file: notebooks/workflows/STORMS/01_windstorm/Hazard_assessment_STORMS
-#          title: Hazard assessment
-#        - file: notebooks/workflows/STORMS/01_windstorm/Risk_assessment_STORMS
-#          title: Risk assessment
+      sections:
+      - file: notebooks/workflows/STORMS/01_windstorm/Risk_workflow_description_STORMS
+        title: Windstorm
+        sections:
+        - file: notebooks/workflows/STORMS/01_windstorm/Hazard_assessment_STORMS
+          title: Hazard assessment
+        - file: notebooks/workflows/STORMS/01_windstorm/Risk_assessment_STORMS
+          title: Risk assessment
   - file: CRA_steps/key_risks/key_risks_assessment
     title: Key Risk Assessment
   - file: CRA_steps/monitoring/monitoring
