@@ -2,7 +2,7 @@
 
 <iframe src="iframes/home/index.html" name="iframe_home" width="100%" height="1900px"></iframe>
 
-<iframe src="iframes/home/cra_map_example_text.html" width="100%" height="180px"></iframe>
+<iframe src="iframes/home/cra_map_example_text.html" width="100%" height="300px"></iframe>
 
 <iframe src="iframes/home/cra_map_example.html" width="100%" height="400px"></iframe>
 
