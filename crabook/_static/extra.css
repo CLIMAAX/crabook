@@ -32,6 +32,12 @@ html {
     color: #F47A00;
 }
 
+.page-main-photo {
+    display: block;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+}
+
 figcaption {
     font-size: 0.9rem;
 }

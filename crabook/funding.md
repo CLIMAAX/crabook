@@ -1,8 +1,10 @@
-# Funding opportunities 
+<img alt="Funding" src="./images/Page_Funding_opportunities_02.png" class="page-main-photo">
+
+# Funding opportunities
 
 The consortium has issued its first Open Call. This call invites regions and communities to apply to implement the CLIMAAX framework and {abbr}`CRA (Climate Risk Assessment)` toolbox for their regional and local multi-risk assessments.
 
-The first call is **open until 22th March 2024**.  
+The first call is **open until 22th March 2024**.
 
 ```{image} images/open_call.jpeg
 :target: https://www.climaax.eu/fstp-open-call/
