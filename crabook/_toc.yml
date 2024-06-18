@@ -54,30 +54,25 @@ parts:
     - file: CRA_steps/analysis/how_to
       title: How to use risk workflows
     - file: notebooks/workflows/floods
+      title: 🌊 RIVER & COASTAL FLOODS
       sections:
-      - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_workflow_description_FLOOD_RIVER
-        title: River Flood damages
-        title: River flood damages
+      - file: notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro
+        title: River floods
         sections:
+        - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_workflow_description_FLOOD_RIVER
+          title: River floods workflow methodology
         - file: notebooks/workflows/FLOODS/02_River_flooding/Hazard_assessment_FLOOD_RIVER
-          title: Hazard assessment
-          title: Hazard data - river flood maps
+          title: Hazard assessment - river flood maps
         - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_assessment_FLOOD_RIVER
-          title: Risk assessment
           title: Risk assessment - economic damages
       - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL
-        title: Coastal Flood damages
-        title: Coastal flood damages
+        title: Coastal floods
         sections:
-        - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_floodmaps
-          title: Hazard assessment floodmaps
         - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_waterlevel
-          title: Hazard assessment water level
-          title: Hazard data - coastal water levels
+          title: Hazard assessment - coastal water levels
         - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_floodmaps
-          title: Hazard data - coastal flood maps
+          title: Hazard assessment - coastal flood maps
         - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_assessment_FLOOD_COASTAL
-          title: Risk assessment
           title: Risk assessment - economic damages
       - file: notebooks/workflows/vulnerability-curves-adjustment
         title: Working with vulnerability curves
