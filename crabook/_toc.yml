@@ -54,24 +54,31 @@ parts:
     - file: CRA_steps/analysis/how_to
       title: How to use risk workflows
     - file: notebooks/workflows/floods
-      title: 🌊 FLOODS
       sections:
       - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_workflow_description_FLOOD_RIVER
         title: River Flood damages
+        title: River flood damages
         sections:
         - file: notebooks/workflows/FLOODS/02_River_flooding/Hazard_assessment_FLOOD_RIVER
           title: Hazard assessment
+          title: Hazard data - river flood maps
         - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_assessment_FLOOD_RIVER
           title: Risk assessment
+          title: Risk assessment - economic damages
       - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL
         title: Coastal Flood damages
+        title: Coastal flood damages
         sections:
         - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_floodmaps
           title: Hazard assessment floodmaps
         - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_waterlevel
           title: Hazard assessment water level
+          title: Hazard data - coastal water levels
+        - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_floodmaps
+          title: Hazard data - coastal flood maps
         - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_assessment_FLOOD_COASTAL
           title: Risk assessment
+          title: Risk assessment - economic damages
       - file: notebooks/workflows/vulnerability-curves-adjustment
         title: Working with vulnerability curves
     - file: notebooks/workflows/heavy_rainfall
@@ -81,13 +88,13 @@ parts:
         title: Extreme precipitation
         sections:
         - file: notebooks/workflows/HEAVY_RAINFALL/Extreme_precipitation_criticalthresholds
-          title: Critical thresholds
+          title: Local data for risk assessment
         - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Hazard_Assessment
-          title: Hazard assessment
+          title: Hazard assessment - climate projections
         - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment
-          title: Risk assessment
+          title: Risk assessment - methodology
         - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment_examples
-          title: Risk assessment local examples
+          title: Risk assessment - local examples
     - file: notebooks/workflows/heatwaves
       title: 🌡️ HEATWAVES
       sections:
