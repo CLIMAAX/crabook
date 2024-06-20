@@ -93,14 +93,18 @@ parts:
     - file: notebooks/workflows/heatwaves
       title: 🌡️ HEATWAVES
       sections:
-      - file: notebooks/workflows/HEATWAVES/Heat_Wave_risk_descrtiption
-        title: Heat-wave
+      - file: notebooks/workflows/HEATWAVES/heat_wave_intro
+        title: Heatwaves
         sections:
-        - file: notebooks/workflows/HEATWAVES/Heat_Wave_Hazard_assessment_basic
-          title: Hazard assessment - basic
-        - file: notebooks/workflows/HEATWAVES/Heat_Wave_Hazard_assessment_advanced
-          title: Hazard assessment - advanced
-        - file: notebooks/workflows/HEATWAVES/Heat_wave_Risk_assessment
+        - file: notebooks/workflows/HEATWAVES/heat_wave_risk_descrtiption
+          title: Heatwave workflow methodology
+        - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_euroheat
+          title: Hazard assessment - EuroHEAT
+        - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_pesetaiv
+          title: Hazard assessment - Peseta IV
+        - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_xclim
+          title: Hazard assessment - Xclim
+        - file: notebooks/workflows/HEATWAVES/heat_wave_risk_assessment
           title: Risk assessment
     - file: notebooks/workflows/droughts
       title: 🏜️ DROUGHTS
