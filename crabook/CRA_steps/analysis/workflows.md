@@ -14,10 +14,53 @@ scale: 60%
 This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
-Different workflows have been proposed over the years for assessing climate risk. Within the CLIMAAX toolbox, we implemented this main ones:
+Different workflows have been proposed over the years for assessing climate risk. Within the CLIMAAX toolbox, we implemented these main ones:
 
 - Product between Hazard, Exposure, and Vulnerability
 - Damage analysis based on damage curves, Hazard, and Exposure
-- Exposed assets or population to a certai climate-related hazard
+- Exposed assets or population to a certain climate-related hazard
 
 These workflows will allow for the climate risk assessment using both historical information and future climate change scenarios to better understand the range of possible outcomes and identify sustainable adaptation strategies.
+
+
+## Workflows in the CLIMAAX handbook
+
+::::{grid}
+:gutter: 3
+
+:::{grid-item-card} 🌊
+:columns: 4
+[RIVER & COASTAL FLOODS](../../notebooks/workflows/floods.md)
+:::
+
+:::{grid-item-card} 🌧️
+:columns: 4
+[HEAVY RAINFALL](../../notebooks/workflows/heavy_rainfall.md)
+:::
+
+:::{grid-item-card} 🌡️
+:columns: 4
+[HEATWAVES](../../notebooks/workflows/heatwaves.md)
+:::
+
+:::{grid-item-card} 🏜️
+:columns: 4
+[DROUGHTS](../../notebooks/workflows/droughts.md)
+:::
+
+:::{grid-item-card} 🔥
+:columns: 4
+[FIRE](../../notebooks/workflows/fire.md)
+:::
+
+:::{grid-item-card} ❄️
+:columns: 4
+[SNOW](../../notebooks/workflows/snow.md)
+:::
+
+:::{grid-item-card} 💨
+:columns: 4
+[WIND](../../notebooks/workflows/storms.md)
+:::
+
+::::
