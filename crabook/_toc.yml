@@ -57,7 +57,7 @@ parts:
   - file: CRA_steps/CRM
     title: Connect CLIMAAX with Climate Risk Management
 
-- caption: Risk Workflows
+- caption: Risk workflows
   chapters:
   - file: CRA_steps/analysis/how_to
     title: How to use risk workflows
