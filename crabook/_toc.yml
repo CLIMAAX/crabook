@@ -48,8 +48,9 @@ parts:
         title: Vulnerability datasets
   - file: CRA_steps/analysis/risk_analysis
     title: Risk Analysis
-  - file: CRA_steps/analysis/workflows
-    title: Risk workflows
+    sections:
+    - file: CRA_steps/analysis/workflows
+      title: Risk workflows
   - file: CRA_steps/key_risks/key_risks_assessment
     title: Key Risk Assessment
   - file: CRA_steps/monitoring/monitoring
