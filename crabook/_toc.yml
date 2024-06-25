@@ -87,16 +87,16 @@ parts:
   - file: notebooks/workflows/heavy_rainfall
     title: 🌧️ HEAVY RAINFALL
     sections:
-    - file: notebooks/workflows/HEAVY_RAINFALL/Extreme_precipitation_Intro
+    - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro
       title: Extreme precipitation
       sections:
-      - file: notebooks/workflows/HEAVY_RAINFALL/Extreme_precipitation_criticalthresholds
+      - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_criticalthresholds
         title: Local data for risk assessment
-      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Hazard_Assessment
+      - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/EXTREME_PRECIPITATION_Hazard_Assessment
         title: Hazard assessment - climate projections
-      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment
+      - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/EXTREME_PRECIPITATION_Risk_Assessment
         title: Risk assessment - methodology
-      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment_examples
+      - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/EXTREME_PRECIPITATION_Risk_Assessment_examples
         title: Risk assessment - local examples
   - file: notebooks/workflows/heatwaves
     title: 🌡️ HEATWAVES
