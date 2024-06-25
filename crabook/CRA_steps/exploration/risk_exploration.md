@@ -1,7 +1,7 @@
 Risk Exploration
 =======================
 
-```{image} ../../images/Framework_RiskIdentification.png
+```{figure} ../../images/framework/il_framework_ToolboxSteps_FigB_Risk_Exploration_ring.png
 :width: 400px
 :align: center
 ```

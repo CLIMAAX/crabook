@@ -1,12 +1,12 @@
 Key Risk Assessment
 =======================
 
-```{image} ../../images/Framework_KeyRisk.png
+```{figure} ../../images/framework/il_framework_ToolboxSteps_FigB_Key_risk_ring.png
 :width: 400px
 :align: center
 ```
-::::{margin} 
-:::{dropdown} Guiding questions 
+::::{margin}
+:::{dropdown} Guiding questions
 :animate: fade-in
 - How are risks perceived by stakeholders/experts/relevant groups? What are shortcomings according to these groups?
 - Which stakeholders/experts/relevant groups that have not been identified in the scoping process, may be of relevance now in the light of the Risk Analysis results?
@@ -22,7 +22,7 @@ Key Risk Assessment
 
 The outputs of the climate risk analysis generates information on extent, duration, frequency and intensity of risks and thus already provides comprehensive insight on relevant risks to be considered. As a further analytical step, key risks may be identified. This analytical step can provide additional insights into the severity of risks and urgency for further attention to be paid to understanding and eventually managing risks. The two entry points to such analysis are:
 
-::::{margin} 
+::::{margin}
 :::{dropdown} Guiding questions - Risk Severity
 :animate: fade-in
 - What are relevant stakeholders, experts or representatives that need to be considered?
@@ -40,7 +40,7 @@ The outputs of the climate risk analysis generates information on extent, durati
 - Coincide with low ability for risk reduction or management
 - Are reinforced by non-climatic risk drivers such as unsustainable land use or water management, land degradation, urbanization, eutrophication and pollution, etc.
 
-::::{margin} 
+::::{margin}
 :::{dropdown} Guiding questions - Risk Urgency
 :animate: fade-in
 - How does Risk Severity affect the Risk Urgency?
@@ -55,7 +55,7 @@ The outputs of the climate risk analysis generates information on extent, durati
 - emergent development and business opportunities are contingent upon risk manifestation
 
 Urgency and severity partially overlap (for negative effects associated with risks), and we suggest to consider both aspects jointly in the key risk assessment, which can be done by stakeholders and/or experts. The following table provides further insight into processes and indicators to be used for understanding risk severity and urgency. We propose two modes of engagement: A stakeholder-driven assessment and an expert-driven, but stakeholder informed assessment.
- 
+
 :::{list-table} Processes and indicators for understanding risk severity and urgency
 :widths: auto
 :header-rows: 1
