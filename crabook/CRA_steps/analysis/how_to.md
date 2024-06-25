@@ -1,5 +1,3 @@
-<img alt="Workflows" src="../../images/Page_how_to_use_workflows_05.png" class="page-main-photo">
-
 # About workflows and how to get started
 
 ## About workflows

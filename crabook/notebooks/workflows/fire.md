@@ -1,4 +1,4 @@
-<img alt="Fire" src="../../images/Page_Forest_Fire_09.png" class="page-main-photo">
+<img alt="Fire" src="../../images/top/Pages_Forest_Fire_09_v2.png" class="page-main-photo">
 
 Fire
 ====

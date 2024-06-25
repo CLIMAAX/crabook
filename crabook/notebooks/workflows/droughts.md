@@ -1,4 +1,4 @@
-<img alt="Droughts" src="../../images/Page_Droughts_07.png" class="page-main-photo">
+<img alt="Droughts" src="../../images/top/Pages_Droughts_07_v2.png" class="page-main-photo">
 
 Droughts
 =======================

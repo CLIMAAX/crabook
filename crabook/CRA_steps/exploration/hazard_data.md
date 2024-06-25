@@ -1,5 +1,3 @@
-<img alt="Hazard" src="../../images/Page_hazard_datasets_04.png" class="page-main-photo">
-
 Hazard datasets
 =======================
 

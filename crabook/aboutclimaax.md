@@ -1,4 +1,4 @@
-<img alt="CLIMAAX" src="./images/Page_Climaax_project_01.png" class="page-main-photo">
+<img alt="CLIMAAX" src="./images/top/Pages_Climaax_project_01_v2.png" class="page-main-photo">
 
 The CLIMAAX project
 =======================

@@ -1,4 +1,4 @@
-<img alt="Examples" src="./images/Page_regional_examples_03.png" class="page-main-photo">
+<img alt="Examples" src="./images/top/Pages_regional_examples_03_v2.png" class="page-main-photo">
 
 Regional CRA examples
 =======================
