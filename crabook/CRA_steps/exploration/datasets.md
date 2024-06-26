@@ -6,6 +6,7 @@ Climate risk assessments (CRA) combine datasets on [hazards](hazard_data), [expo
 A more comprehensive overview of pan-European hazard, exposure and vulnerability datasets with technical specifications can be found under the follwing links:
 
 Hazards: xxxx
+
 Exposure and vulnerability: https://docs.google.com/spreadsheets/d/1bQmnTUam2HNH_3rENR7wQnmkIe5xEu8N/edit?usp=sharing&ouid=101039660018053162046&rtpof=true&sd=true
 
 We are currently assembling overview tables of the most prominent pan-European datasets for CRA which will be made available in these sections once completed.
