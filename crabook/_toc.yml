@@ -105,14 +105,14 @@ parts:
     - file: notebooks/workflows/HEATWAVES/heat_wave_intro
       title: Heatwaves
       sections:
-      - file: notebooks/workflows/HEATWAVES/heat_wave_risk_descrtiption
+      - file: notebooks/workflows/HEATWAVES/heat_wave_risk_description
         title: Heatwave workflow methodology
       - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_euroheat
-        title: Hazard assessment - EuroHEAT
+        title: Hazard assessment (EUROheat)
       - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_pesetaiv
-        title: Hazard assessment - Peseta IV
+        title: Hazard assessment (PESETA IV)
       - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_xclim
-        title: Hazard assessment - Xclim
+        title: Hazard assessment (xclim)
       - file: notebooks/workflows/HEATWAVES/heat_wave_risk_assessment
         title: Risk assessment
   - file: notebooks/workflows/droughts
