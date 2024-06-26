@@ -7,6 +7,13 @@ Different risk workflows are used within the CLIMAAX framework to evaluate and a
 - Exposure: Extent to which a particular area, population, or system is exposed to the identified climate hazards. This involves assessing the physical presence and characteristics of elements at risk in the area of interest. In the context of climate risk assessment, exposure can be understood as the extent to which a community, ecosystem, or infrastructure is likely to be affected by a hazard.
 - Vulnerability: Susceptibility or predisposition of a system to experience harm or adverse impacts. It includes the characteristics of a community, system, or environment that make it more or less able to cope with a hazard. Vulnerability is influenced by various factors, including social, economic, environmental, and institutional conditions.
 
+```{figure} ../../images/Illustration_Mentored_contributions_Page.jpg
+---
+scale: 60%
+---
+This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+```
+
 Different workflows have been proposed over the years for assessing climate risk. Within the CLIMAAX toolbox, we implemented this main ones:
 
 - Product between Hazard, Exposure, and Vulnerability

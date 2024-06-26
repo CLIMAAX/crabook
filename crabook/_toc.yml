@@ -4,21 +4,38 @@
 format: jb-book
 root: intro
 parts:
-- caption: About us 
+- caption: About us
   chapters:
   - file: aboutclimaax
     title: The CLIMAAX project
   - file: funding
     title: Funding opportunities
-
+#  - file: regional-examples
+#    title: Regional examples
+#    sections:
+#    - file: setubal
+#      title: Setubal example
+#    - file: zilina
+#      title: Žilina example
+#  - file: eu_data_viewer/pyleaflet_data_viewer
+#    title: European map viewer
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework
-    title: Framework description
+    title: What is the CLIMAAX Framework?
+  - file: CRA_steps/beforeyoustart/beforeyoustart
+    title: Before you start
+    sections:
+    - file: CRA_steps/beforeyoustart/principles
+      title: Principles
+    - file: CRA_steps/beforeyoustart/technical_choices
+      title: Technical choices
+    - file: CRA_steps/beforeyoustart/participatory_processes
+      title: Participatory processes
   - file: CRA_steps/scoping/scoping
     title: Scoping
   - file: CRA_steps/identification/risk_identification
-    title: Risk Identification 
+    title: Risk Identification
     sections:
     - file: CRA_steps/identification/datasets
       title:  CRA Datasets
@@ -31,42 +48,71 @@ parts:
         title: Vulnerability datasets
   - file: CRA_steps/analysis/risk_analysis
     title: Risk Analysis
+  - file: CRA_steps/analysis/workflows
+    title: Risk workflows
     sections:
-    - file: CRA_steps/analysis/workflows
-      title: Risk workflows
+    - file: CRA_steps/analysis/how_to
+      title: How to use risk workflows
+    - file: notebooks/workflows/floods
+      title: 🌊 FLOODS
       sections:
-      - file: CRA_steps/analysis/about_workflows
-        title: About CRA workflows
-      - file: CRA_steps/analysis/how_to
-        title: How to use risk workflows
-      - file: notebooks/workflows/floods
-        title: 🌊 FLOODS
+      - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_workflow_description_FLOOD_RIVER
+        title: River Flood damages
         sections:
-        - file: notebooks/workflows/FLOODS/FLOOD_RIVER
-          title: River Flood damages
-        - file: notebooks/workflows/FLOODS/FLOOD_COASTAL
-          title: Coastal Flood damages
-        - file: notebooks/workflows/vulnerability-curves-adjustment
-          title: Working with vulnerability curves
-      - file: notebooks/workflows/droughts
-        title: 🏜️ DROUGHTS
+        - file: notebooks/workflows/FLOODS/02_River_flooding/Hazard_assessment_FLOOD_RIVER
+          title: Hazard assessment
+        - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_assessment_FLOOD_RIVER
+          title: Risk assessment
+      - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL
+        title: Coastal Flood damages
         sections:
-        - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
-          title: Simple workflow
-        - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
-          title: Advanced workflow
-      - file: notebooks/workflows/HEATWAVES/HEATWAVES_notebook
-        title: 🌡️ HEATWAVES
-      - file: notebooks/workflows/FIRE/FIRE_notebook
-        title: 🔥 FIRE
-      - file: notebooks/workflows/SNOW/SNOW_notebook
-        title: ❄️ SNOW
-      - file: notebooks/workflows/STORMS/WIND_raster_LUISA
-        title: 💨 WIND
+        - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_floodmaps
+          title: Hazard assessment floodmaps
+        - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Hazard_assessment_FLOOD_COASTAL_waterlevel
+          title: Hazard assessment water level
+        - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_assessment_FLOOD_COASTAL
+          title: Risk assessment
+      - file: notebooks/workflows/vulnerability-curves-adjustment
+        title: Working with vulnerability curves
+    - file: notebooks/workflows/HEAVY_RAINFALL/Extreme_precipitation_Intro
+      title: 🌧️ HEAVY RAINFALL
+      sections:
+      - file: notebooks/workflows/HEAVY_RAINFALL/Extreme_precipitation_criticalthresholds
+        title: Critical thresholds
+      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Hazard_Assessment
+        title: Hazard assessment
+      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment
+        title: Risk assessment
+      - file: notebooks/workflows/HEAVY_RAINFALL/EXTREME_PRECIPITATION_Risk_Assessment_examples
+        title: Risk assessment local examples
+    - file: notebooks/workflows/HEATWAVES/Heat_Wave_risk_descrtiption
+      title: 🌡️ HEATWAVES
+      sections:
+      - file: notebooks/workflows/HEATWAVES/Heat_Wave_Hazard_assessment_basic
+        title: Hazard assessment - basic
+      - file: notebooks/workflows/HEATWAVES/Heat_Wave_Hazard_assessment_advanced
+        title: Hazard assessment - advanced
+      - file: notebooks/workflows/HEATWAVES/Heat_wave_Risk_assessment
+        title: Risk assessment
+    - file: notebooks/workflows/droughts
+      title: 🏜️ DROUGHTS
+      sections:
+      - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_2
+        title: Simple workflow
+      - file: notebooks/workflows/DROUGHTS/DROUGHTS_notebook_1
+        title: Advanced workflow
+    - file: notebooks/workflows/FIRE/FIRE_notebook
+      title: 🔥 FIRE
+    - file: notebooks/workflows/SNOW/SNOW_notebook
+      title: ❄️ SNOW
+    - file: notebooks/workflows/STORMS/WIND_raster_LUISA
+      title: 💨 WIND
   - file: CRA_steps/key_risks/key_risks_assessment
-    title: Key risks assessment
+    title: Key Risk Assessment
   - file: CRA_steps/monitoring/monitoring
     title: Monitoring and Evaluation
+  - file: CRA_steps/CRM
+    title: Connect CLIMAAX with Climate Risk Management
 
 - caption: 📚 Resources
   chapters:
@@ -76,10 +122,25 @@ parts:
     title: Datasets
   - file: resources/useful
     title: Coding resources
- 
+  - file: resources/glossary
+    title: Glossary
+#  - file: resources/FAQ
+#    title: FAQ
+
 - caption: 🙋🏻‍♀️ Join the community
   chapters:
   - file: community/engage
     title: Engage with other regions
   - file: community/contribute
-    title: Contribute to risk recipes 
+    title: Contribute to risk recipes
+
+- caption: Internal resources
+  chapters:
+  - file: internal/markdown
+    title: Markdown basics
+  - file: internal/images
+    title:  How to add an image
+  - file: internal/tables
+    title:  How to add a table
+  - file: internal/admonitions
+    title: How to add the info boxes

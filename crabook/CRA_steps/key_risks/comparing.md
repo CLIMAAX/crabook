@@ -1,4 +1,0 @@
-Comparing risks
-=======================
-
-Comparing risks
