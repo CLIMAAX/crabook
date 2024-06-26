@@ -11,7 +11,7 @@ html {
     display: none;
 }
 
-.theme-switch-button {
+.btn.theme-switch-button {
     display: none;
 }
 
@@ -19,4 +19,25 @@ html {
     width: 200px;
 }
 
+.bd-header-article .btn {
+    color: #0A1D6B;
+}
+.bd-header-article .dropdown-source-buttons .btn {
+    color: #0EAF94;
+}
+.bd-header-article .btn-fullscreen-button {
+    color: #F9BC12;
+}
+.bd-header-article .theme-switch-button {
+    color: #F47A00;
+}
 
+.page-main-photo {
+    display: block;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+}
+
+figcaption {
+    font-size: 0.9rem;
+}

@@ -1,12 +1,12 @@
 Monitoring and Evaluation
 =======================
 
-```{image} ../../images/Framework_M&E.png
+```{figure} ../../images/framework/il_framework_ToolboxSteps_FigB_Monitoring_ring.png
 :width: 400px
 :align: center
 ```
 
-::::{margin} 
+::::{margin}
 :::{dropdown} **Guiding questions**
 - Which indicators for your M&E fit your case best?
 - What is your envisaged reassessment period for the monitoring climate risks?
@@ -26,10 +26,10 @@ Monitoring and Evaluation
 
 Monitoring and evaluation is both a departure and ending point, as the goal of the CRA is to iteratively go through its process while aiming at continuous improvement. This step therefore also brings in another momentum of opportunities. The M&E step is essential for ensuring Climate Risks (Key and Less Urgent Risks) are effectively monitored and managed and that climate risk management efforts can have appropriate impact. It may include participatory processes and has a special focus on the *learning* component.
 
-The M&E step unites two separate but also connected sub-steps. While Monitoring has its focus on the process, Evaluation puts emphasis on the outcome – Monitoring therefore refers to the surveillance of climate hazards and their respective risks, whereas Evaluation aims at (re-)evaluating the Climate Risk Assessment itself. In Monitoring, regions should take into account *Less Urgent Risks* as well as *Key Risks* and observe them over time. Putting them into context in relation to specific objectives, principles or needs that were set earlier (e.g., during Scoping or Risk Identification) concludes the cycle. On the other hand, Evaluation comprises of an iterative reflection on the Climate Risk Assessment cycle, including a comparison of factual and projected climate risk situations. The frequency of Evaluation is defined by the region and may vary according to Risk Outcomes, objectives or policy interest. *Learning* is of key significance in this step as evaluation may continuously generate new knowledge and data and can thus influence processes with regard to, e.g., governance, policy and decision-making or relevant ministries and institutions. It is crucial to understand what works well and what does not and act upon it – as in the CRA process and as in dealing with risks.
+The M&E step unites two separate but also connected sub-steps. While Monitoring has its focus on the process, Evaluation puts emphasis on the outcome – Monitoring therefore refers to the surveillance of climate hazards and their respective risks, whereas Evaluation aims at (re-)evaluating the Climate Risk Assessment itself. In Monitoring, regions should take into account *Less Urgent Risks* as well as *Key Risks* and observe them over time. Putting them into context in relation to specific objectives, principles or needs that were set earlier (e.g., during Scoping or Risk Exploration) concludes the cycle. On the other hand, Evaluation comprises of an iterative reflection on the Climate Risk Assessment cycle, including a comparison of factual and projected climate risk situations. The frequency of Evaluation is defined by the region and may vary according to Risk Outcomes, objectives or policy interest. *Learning* is of key significance in this step as evaluation may continuously generate new knowledge and data and can thus influence processes with regard to, e.g., governance, policy and decision-making or relevant ministries and institutions. It is crucial to understand what works well and what does not and act upon it – as in the CRA process and as in dealing with risks.
 Both M&E steps can facilitate participatory processes and include relevant stakeholders for most extensive engagement and comprehensive understanding of the CRA, thus ensuring that the process is robust and put into context.
 
-::::{margin} 
+::::{margin}
 :::{dropdown} **Guiding questions - Efficacy, impact and usefulness**
 - How efficiently did you use your resources (e.g. time, staff, cost)?
 - How might your efficiency/non-efficiency have impacted the CRA process?
@@ -42,7 +42,7 @@ Selecting **indicators** for this process is crucial to summarize output of the 
 
 **Indicators for Climate Risk Monitoring**
 :::{card} Workflow unspecific indicators
-Frequency, intensity, spatial distribution, and duration of climate events; public awareness and engagement; institutional capacity 
+Frequency, intensity, spatial distribution, and duration of climate events; public awareness and engagement; institutional capacity
 :::
 
 | Workflow | Indicators/impact |

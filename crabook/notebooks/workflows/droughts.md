@@ -1,4 +1,6 @@
-Droughts 
+<img alt="Droughts" src="../../images/top/Pages_Droughts_07_v2.png" class="page-main-photo">
+
+Droughts
 =======================
 
 Drought can be defined as a prolonged period of abnormally low rainfall, leading to a shortage of water over a specific region for a given period of time. Droughts are characterized by an deficit between water supply and demand, and can have important consequences for society, ecosystems, and agriculture. Understanding the different types of droughts and their complex dynamics is essential for implementing sustainable mitigation and adaptation strategies. Drought is more than just a lack of rainfall as this can propagate to a persistent shortage of surface water, soil moisture, and up to groundwater. For this reason, droughts are often classified into four main types different by their severity, impacts, and time scales:

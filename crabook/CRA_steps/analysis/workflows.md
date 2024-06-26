@@ -14,10 +14,66 @@ scale: 60%
 This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
-Different workflows have been proposed over the years for assessing climate risk. Within the CLIMAAX toolbox, we implemented this main ones:
+Different workflows have been proposed over the years for assessing climate risk. Within the CLIMAAX toolbox, we implemented these main ones:
 
 - Product between Hazard, Exposure, and Vulnerability
 - Damage analysis based on damage curves, Hazard, and Exposure
-- Exposed assets or population to a certai climate-related hazard
+- Exposed assets or population to a certain climate-related hazard
 
 These workflows will allow for the climate risk assessment using both historical information and future climate change scenarios to better understand the range of possible outcomes and identify sustainable adaptation strategies.
+
+
+## Workflows in the CLIMAAX handbook
+
+::::{grid}
+:gutter: 3
+
+:::{grid-item-card} RIVER & COASTAL FLOODS
+:columns: 4
+:link: ../../notebooks/workflows/floods
+:link-type: doc
+:img-bottom: ../../images/top/Pages_Floods_06_v2.png
+:::
+
+:::{grid-item-card} HEAVY RAINFALL
+:columns: 4
+:link: ../../notebooks/workflows/heavy_rainfall
+:link-type: doc
+:::
+
+:::{grid-item-card} HEATWAVES
+:columns: 4
+:link: ../../notebooks/workflows/heatwaves
+:link-type: doc
+:img-bottom: ../../images/top/Pages_Heat_Waves_08_v2.png
+:::
+
+:::{grid-item-card} DROUGHTS
+:columns: 4
+:link: ../../notebooks/workflows/droughts
+:link-type: doc
+:img-bottom: ../../images/top/Pages_Droughts_07_v2.png
+:::
+
+:::{grid-item-card} FIRE
+:columns: 4
+:link: ../../notebooks/workflows/fire
+:link-type: doc
+:img-bottom: ../../images/top/Pages_Forest_Fire_09_v2.png
+:::
+
+:::{grid-item-card} SNOW
+:columns: 4
+:link: ../../notebooks/workflows/snow
+:link-type: doc
+:img-bottom: ../../images/top/Pages_Blizzards_11_v2.png
+:::
+
+:::{grid-item-card} WIND
+:columns: 4
+:link: ../../notebooks/workflows/storms
+:link-type: doc
+:img-bottom: ../../images/top/Pages_Wind_damage_10_v2.png
+:::
+
+::::

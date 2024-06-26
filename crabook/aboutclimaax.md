@@ -1,3 +1,5 @@
+<img alt="CLIMAAX" src="./images/top/Pages_Climaax_project_01_v2.png" class="page-main-photo">
+
 The CLIMAAX project
 =======================
 
@@ -11,7 +13,7 @@ CLIMAAX builds upon existing risk assessment frameworks, methods and tools, and 
 
 The project takes the existing tools and services beyond the state-of-the-art by prioritizing the further development of accessibility, guidance, tuning to local contexts, interpretation and uptake by representative Disaster Risk Management and Civil Protection authorities.
 
-CLIMAAX is designed to significantly contribute to the harmonization and consolidation of the practice of climate risk assessment (CRA) by providing:  
+CLIMAAX is designed to significantly contribute to the harmonization and consolidation of the practice of climate risk assessment (CRA) by providing:
 
 1. A standardized {abbr}`CRA (Climate Risk Assessment)` framework built on current community experience and best-practices.
 2. A toolbox for conducting risk analyses, which hosts data, models and utilities and provides access to European and global open data archives integrated with local data and procedures.

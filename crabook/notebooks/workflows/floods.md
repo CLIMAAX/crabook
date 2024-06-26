@@ -1,3 +1,5 @@
+<img alt="Floods" src="../../images/top/Pages_Floods_06_v2.png" class="page-main-photo">
+
 Floods
 =======================
 

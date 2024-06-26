@@ -1,6 +1,6 @@
 #######################################################################################
 # A default configuration that will be loaded for all jupyter books
-# See the documentation for help and more options: 
+# See the documentation for help and more options:
 # https://jupyterbook.org/customize/config.html
 
 #######################################################################################
@@ -30,21 +30,12 @@ repository:
   path_to_book: crabook  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   home_page_in_navbar: false
   favicon: https://www.climaax.eu/wp-content/uploads/2023/03/cropped-Climaax_logo_singolo-32x32.png
-  use_issues_button: true
-  use_repository_button: true
-  announcement: "⚠️This is the first operational version of the handbook, but it is still a work in progress and will be heavily updated during 2024!⚠️"
-  #extra_footer: |
-  #  <div>
-  #      MY FOOTER!
-  #  </div>
 
 # Do not include these files in the build
-exclude_patterns: ["content.md", "**.ipynb_checkpoints", "**README.md", "_build", "Thumbs.db", ".DS_Store"] 
+exclude_patterns: ["content.md", "**.ipynb_checkpoints", "**README.md", "_build", "Thumbs.db", ".DS_Store"]
 
 #######################################################################################
 # Launch button settings
@@ -79,6 +70,16 @@ sphinx:
     html_show_copyright: false
     html_js_files:
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
-    html_context: 
+    html_context:
       default_mode: light
-    
+    html_theme_options:
+      # https://sphinx-book-theme.readthedocs.io/en/stable/reference.html
+      # https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/layout.html#references
+      use_download_button: false
+      use_issues_button: true
+      use_repository_button: true
+      repository_provider: github
+      repository_url: https://github.com/CLIMAAX/crabook
+      announcement: "⚠️ This is the first operational version of the handbook, but it is still a work in progress and will be heavily updated during 2024! ⚠️"
+
+

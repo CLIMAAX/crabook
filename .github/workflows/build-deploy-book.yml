@@ -22,13 +22,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-      with: 
+    - uses: actions/checkout@v4
+      with:
         submodules: 'true'
 
     # Install dependencies
     - name: Set up Python 3.11
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
@@ -43,7 +43,7 @@ jobs:
 
     - name: Upload build
       if: github.ref == 'refs/heads/main'
-      uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-pages-artifact@v3
       with:
         path: crabook/_build/html
 
@@ -65,4 +65,4 @@ jobs:
     steps:
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

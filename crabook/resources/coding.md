@@ -1,7 +1,11 @@
 Useful materials and technical documentation
 =======================
 
-We might need a page with links to tutorials and documentation for technical things outside of scope of CLIMAAX.
+:::{note}
+This page is under construction.
+:::
+
+A page with links to tutorials and documentation for technical things outside of scope of CLIMAAX.
 
 ```{figure} ../images/Illustration_github-zenodo_Page.jpg
 ---

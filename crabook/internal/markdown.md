@@ -1,4 +1,4 @@
-# Markdown Basics
+# Markdown basics
 
 Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
 in regular markdown files (`.md`), you'll write in the same flavor of markdown
@@ -101,9 +101,9 @@ Links are done by putting the text under [] and target under ().
     [text](relative_path)
     ```
   - ```md
-    [CRA datasets](../CRA_steps/identification/datasets)
+    [CRA datasets](../CRA_steps/exploration/datasets)
     ```
-  - [CRA datasets](../CRA_steps/identification/datasets)
+  - [CRA datasets](../CRA_steps/exploration/datasets)
 * - ```md
     [text](target "title")
     ```
