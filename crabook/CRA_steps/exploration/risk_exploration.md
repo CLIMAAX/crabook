@@ -26,7 +26,7 @@ At this stage it's crucial to rely as much as possible on factual evidence regar
 
 
 ::::{margin}
-:::{dropdown} Guiding questions - Explore Risk
+:::{dropdown} Guiding questions - Screen Risk
 :animate: fade-in
 - Which climate-related hazards and potential risks are relevant for your context?
 - What is the current situation? Where is the hazard occurring? Who is being affected?
@@ -39,7 +39,8 @@ At this stage it's crucial to rely as much as possible on factual evidence regar
 ::::
 
 
-## Explore Risks
+## Screen Risks
+
 The primary objective of exploring risks is to scrutinize current climate hazards or risks, as well as past and ongoing potential climate-related impacts. To do so, we recommend harnessing participatory approaches alongside data-driven methods to gather insights from experts and stakeholders, beyond the initial risk con-siderations from the scoping step. It is important to complement data and observations on the rate of change, frequency, intensity and duration of these events with stakeholders' perceptions and local knowledge. Where possible, the exploration should dive deeper and cover the multiple dimensions of risk (e.g. taking into account monetary and non-monetary impacts, and cascading effects), relevant aspects, such as impacted sectors, spatial extent, pervasiveness, irreversibility of consequences, and implications across sectors, regions, boundaries or generations. This process also involves reflecting on existing CRM strategies to not only set a baseline, but also understand their effectiveness in past events and envisage their potential performance against ongoing impacts or near-future hazards and risks. All this together can help to get a bigger and better picture of the local climate-related risks.
 Hazards or risks can then be prioritized based on the outcomes of this first participatory process, taking into account objectives and scope defined in the scoping step and depending on the level of knowledge on hazards and risks in the region.
 
