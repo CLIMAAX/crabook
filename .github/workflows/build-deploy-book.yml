@@ -36,6 +36,14 @@ jobs:
       run: |
         pip install -r requirements.txt
 
+    # Testing
+    - name: Detect and configure production environment
+      if: github.repository == 'CLIMAAX/crabook'
+      run: |
+        echo "Repository: ${{github.repository}}"
+        echo "Substituting production ToC"
+        mv crabook/_toc_prod.yml crabook/_toc.yml
+
     # Build the book
     - name: Build the book
       run: |
