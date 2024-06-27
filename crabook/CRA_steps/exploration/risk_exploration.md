@@ -2,7 +2,7 @@ Risk Exploration
 =======================
 
 ```{figure} ../../images/framework/il_framework_ToolboxSteps_FigB_Risk_Exploration_ring.png
-:width: 400px
+:width: 550px
 :align: center
 ```
 

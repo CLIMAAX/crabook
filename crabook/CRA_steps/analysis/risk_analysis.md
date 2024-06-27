@@ -3,7 +3,7 @@ Risk Analysis
 
 ```{figure} ../../images/framework/il_framework_ToolboxSteps_FigB_Risk_Analysis_ring.png
 ---
-height: 400px
+width: 550px
 name: Framework_RiskAnalysis
 ```
 

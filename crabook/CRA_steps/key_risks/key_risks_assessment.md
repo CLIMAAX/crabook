@@ -2,7 +2,7 @@ Key Risk Assessment
 =======================
 
 ```{figure} ../../images/framework/il_framework_ToolboxSteps_FigB_Key_risk_ring.png
-:width: 400px
+:width: 550px
 :align: center
 ```
 ::::{margin}

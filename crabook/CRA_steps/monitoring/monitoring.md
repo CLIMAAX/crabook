@@ -2,7 +2,7 @@ Monitoring and Evaluation
 =======================
 
 ```{figure} ../../images/framework/il_framework_ToolboxSteps_FigB_Monitoring_ring.png
-:width: 400px
+:width: 550px
 :align: center
 ```
 
