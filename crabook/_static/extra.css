@@ -41,3 +41,9 @@ html {
 figcaption {
     font-size: 0.9rem;
 }
+
+img.hazard-icon {
+    height: 1.2em;
+    vertical-align: text-top;
+    margin-right: 1px;
+}
