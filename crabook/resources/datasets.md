@@ -3,7 +3,7 @@ Risk definition resources
 
 Links towards risk definition resources.
 
-```{figure} ../images/Illustration_data-manager_Page.jpg
+```{figure} ../images/illustration/data_manager.jpg
 ---
 scale: 60%
 ---

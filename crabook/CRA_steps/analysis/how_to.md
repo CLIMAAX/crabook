@@ -2,9 +2,15 @@
 
 ## About workflows
 
-Computational workflows in the form of __[Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/)__ allow users to combine interactive code with text and graphical objects. They are powerful tools for conducting computational analysis and data exploration, making them particularly valuable for climate risk assessment. These interactive documents combine live code, equations, visualisations, and narrative text in a single, shareable environment. 
+Computational workflows in the form of __[Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/)__ allow users to combine interactive code with text and graphical objects. They are powerful tools for conducting computational analysis and data exploration, making them particularly valuable for climate risk assessment. These interactive documents combine live code, equations, visualisations, and narrative text in a single, shareable environment. The workflow notebooks aim to complement the CLIMAAX Methodological Framework, enabling users to put the Framework into practice.
 
-The workflow notebooks aim to complement the CLIMAAX Methodological Framework, enabling users to put the Framework into practice.
+```{figure} ../../images/illustration/how_to_use_workflows.jpg
+---
+scale: 60%
+---
+This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+```
+
 
 One of the key benefits of Jupyter Notebooks is their ability to facilitate a reproducible and transparent workflows. The workflow is documented step by step, enhancing the transparency of data analysis methodologies.
 
@@ -48,7 +54,7 @@ They can use the workflows as an example or starting point in their own risk ass
 A dedicated __[Jupyter hub](https://jupyter.org/hub)__, hosted in ECMWF infrastructure, is available for the CLIMAAX pilot partners and participants of the open call.
 JupyterHub is an open-source, multi-user server for Jupyter notebooks. It is designed to provide a scalable and customizable platform for hosting Jupyter notebooks and instances in a multi-user environment. This will be a place where users can run, edit and create their customized risk workflows according to their needs without having to install anything on their own computer.
 This **computational environment is managed by the CLIMAAX team**.
-```{figure} ../../images/BinderHub.jpg
+```{figure} ../../images/illustration/BinderHub.jpg
 ---
 name: Binder-hub
 ---

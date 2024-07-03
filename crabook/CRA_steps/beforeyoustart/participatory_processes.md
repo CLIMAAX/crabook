@@ -3,7 +3,7 @@ Participatory processes
 
 Engaging via participatory processes is essential to the third core principle and at the heart of the CLIMAAX Framework. It allows to include multiple bottom-up aspects that are relevant to undertake a comprehensive climate risk assessment. An inclusive approach is essential to translate and implement the CRA in the context of real-world experiences which are needed for shared, community adaptation strategies.
 
-```{figure} ../../images/Illustration_community_exchange_Page.jpg
+```{figure} ../../images/illustration/community_exchange.jpg
 ---
 scale: 60%
 ---

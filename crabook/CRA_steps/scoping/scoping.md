@@ -59,7 +59,7 @@ When conducting the scoping step, a region should elaborate on the context of th
 ## Participatory processes and risk ownership
 The ideal implementation of an inclusive CRA is hybrid and thus combines top-down application and knowledge together with bottom-up perspectives and experiences. Therefore, it is important for a region to decide the extent of participatory processes that are desired, also in the light of available resources. Once this is clarified, it is necessary for a region to identify a first set of stakeholders by identifying representatives of, for example, impacted sectors, vulnerable groups or disproportionally affected areas, ministries, academia, civil protection agencies or other local and regional entities involved in CRM planning. A proper CRA profits from insights from a variety of fields sharing their expertise or addressing their needs and concerns. Besides the Who it is also relevant to decide When and How stakeholders, experts and representatives should be included. Planning this thoroughly is important as stakeholder participation may lead to an increase of (time) efforts. Further, in this step it is crucial to allocate ownership of risk to ensure communication and efficient CRM.
 
-```{figure} ../../images/Illustration_reusability_loop_Page.jpg
+```{figure} ../../images/illustration/reusability_loop.jpg
 ---
 scale: 60%
 ---

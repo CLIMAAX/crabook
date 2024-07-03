@@ -7,7 +7,7 @@ This page is under construction.
 
 A page with links to tutorials and documentation for technical things outside of scope of CLIMAAX.
 
-```{figure} ../images/Illustration_github-zenodo_Page.jpg
+```{figure} ../images/illustration/github_zenodo.jpg
 ---
 scale: 60%
 ---

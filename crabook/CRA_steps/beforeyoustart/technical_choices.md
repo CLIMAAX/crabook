@@ -5,7 +5,7 @@ The second pillar of the CLIMAAX Framework consists of sound technical choices. 
 
 Technical choices should reflect the information needs of context-specific applications. Exploring these would benefit from collaboration with local climate change experts. It is recommended to build on the latest IPCC assessment where factsheets are available summarising the IPCC assessment of European [regional climate information](https://www.ipcc.ch/report/ar6/wg1/downloads/factsheets/IPCC_AR6_WGI_Regional_Fact_Sheet_Europe.pdf) and [climate impacts and risk](https://www.ipcc.ch/report/ar6/wg2/downloads/outreach/IPCC_AR6_WGII_FactSheet_Europe.pdf).
 
-```{figure} ../../images/Illustration_research_tools_Page.jpg
+```{figure} ../../images/illustration/research_tools.jpg
 ---
 scale: 60%
 ---

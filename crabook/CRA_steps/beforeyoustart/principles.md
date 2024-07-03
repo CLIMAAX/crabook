@@ -3,7 +3,7 @@ Principles
 
 Adhering to key principles throughout a CRA process is helpful to ensure a common background and to pro-vide context for the operational framework steps. Special emphasis of principles is given at the beginning and ending of a CRA cycle. This section describes key principles that are central to a comprehensive approach to climate risk assessment that is **fair, robust and prudent**.
 
-```{figure} ../../images/Illustration_principles_Page.jpg
+```{figure} ../../images/illustration/principles.jpg
 ---
 scale: 60%
 ---
