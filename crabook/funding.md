@@ -1,4 +1,4 @@
-<img alt="Funding" src="./images/top/Pages_Funding_opportunities_02.png" class="page-main-photo">
+<img alt="Funding" src="./images/top/funding_opportunities.png" class="page-main-photo">
 
 # Funding opportunities
 
