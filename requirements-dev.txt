@@ -1,0 +1,5 @@
+-r requirements.txt
+
+branca==0.7.2
+folium==0.17.0
+xyzservices==2024.6.0

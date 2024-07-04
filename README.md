@@ -17,33 +17,33 @@ If you'd like to develop and/or build this Climate Risk Assesment book, you shou
    ```bash
     git clone git@github.com:CLIMAAX/crabook.git
     ```
-2. Create Python or Conda virtual environment (example for Conda)
-   ```bash
-    conda create -n crabook
-    ```
-3. Activate the environment
-    ```bash
-    conda activate crabook
-    ```
-4. Install pip
-   ```bash
-    conda install pip
-    ```
-5. Go to the the `crabook/` directory
+2. Go to the the `crabook/` directory that was created by git in the previous step
    ```bash
    cd crabook
    ```
-6. Install the libraries
+3. Create a Python or Conda virtual environment (example for Conda)
+   ```bash
+    conda create -n crabook python=3.11 pip
+    ```
+4. Activate the environment
+    ```bash
+    conda activate crabook
+    ```
+5. Install the libraries, choose:
    ```bash
    pip install -r requirements.txt
    ```
-7. Find the markdown files and edit what you need
-
-8. Remove any existing builds by running
+   installs only the packages required to build the book, while
+   ```bash
+   pip install -r requirements-dev.txt
+   ```
+   additionally installs packages for the development of some components of the book, but which are not required during building.
+6. Find the markdown files and edit what you need.
+7. Remove any existing builds by running
     ```bash
    jupyter-book clean crabook/
     ```
-9. Finally build the book
+8. Finally build the book
     ```bash
     jupyter-book build crabook/
     ```
@@ -52,7 +52,7 @@ A fully-rendered HTML version of the book will be built in `crabook/_build/html/
 
 Open the file `crabook/_build/html/intro.html` and navigate to the material you changed to check if everything is as expected.
 
-Once you're happy with the changes, create a new branch, commit your changes and push to the repo.
+Once you're happy with the changes, create a new branch, commit your changes and send us a pull request if you'd like to contribute.
 
 
 #### Every next time
