@@ -17,7 +17,7 @@ parts:
       title: Setubal example
     - file: zilina
       title: Žilina example
-  - file: eu_data_viewer/pyleaflet_data_viewer
+  - file: eu_data_viewer/viewer
     title: European map viewer
 - caption: 🌍 CRA Steps
   chapters:
