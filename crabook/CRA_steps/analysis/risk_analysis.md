@@ -15,10 +15,11 @@ Third, the user will be able to **Calculate the Hazard** based on the informatio
 *Risk = Hazard × Exposure × Vulnerability*
 
 The workflows follow three main approaches:
+
 - **Exposed assets and/or population** – Risk as overlap between hazard information and exposure.
 - **Economic damage analysis** – Hazard combined with exposure and vulnerability data using damage functions.
 - **Indicators product** - Risk as the product between hazard, exposure, and vulnerability.
--
+
 Finally, following these steps Climate Risk is calculated and different visualization options are proposed. For example, risk can be visualized as risk map using different colors for different categories of risk (e.g. red as high risk, while green as low risk). Moreover, the user can visualize a map of the exposed population for a certain moment, or it can visualize a diagram of changes of exposed population for a certain area and specific risk categories (e.g. time series of population exposed to high drought risk).
 
 ```{admonition} Event-based climate storylines as complementary approach
