@@ -11,15 +11,6 @@ parts:
     title: The CLIMAAX project
   - file: funding
     title: Funding opportunities
-#  - file: regional-examples
-#    title: Regional examples
-#    sections:
-#    - file: setubal
-#      title: Setubal example
-#    - file: zilina
-#      title: Žilina example
-#  - file: eu_data_viewer/pyleaflet_data_viewer
-#    title: European map viewer
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework
@@ -144,14 +135,6 @@ parts:
         title: Risk assessment
   - file: notebooks/workflows/fire
     title: 🔥 FIRE
-#    sections:
-#      - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML
-#        title: Wildfire (ML approach)
-#        sections:
-#        - file: notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML
-#          title: Hazard assessment
-#        - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_assessment_FIRE_ML
-#          title: Risk assessment
   - file: notebooks/workflows/snow
     title: ❄️ SNOW
     sections:
@@ -175,25 +158,10 @@ parts:
 
 - caption: 📚 Resources
   chapters:
-#  - file: resources/definitions
-#    title: Risk definition resources
-#  - file: resources/datasets
-#    title: Datasets
   - file: resources/coding
     title: Coding resources
-#  - file: resources/FAQ
-#    title: FAQ
-#  - file: resources/external
-#    title: External resources
   - file: resources/glossary
     title: Glossary
-
-#- caption: 🙋🏻‍♀️ Join the community
-#  chapters:
-#  - file: community/engage
-#    title: Engage with other regions
-#  - file: community/contribute
-#    title: Contribute to risk recipes
 
 - caption: Internal resources
   chapters:
