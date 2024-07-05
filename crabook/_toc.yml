@@ -193,6 +193,8 @@ parts:
 #    title: External resources
   - file: resources/glossary
     title: Glossary
+  - file: resources/guiding_questions
+    title: Guiding questions and answers
 
 #- caption: 🙋🏻‍♀️ Join the community
 #  chapters:
