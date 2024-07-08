@@ -138,12 +138,12 @@ parts:
   - file: notebooks/workflows/snow
     title: ❄️ SNOW
     sections:
-    - file: notebooks/workflows/SNOW/Risk_workflow_description
+    - file: notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Risk_workflow_description_SNOW_BLIZZARDS
       title: Heavy snowfall & blizzard
       sections:
-      - file: notebooks/workflows/SNOW/Hazard_assessment_Snow_Blizzards
+      - file: notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Hazard_assessment_SNOW_BLIZZARDS
         title: Hazard assessment
-      - file: notebooks/workflows/SNOW/Risk_assessment_Snow_Blizzards
+      - file: notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Risk_assessment_SNOW_BLIZZARDS
         title: Risk assessment
   - file: notebooks/workflows/storms
     title: 💨 WIND
