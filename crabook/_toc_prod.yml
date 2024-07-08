@@ -162,14 +162,3 @@ parts:
     title: Coding resources
   - file: resources/glossary
     title: Glossary
-
-- caption: Internal resources
-  chapters:
-  - file: internal/markdown
-    title: Markdown basics
-  - file: internal/images
-    title:  How to add an image
-  - file: internal/tables
-    title:  How to add a table
-  - file: internal/admonitions
-    title: How to add the info boxes
