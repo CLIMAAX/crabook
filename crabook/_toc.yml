@@ -196,12 +196,12 @@ parts:
   - file: resources/guiding_questions
     title: Guiding questions and answers
 
-#- caption: 🙋🏻‍♀️ Join the community
-#  chapters:
+- caption: 🙋🏻‍♀️ Join the community
+  chapters:
 #  - file: community/engage
 #    title: Engage with other regions
-#  - file: community/contribute
-#    title: Contribute to risk recipes
+  - file: community/contribute
+    title: Contribute to risk recipes
 
 - caption: Internal resources
   chapters:

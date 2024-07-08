@@ -4,23 +4,23 @@ We are happy to receive contributions that enhance and expand the capabilities o
 
 If you do not have a GitHub account, you can sign up [here](https://github.com/signup).
 
-On GitHub, you can create an **issue** or a **pull request**, depending on the type of your contribution:
+On GitHub, you can create an [**issue**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) or a [**pull request**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), depending on the type of your contribution:
 
 :::{card} {octicon}`issue-opened` Issue
 
-For questions about workflows and data, feature proposals and discussion of ideas and problems.
+Create an issue for questions about workflows and data used in the workflows, feature proposals and for discussion of ideas and problems related to workflows.
 :::
 
 :::{card} {octicon}`git-pull-request` Pull request
 
-For new workflows, additions to existing workflows and bug fixes.
+Create a pull request to contribute a new workflow, additions to an existing workflow or to send us a bug fix for a problem in a workflow.
 
 Pull requests represent a proposal to merge code into the repository. You will need some basic knowledge of git to create a pull request. See our [coding resources](../resources/coding) page for more information.
 
 To create a pull request, please [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the workflow repository first, commit your changes, push to your fork and then create a pull request in the original repository of the CLIMAAX organization.
 :::
 
-Direct links to the workflow repositories of each hazard are given in the following table:
+The table below contains direct links to our workflow repositories for each hazard:
 
 Hazard | {octicon}`repo` | {octicon}`issue-opened` | {octicon}`git-pull-request`
 :--|:-:|:-:|:-:
@@ -36,4 +36,4 @@ Hazard | {octicon}`repo` | {octicon}`issue-opened` | {octicon}`git-pull-request`
 Our workflows are open-source and any contributions are published under the existing license of the workflow repository (see the `LICENSE` file in the repository).
 :::
 
-To propose a risk assessment workflow for a hazard or combination of hazards not included in our selection, please open an issue on our [handbook repository](https://github.com/CLIMAAX/crabook).
+To propose a risk assessment workflow for a hazard or combination of hazards not included in our selection, please open an issue on our [handbook repository](https://github.com/CLIMAAX/crabook). We provide a [template repository](https://github.com/CLIMAAX/workflow_template) for new workflows.
