@@ -52,7 +52,6 @@ document.addEventListener("DOMContentLoaded", function() {
                         img.className = "hazard-icon";
                         // Replace emoji with icon
                         entry.replaceChildren(img, text.substr(needle.length));
-                        console.log(needle, iconName, child);
                         break;
                     }
                 }
