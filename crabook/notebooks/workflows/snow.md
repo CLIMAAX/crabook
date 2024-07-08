@@ -3,6 +3,4 @@
 Snow
 ====
 
-:::{note}
-This page is under construction.
-:::
+Workflows to assess snow risk.

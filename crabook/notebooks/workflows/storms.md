@@ -3,6 +3,4 @@
 Wind
 ====
 
-:::{note}
-This page is under construction.
-:::
+Workflows to assess wind risk.

@@ -3,6 +3,4 @@
 Heavy Rainfall
 ==============
 
-:::{note}
-This page is under construction.
-:::
+Workflows to assess heavy rainfall risk.
