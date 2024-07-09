@@ -1,3 +1,13 @@
+:::{margin}
+:class: workflow-info
+
+{octicon}`mark-github`<br>
+Download the workflows from our [DROUGHTS repository](https://github.com/CLIMAAX/DROUGHTS) on GitHub.
+
+{octicon}`question`<br>
+See our [how to](../../CRA_steps/analysis/how_to) and [contributing](../../community/contribute.md) pages for further information and help.
+:::
+
 <img alt="Droughts" src="../../images/top/droughts.png" class="page-main-photo">
 
 Droughts

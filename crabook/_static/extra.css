@@ -10,7 +10,6 @@ html {
 .dropdown-download-buttons {
     display: none;
 }
-
 .btn.theme-switch-button {
     display: none;
 }
@@ -28,7 +27,7 @@ html {
 .bd-header-article .btn-fullscreen-button {
     color: #F9BC12;
 }
-.bd-header-article .theme-switch-button {
+.bd-header-article .btn.search-button {
     color: #F47A00;
 }
 
@@ -46,4 +45,16 @@ img.hazard-icon {
     height: 1.2em;
     vertical-align: text-top;
     margin-right: 1px;
+}
+
+aside.margin.workflow-info {
+    padding-left: 1rem;
+}
+@media (max-width: 991px) {
+    aside.margin.workflow-info {
+        display: none;
+    }
+}
+aside.margin.workflow-info p {
+    color: var(--pst-color-text-muted);
 }

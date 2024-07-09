@@ -1,3 +1,13 @@
+:::{margin}
+:class: workflow-info
+
+{octicon}`mark-github`<br>
+Download the workflows from our [FLOODS repository](https://github.com/CLIMAAX/FLOODS) on GitHub.
+
+{octicon}`question`<br>
+See our [how to](../../CRA_steps/analysis/how_to) and [contributing](../../community/contribute.md) pages for further information and help.
+:::
+
 <img alt="Floods" src="../../images/top/floods.png" class="page-main-photo">
 
 Floods
