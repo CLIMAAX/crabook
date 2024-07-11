@@ -194,6 +194,7 @@ In the second CRA step relevant stakeholders are invited for first meetings, whe
 :::
 
 ::::
+:::::
 
 :::::{dropdown} 2.2 How does the existing stakeholder knowledge come into play?
 
@@ -204,6 +205,7 @@ Stakeholder provide a broad body of knowledge such as specific local data, infor
 :::
 
 ::::
+:::::
 
 ### Screen Risks
 
@@ -217,12 +219,12 @@ Coastal flooding (and costal erosion), river flooding, floods based on intensive
 
 **What is the current situation? Where is the hazard occurring? Who is being affected?**
 The current situation comprises of coastal and river floods, intensive precipitation, storm and hail events, wildfire heatwaves and drought: 
-• Coastal flooding endangers people in municipalities near the Baltic Sea that are affected by gusts of wind and coastal erosion/accumulation processes. 
-• Most people and infrastructure near rivers is at risk of river flooding. In the last few years, especially near the Daugava River, where spring floods are happening also in the winter months, bringing a lot of damage.
-• During the last few summers intensive precipitation events (12-hour or 24-hour precipitation, etc.) have caused flooding, leading to losses in agriculture, problems in transportation or logistics in the cities (especially Riga). In summer 2023 hailstorms also caused significant damage in Latvia, particularly in the Tērvete and Dobele regions.
-• 2018 was one of the driest years in history. A combination of dry and hot conditions in the summer triggered wildfires and other situations in the forests.
-• During last few years, almost each summer has surpassed the previous one in terms of temperature extremes. It affects almost all of the sectors and communities.
-• Lately, we observed dry periods followed by periods with a lot of precipitation. This is not only causing problems to agriculture, but also decreases air quality.
+• *Coastal flooding* endangers people in municipalities near the Baltic Sea that are affected by gusts of wind and coastal erosion/accumulation processes. 
+• Most people and infrastructure near rivers is at risk of *river flooding*. In the last few years, especially near the Daugava River, where spring floods are happening also in the winter months, bringing a lot of damage.
+• During the last few summers *intensive precipitation events* (12-hour or 24-hour precipitation, etc.) have caused flooding, leading to losses in agriculture, problems in transportation or logistics in the cities (especially Riga). In summer 2023 hailstorms also caused significant damage in Latvia, particularly in the Tērvete and Dobele regions.
+• 2018 was one of the driest years in history. A combination of dry and hot conditions in the summer triggered *wildfires* and other situations in the forests.
+• During last few years, almost each summer has surpassed the previous one in terms of *temperature extremes*. It affects almost all of the sectors and communities.
+• Lately, we observed *dry periods* followed by periods with a lot of precipitation. This is not only causing problems to agriculture, but also decreases air quality.
 
 **Which hazards are observed/expected for the community/region?**
 All of the hazards mentioned above (there are some problems with hail observation).
@@ -239,6 +241,7 @@ For now we will start with flood risk analysis, followed by other risk workflows
 :::
 
 ::::
+:::::
 
 :::::{dropdown} 2.4 Which data or knowledge do you have on these hazards/impacts/risks? Which data, information or knowledge is further needed?
 
@@ -250,6 +253,7 @@ We have the spatial extent of historical ocurrences for flash flooding and wildf
 :::
 
 ::::
+:::::
 
 ### Choose Workflow
 
@@ -263,6 +267,7 @@ Heat waves, heavy rain workflows. Because they correspond to our needs the most.
 :::
 
 ::::
+:::::
 
 
 ### Choose Scenario
@@ -281,3 +286,4 @@ Based on the fact that we have localized SSP data from global models, we'd like 
 :::
 
 ::::
+:::::
