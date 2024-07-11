@@ -283,7 +283,7 @@ This question does not have an answer yet.
 
 ::::{tab-set}
 
-:::{tab-item} 
+:::{tab-item} Latvia
 In Latvia, the climate risk assessment  encompasses various sectors, entities, functions, and processes. The system can be outlined as follows:
 
 **Sectors of interest**: The CRA relevant system includes key sectors - such as agriculture, forestry, water resources, energy, transportation, infrastructure, health, biodiversity, coastal management, and urban planning, which are directly or indirectly affected by climate hazards.
