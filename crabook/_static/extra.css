@@ -58,3 +58,9 @@ aside.margin.workflow-info {
 aside.margin.workflow-info p {
     color: var(--pst-color-text-muted);
 }
+
+/* Hide line/shadow below tab content in answers to guiding questions */
+details.sd-dropdown div.sd-tab-set:last-child div.sd-tab-content {
+    box-shadow: 0 -0.0625rem var(--sd-color-tabs-overline);
+    padding-bottom: 0;
+}
