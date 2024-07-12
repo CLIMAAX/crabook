@@ -371,7 +371,9 @@ Latvia expects more frequent and prolonged heatwaves with high temperatures not 
 Tolerance of risk might be hazard-dependent:
 
 **Heat**: Tolerance of heat-related risks in Latvia may be relatively low, especially considering the region's temperate climate and limited historical exposure to extreme heat events. However, as temperatures increase due to climate change, there may be a growing recognition of the need to address heat-related risks, particularly in urban areas.
+
 **Drought**: Tolerance of drought risks in Latvia may also be relatively low, given the country's historical climatic conditions combined with its dependence on agriculture, forestry, and water resources. While Latvia has historically experienced moderate drought conditions multiple times, prolonged or severe drought events could pose significant challenges for water availability, crop production, and ecosystem health.
+
 **Flooding**: Tolerance of flooding risks in Latvia may vary depending on regional exposure and past experiences with flooding events. Coastal areas and riverine plains are particularly vulnerable to flooding, which can result from heavy rainfall, snowmelt, ice jams, and storm surges. However, Latvia has been experiencing floods - river, flash and wind surge floods - for a long time, which increases the tolerance level. Nevertheless, this risk should not be underestimated, as even a 1 in 10 years flood event at a local site can cause major social and economic unrest. 
 :::
 ::::
