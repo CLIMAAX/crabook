@@ -162,3 +162,8 @@ parts:
     title: Coding resources
   - file: resources/glossary
     title: Glossary
+
+- caption: 🙋🏻‍♀️ Join the community
+  chapters:
+  - file: community/contribute
+    title: Contribute to risk recipes
