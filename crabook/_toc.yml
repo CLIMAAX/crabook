@@ -17,8 +17,13 @@ parts:
       title: Setubal example
     - file: zilina
       title: Žilina example
-  - file: eu_data_viewer/viewer
+  - file: eu-data-viewer
     title: European map viewer
+    sections:
+      - file: eu_data_viewer/heatwave
+        title: Heatwave datasets
+      - file: eu_data_viewer/flood
+        title: Flood hazard datasets
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework
