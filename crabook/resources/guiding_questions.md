@@ -264,20 +264,14 @@ a) Research-based monitoring of meteorological and sector-specific data was used
 :::{tab-item} Catalunya
 In Catalunya, the assessments are part of the regional plans of risk management, which must be updated and reviewed by legal mandate every 4 years. For the risk assessment itself, no time restriction is known. Currently, the human resources engaged in drafting the main document would be technicians from the DGPC (regional administration), together with representatives of relevant departments and operative teams (firefighters, police, etc.), as well as relevant authorities from the local level and private organisations that could be of concern.
 :::
-
 ::::
 :::::
 
-:::::{dropdown} 1.7 Which regional targets may be impacted by climate hazards/risk? (e.g., Net Zero targets, UN Sustainable Development Goals, other regional/local goals targeting (sector-specific) transformation)
 
-::::{tab-set}
+:::{dropdown} 1.7 Which regional targets may be impacted by climate hazards/risk? (e.g., Net Zero targets, UN Sustainable Development Goals, other regional/local goals targeting (sector-specific) transformation)
 
-:::{tab-item} 
 This question does not have an answer yet.
 :::
-
-::::
-:::::
 
 :::::{dropdown} 1.8 How is your CRA relevant system defined (e.g., systems of interest, affected entities, functions and processes at risk, connections, dependencies, spatial and temporal scales)?
 
@@ -308,20 +302,15 @@ Agriculture, forestry, transportation, infrastructure and building, energy, coas
 :::{tab-item} Žilina
 Industry (mainly car production) and services sectors are relevant. Further, it is important to gather information on possible impacts on schools, health care, social services and transport infrastructure.
 :::
-
 ::::
 :::::
 
-:::::{dropdown} 1.10 What is your envisaged time horizon for the CRA in terms of risk outcome(s)? E.g. 20 years, 2050, 2100?
 
-::::{tab-set}
+:::{dropdown} 1.10 What is your envisaged time horizon for the CRA in terms of risk outcome(s)? E.g. 20 years, 2050, 2100?)
 
-:::{tab-item} 
 This question heavily depends on individual situations and interest. Thus, no answer is provided.
 :::
 
-::::
-:::::
 
 :::::{dropdown} 1.11 Where do you place value for your region? What outcome should be avoided with respect to the assigned values? 
 
@@ -353,20 +342,15 @@ Due to a quickly aging population, it is very important to consider climate-rela
 Finally, due to a long, low-lying coastline with multiple major cities located next to the sea, climate risks related to wind surges, sea level rise and coastal erosion have to be considered. Sea level rise and subsequent increase in flooding frequency directly affects the main regions of production and economic centers in Latvia (i.e. large cities), which can cause severe economic damage.
 
 :::
-
 ::::
 :::::
 
-:::::{dropdown} 1.13 Where do you suspect thresholds or tipping points (environmental/economic/social)?
 
-::::{tab-set}
+:::{dropdown} 1.13 Where do you suspect thresholds or tipping points (environmental/economic/social)
 
-:::{tab-item} 
 This question does not have an answer yet.
 :::
 
-::::
-:::::
 
 :::::{dropdown} 1.14 How do you expect hazards to change in the future?
 
@@ -375,9 +359,9 @@ This question does not have an answer yet.
 :::{tab-item} Latvia
 Latvia expects more frequent and prolonged heatwaves with high temperatures not just in summer, but also during other seasons (e.g., winters with temperature above 0 °C). Further, changes in the hydrological regime such as altered precipitation patterns (sudden, heavy precipitation and also long drought periods), severe hailstorms, sea level rise, or an increase in coastal erosion are considered likely.
 :::
-
 ::::
 :::::
+
 
 :::::{dropdown} 1.15 What is your expected tolerance of risk (e.g. heat, drought, flooding) and how may it be helpful or restricting in your CRA process?
 
@@ -390,13 +374,71 @@ Tolerance of risk might be hazard-dependent:
 **Drought**: Tolerance of drought risks in Latvia may also be relatively low, given the country's historical climatic conditions combined with its dependence on agriculture, forestry, and water resources. While Latvia has historically experienced moderate drought conditions multiple times, prolonged or severe drought events could pose significant challenges for water availability, crop production, and ecosystem health.
 **Flooding**: Tolerance of flooding risks in Latvia may vary depending on regional exposure and past experiences with flooding events. Coastal areas and riverine plains are particularly vulnerable to flooding, which can result from heavy rainfall, snowmelt, ice jams, and storm surges. However, Latvia has been experiencing floods - river, flash and wind surge floods - for a long time, which increases the tolerance level. Nevertheless, this risk should not be underestimated, as even a 1 in 10 years flood event at a local site can cause major social and economic unrest. 
 :::
-
 ::::
 :::::
 
 ### Participation and Ownership
-TBC
+:::::{dropdown} 1.16 Who could be important stakeholders/groups to be included for participatory processes? It is helpful to clearly define the set of stakeholders that should be consulted throughout the CRA. However, this set of stakeholders can change throughout the process – especially with the outcome of the climate risk workflows. 
 
+::::{tab-set}
+
+:::{tab-item} Latvia
+State Fire and Rescue Service, the Ministry of Climate and Energy, the Ministry of Environmental Protection and Regional Development, the Ministry of Economy, the Ministry of Agriculture, the Ministry of Education and Science, the Ministry of Transport, the Ministry of Health, municipalities, planning regions, state emergency and Medical Service, Road Safety Directorate, Central Statistical Bureau of Latvia, the National Health Service, Latvian State Forests, insurance companies and banks, etc. 
+:::
+
+:::{tab-item} Catalunya
+Civil Protection technicians, operative teams (firefighters, medical emergency services, police, rural agents), agencies/institutions directly dealing the hazard or its consequences (such as the Water Agency, the Forest Department, Waste Agency, Health Department, etc.), agencies/institutions dealing with particular assets/services (private/public; e.g., transportation department, rail transport, etc.), representatives of local level/municipalities, vulnerable and affected groups. 
+:::
+::::
+:::::
+
+:::{dropdown} 1.17 Who are relevant representatives of known vulnerable groups or exposed areas and sectors?
+This question does not have an answer yet.
+:::
+
+:::::{dropdown} 1.18 How does your legal framework allow the inclusion of key groups?
+
+::::{tab-set}
+
+:::{tab-item} Žilina
+We have no laws that would prescribe or prohibit it. Existing laws allow relevant stakeholders to be included.
+:::
+
+:::{tab-item} Catalunya
+The Regional Civil Protection (CP) law indicates the right of population to collaborate in CP action (the law even creates the figure of CP volunteers). It also highlights that the CP is of concern of all Departments of the Government, engaging the different Departments in it and explicitily calling for exchange of information. 
+:::
+::::
+:::::
+
+
+:::::{dropdown} 1.19 How is the risk assessment ownership regulated?
+
+::::{tab-set}
+
+:::{tab-item} Latvia
+The Risk Assessment ownership in Latvia is not explicitly regulated by specific legislation. However, the legal and institutional framework provides mechanisms for defining responsibilities, promoting collaboration, and ensuring accountability among stakeholders involved in risk assessment activities. Main ownership is therefore attributed to governmental and state bodies, including ministries and agencies.
+:::
+
+:::{tab-item} Catalunya
+The civil protection law of the region establishes that all public administration services in the region have to work to reduce disaster risk (Art. 13). Being more specific, for example, the same law calls urban and territorial planning, as well as any other sectorial policies, to take into account the civil protection needs and work to prevent risk and mitigate the eventual impact of catastrophes and disasters. 
+:::
+::::
+:::::
+
+:::::{dropdown} 1.20 How and who do you want to communicate your results to?
+
+::::{tab-set}
+
+:::{tab-item} Latvia
+Policymakers (ministries, municipalities, planning regions), state fire and rescue service, state emergency and medical service, road safety directorate, central statistical bureau of Latvia, the national health service, Latvian state forests, banks, insurance companies, general public, etc. 
+:::
+
+:::{tab-item} Catalunya
+Citizens have the right to be informed about severe collective risks that can affect them and the measures put in place to cope with them. The population that can be affected by serious risks must receive precise, ample information and instructions on the measures to take and the behavior to follow during an emergency. The media must collaborate and share the information requested by civil protection authorities. 
+Civil protection maps are legally requested, and the disaster risk plans drafted must contain information on how the content will be shared to population. 
+:::
+::::
+:::::
 
 ## Explore Risk 
 
@@ -411,7 +453,6 @@ In general terms the following aspects of the scoping phase are important for wo
 :::{tab-item} Finland
 In the second CRA step relevant stakeholders are invited for first meetings, where they refine objectives, context and/or ownership. Here, it will be crucial to collect and bring together insights regarding workflow and scenario selection.
 :::
-
 ::::
 :::::
 
