@@ -17,9 +17,17 @@ scale: 60%
 This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
+
+## Available Datasets
+
+- [Drought risk data](datasets/droughtrisk_sample_nuts3) (NUTS3)
+- [Precipitation hazard data](datasets/precipitation_idf_gcm_eur) (Europe)
+- [Wildfire training and vulnerability data](datasets/wildfire_sample_cat) (Catalonia)
+
+
 ## How to access
 
-We provide file registries for use with the [pooch](https://www.fatiando.org/pooch/latest/) Python package.
+We provide [file registries](https://www.fatiando.org/pooch/latest/registry-files.html) for use with the [pooch](https://www.fatiando.org/pooch/latest/) Python package.
 
 Set up a download manager for a CLIMAAX dataset
 
@@ -34,10 +42,9 @@ climaax_data = pooch.create(
 
 where `<DATASET-ID>` is a placeholder for the identifier of the accessed dataset.
 
-Load the pooch [file registry](https://www.fatiando.org/pooch/latest/registry-files.html) provided for every dataset (optional, but recommended):
+Load the pooch file registry provided for every dataset (optional, but recommended; download the `registry.txt` file from the dataset page first):
 
 ```python
-# Download registry.txt from dataset page first
 climaax_data.load_registry("registry.txt")
 ```
 
@@ -53,11 +60,3 @@ or all files if a file registry was attached:
 for path in climaax_data.registry:
     climaax_data.fetch(path)
 ```
-
-
-
-## Available Datasets
-
-- [Drought risk data](datasets/droughtrisk_sample_nuts3) (NUTS3)
-- [Precipitation hazard data](datasets/precipitation_idf_gcm_eur) (Europe)
-- [Wildfire training and vulnerability data](datasets/wildfire_sample_cat) (Catalonia)

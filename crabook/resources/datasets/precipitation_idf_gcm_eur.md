@@ -1,10 +1,22 @@
 # Precipitation hazard data
 
+
+## General
+
 Dataset ID
 : `precipitation_idf_gcm_eur`
 
-Spatial converage
+Spatial coverage
 : Europe
+
+In workflows
+: [<img src="../../images/icon_s/heavy_rainfall.png" class="hazard-icon"> Extreme precipitation](../../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro)
+
+
+## Technical
+
+Dataset base URL
+: `https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_gcm_eur/`
 
 Approximate size
 : 1080 MB
@@ -16,11 +28,6 @@ Contents
 : [registry.txt](https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_gcm_eur/metadata/registry.txt) (for use with [pooch](https://www.fatiando.org/pooch/latest/))
 
 
-##  Dataset base URL
+## Attribution
 
-    https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_gcm_eur/
-
-
-## Used in
-
-- Workflow: [<img src="../../images/icon_s/heavy_rainfall.png" class="hazard-icon"> Extreme precipitation](../../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro)
+TODO: add dataset authors in CLIMAAX.
