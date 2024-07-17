@@ -186,20 +186,20 @@ parts:
 
 - caption: 📚 Resources
   chapters:
-#  - file: resources/definitions
-#    title: Risk definition resources
-#  - file: resources/datasets
-#    title: Datasets
-  - file: resources/coding
-    title: Coding resources
-#  - file: resources/FAQ
-#    title: FAQ
-#  - file: resources/external
-#    title: External resources
-  - file: resources/glossary
-    title: Glossary
   - file: resources/guiding_questions
     title: Guiding questions and answers
+  - file: resources/datasets
+    title: Datasets
+    sections:
+    - file: resources/datasets/droughtrisk_sample_nuts3
+    - file: resources/datasets/precipitation_idf_gcm_eur
+    - file: resources/datasets/wildfire_sample_cat
+  - file: resources/coding
+    title: Coding resources
+  - file: resources/glossary
+    title: Glossary
+#  - file: resources/FAQ
+#    title: FAQ
 
 - caption: 🙋🏻‍♀️ Join the community
   chapters:
