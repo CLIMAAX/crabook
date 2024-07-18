@@ -36,6 +36,8 @@ Pooch registry
 
 ## Contents
 
+<div class="dataset-file-list">
+
 - [RP_CAT_threshold_100mm.tiff](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/RP_CAT_threshold_100mm.tiff)
 - ichec-ec-earth/
   - historical/
@@ -99,3 +101,5 @@ Pooch registry
     - [pr_annualMax_24h_MOHC-HADGEM_rcp85_MOHC-HADREM.nc](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/mohc-hadgem2-es/rcp85/pr_annualMax_24h_MOHC-HADGEM_rcp85_MOHC-HADREM.nc)
     - [pr_annualMax_3h_MOHC-HADGEM_rcp85_MOHC-HADREM.nc](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/mohc-hadgem2-es/rcp85/pr_annualMax_3h_MOHC-HADGEM_rcp85_MOHC-HADREM.nc)
     - [pr_annualMax_6h_MOHC-HADGEM_rcp85_MOHC-HADREM.nc](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/mohc-hadgem2-es/rcp85/pr_annualMax_6h_MOHC-HADGEM_rcp85_MOHC-HADREM.nc)
+
+</div>

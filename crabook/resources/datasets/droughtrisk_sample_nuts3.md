@@ -36,6 +36,8 @@ Pooch registry
 
 ## Contents
 
+<div class="dataset-file-list">
+
 - [drought_exposure_historic.csv](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/drought_exposure_historic.csv)
 - [drought_exposure_ssp126_ff.csv](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/drought_exposure_ssp126_ff.csv)
 - [drought_exposure_ssp126_nf.csv](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/drought_exposure_ssp126_nf.csv)
@@ -504,3 +506,5 @@ Pooch registry
   - [droughthazard_UK_ssp370_nf.csv](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/outputs_hazards/droughthazard_UK_ssp370_nf.csv)
   - [droughthazard_UK_ssp585_ff.csv](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/outputs_hazards/droughthazard_UK_ssp585_ff.csv)
   - [droughthazard_UK_ssp585_nf.csv](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/outputs_hazards/droughthazard_UK_ssp585_nf.csv)
+
+</div>

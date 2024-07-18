@@ -36,6 +36,8 @@ Pooch registry
 
 ## Contents
 
+<div class="dataset-file-list">
+
 - data_cat/
   - Vul_data/
     - catalan/
@@ -160,3 +162,5 @@ Pooch registry
     - [TD_202140.tif](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/resized_climate/rcp45_2021_2040/TD_202140.tif)
     - [Tave_sm_202140.tif](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/resized_climate/rcp45_2021_2040/Tave_sm_202140.tif)
     - [Tmax_sm_202140.tif](https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/resized_climate/rcp45_2021_2040/Tmax_sm_202140.tif)
+
+</div>

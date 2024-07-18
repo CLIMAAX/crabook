@@ -64,3 +64,18 @@ details.sd-dropdown div.sd-tab-set:last-child div.sd-tab-content {
     box-shadow: 0 -0.0625rem var(--sd-color-tabs-overline);
     padding-bottom: 0;
 }
+
+.dataset-file-list {
+    max-height: 30rem;
+    overflow-y: auto;
+    border: 1px solid var(--pst-color-border);
+    border-radius: .25rem;
+    padding: 1rem 0;
+    background-color: var(--pst-color-surface);
+}
+.dataset-file-list ul {
+    list-style-type: none;
+}
+.dataset-file-list ul:not(:first-child) {
+    border-left: 2px solid var(--pst-color-border);
+}
