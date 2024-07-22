@@ -1,5 +1,4 @@
-Useful materials and technical documentation
-=======================
+# Coding resources
 
 :::{note}
 This page is under construction.
@@ -15,19 +14,42 @@ This illustration is created by Scriberia with The Turing Way community. Used un
 ```
 
 
-Things such as intro to:
-- Git
-- Python
-- Jupyter ecosystem
-- Scientific python libraries etc
+## Git and GitHub
 
-For example things like this
-- [FAIR principles for data and software](https://librarycarpentry.org/lc-fair-research/)
+Version control system.
+
 - [Getting started with Git](https://librarycarpentry.org/lc-git/index.html)
+
+We use GitHub for distribution of version-controlled code and content and maintain our repositories in the CLIMAAX organization.
+
 - [Getting started with Github](https://foundations.projectpythia.org/foundations/getting-started-github.html)
+
+
+## Python
+
+Programming language and software ecosystem.
+
 - [Getting started with Python](https://foundations.projectpythia.org/foundations/getting-started-python.html#)
-- [Getting started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html)
 - [Core scientific Python libraries](https://foundations.projectpythia.org/core/overview.html)
 
-These are just examples.
-It would be useful we craete a list of things we want to include here, then someone reviews what is out there and we put here the result.
+Python packages commonly used in the CLIMAAX risk workflows for data handling, processing and visualization:
+
+- xarray, netcdf4, rasterio, rioxarray
+- numpy, dask
+- pandas, geopandas
+- scipy, scikit-learn
+- matplotlib, cartopy, contextily
+- plotly
+
+We recommend the conda package manager for setting up a Python environment.
+
+
+## Jupyter
+
+Interactive computing environment.
+
+- [Getting started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html)
+
+:::{note}
+The environment specifications provided in every CLIMAAX hazard workflows repository include both the jupyter lab and notebook interfaces.
+:::
