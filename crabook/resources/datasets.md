@@ -29,7 +29,7 @@ This illustration is created by Scriberia with The Turing Way community. Used un
 
 ::::{tab-set}
 
-:::{tab-item} Pooch (recommended)
+:::{tab-item} pooch (recommended)
 
 We provide [file registries](https://www.fatiando.org/pooch/latest/registry-files.html) for use with the [pooch](https://www.fatiando.org/pooch/latest/) Python package.
 
@@ -69,10 +69,10 @@ We provide [file registries](https://www.fatiando.org/pooch/latest/registry-file
     Pooch will download the files into a folder structure as laid out by the dataset.
 :::
 
-:::{tab-item} Browser
+:::{tab-item} file listing
 
-Each dataset page contains a listings of all files included in the dataset.
-Individual files can be downloaded from the links in the listing.
+Each dataset page contains a listing of all files included in the dataset.
+Individual files can be downloaded via the links in the listings from a web browser or with tools such as [wget](https://www.gnu.org/software/wget/) and [curl](https://curl.se/).
 :::
 
 ::::
