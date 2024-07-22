@@ -7,22 +7,13 @@
 # Book settings
 title                       : crabook  # The title of the book. Will be placed in the left navbar.
 author                      : CLIMAAX community  # The author of the book
-copyright                   : "2023"  # Copyright year to be placed in the footer
+copyright                   : "2023-2024"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: off  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
-
-# Define the name of the latex output file for PDF builds
-latex:
-  latex_documents:
-    targetname: book.tex
-
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
 
 # Information about where the book exists on the web
 repository:
@@ -35,7 +26,12 @@ html:
   favicon: https://www.climaax.eu/wp-content/uploads/2023/03/cropped-Climaax_logo_singolo-32x32.png
 
 # Do not include these files in the build
-exclude_patterns: ["content.md", "**.ipynb_checkpoints", "**README.md", "_build", "Thumbs.db", ".DS_Store"]
+exclude_patterns:
+  - "**.ipynb_checkpoints"
+  - "**README.md"
+  - "_build"
+  - "Thumbs.db"
+  - ".DS_Store"
 
 #######################################################################################
 # Launch button settings
