@@ -27,36 +27,52 @@ This illustration is created by Scriberia with The Turing Way community. Used un
 
 ## How to access
 
+::::{tab-set}
+
+:::{tab-item} Pooch (recommended)
+
 We provide [file registries](https://www.fatiando.org/pooch/latest/registry-files.html) for use with the [pooch](https://www.fatiando.org/pooch/latest/) Python package.
 
-Set up a download manager for a CLIMAAX dataset
+1.  Set up a download manager for a CLIMAAX dataset
 
-```python
-import pooch
+    ```python
+    import pooch
 
-climaax_data = pooch.create(
-    base_url="https://object-store.os-api.cci1.ecmwf.int/climaax/<DATASET-ID>/",
-    path="." # set your download location
-)
-```
+    climaax_data = pooch.create(
+        base_url="https://object-store.os-api.cci1.ecmwf.int/climaax/<DATASET-ID>/",
+        path="." # set your download location
+    )
+    ```
 
-where `<DATASET-ID>` is a placeholder for the identifier of the accessed dataset.
+    where `<DATASET-ID>` is a placeholder for the identifier of the accessed dataset.
 
-Load the pooch file registry provided for every dataset (optional, but recommended; download the `registry.txt` file from the dataset page first):
+2.  Download the `registry.txt` file from the corresponding dataset page.
+    Load the pooch registry for the dataset (adapt the file path to your download location):
 
-```python
-climaax_data.load_registry("registry.txt")
-```
+    ```python
+    climaax_data.load_registry("registry.txt")
+    ```
 
-Download individual files from the dataset:
+3.  Individual files from the dataset can be downloaded with:
 
-```python
-climaax_data.retrieve("path/to/file")
-```
+    ```python
+    climaax_data.fetch("path/to/file")
+    ```
 
-or all files if a file registry was attached:
+    and the registry can be used to easily fetch an entire dataset:
 
-```python
-for path in climaax_data.registry:
-    climaax_data.fetch(path)
-```
+    ```python
+    for path in climaax_data.registry:
+        climaax_data.fetch(path)
+    ```
+
+    Pooch will download the files into a folder structure as laid out by the dataset.
+:::
+
+:::{tab-item} Browser
+
+Each dataset page contains a listings of all files included in the dataset.
+Individual files can be downloaded from the links in the listing.
+:::
+
+::::
