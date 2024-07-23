@@ -121,8 +121,6 @@ parts:
         title: Heatwave workflow methodology
       - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_euroheat
         title: Hazard assessment (EUROheat)
-      - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_pesetaiv
-        title: Hazard assessment (PESETA IV)
       - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_xclim
         title: Hazard assessment (xclim)
       - file: notebooks/workflows/HEATWAVES/heat_wave_risk_assessment
