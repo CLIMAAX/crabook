@@ -76,6 +76,6 @@ details.sd-dropdown div.sd-tab-set:last-child div.sd-tab-content {
 .dataset-file-list ul {
     list-style-type: none;
 }
-.dataset-file-list ul:not(:first-child) {
+.dataset-file-list > ul ul {
     border-left: 2px solid var(--pst-color-border);
 }
