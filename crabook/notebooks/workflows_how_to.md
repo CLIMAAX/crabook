@@ -91,7 +91,7 @@ Illustration about BinderHub and JupyterHub architecture. From the Turing Way pr
 
 ### Download a hazard repository
 
-We recommend working with git as it allows not just to conveniently download our workflows but update and [contribute](../community/contribute#contribute-to-risk-recipes) to them as well.
+We recommend working with git as it allows not just to conveniently download our workflows but update and [contribute](../community/contribute.md#contribute-to-risk-recipes) to them as well.
 If you have a few moments, maybe you can be [convinced to use git](https://the-turing-way.netlify.app/reproducible-research/vcs).
 If you have never used Git and don't have the time for it now, please head to the other tab in this section for the instructions how to download the workflows.
 
