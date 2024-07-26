@@ -65,8 +65,7 @@ parts:
 
 - caption: Risk workflows
   chapters:
-  - file: CRA_steps/analysis/how_to
-    title: How to use risk workflows
+  - file: notebooks/workflows_how_to
   - file: notebooks/workflows/floods
     title: 🌊 RIVER & COASTAL FLOODS
     sections:

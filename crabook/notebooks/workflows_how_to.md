@@ -1,18 +1,19 @@
-# About workflows and how to get started
+# How to use risk workflows
+
 
 ## About workflows
 
 Computational workflows in the form of __[Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/)__ allow users to combine interactive code with text and graphical objects. They are powerful tools for conducting computational analysis and data exploration, making them particularly valuable for climate risk assessment. These interactive documents combine live code, equations, visualisations, and narrative text in a single, shareable environment. The workflow notebooks aim to complement the CLIMAAX Methodological Framework, enabling users to put the Framework into practice.
 
-```{figure} ../../images/illustration/how_to_use_workflows.jpg
+```{figure} ../images/illustration/how_to_use_workflows.jpg
 ---
 scale: 60%
 ---
 This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
-
 One of the key benefits of Jupyter Notebooks is their ability to facilitate a reproducible and transparent workflows. The workflow is documented step by step, enhancing the transparency of data analysis methodologies.
+
 
 ## Availability of the workflows
 
@@ -20,9 +21,10 @@ One of the key benefits of Jupyter Notebooks is their ability to facilitate a re
 :::{tab-item} Public users
 Our workflow notebooks are **open source, free and available to anyone** to try them out.
 
+
 ## Use MyBinder
 
-```{image} ../../images/binder-logo.svg
+```{image} ../images/binder-logo.svg
 :target: https://mybinder.org/
 :width: 150px
 :align: left
@@ -34,9 +36,10 @@ Public Binder hub is an online service for building and sharing reproducible and
 In this environment the users can **run the workflows** and **make minor changes**, but their **work will not be saved** after the session ends.
 This option is there to allow public users to explore the workflows without the need to instal anything to their infrastructure.
 
+
 ## Use your local computer
 
-```{image} ../../images/laptop.png
+```{image} ../images/laptop.png
 :align: left
 :name: laptop
 ```
@@ -45,7 +48,7 @@ They can use the workflows as an example or starting point in their own risk ass
 
 :::
 :::{tab-item} Registered users
-```{image} ../../images/jupyter-hub-logo.svg
+```{image} ../images/jupyter-hub-logo.svg
 :target: https://jupyter.org/hub
 :width: 150px
 :align: left
@@ -54,7 +57,7 @@ They can use the workflows as an example or starting point in their own risk ass
 A dedicated __[Jupyter hub](https://jupyter.org/hub)__, hosted in ECMWF infrastructure, is available for the CLIMAAX pilot partners and participants of the open call.
 JupyterHub is an open-source, multi-user server for Jupyter notebooks. It is designed to provide a scalable and customizable platform for hosting Jupyter notebooks and instances in a multi-user environment. This will be a place where users can run, edit and create their customized risk workflows according to their needs without having to install anything on their own computer.
 This **computational environment is managed by the CLIMAAX team**.
-```{figure} ../../images/illustration/BinderHub.jpg
+```{figure} ../images/illustration/BinderHub.jpg
 ---
 name: Binder-hub
 ---
@@ -62,6 +65,7 @@ Illustration about BinderHub and JupyterHub architecture. From the Turing Way pr
 ```
 :::
 ::::
+
 
 ## How to run CLIMAAX workflows locally
 
@@ -112,7 +116,7 @@ As an example here we will go to [DROUGHTS repository](https://github.com/CLIMAA
 
 2. First click on the {bdg-success}`<> Code` button and then Download ZIP file.
 
-```{figure} ../../images/download-repo.png
+```{figure} ../images/download-repo.png
 :align: center
 :name: workflow-repo
 ```
@@ -140,6 +144,7 @@ This will create the environment called **climaax_droughts**. You will need to a
 
 :::
 ::::
+
 
 **Credits**
 The **How to run** section was adapted from the [Environmental Data Science Book](https://edsbook.org/welcome.html) project.
