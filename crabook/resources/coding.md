@@ -19,6 +19,7 @@ This illustration is created by Scriberia with The Turing Way community. Used un
 Version control system.
 
 - [Getting started with Git](https://librarycarpentry.org/lc-git/index.html)
+- [Introduction to Git](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git#rr-vcs-git)
 
 We use GitHub for distribution of version-controlled code and content and maintain our repositories in the CLIMAAX organization.
 
