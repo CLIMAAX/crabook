@@ -25,6 +25,25 @@ These workflows will allow for the climate risk assessment using both historical
 
 ## Workflows in the CLIMAAX handbook
 
+#### Summary of the risk workflow characteristics implemented in the CLIMAAX toolbox
+
+| Hazard type | Risk assessment | Hazard data | Exposure and vulnerability | Risk output |
+| :-: | :-: | :- | :- | :-: |
+| River flood | Damage assessment | River flood depth and extent maps | Land use, vulnerability damage curves | Map of flood depth and damage |
+| Flood damage and population exposures | Damage assessment and exposure | Flood depth maps | Open street map, Buildings damage and population exposure | Map of flood damage; population exposed and displaced; exposed critical infrastructures |
+| Coastal flood | Damage assessment | Coastal flood depth and extent maps | Land use, vulnerability damage curves | Map of flood depth and damage |
+| Extreme precipitation | Risk index method  |  Precipitation intensity for a given return period, impact rainfall thresholds | Critical infrastructures and population density | Impact rainfall thresholds; Shift in magnitude and frequency |
+| Drought risk | Risk index method | Drought hazard index calculated based on monthly precipitation timeseries | Multiple exposure and vulnerability indices (social and economic) | Map of relative drought risk |
+| Agricultural drought | Damage assessment | Crop yield reduction | Total crop production and aggregated crops revenue | Map revenue loss |
+| Drought exposure | Exposed population |Combined Drought Indicator | Population density | Exposed population |
+| Heatwave | Risk index method | Maximum Land Surface Temperature | Population density | Heatwave risk level |
+| Wildfire risk | Risk index method | Fire susceptibility | Population, Economy, Ecology | Road, Population, Ecological and Economic risks |
+| Wildfire exposure | Exposed population | Fire Weather Index | Population density | Exposed population |
+| Windstorm | Damage assessment | Footprint of maximum wind gusts | Land use, vulnerability damage curves | Wind damage map |
+| Heavy snow | Exposed population | Annual probability of occurrence | Population density | Exposed population |
+| Blizzards | Exposed population | Annual probability of occurrence | Population density | Exposed population |
+| Multi-hazard | Risk index method | Precipitation and temperature thresholds as proxy of floods and heatwaves | Airports and sensitivity and adaptive-capacity indicators | Risk maps of extreme temperature and precipitation | - |
+
 ::::{grid}
 :gutter: 3
 
