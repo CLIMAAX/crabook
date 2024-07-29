@@ -23,7 +23,7 @@ Different workflows have been proposed over the years for assessing climate risk
 These workflows will allow for the climate risk assessment using both historical information and future climate change scenarios to better understand the range of possible outcomes and identify sustainable adaptation strategies.
 
 
-#### Climate data used for historical and future scenarios
+## Climate data used for historical and future scenarios
 
 | Hazard type | Time horizon(s) | Future scenarios | Datasets |
 | :-: | :-: | :- | :-: |
@@ -43,9 +43,7 @@ These workflows will allow for the climate risk assessment using both historical
 | Multi-hazard | Historical (e.g. 1961 to 2019) and three future periods (2011-2100) | RCP2.6, RCP4.5, RCP8.5 | UERRA MESCANSURFEX; EURO-CORDEX | - |
 
 
-## Workflows in the CLIMAAX handbook
-
-#### Summary of the risk workflow characteristics implemented in the CLIMAAX toolbox
+## Summary of the risk workflow characteristics implemented in the CLIMAAX toolbox
 
 | Hazard type | Risk assessment | Hazard data | Exposure and vulnerability | Risk output |
 | :-: | :-: | :- | :- | :-: |
@@ -63,6 +61,9 @@ These workflows will allow for the climate risk assessment using both historical
 | Heavy snow | Exposed population | Annual probability of occurrence | Population density | Exposed population |
 | Blizzards | Exposed population | Annual probability of occurrence | Population density | Exposed population |
 | Multi-hazard | Risk index method | Precipitation and temperature thresholds as proxy of floods and heatwaves | Airports and sensitivity and adaptive-capacity indicators | Risk maps of extreme temperature and precipitation | - |
+
+
+## Workflows in the CLIMAAX handbook
 
 ::::{grid}
 :gutter: 3
