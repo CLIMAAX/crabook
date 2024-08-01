@@ -195,10 +195,10 @@ parts:
     - file: resources/datasets/eclips2.0_mirror
   - file: resources/coding
     title: Coding resources
+  - file: resources/FAQ
+    title: FAQ
   - file: resources/glossary
     title: Glossary
-#  - file: resources/FAQ
-#    title: FAQ
 
 - caption: 🙋🏻‍♀️ Join the community
   chapters:
