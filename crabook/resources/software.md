@@ -1,4 +1,4 @@
-# Coding resources
+# Software environment
 
 :::{note}
 This page is under construction.
