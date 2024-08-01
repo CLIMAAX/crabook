@@ -24,6 +24,7 @@ parts:
         title: Heatwave datasets
       - file: eu_data_viewer/flood
         title: Flood hazard datasets
+      - file: eu_data_viewer/external
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework
