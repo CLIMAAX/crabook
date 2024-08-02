@@ -26,12 +26,12 @@ Programming language and software ecosystem.
 
 Python packages commonly used in the CLIMAAX risk workflows for data handling, processing and visualization:
 
-- xarray, netcdf4, rasterio, rioxarray
-- numpy, dask
-- pandas, geopandas
-- scipy, scikit-learn
-- matplotlib, cartopy, contextily
-- plotly
+- [xarray](https://docs.xarray.dev/en/v2024.06.0/), [netcdf4](https://unidata.github.io/netcdf4-python/), [rasterio](https://rasterio.readthedocs.io/), [rioxarray](https://corteva.github.io/rioxarray/)
+- [numpy](https://numpy.org/doc/1.26/), [dask](https://docs.dask.org/)
+- [pandas](https://pandas.pydata.org/pandas-docs/version/2.2/), [geopandas](https://geopandas.org/en/v1.0.1/)
+- [scipy](https://docs.scipy.org/doc/scipy-1.14.0/), [scikit-learn](https://scikit-learn.org/1.5/)
+- [matplotlib](https://matplotlib.org/3.8.4/), [cartopy](https://scitools.org.uk/cartopy/docs/latest/index.html), [contextily](https://contextily.readthedocs.io/)
+- [plotly](https://plotly.com/python/)
 
 
 ### Environments and package management
