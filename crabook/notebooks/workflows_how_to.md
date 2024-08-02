@@ -30,6 +30,8 @@ Our workflow notebooks are **open source, free and available to anyone** to try 
 
 Running workflows on your own local computer allows for full customization and most freedoms in use.
 However it also requires some expertise to set up the environment and obtain the workflows, as well as local computing and storage resources to run the workflows.
+
+Our [step-by-step instructions](#steps-by-example) take you through the setup of a Python/Jupyter environment on your computer.
 :::::
 
 
@@ -88,8 +90,15 @@ Illustration about BinderHub and JupyterHub architecture. From the Turing Way pr
 
 ## Steps by example
 
+The following steps demonstrate how to download the files from one of our workflow repositories, install a suitable Python software environment and start a Jupyter interface to interact with the workflow notebooks.
 
-### Download a hazard repository
+As a prerequisite, you will have to have access to a command line (also known as terminal or console) on the computer you are working on.
+The choice of command line will depend on your operating system (e.g., Windows, MacOS or Linux).
+Please consult the installation instructions linked below for options that suit your setup.
+Alternative graphical applications for some of the steps taken on the command line below are available, e.g. [GitHub Desktop](https://github.com/apps/desktop) and [Anaconda Navigator](https://www.anaconda.com/products/navigator), but will not be covered in this guide.
+
+
+### Download a workflow repository
 
 We recommend working with git as it allows not just to conveniently download our workflows but update and [contribute](../community/contribute.md#contribute-to-risk-recipes) to them as well.
 If you have a few moments, maybe you can be [convinced to use git](https://the-turing-way.netlify.app/reproducible-research/vcs).
@@ -151,7 +160,7 @@ Coding resources » [Git and GitHub](../resources/software.md#git-and-github)
 
 ### Set up the Python environment
 
-Every hazard repository contains an `environment.yml` file for the conda package manager in which all software required to run the workflows in the repository is listed.
+Every workflow repository contains an `environment.yml` file for the conda package manager in which all software required to run the workflows in the repository is listed.
 
 1. In the terminal, check your conda install with
 
@@ -188,7 +197,7 @@ Coding resources » [Python](../resources/software.md#python)
 
 ### Start Jupyter and run a workflow notebook
 
-The `environment.yml` files from our hazard repositories contain both the JupyterLab and Jupyter Notebook interfaces. With the conda environment from the previous step activated, launch your preferred Jupyter interface in the conda environment:
+The `environment.yml` files from our workflow repositories contain both the JupyterLab and Jupyter Notebook interfaces. With the conda environment from the previous step activated, launch your preferred Jupyter interface in the conda environment:
 
 ```
 jupyter lab
