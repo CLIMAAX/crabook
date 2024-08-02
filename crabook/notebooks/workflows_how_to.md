@@ -124,18 +124,18 @@ Alternative graphical applications for some of the steps taken on the command li
 
 ### Download a workflow repository
 
-We recommend working with git as it allows not just to conveniently download our workflows but update and [contribute](../community/contribute.md#contribute-to-risk-recipes) to them as well.
+We recommend working with git as it allows not just to conveniently download our workflows but update and [contribute to(../community/contribute.md#contribute-to-risk-recipes) them as well.
+
 If you have a few moments, maybe you can be [convinced to use git](https://the-turing-way.netlify.app/reproducible-research/vcs).
-If you have never used Git and don't have the time for it now, please head to the other tab in this section for the instructions how to download the workflows.
+If you have never used git or don't have the time for it now, head to the other tab in this section for instructions on how to download the workflows via the GitHub website.
 
 ::::::{tab-set}
 
 :::::{tab-item} Clone with git
 
-To start using the workflow you will need to have [git](https://git-scm.com/) installed.
+You will need to have [git](https://git-scm.com/downloads) installed to follow the steps below.
 
-If you are comfortable working Git you can follow these steps to clone the repository and install the invironment to use the wokflows.
-Here we show how to download the DROUGHT workflow repository as an example, but you can follow the same steps for any other workflow repository if you replace the hazard name, e.g., FLOODS, HEAVY_RAINFALL, FIRE, SNOW, HEATWAVES, STORMS.
+Here we show how to download the DROUGHT workflow repository as an example, but you can follow the same steps for any other workflow repository if you replace the hazard name (e.g. FLOODS instead of DROUGHTS).
 
 1. Open a terminal
 
@@ -212,7 +212,7 @@ Every workflow repository contains an `environment.yml` file for the conda packa
 
     The input line on your terminal should now begin with `(climaax_droughts)`, indicating that the environment is active.
 
-We also provide a general environment configuration in which all CLIMAAX workflows can run in our workflow template repository.
+We also provide a [general environment configuration](https://github.com/CLIMAAX/workflow_template/blob/main/environment.yml) in which all CLIMAAX workflows can run in our workflow template repository.
 
 :::{seealso}
 Coding resources » [Python](../resources/software.md#python)
@@ -221,7 +221,8 @@ Coding resources » [Python](../resources/software.md#python)
 
 ### Start Jupyter and run a workflow notebook
 
-The `environment.yml` files from our workflow repositories contain both the JupyterLab and Jupyter Notebook interfaces. With the conda environment from the previous step activated, launch your preferred Jupyter interface in the conda environment:
+The `environment.yml` files from our workflow repositories contain both the JupyterLab and Jupyter Notebook interfaces.
+With the conda environment from the previous step activated (see above), launch your preferred Jupyter interface in the conda environment:
 
 ```
 jupyter lab
