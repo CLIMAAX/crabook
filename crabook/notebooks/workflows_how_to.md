@@ -31,16 +31,15 @@ Our workflow notebooks are **open source, free and available to anyone** to try 
 Running workflows on your own local computer allows for full customization and most freedoms in use.
 However it also requires some expertise to set up the environment and obtain the workflows, as well as local computing and storage resources to run the workflows.
 
-Our [step-by-step instructions](#steps-by-example) take you through the setup of a Python/Jupyter environment on your computer.
+:::{admonition} Setup instructions
+:class: note
+
+Our [step-by-step instructions](#steps-by-example) take you through the setup of a Jupyter environment on your computer.
+:::
 :::::
 
 
 :::::{tab-item} Binder
-
-:::{admonition} Known issue
-:class: danger
-Unfortunately, some of our repositories currently do not start on binder due to timeout problems. We are aware of this problem and are looking for a solution.
-:::
 
 ```{image} ../images/binder-logo.svg
 :target: https://mybinder.org/
@@ -48,33 +47,58 @@ Unfortunately, some of our repositories currently do not start on binder due to 
 :align: left
 :name: binder
 ```
-Each workflow has a Binder badge which builds the virtual computing environment with libraries and dependencies specific to it, on a Binder hub.
+Binder is a public online service for building and sharing interactive computational content.
+CLIMAAX workflows can be run and edited on binder.
 
-Public Binder hub is an online service for building and sharing reproducible and interactive computational environments from online repositories.
-In this environment the users can **run the workflows** and **make minor changes**, but their **work will not be saved** after the session ends.
-This option is there to allow public users to explore the workflows without the need to instal anything to their infrastructure.
+:::{tip}
+Look out for links to binder throughout the handbook that allow you to launch a binder session where you can explore workflows without the need to set up a local computing environment.
+:::
+
+:::{admonition} Restrictions
+:class: danger
+
+**Changes are not saved** on binder after a session ends.
+
+The computing resources provided by binder are not always sufficient to run all steps of a workflow notebook, since the processing of large climate datasets can require more main memory than is available in a session.
+:::
 
 :::::
 
 
-:::::{tab-item} CLIMAAX JupyterHub
-
-:::{admonition} Restricted access
-:class: attention
-Our JupyterHub is only available for CLIMAAX pilot partners and participants of the open call.
-:::
+:::::{tab-item} JupyterHub
 
 ```{image} ../images/jupyter-hub-logo.svg
 :target: https://jupyter.org/hub
 :width: 150px
 :align: left
-:name: jupyter-hub
+:name: jupyterhub-org
 ```
 
-The JupyterHub is hosted on ECMWF infrastructure and provides a ready-to-use environment for running risk workflows.
+Many institutions provide a JupyterHub for their staff to use.
+In the hub, you are likely able to set up a software environment to run CLIMAAX workflows on your organization's computing infrastructure.
 
-JupyterHub is an open-source, multi-user server for Jupyter notebooks. It is designed to provide a scalable and customizable platform for hosting Jupyter notebooks and instances in a multi-user environment. This will be a place where users can run, edit and create their customized risk workflows according to their needs without having to install anything on their own computer.
-This **computational environment is managed by the CLIMAAX team**.
+:::{tip}
+Check with your IT department if your organization offers a JupyterHub service that you can use.
+:::
+
+:::::
+
+:::::{tab-item} CLIMAAX JupyterHub
+
+```{image} ../images/jupyter-hub-logo.svg
+:target: https://jupyter.org/hub
+:width: 150px
+:align: left
+:name: jupyterhub-climaax
+```
+
+The CLIMAAX JupyterHub is hosted on ECMWF infrastructure and provides a ready-to-use environment for running risk workflows.
+It is **managed by the CLIMAAX team** for members of the CLIMAAX project.
+
+:::{admonition} Restricted access
+:class: attention
+Our JupyterHub is only available for CLIMAAX pilot partners and participants of the open call.
+:::
 
 :::::
 
