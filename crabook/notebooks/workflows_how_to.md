@@ -102,25 +102,25 @@ If you have never used Git and don't have the time for it now, please head to th
 To start using the workflow you will need to have [git](https://git-scm.com/) installed.
 
 If you are comfortable working Git you can follow these steps to clone the repository and install the invironment to use the wokflows.
-Here we show the DROUGHT example, but you can replace it with any other repository name (FLOODS, FIRE, SNOW, HEATWAVES, STORMS)
+Here we show how to download the DROUGHT workflow repository as an example, but you can follow the same steps for any other workflow repository if you replace the hazard name, e.g., FLOODS, HEAVY_RAINFALL, FIRE, SNOW, HEATWAVES, STORMS.
 
 1. Open a terminal
 
 2. Clone the repository with
 
     ```bash
-    $ git clone https://github.com/CLIMAAX/DROUGHTS.git
+    git clone https://github.com/CLIMAAX/DROUGHTS.git
     ```
 
     **or** (alternatively) use ssh if you have access configured for your GitHub account:
 
     ```bash
-    $ git clone git@github.com:CLIMAAX/DROUGHTS.git
+    git clone git@github.com:CLIMAAX/DROUGHTS.git
     ```
 
 3. Move into the cloned directory
     ```bash
-    $ cd DROUGHTS
+    cd DROUGHTS
     ```
 
 :::::
@@ -145,7 +145,7 @@ As an example here we will go to [DROUGHTS repository](https://github.com/CLIMAA
 ::::::
 
 :::{seealso}
-Coding resources » [Git and GitHub](../resources/coding.md#git-and-github)
+Coding resources » [Git and GitHub](../resources/software.md#git-and-github)
 :::
 
 
@@ -156,47 +156,52 @@ Every hazard repository contains an `environment.yml` file for the conda package
 1. In the terminal, check your conda install with
 
     ```
-    $ conda --version
+    conda --version
     ```
 
-    If you don't have conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html))
+    If you find that you don't have conda available, install it from [here](https://conda-forge.org/download/).
 
-2. Create an environment from the `environment.yml` file.
-    This will create the environment called **climaax_droughts**. You will need to activate it as well:
-
-    ```
-    $ conda env create -f environment.yml
-    ```
-
-3. Activate the created environment:
+2. Create a conda environment from the `environment.yml` file:
 
     ```
-    $ conda activate climaax_droughts
+    conda env create -f environment.yml
     ```
+
+    This creates an new environment called **climaax_droughts**.
+    The name is defined in the environment file and depends on the hazard.
+    Please check the console output for the exact name of your environment and adapt the name in the next steps if necessary.
+
+3. To activate the created environment, run
+
+    ```
+    conda activate climaax_droughts
+    ```
+
+    The input line on your terminal should now begin with `(climaax_droughts)`, indicating that the environment is active.
 
 We also provide a general environment configuration in which all CLIMAAX workflows can run in our workflow template repository.
 
 :::{seealso}
-Coding resources » [Python](../resources/coding.md#python)
+Coding resources » [Python](../resources/software.md#python)
 :::
 
 
 ### Start Jupyter and run a workflow notebook
 
-The `environment.yml` files from our hazard repositories contain both the Jupyter lab and notebook interfaces. Launch you preferred interface in the conda environment.
+The `environment.yml` files from our hazard repositories contain both the JupyterLab and Jupyter Notebook interfaces. With the conda environment from the previous step activated, launch your preferred Jupyter interface in the conda environment:
 
 ```
-(climaax_droughts) $ jupyter lab
+jupyter lab
 ```
 
 **or** (alternatively)
 
 ```
-(climaax_droughts) $ jupyter notebook
+jupyter notebook
 ```
 
-The interface is served in the browser, which should open automatically. The interface will present the contents of the folder from which jupyter was launched. Workflow notebooks can be started, edited and run interactively with Jupyter.
+The interface is served in the browser, which should open automatically. Otherwise use the link printed to the console to open. The interface will present the contents of the folder from which Jupyter was launched. Workflow notebooks can be started there and edited and run interactively in the browser.
 
 :::{seealso}
-Coding resources » [Jupyter](../resources/coding.md#jupyter)
+Coding resources » [Jupyter](../resources/software.md#jupyter)
 :::
