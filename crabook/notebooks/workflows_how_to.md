@@ -108,8 +108,9 @@ Our JupyterHub is only available for CLIMAAX pilot partners and participants of 
 ```{figure} ../images/illustration/BinderHub.jpg
 ---
 name: Binder-hub
+figclass: margin-caption
 ---
-Illustration about BinderHub and JupyterHub architecture. From the Turing Way project, illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: __[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)__
+Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
 
