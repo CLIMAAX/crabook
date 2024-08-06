@@ -6,8 +6,9 @@ Engaging via participatory processes is essential to the third core principle an
 ```{figure} ../../images/illustration/community_exchange.jpg
 ---
 scale: 60%
+figclass: margin-caption
 ---
-This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
 Regions may engage with stakeholders from policy or relevant public and private sectors, experts (scientists, practitioners or policy advisors with robust knowledge) or representatives from vulnerable or marginalized groups and exposed areas. Participatory processes are fundamental for the assessment of vulnerability, which is often qualitative and value-laden, to appropriately take on issues of social justice, equity and adap-tive capacity. Increasingly complex climate risk and interplay with socio-economic vulnerabilities and exposure means that a more integrated approach to climate risk management is needed which also includes a comprehensive treatment of justice and inclusive governance structures and decision-making.

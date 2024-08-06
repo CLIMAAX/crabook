@@ -44,6 +44,9 @@ table tr td {
 figcaption {
     font-size: 0.9rem;
 }
+figcaption p {
+    color: var(--pst-color-text-muted);
+}
 
 img.hazard-icon {
     width: 1.25em;

@@ -62,7 +62,8 @@ The ideal implementation of an inclusive CRA is hybrid and thus combines top-dow
 ```{figure} ../../images/illustration/reusability_loop.jpg
 ---
 scale: 60%
+figclass: margin-caption
 ---
-This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 

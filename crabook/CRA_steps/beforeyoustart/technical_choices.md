@@ -8,8 +8,9 @@ Technical choices should reflect the information needs of context-specific appli
 ```{figure} ../../images/illustration/research_tools.jpg
 ---
 scale: 60%
+figclass: margin-caption
 ---
-This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
 

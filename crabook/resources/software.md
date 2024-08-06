@@ -9,8 +9,9 @@ A page with links to tutorials and documentation for technical things outside of
 ```{figure} ../images/illustration/github_zenodo.jpg
 ---
 scale: 60%
+figclass: margin-caption
 ---
-This illustration is created by Scriberia with The Turing Way community. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
+Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
 
