@@ -75,8 +75,8 @@ The computing resources provided by binder are not always sufficient to run all 
 :name: jupyterhub-org
 ```
 
-Many institutions provide a JupyterHub for their staff to use.
-In the hub, you are likely able to set up a software environment to run CLIMAAX workflows on your organization's computing infrastructure.
+Some organizations provide a JupyterHub for their staff.
+In such a hub, you are likely able to set up a software environment to run CLIMAAX workflows on your organization's computing infrastructure.
 
 :::{tip}
 Check with your IT department if your organization offers a JupyterHub service that you can use.
@@ -125,7 +125,7 @@ Alternative graphical applications for some of the steps taken on the command li
 
 ### Download a workflow repository
 
-We recommend working with git as it allows not just to conveniently download our workflows but update and [contribute to(../community/contribute.md#contribute-to-risk-recipes) them as well.
+We recommend working with git as it allows not just to conveniently download our workflows but update and [contribute to](../community/contribute.md#contribute-to-risk-recipes) them as well.
 
 If you have a few moments, maybe you can be [convinced to use git](https://the-turing-way.netlify.app/reproducible-research/vcs).
 If you have never used git or don't have the time for it now, head to the other tab in this section for instructions on how to download the workflows via the GitHub website.
