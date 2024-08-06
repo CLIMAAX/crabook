@@ -10,7 +10,7 @@ Spatial coverage
 : [NUTS3](https://ec.europa.eu/eurostat/web/nuts/) regions
 
 In workflows
-: [<img src="../../images/icon_s/droughts.png" class="hazard-icon"> Relative drought](../../notebooks/workflows/DROUGHTS/01_relative_drought/Risk_workflow_description_RELATIVE_DROUGHT)
+: [<img src="../../images/icon_s/icon_s_droughts.png" class="hazard-icon"> Relative drought](../../notebooks/workflows/DROUGHTS/01_relative_drought/Risk_workflow_description_RELATIVE_DROUGHT)
 
 Attribution
 : This dataset was prepared by [Silvia Artuso](https://iiasa.ac.at/staff/silvia-artuso) and [Dor Fridman](https://iiasa.ac.at/staff/dor-fridman) from [IIASA’s Water Security Research Group](https://iiasa.ac.at/programs/biodiversity-and-natural-resources-bnr/water-security).

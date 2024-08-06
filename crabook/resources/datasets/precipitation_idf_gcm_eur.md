@@ -10,7 +10,7 @@ Spatial coverage
 : Europe
 
 In workflows
-: [<img src="../../images/icon_s/heavy_rainfall.png" class="hazard-icon"> Extreme precipitation](../../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro)
+: [<img src="../../images/icon_s/icon_s_heavy_rainfall.png" class="hazard-icon"> Extreme precipitation](../../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro)
 
 Attribution
 : TODO

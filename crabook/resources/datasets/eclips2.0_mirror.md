@@ -10,7 +10,7 @@ Spatial coverage
 : Europe
 
 In workflows
-: [<img src="../../images/icon_s/fire.png" class="hazard-icon"> Wildfire (ML approach)](../../notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML)
+: [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> Wildfire (ML approach)](../../notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML)
 
 DOI
 : [10.5281/zenodo.3952159](https://doi.org/10.5281/zenodo.3952159)
