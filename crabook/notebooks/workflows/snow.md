@@ -11,7 +11,7 @@ Download the workflows from our [SNOW repository](https://github.com/CLIMAAX/SNO
 See our [how to](../workflows_how_to.md), [software](../../resources/software.md) and [contributing](../../community/contribute.md) pages for further information and help.
 :::
 
-<img alt="Snow" src="../../images/top/snow.png" class="page-main-photo">
+<img alt="Snow" src="../../images/top/top_snow.png" class="page-main-photo">
 
 Snow
 ====

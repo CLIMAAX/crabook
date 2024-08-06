@@ -11,7 +11,7 @@ Download the workflows from our [FIRE repository](https://github.com/CLIMAAX/FIR
 See our [how to](../workflows_how_to.md), [software](../../resources/software.md) and [contributing](../../community/contribute.md) pages for further information and help.
 :::
 
-<img alt="Fire" src="../../images/top/fire.png" class="page-main-photo">
+<img alt="Fire" src="../../images/top/top_fire.png" class="page-main-photo">
 
 Fire
 ====

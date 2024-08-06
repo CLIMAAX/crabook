@@ -11,7 +11,7 @@ Download the workflows from our [STORMS repository](https://github.com/CLIMAAX/S
 See our [how to](../workflows_how_to.md), [software](../../resources/software.md) and [contributing](../../community/contribute.md) pages for further information and help.
 :::
 
-<img alt="Wind" src="../../images/top/wind.png" class="page-main-photo">
+<img alt="Wind" src="../../images/top/top_wind.png" class="page-main-photo">
 
 Wind
 ====

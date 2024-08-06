@@ -11,7 +11,7 @@ Download the workflows from our [HEATWAVES repository](https://github.com/CLIMAA
 See our [how to](../workflows_how_to.md), [software](../../resources/software.md) and [contributing](../../community/contribute.md) pages for further information and help.
 :::
 
-<img alt="Heatwaves" src="../../images/top/heatwaves.png" class="page-main-photo">
+<img alt="Heatwaves" src="../../images/top/top_heatwaves.png" class="page-main-photo">
 
 Heatwaves
 =========

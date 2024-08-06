@@ -11,7 +11,7 @@ Download the workflows from our [HEAVY_RAINFALL repository](https://github.com/C
 See our [how to](../workflows_how_to.md), [software](../../resources/software.md) and [contributing](../../community/contribute.md) pages for further information and help.
 :::
 
-<img alt="Heavy Rainfall" src="../../images/top/heavy_rainfall.png" class="page-main-photo">
+<img alt="Heavy Rainfall" src="../../images/top/top_heavy_rainfall.png" class="page-main-photo">
 
 Heavy Rainfall
 ==============

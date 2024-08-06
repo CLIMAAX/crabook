@@ -11,7 +11,7 @@ Download the workflows from our [FLOODS repository](https://github.com/CLIMAAX/F
 See our [how to](../workflows_how_to.md), [software](../../resources/software.md) and [contributing](../../community/contribute.md) pages for further information and help.
 :::
 
-<img alt="Floods" src="../../images/top/floods.png" class="page-main-photo">
+<img alt="Floods" src="../../images/top/top_floods.png" class="page-main-photo">
 
 Floods
 =======================

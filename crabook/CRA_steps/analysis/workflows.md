@@ -72,49 +72,49 @@ These workflows will allow for the climate risk assessment using both historical
 :columns: 4
 :link: ../../notebooks/workflows/floods
 :link-type: doc
-:img-bottom: ../../images/top/floods.png
+:img-bottom: ../../images/top/top_floods.png
 :::
 
 :::{grid-item-card} HEAVY RAINFALL
 :columns: 4
 :link: ../../notebooks/workflows/heavy_rainfall
 :link-type: doc
-:img-bottom: ../../images/top/heavy_rainfall.png
+:img-bottom: ../../images/top/top_heavy_rainfall.png
 :::
 
 :::{grid-item-card} HEATWAVES
 :columns: 4
 :link: ../../notebooks/workflows/heatwaves
 :link-type: doc
-:img-bottom: ../../images/top/heatwaves.png
+:img-bottom: ../../images/top/top_heatwaves.png
 :::
 
 :::{grid-item-card} DROUGHTS
 :columns: 4
 :link: ../../notebooks/workflows/droughts
 :link-type: doc
-:img-bottom: ../../images/top/droughts.png
+:img-bottom: ../../images/top/top_droughts.png
 :::
 
 :::{grid-item-card} FIRE
 :columns: 4
 :link: ../../notebooks/workflows/fire
 :link-type: doc
-:img-bottom: ../../images/top/fire.png
+:img-bottom: ../../images/top/top_fire.png
 :::
 
 :::{grid-item-card} SNOW
 :columns: 4
 :link: ../../notebooks/workflows/snow
 :link-type: doc
-:img-bottom: ../../images/top/snow.png
+:img-bottom: ../../images/top/top_snow.png
 :::
 
 :::{grid-item-card} WIND
 :columns: 4
 :link: ../../notebooks/workflows/storms
 :link-type: doc
-:img-bottom: ../../images/top/wind.png
+:img-bottom: ../../images/top/top_wind.png
 :::
 
 ::::

@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (refPath !== "#") {
         prefix = getPrefixUp(refPath);
     }
-    prefix = prefix + "_static/icon_s/";
+    prefix = prefix + "_static/icon_s/icon_s_";
 
     // Mapping: hazard emoji -> icon
     const REPLACE = new Map([

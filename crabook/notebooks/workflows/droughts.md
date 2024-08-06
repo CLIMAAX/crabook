@@ -11,7 +11,7 @@ Download the workflows from our [DROUGHTS repository](https://github.com/CLIMAAX
 See our [how to](../workflows_how_to.md), [software](../../resources/software.md) and [contributing](../../community/contribute.md) pages for further information and help.
 :::
 
-<img alt="Droughts" src="../../images/top/droughts.png" class="page-main-photo">
+<img alt="Droughts" src="../../images/top/top_droughts.png" class="page-main-photo">
 
 Droughts
 =======================
