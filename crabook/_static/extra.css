@@ -7,6 +7,10 @@ html {
     --pst-font-family-monospace: "Roboto Mono", var(--pst-font-family-monospace-system);
 }
 
+table tr td {
+    min-width: 2.5rem;
+}
+
 .dropdown-download-buttons {
     display: none;
 }
@@ -42,7 +46,7 @@ figcaption {
 }
 
 img.hazard-icon {
-    height: 1.2em;
+    width: 1.25em;
     vertical-align: text-top;
     margin-right: 1px;
 }
