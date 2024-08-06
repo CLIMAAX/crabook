@@ -11,7 +11,7 @@ The assessment of Key Climate Risks, as part of [Key Risk Assessment](https://cl
 The climate risk profile of a region, including its projected changes over time, is the primary indicator of “what”, “where” and “how” CRM and adaptation responses should be initiated. However, there are additional entry points for CRM. Previous risk management interventions and ongoing adaptation processes in place can reveal valuable opportunities for introducing additional, complementary measures or even maladaptation. Moreover, CRM and adaptation responses undertaken in other areas can offer insights into what could be applicable and how to design and implement it for the region's particular situation. T
 
 :::::{margin}
-::::{card} Pahtways2Resilience
+::::{card} Pathways2Resilience
 :::{image} ../images/P2R.png
 :target: https://www.pathways2resilience.eu/regional-resilience-journey-map/
 :::
