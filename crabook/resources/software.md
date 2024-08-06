@@ -1,10 +1,7 @@
-# Software environment
+# Software
 
-:::{note}
-This page is under construction.
-:::
-
-A page with links to tutorials and documentation for technical things outside of scope of CLIMAAX.
+The CLIMAAX climate risk assessment workflows are built and run with open source software from the Python software environment and distributed in version controlled repositories via GitHub.
+Here, we provide links to online resources about these software tools, which have been extensively documented throughout the web.
 
 ```{figure} ../images/illustration/github_zenodo.jpg
 ---
@@ -17,27 +14,34 @@ Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.
 
 ## Python
 
-Programming language and software ecosystem.
+Our workflows use the [Python](https://www.python.org/) programming language and make use of packages (also known as libraries) from the scientific Python ecosystem for data reading, writing, processing and visualization.
 
-- [Getting started with Python](https://foundations.projectpythia.org/foundations/getting-started-python.html#)
-- [Core scientific Python libraries](https://foundations.projectpythia.org/core/overview.html)
+Project Pythia has a [quickstart guide](https://foundations.projectpythia.org/foundations/quickstart.html) for Python beginners that are already familiar with basic programming concepts and [short tutorials](https://foundations.projectpythia.org/foundations/how-to-run-python.html) for setting up a Python environment on a Linux computer. They also have [introductions](https://foundations.projectpythia.org/core/overview.html) to some core scientific Python packages.
 
 
 ### Packages
 
-Python packages commonly used in the CLIMAAX risk workflows for data handling, processing and visualization:
+Python packages commonly used in the CLIMAAX risk workflows are:
 
-- [xarray](https://docs.xarray.dev/en/v2024.06.0/), [netcdf4](https://unidata.github.io/netcdf4-python/), [rasterio](https://rasterio.readthedocs.io/), [rioxarray](https://corteva.github.io/rioxarray/)
-- [numpy](https://numpy.org/doc/1.26/), [dask](https://docs.dask.org/)
-- [pandas](https://pandas.pydata.org/pandas-docs/version/2.2/), [geopandas](https://geopandas.org/en/v1.0.1/)
-- [scipy](https://docs.scipy.org/doc/scipy-1.14.0/), [scikit-learn](https://scikit-learn.org/1.5/)
-- [matplotlib](https://matplotlib.org/3.8.4/), [cartopy](https://scitools.org.uk/cartopy/docs/latest/index.html), [contextily](https://contextily.readthedocs.io/)
-- [plotly](https://plotly.com/python/)
+- [numpy](https://numpy.org/doc/1.26/), [dask](https://docs.dask.org/): multidimensional data arrays.
+- [pandas](https://pandas.pydata.org/pandas-docs/version/2.2/), [geopandas](https://geopandas.org/en/v1.0.1/) handling of tabular (geospatial) data.
+- [xarray](https://docs.xarray.dev/en/v2024.06.0/), [netcdf4](https://unidata.github.io/netcdf4-python/), [rasterio](https://rasterio.readthedocs.io/), [rioxarray](https://corteva.github.io/rioxarray/): handling of higher-dimensional (geospatial) data.
+- [scipy](https://docs.scipy.org/doc/scipy-1.14.0/), [scikit-learn](https://scikit-learn.org/1.5/): advanced data processing and statistics functions.
+- [matplotlib](https://matplotlib.org/3.8.4/), [cartopy](https://scitools.org.uk/cartopy/docs/latest/index.html), [contextily](https://contextily.readthedocs.io/), [plotly](https://plotly.com/python/): static and interactive data visualization.
+
+Many of these packages provide tutorials and example pages in their documentation in addition to the description of each library's API.
+
+Xarray's surrounding [ecosystem](https://docs.xarray.dev/en/latest/ecosystem.html) consist of packages that build on and support its data structures.
 
 
 ### Environments and package management
 
-We provide `environment.yml` files for the conda package manager to simplify the creation of a suitable Python environment for our workflows. Packages in our environment files are exclusively retrieved from the [conda-forge](https://conda-forge.org) channel. We therefore recommend to use the [miniforge](https://conda-forge.org/download/) conda installer, but other conda installers, e.g. [miniconda](https://docs.anaconda.com/miniconda/) work too.
+A package manager configures the libraries of a Python environment and carries out tasks such as package installation, upgrading and removal.
+At CLIMAAX, we mainly use the conda package manager and retrieve packages from the [conda-forge](https://conda-forge.org) channel.
+We therefore recommend to use the [miniforge](https://conda-forge.org/download/) conda installer, but other conda installers, e.g. [miniconda](https://docs.anaconda.com/miniconda/) work too.
+
+All workflow repositories contain an `environment.yml` file to simplify the creation of a suitable Python environment with conda.
+A general environment for all CLIMAAX workflows can be created based on the `environment.yml` file in our [workflow template](https://github.com/CLIMAAX/workflow_template) repository.
 
 
 ## Jupyter
