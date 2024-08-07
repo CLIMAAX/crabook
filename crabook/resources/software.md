@@ -55,17 +55,21 @@ The Python environments in CLIMAAX workflow repositories contain both the Jupyte
 With a workflow environment activated, run, e.g., `jupyter lab` in a terminal to start working with the notebooks.
 :::
 
-See the [Jupyter documentation](https://docs.jupyter.org/en/latest/) for more information about the project and related software.
-Project Pythia has a [getting started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html) guide with explanations of the JupyterLab user interface.
+- The [Jupyter documentation](https://docs.jupyter.org/en/latest/) contains more information about the project, the ideas behind computational notebooks and related tools.
+- Project Pythia has a [getting started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html) guide with explanations of the JupyterLab user interface.
 
 
 ## Git and GitHub
 
-Version control system.
+For collaborative work and the distribution of our workflow source code files, we use the [git](https://git-scm.com/) version control system.
+Version control allows us to manage current, previous and development versions of our repositories and have multiple people working together at the same time.
 
-- [Getting started with Git](https://librarycarpentry.org/lc-git/index.html)
-- [Introduction to Git](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git#rr-vcs-git)
+Our workflows are found in the [CLIMAAX organization](https://github.com/orgs/CLIMAAX/repositories) on GitHub, a git repository hosting service and web platform that provides additional features for collaborative working and software development on top of git.
 
-We use GitHub for distribution of version-controlled code and content and maintain our repositories in the CLIMAAX organization.
+:::{seealso}
+Our [contribution](../community/contribute.md) page shows how you can contribute to the CLIMAAX risk assessment workflows with GitHub issues and pull requests.
+:::
 
-- [Getting started with Github](https://foundations.projectpythia.org/foundations/getting-started-github.html)
+- The Turing Way book contains a chapter on [version control](https://book.the-turing-way.org/reproducible-research/vcs) with a [getting started with git](https://book.the-turing-way.org/reproducible-research/vcs/vcs-git) guide.
+- Library Carpentry has an [introduction to Git/GitHub](https://librarycarpentry.org/lc-git/index.html).
+- Project Pythia contains a [getting started with GitHub](https://foundations.projectpythia.org/foundations/getting-started-github.html) guide.
