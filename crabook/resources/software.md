@@ -46,13 +46,17 @@ A general environment for all CLIMAAX workflows can be created based on the `env
 
 ## Jupyter
 
-Interactive computing environment.
+Our workflows combine documentation, code and outputs in Jupyter notebooks, a format widely used for data analysis, visualization and educational purposes.
+While this handbook contains static representations of the workflows, the underlying notebooks available from GitHub are intended to be used in an interactive fashion when opened in a Jupyter-compatible user interface.
+The Jupyter ecosystem itself provides the web browser-based [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/) and [classic Notebook](https://jupyter-notebook.readthedocs.io/en/latest/) interfaces and some editors like VS Code also have [native support](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) for working interactively with Jupyter notebooks.
 
-- [Getting started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html)
-
-:::{note}
-The environment specifications provided in every CLIMAAX hazard workflows repository include both the jupyter lab and notebook interfaces.
+:::{tip}
+The Python environments in CLIMAAX workflow repositories contain both the JupyterLab and classic Notebook interfaces.
+With a workflow environment activated, run, e.g., `jupyter lab` in a terminal to start working with the notebooks.
 :::
+
+See the [Jupyter documentation](https://docs.jupyter.org/en/latest/) for more information about the project and related software.
+Project Pythia has a [getting started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html) guide with explanations of the JupyterLab user interface.
 
 
 ## Git and GitHub
