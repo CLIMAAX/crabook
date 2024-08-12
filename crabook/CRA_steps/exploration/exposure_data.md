@@ -8,12 +8,14 @@ A range of population datasets are available, with different spatial and tempora
 At the European scale, several population datasets are worth mentioning. The GEOSTAT population grids have a spatial resolution of 1 km and are available for the years 2006, 2011, 2018, 2021. While the years 2011 and 2021 are based on census data, the other years use land cover data and built-up land to disaggregate the population spatially. The Historical Analysis of Natural HaZards in Europe (HANZE) database v2.0 provides population raster data at 100 m spatial resolution for the years 1870-2020, derived from the GEOSTAT data of 2011. On an administrative unit level, i.e. {abbr}`NUTS (Nomenclature of Territorial Units for Statistics)` regions, population data are available from Eurostat and the RDH. An overview of the datasets described in this section can be found in Table 1.
 
 
+<div class="full-width">
+
 :::{list-table} Pan-European population datasets with technical specifications and advantages and disadvantages
 :widths: 7 8 8 8 8 8 8 8
 :header-rows: 1
 
 *   - Dataset
-    - Spatail scale
+    - Spatial scale
     - Temporal resolution
     - Spatial resolution
     - Analysis type
@@ -74,6 +76,9 @@ At the European scale, several population datasets are worth mentioning. The GEO
 
 :::
 
+</div>
+
+
 ```{figure} ../../images/ev_data_image2.png
 ---
 name: population
@@ -86,6 +91,9 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
 - The Critical Infrastructure Spatial Index (CISI) is based on {abbr}`OSM (Open Street Map)` data and is available in raster format at a spatial resolution of 0.1 decimal degrees.  
 - For assessing the exposure of different land uses, the Europe-wide __[CORINE land cover data](https://land.copernicus.eu/)__ are available for 44 land cover classes at 100 m spatial resolution for the years 1990, 2000, 2006, 2012, and 2018. The CORINE data provide the basis for the higher-detail LUISA land cover map, available for 2012 and 2018 at 50 m spatial resolution. Compared to CORINE, the LUISA Base Map delivers a higher overall spatial detail and finer thematic breakdown of artificial land use/cover categories (17 categories instead of 11 in CORINE). The LUISA Base Map can be used for multiple purposes, and it is more suitable than CORINE for applications requiring fine spatial and/or thematic detail of land use/land cover consistently across Europe, such as land use/cover accounting and modelling. Based on the LUISA land cover map of 2018 combined with OSM data, the European Settlement Map (ESM) was developed at 2 m spatial resolution, including residential versus non-residential buildings.
 - SPAM is a global crop distribution model covering 42 crops and four different technologies available for 2010 (latest) on a 5 arc-minutes crop-specific grid. The model outputs include both harvested and physical cropland. The Gridded Livestock of the World maps (GLW) show the density of eight different livestock animals in 2010 and 2015 on a 5 arc-minutes animal-specific grid and can be used to represent the exposure of animal husbandry systems. The Global Agro-Ecological Zones (GAEZ) platform provides a range of datasets for agriculture exposure and vulnerability in 2010 values. For instance, the Aggregate Crop Production Value (US$) can be the exposure term in an agricultural drought risk assessment.
+
+
+<div class="full-width">
 
 :::{list-table} Pan-European datasets to characterize physical exposure with technical specifications and advantages and disadvantages
 :widths: 7 8 8 8 8 8 8 8
@@ -181,6 +189,9 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Low resolution
 :::
 
+</div>
+
+
 ```{figure} ../../images/ev_data_image6.png
 ---
 name: CISI dataset
@@ -189,6 +200,9 @@ The CISI for Western Europe (figure adjusted from Nirandjan et al. 2022)
 ```
 Table 3 provides an overview of future projections datasets currently available. Future projections of the population until 2100 are available under a range of socioeconomic scenarios, the Shared Socioeconomic Pathways (SSPs) (O’Neill et al., 2017). Publicly available datasets include those of Merkens et al. (2016) and Wang et al. (2022), which are available at a spatial resolution of 30 arc seconds. However, they are based on different modelling approaches and underlying population data used as model input. For instance, the population projections of Merkens et al. 2016 were specifically developed to account for coastal migration processes. Further population projections are available from GHSL at 1 km spatial resolution (Directorate General for Regional and Urban Policy (DG REGIO) of the European Commission, 2020), or from IIASA Global Community Water Model (5 arc minutes) upon request.
 Projections of future urban land are available for the SSPs until 2100, such as the data of Gao and O'Neill (2020) at 1/8-degree spatial resolution, also downscaled to 1 km, and Chen et al. (2020), available at 30 arc seconds. Additionally, projections of different land uses are available at 30 arc seconds resolution until 2100 (Chen et al., 2022; Zhang et al., 2023), and GHSL provides projections per settlement class (GHS-SMOD) at 1 km resolution until 2070 (Kemper et al., 2022).
+
+
+<div class="full-width">
 
 :::{list-table} Pan-European future exposure projections datasets with technical specifications and advantages and disadvantages
 :widths: 7 8 8 8 8 8 8 8
@@ -259,6 +273,9 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - Global coverage
     - Scaled for hydrological sub-catchments
 :::
+
+</div>
+
 
 ```{figure} ../../images/ev_data_image7.png
 ---
