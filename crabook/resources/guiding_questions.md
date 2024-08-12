@@ -1,5 +1,11 @@
 # Guiding questions and answers
 
+Example answers to the guiding questions of the [CLIMAAX Framework](../CRA_steps/framework.md) from our pilot regions.
+
+:::{note}
+This page currently covers the first two steps of the CLIMAAX Framework.
+:::
+
 
 ## Scoping
 
@@ -374,3 +380,10 @@ Based on the fact that we have localized SSP data from global models, we'd like 
 
 ::::
 :::::
+
+
+<br>
+
+:::{note}
+Answers from Framework steps 3 to 5 will be published here in the future.
+:::
