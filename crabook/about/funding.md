@@ -1,10 +1,10 @@
-<img alt="Funding" src="./images/top/funding_opportunities.png" class="page-main-photo">
+<img alt="Funding" src="../images/top/funding_opportunities.png" class="page-main-photo">
 
 # Funding opportunities
 
 The **second Open Call** for regions and communities has been launched on the **1st of July** and it will run until the **15th of October 2024**. Applicants who were not selected in our first Open Call are welcome to participate again. This call invites regions and communities to apply to implement the CLIMAAX framework and {abbr}`CRA (Climate Risk Assessment)` toolbox for their regional and local multi-risk assessments.
 
-```{figure} images/open_call.jpeg
+```{figure} ../images/open_call.jpeg
 :target: https://www.climaax.eu/fstp-open-call/
 :width: 400px
 :align: center

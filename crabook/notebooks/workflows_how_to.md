@@ -180,7 +180,7 @@ As an example here we will go to [DROUGHTS repository](https://github.com/CLIMAA
 ::::::
 
 :::{seealso}
-Coding resources » [Git and GitHub](../resources/software.md#git-and-github)
+Resources » Software » [Git and GitHub](../resources/software.md#git-and-github)
 :::
 
 
@@ -217,7 +217,7 @@ Every workflow repository contains an `environment.yml` file for the conda packa
 We also provide a [general environment configuration](https://github.com/CLIMAAX/workflow_template/blob/main/environment.yml) in which all CLIMAAX workflows can run in our workflow template repository.
 
 :::{seealso}
-Coding resources » [Python](../resources/software.md#python)
+Resources » Software » [Python](../resources/software.md#python)
 :::
 
 
@@ -239,5 +239,5 @@ jupyter notebook
 The interface is served in the browser, which should open automatically. Otherwise use the link printed to the console to open. The interface will present the contents of the folder from which Jupyter was launched. Workflow notebooks can be started there and edited and run interactively in the browser.
 
 :::{seealso}
-Coding resources » [Jupyter](../resources/software.md#jupyter)
+Resources » Software » [Jupyter](../resources/software.md#jupyter)
 :::

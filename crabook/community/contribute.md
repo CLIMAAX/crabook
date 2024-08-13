@@ -18,7 +18,7 @@ Create an issue for questions about workflows and data used in the workflows, fe
 
 Create a pull request to contribute a new workflow, additions to an existing workflow or to send us a bug fix for a problem in a workflow.
 
-Pull requests represent a proposal to merge code into the repository. You will need some basic knowledge of git to create a pull request. See our [coding resources](../resources/coding) page for more information.
+Pull requests represent a proposal to merge code into the repository. You will need some basic knowledge of git to create a pull request. See our [software resources](../resources/software) page for more information.
 
 To create a pull request, please [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the workflow repository first, commit your changes, push to your fork and then create a pull request in the original repository of the CLIMAAX organization.
 :::

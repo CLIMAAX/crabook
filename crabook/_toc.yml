@@ -6,25 +6,25 @@ root: intro
 parts:
 - caption: About us
   chapters:
-  - file: aboutclimaax
+  - file: about/climaax
     title: The CLIMAAX project
-  - file: funding
+  - file: about/funding
     title: Funding opportunities
-  - file: regional-examples
+  - file: about/examples
     title: Regional examples
     sections:
-    - file: setubal
+    - file: about/examples/setubal
       title: Setubal example
-    - file: zilina
+    - file: about/examples/zilina
       title: Žilina example
-  - file: eu-data-viewer
+  - file: about/viewers
     title: European map viewer
     sections:
-      - file: eu_data_viewer/heatwave
+      - file: about/viewers/heatwave
         title: Heatwave datasets
-      - file: eu_data_viewer/flood
+      - file: about/viewers/flood
         title: Flood hazard datasets
-      - file: eu_data_viewer/external
+      - file: about/viewers/external
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework

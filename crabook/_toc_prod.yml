@@ -7,9 +7,9 @@ root: intro
 parts:
 - caption: About us
   chapters:
-  - file: aboutclimaax
+  - file: about/climaax
     title: The CLIMAAX project
-  - file: funding
+  - file: about/funding
     title: Funding opportunities
 - caption: 🌍 CRA Steps
   chapters:

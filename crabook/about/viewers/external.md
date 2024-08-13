@@ -24,7 +24,7 @@ Complementary to the IPCC Climate Atlas, Copernicus Climate Change service produ
 ::::{grid} 2
 
 :::{grid-item}
-```{figure} ../images/euro_dashboards-c3satlas.png
+```{figure} ../../images/euro_dashboards-c3satlas.png
 :align: center
 :name: c3s atlas
 ```
@@ -32,7 +32,7 @@ Complementary to the IPCC Climate Atlas, Copernicus Climate Change service produ
 
 :::{grid-item}
 
-```{figure} ../images/euro_dashboards-c3satlas2.png
+```{figure} ../../images/euro_dashboards-c3satlas2.png
 :align: center
 :name: c3s atlas2
 ```
@@ -50,7 +50,7 @@ The European Commission Disaster Risk Management Knowledge Centre (DRMKC) integr
 Developed by Joint Research Centre (JRC), integral part of DRMKC is the Risk Data Hub, a multi-hazard geo-portal designed to bridge science and policy across different scales, facilitating collaboration between scientists and end-users.
 The [Risk Data Hub Modules](https://drmkc.jrc.ec.europa.eu/risk-data-hub#/) provide access to hazard, vulnerability and risk data needed for a Climate Risk Assessment.
 
-```{figure} ../images/euro_dashboards-JRCRDH-riskdashboard.png
+```{figure} ../../images/euro_dashboards-JRCRDH-riskdashboard.png
 :align: center
 :target: https://drmkc.jrc.ec.europa.eu/risk-data-hub#/dashboardrisk
 :name: jrcrdh risk dashboard
