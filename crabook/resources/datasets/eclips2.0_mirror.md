@@ -45,7 +45,7 @@ Pooch registry
 : [registry.txt](https://object-store.os-api.cci1.ecmwf.int/climaax/eclips2.0_mirror/metadata/registry.txt)
 
 :::{warning}
-This mirror is provided for the convenice of CLIMAAX workflow users and does not provide the long-term stability of the original Zenodo-hosted. Please use the dataset DOI from Zenodo for citations and reliable access. URLs associated with this dataset may change without announcement in the future.
+This mirror is provided for the convenice of CLIMAAX workflow users and does not guarantee the long-term stability of the original Zenodo-hosted dataset. Please use the dataset DOI from Zenodo for citations and reliable access. URLs associated with this dataset may change without announcement in the future.
 :::
 
 
