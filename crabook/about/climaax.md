@@ -11,7 +11,7 @@ The European landscape of disaster risk management and climate adaptation is far
 
 CLIMAAX builds upon existing risk assessment frameworks, methods and tools, and promotes the use of datasets and service platforms for local and regional scale deployment. It develops a robust and coordinated framework of consistent, harmonised and comparable risk assessments.
 
-The project takes the existing tools and services beyond the state-of-the-art by prioritizing the further development of accessibility, guidance, tuning to local contexts, interpretation and uptake by representative Disaster Risk Management and Civil Protection authorities.
+The project takes the existing tools and services beyond the state-of-the-art by prioritizing the further development of accessibility, guidance, tuning to local contexts, interpretation and uptake by representative disaster risk management and civil protection authorities.
 
 CLIMAAX is designed to significantly contribute to the harmonization and consolidation of the practice of climate risk assessment (CRA) by providing:
 
