@@ -37,7 +37,6 @@ These workflows will allow for the climate risk assessment using both historical
 | <img src="../../images/icon_s/icon_s_heatwaves.png" class="hazard-icon" /> | Heatwave | Historical (1971-2000) and three future periods (2011-2040, 2041-2070 and 2071-2100)  | RCPs 4.5 and 8.5 | EURO-CORDEX  |
 | <img src="../../images/icon_s/icon_s_droughts.png" class="hazard-icon" /> | Drought risk | Historical (e.g. 1979-2019) and future periods (e.g. 2015-2100) | SSP1-RCP2.6, SSP3-RCP7.0, SSP5-RCP8.5 | ISIMIP |
 | <img src="../../images/icon_s/icon_s_droughts.png" class="hazard-icon" /> | Agricultural drought | Historical and future periods (e.g. up to 2050) | RCP2.6, RCP4.5, RCP8.5  | EURO-CORDEX |
-| <img src="../../images/icon_s/icon_s_droughts.png" class="hazard-icon" /> | Drought exposure | Historical (e.g 2012 -2023) | - | JRC |
 | <img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon" /> | Wildfire risk | Two past (1961–1990 and 1991–2010) and five future (2011–2020, 2021–2040, 2041–2060, 2061–2080 and 2081–2100) periods | RCPs 4.5 and 8.5 | ECLIPS2.0 and EFFIS datasets |
 | <img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon" /> | Wildfire exposure | Historical (e.g. 1981-2005) and future periods (e.g. 2021-2098) | RCP2.6, RCP4.5, RCP8.5 | Fire danger indicators |
 | <img src="../../images/icon_s/icon_s_snow.png" class="hazard-icon" /> | Heavy snow | Historical (e.g. 1940 to present) and three future periods (2011- 2040, 2041-2070 and 2071-2100) | RCP2.6, RCP4.5, RCP8.5 | ERA5 EURO-CORDEX |
@@ -61,7 +60,6 @@ These workflows will allow for the climate risk assessment using both historical
 | <img src="../../images/icon_s/icon_s_heatwaves.png" class="hazard-icon" /> | Heatwave | Risk index method | Maximum Land Surface Temperature | Population density | Heatwave risk level |
 | <img src="../../images/icon_s/icon_s_droughts.png" class="hazard-icon" /> | Drought risk | Risk index method | Drought hazard index calculated based on monthly precipitation timeseries | Multiple exposure and vulnerability indices (social and economic) | Map of relative drought risk |
 | <img src="../../images/icon_s/icon_s_droughts.png" class="hazard-icon" /> | Agricultural drought | Damage assessment | Crop yield reduction | Total crop production and aggregated crops revenue | Map revenue loss |
-| <img src="../../images/icon_s/icon_s_droughts.png" class="hazard-icon" /> | Drought exposure | Exposed population |Combined Drought Indicator | Population density | Exposed population |
 | <img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon" /> | Wildfire risk | Risk index method | Fire susceptibility | Population, Economy, Ecology | Road, Population, Ecological and Economic risks |
 | <img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon" /> | Wildfire exposure | Exposed population | Fire Weather Index | Population density | Exposed population |
 | <img src="../../images/icon_s/icon_s_snow.png" class="hazard-icon" /> | Heavy snow | Exposed population | Annual probability of occurrence | Population density | Exposed population |
