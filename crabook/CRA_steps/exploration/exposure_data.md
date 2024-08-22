@@ -11,7 +11,7 @@ At the European scale, several population datasets are worth mentioning. The GEO
 <div class="full-width">
 
 :::{list-table} Pan-European population datasets with technical specifications and advantages and disadvantages
-:widths: 7 8 8 8 8 8 8 8
+:widths: 4 4 6 6 8 8 10 10
 :header-rows: 1
 
 *   - Dataset
@@ -28,7 +28,7 @@ At the European scale, several population datasets are worth mentioning. The GEO
     - 100 m, 3 arcsec;\
       1 km, 30 arcsec
     - Spatial distribution based on built-up land
-    - European Commission, 2023
+    - [European Commission, 2023](https://doi.org/10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE)
     - Lightly modelled based on census data and Landsat imagery;\
         available in 5-year time steps
     - Overconcentration of population where built-up land undetected (less problematic in Europe)
@@ -37,7 +37,7 @@ At the European scale, several population datasets are worth mentioning. The GEO
     - 2000-2020
     - 3 arcsec, 30 arcsec
     - Random Forest algorithm
-    - (Bondarenko et al., 2020; Stevens et al., 2015)
+    - Bondarenko et al., 2020; Stevens et al., 2015
     - High spatial and temporal resolution
     - Modelling algorithm based on several input datasets
 *   - GPW v4
@@ -45,7 +45,7 @@ At the European scale, several population datasets are worth mentioning. The GEO
     - 2000-2020
     - 30 arcsec
     - National census and population registries
-    - (CIESIN, 2018b)
+    - [CIESIN, 2018b](https://doi.org/10.7927/H46M34XX)
     - Unmodeled
     - Different spatial and temporal input data
 *   - GEOSTAT
@@ -53,7 +53,7 @@ At the European scale, several population datasets are worth mentioning. The GEO
     - 2006, 2011, 2018, 2021
     - 1 km
     - Derived and modelled from census data 
-    - https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/population-distribution-demography/geostat
+    - [GEOSTAT](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/population-distribution-demography/geostat)
     - Based on census data of 2011 and 2021
     - No pan-European coverage; \
         2006 and 2018 modelled
@@ -62,7 +62,7 @@ At the European scale, several population datasets are worth mentioning. The GEO
     - 1870-2020
     - 100 m
     - Modelled from GEOSTAT 2011
-    - (Paprotny & Mengel, 2023)
+    - [Paprotny & Mengel, 2023](https://doi.org/10.1038/s41597-023-02282-0)
     - High spatial and temporal resolution
     - No pan-European coverage
 *   - EUROSTAT
@@ -70,7 +70,7 @@ At the European scale, several population datasets are worth mentioning. The GEO
     - 1960-2023
     - NUTS regions
     - National census and population registries
-    - https://ec.europa.eu/eurostat/
+    - [EUROSTAT](https://ec.europa.eu/eurostat/)
     - Consistent across EU countries
     - No pan-European coverage
 
@@ -96,7 +96,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
 <div class="full-width">
 
 :::{list-table} Pan-European datasets to characterize physical exposure with technical specifications and advantages and disadvantages
-:widths: 7 8 8 8 8 8 8 8
+:widths: 8 4 4 6 6 6 10 10
 :header-rows: 1
 
 *   - Variable
@@ -120,7 +120,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Europe
     - 2018
     - 2 m
-    - (Szabo et al., 2023)
+    - [Szabo et al., 2023](https://doi.org/10.2760/87167)
     - Very high resolution; Distinguishes residential and non-residential buildings
     - Ukraine missing
 *   - Buildings, Infrastructure
@@ -128,7 +128,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Global
     - Most recent
     - Vector data (points, lines, polygons)
-    - (OpenStreetMap contributors, 2023)  
+    - OpenStreetMap contributors, 2023  
     - High spatial detail; Good coverage in northern Europe
     - Working with the data can be cumbersome (e.g. download, selection); Limited coverage in southern Europe
 *   - Infrastructure
@@ -136,7 +136,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Global
     - 2021
     - 0.1 degree
-    - (Nirandjan et al., 2022) 
+    - [Nirandjan et al., 2022](https://doi.org/10.1038/s41597-022-01218-4)
     - Input data and final index in raster format; Easy to use (compared to OSM)
     - Low resolution
 *   - Land cover
@@ -144,7 +144,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Europe
     - 1990, 2000, 2006, 2012, 2018 
     - 100 m
-    - (Copernicus Land Monitoring Service, 2018) 
+    - Copernicus Land Monitoring Service, 2018 
     - Relatively long time series
     - Fewer land cover categories or less spatial detail than LUISA
 *   - 
@@ -152,7 +152,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Europe
     - 2012, 2018
     - 50 m
-    - (Pigaiani & Batista e Silva, 2021) 
+    - Pigaiani & Batista e Silva, 2021
     - 17 land cover categories
     - Ukraine missing; Mixed land use in a cell
 *   - 
@@ -160,7 +160,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Global
     - 2010
     - 5 arc minutes
-    - (Yu et al., 2020)
+    - [Yu et al., 2020](https://doi.org/10.5194/essd-12-3545-2020)
     - 42 crops available
     - Low resolution
 *   - Livestock density
@@ -168,7 +168,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Global
     - 2010, 2015
     - 5 arc minutes
-    - (Nicolas et al., 2016)
+    - [Nicolas et al., 2016](https://doi.org/10.1371/journal.pone.0150424)
     - 8 different animals
     - Low resolution
 *   - Competition on water
@@ -176,7 +176,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Global
     - 1979-2019
     - Hydrological sub-catchment scale
-    - (Kuzma et al., 2023)
+    - Kuzma et al., 2023
     - Global coverage
     - Scaled for hydrological sub-catchments 
 *   - Aggregate Crop Production Value
@@ -184,7 +184,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Global
     - 2010
     - 5 arc minutes
-    - (Fischer et al., 2021)
+    - Fischer et al., 2021
     - Global coverage
     - Low resolution
 :::
@@ -205,7 +205,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
 <div class="full-width">
 
 :::{list-table} Pan-European future exposure projections datasets with technical specifications and advantages and disadvantages
-:widths: 7 8 8 8 8 8 8 8
+:widths: 4 4 6 8 10 8 10 10
 :header-rows: 1
 
 *   - Variable
@@ -221,7 +221,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2010-2100
     - 30 arcsec
     - Population growth in coastal, inland, urban, and rural locations
-    - (Merkens et al., 2016)
+    - [Merkens et al., 2016](https://doi.org/10.1016/j.gloplacha.2016.08.009)
     - Global coverage
     - Developed with coastal applications in mind
 *   -      
@@ -229,7 +229,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2020-2100
     - 30 arcsec
     - Random Forest algorithm
-    - (X. Wang et al., 2022)
+    - [X. Wang et al., 2022](https://doi.org/10.1038/s41597-022-01675-x)
     - Global coverage
     - Modelling algorithm based on several input datasets
 *   -      
@@ -237,7 +237,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2015-2100
     - 5 arcmin
     - Global CWatM
-    - (Burek et al., 2020))
+    - Burek et al., 2020
     - Global coverage
     - Dataset not public, but available upon request
 *   - Urban land
@@ -245,7 +245,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2015-2100
     - 1 km
     - Artificial Neural Network algorithm
-    - (Chen et al., 2020)
+    - Chen et al., 2020
     - Global coverage
     - Modelling algorithm based on several input datasets
 *   - 
@@ -253,7 +253,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2000-2100
     - 1/8 decimal degree, 1 km
     - Monte Carlo simulations
-    - (Gao & O’Neill, 2020; Gao & Pesaresi, 2021)
+    - [Gao & O’Neill, 2020](https://doi.org/10.1038/s41467-020-15788-7); [Gao & Pesaresi, 2021](https://doi.org/10.1038/s41597-021-01052-0)
     - Global coverage
     - Produced at 1/8 decimal degrees and downscaled to 1 km
 *   - Land cover
@@ -261,7 +261,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2015-2100  
     - 30 arcsec
     - Cellular automata
-    - (Chen et al., 2022; Zhang et al., 2023)
+    - [Chen et al., 2022](https://doi.org/10.1038/s41597-022-01208-6); [Zhang et al., 2023](https://doi.org/10.1038/s41597-023-02637-7)
     - Based on CMIP6; global coverage
     - Modelling algorithm based on several input datasets
 *   - Competition on water
@@ -269,7 +269,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2030-2080 
     - Hydrological sub-catchment scale
     - Modelled (Aqueduct v4)
-    - (Kuzma et al., 2023)
+    - Kuzma et al., 2023
     - Global coverage
     - Scaled for hydrological sub-catchments
 :::
