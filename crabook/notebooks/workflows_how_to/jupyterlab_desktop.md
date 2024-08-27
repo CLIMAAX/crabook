@@ -13,6 +13,11 @@ The DROUGHT workflow repository is used as an example here, but the same steps c
 
 ## First setup
 
+::::{margin}
+[![environment setup dialog](../../images/how_to_jupyterlab_desktop_env.png)](../../images/how_to_jupyterlab_desktop_env.png)
+::::
+
+
 1.  [Install](https://github.com/jupyterlab/jupyterlab-desktop/tree/master?tab=readme-ov-file#installation) and start JupyterLab Desktop.
 
 2.  From the hamburger menu (☰) of the welcome window, open the **Manage Python environments** dialog:
