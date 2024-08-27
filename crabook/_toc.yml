@@ -69,6 +69,11 @@ parts:
 - caption: Risk workflows
   chapters:
   - file: notebooks/workflows_how_to
+    sections:
+    - file: notebooks/workflows_how_to/cli.md
+      title: Command line setup
+    - file: notebooks/workflows_how_to/jupyterlab_desktop.md
+      title: JupyterLab Desktop setup
   - file: notebooks/workflows/floods
     title: 🌊 RIVER & COASTAL FLOODS
     sections:
