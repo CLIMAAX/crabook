@@ -1,6 +1,7 @@
 # How to use risk workflows: JupyterLab Desktop setup
 
-As an alternative to the [command-line based steps](cli.md), an environment for running the workflow notebook can be created with [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop) and minimal interaction with a command line interface.
+As an alternative to the [command-line based steps](cli.md), an environment for running the workflow notebook can be created with [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop).
+The setup requires more steps but avoids the need to set up the command line environment first.
 
 :::{note}
 These steps follow a different approach compared to those in the command line instructions:
@@ -13,18 +14,25 @@ The DROUGHT workflow repository is used as an example here, but the same steps c
 
 ## First setup
 
-::::{margin}
-[![environment setup dialog](../../images/how_to_jupyterlab_desktop_env.png)](../../images/how_to_jupyterlab_desktop_env.png)
-::::
-
-
 1.  [Install](https://github.com/jupyterlab/jupyterlab-desktop/tree/master?tab=readme-ov-file#installation) and start JupyterLab Desktop.
 
-2.  From the hamburger menu (☰) of the welcome window, open the **Manage Python environments** dialog:
+2.  If there is a warning at the bottom of the welcome window saying "Python environment not found":
 
-    -   Select **Create New** and choose **New environment**
+    -   Click on **Install using the bundled installer**.
+
+    -   Wait for the installation to finish.
+    
+    -   Restart Jupyter Desktop.
+
+3.  In the hamburger menu (☰) of the welcome window, open the **Manage Python environments** dialog:
+
+    -   Select **Create New**.
+    
+    -   Choose **New environment**.
 
     -   Specify the **Name** for the environment, e.g. `climaax_droughts`.
+
+    -   Make sure the **Environment type** is **conda** and jupyterlab is included in the **Python packages to install**.
 
     -   In the **Additional Python packages field**, put
 
@@ -32,15 +40,23 @@ The DROUGHT workflow repository is used as an example here, but the same steps c
         python=3.11 jupyterlab-git
         ```
 
-    -   Click **create** and close the dialog when the operation is finished.
+    -   Click **Create**.
+    
+    -   Wait for the installation to finish.
+    
+    -   Close the package management dialog.
 
-3.  In the welcome window, select **New session...**
+    :::{figure} ../../images/how_to_jupyterlab_desktop_env.png
+    :::
 
-4.  Next to the hamburger menu (☰) in the title bar, click on the current environment name and switch to the environment you have just created if it is not already selected.
+4.  In the welcome window, select **New session...**
 
-5.  In the left side bar, navigate to the folder where you want to save the workflow files.
+5.  Next to the hamburger menu (☰) in the title bar, the environment name must match the name chosen above.
+    If it is something else, e.g. `conda: jlab_server`, click on the name and select the correct enviroment, here: `conda: climaax_droughts`.
 
-6.  From the menu bar at the top, select **Git**, then **Clone a repository**:
+6.  In the left side bar, navigate to the folder where you want to save the workflow files.
+
+7.  From the menu bar at the top, select **Git**, then **Clone a repository**:
 
     -   Get the https clone link from the GitHub repository of the workflow, e.g.
     
@@ -52,31 +68,53 @@ The DROUGHT workflow repository is used as an example here, but the same steps c
 
     -   Enter the link (including the `.git` at the end) into the URI field.
         
-    -   Select **Clone** and wait for the download to finish.
+    -   Select **Clone**.
+    
+    -   Wait for the cloning to finish.
 
-7.  Navigate into the created folder, here `DROUGHTS`, in the left side bar.
-    The folder your navigate to should contain a file called `environment.yml`.
+    :::{figure} ../../images/how_to_jupyterlab_desktop_git.png
+    :::
 
-8.  Launch a Python **Console** from the Launcher tab by clicking on the corresponding square.
+8.  In the left side bar, navigate into the folder created by the cloning operation, here `DROUGHTS`.
+    The folder should contain a file called `environment.yml`.
 
-    -   Put
+9.  Launch a Python **Console** by clicking on the corresponding square in the **Launcher** tab.
+
+    -   At the bottom, next to the `[ ]` is an input field. Put
 
         ```
-        !conda env update -f environment.yml
+        !conda env list
+        ````
+
+        and press `Shift` + `Enter`. Make sure the line starts with an `!`.
+
+    -   In the list displayed above, find the entry with a `*` next to it.
+        The path should end with the name of the environment created above, e.g., `.../envs/climaax_droughts` (the `...` part depends on your operating system and user name).
+
+    -   In the input field at the bottom, put
+
+        ```
+        !conda env update --quiet -f environment.yml -p ".../envs/climaax_droughts"
         ```
 
-        into the console input line at the bottom.
-        Make sure the line starts with an `!`.
+        and replace `.../envs/climaax_droughts` with the full path to the environment from the previous command.
+        You can copy the path from the earlier command's output and paste it into the input field.
+        Again, make sure the line starts with an `!`.
 
     -   Press `Shift` + `Enter` to execute the command and wait until all steps of the package installation are completed (this can take some time).
 
     - Close the Console tab.
 
-9.  Navigate into a workflow folder with the left side bar and launch a notebook by double-clicking on the file.
-    You are now ready to run and execute the selected workflow.
+    :::{figure} ../../images/how_to_jupyterlab_desktop_console.png
+    :::
+
+10. Restart the JupyterLab session to apply the changes.
+    You can restart JupyterLab Desktop and start a new session or use the ↻ symbol in the environment selection dialog next to the hamburger menu.
+
+11. You are now ready to run and execute the workflows from the workflow repository.
 
 
-See the [user guide](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/user-guide.md), [environment management](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/python-env-management.md) and [troubleshooting](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/troubleshoot.md) pages of JupyterLab Desktop for further information.
+See the [user guide](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/user-guide.md), [environment management](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/python-env-management.md) and [troubleshooting](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/troubleshoot.md) pages of JupyterLab Desktop for further information about the application.
 
 
 ## Following sessions

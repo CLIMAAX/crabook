@@ -5,7 +5,7 @@ To follow the steps, access to a **command line interface** (CLI, also known as 
 Your choice of command line will depend on your operating system (e.g., Windows, MacOS or Linux).
 Please consult the installation instructions linked below for options that suit your setup.
 
-:::{seealso}
+:::{note}
 Alternative applications with a graphical user interface are available for some of the steps taken on the command line below.
 
 - [GitHub Desktop](https://github.com/apps/desktop): manage git repositories locally and in your GitHub account.
