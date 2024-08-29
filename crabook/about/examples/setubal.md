@@ -6,7 +6,7 @@
 
 <iframe src="../../iframes/setubal/02_scoping.html" width="100%" height="340px"></iframe>
 
-<iframe src="../../iframes/setubal/03_risk_exploration.html" width="100%" height="850px"></iframe>
+<iframe src="../../iframes/setubal/03_risk_exploration.html" width="100%" height="750px"></iframe>
 
 <iframe src="../../iframes/setubal/04_risk_analysis.html" width="100%" height="900px"></iframe>
 

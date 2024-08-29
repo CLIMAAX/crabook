@@ -24,6 +24,8 @@ parts:
         title: Heatwave datasets
       - file: about/viewers/flood
         title: Flood hazard datasets
+      - file: about/viewers/windstorm
+        title: Windstorm hazard datasets
       - file: about/viewers/external
   - file: about/start
     title: How to start
