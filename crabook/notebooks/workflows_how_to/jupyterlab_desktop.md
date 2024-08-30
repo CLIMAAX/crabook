@@ -1,7 +1,7 @@
 # How to use risk workflows: JupyterLab Desktop setup
 
 As an alternative to the [command-line based steps](cli.md), an environment for running the workflow notebook can be created with [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop).
-The setup requires more steps but avoids the need to set up the command line environment first.
+This setup requires more steps but does not have access to a command line environment as a prerequisite.
 
 :::{note}
 These steps follow a different approach compared to those in the command line instructions:
@@ -11,8 +11,6 @@ The Python environment is then updated to include all required packages for the 
 
 The DROUGHT workflow repository is used as an example here, but the same steps can be followed for other workflows by replacing the hazard name (e.g. FLOODS instead of DROUGHTS).
 
-
-## First setup
 
 1.  [Install](https://github.com/jupyterlab/jupyterlab-desktop/tree/master?tab=readme-ov-file#installation) and start JupyterLab Desktop.
 
@@ -115,9 +113,3 @@ The DROUGHT workflow repository is used as an example here, but the same steps c
 
 
 See the [user guide](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/user-guide.md), [environment management](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/python-env-management.md) and [troubleshooting](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/troubleshoot.md) pages of JupyterLab Desktop for further information about the application.
-
-
-## Following sessions
-
-The next time you start JupyterLab Desktop to continue with a workflow, only make sure that the right environment is selected for the JuypterLab session.
-The Python environment does not have to be set up again.

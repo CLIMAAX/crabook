@@ -10,12 +10,37 @@ figclass: margin-caption
 Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
-Computational workflows in the form of __[Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/)__ allow users to combine interactive code with text and graphical objects. They are powerful tools for conducting computational analysis and data exploration, making them particularly valuable for climate risk assessment. These interactive documents combine live code, equations, visualisations, and narrative text in a single, shareable environment. One of the key benefits of Jupyter Notebooks is their ability to facilitate a reproducible and transparent workflows. The workflow is documented step by step, enhancing the transparency of data analysis methodologies.
+Computational workflows in the form of __[Jupyter Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/)__ are powerful tools for conducting quantitative analysis and data exploration, making them particularly valuable for climate risk assessment.
+These interactive documents combine live code, equations, visualisations, and narrative text in a single, shareable environment.
+One of the key benefits of Jupyter Notebooks is their ability to facilitate reproducible and transparent workflows, with step-by-step documentation of analysis methodologies.
 
 
 ## Availability
 
 Our workflow notebooks are **open source, free and available to anyone** to try them out. They are organized by hazard in our [CLIMAAX](https://github.com/climaax/) organization on GitHub.
+
+Static representations of all workflow notebooks are included in this Handbook on the following pages.
+
+:::{note}
+We use [MyST Markdown](https://mystmd.org/) to enhance the presentation of our workflows.
+The MyST formatting may not be displayed correctly in all notebook viewers (e.g. the preview on GitHub).
+
+We recommend viewing the workflow content here in the Handbook and in a JupyterLab with the [jupyterlab-myst](https://github.com/jupyter-book/jupyterlab-myst?tab=readme-ov-file#jupyterlab-myst-extension) extension enabled (always included in our Python environments).
+:::
+
+
+## Structure
+
+Inside each of our workflow repositories on GitHub are one or more workflows for a common hazard, organized into (numbered) subfolders.
+Every workflow subfolder contains at least three files:
+
+- a **workflow description**,
+- a **hazard assessment** notebook and
+- a **risk assessment** notebook.
+
+The description is the starting point and provides introductory and background information for the methodology and data used in the workflow.
+The first computational steps of the workflow are taken in the hazard assessment notebook, followed by the risk assessment notebook which generally builds on the results from the hazard assessment.
+Some workflows may provide additional notebooks with supplementary content.
 
 
 ## Where to run
@@ -117,3 +142,7 @@ figclass: margin-caption
 ---
 Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
+
+:::{seealso}
+Resources » [Software](../resources/software.md)
+:::

@@ -70,10 +70,6 @@ Here we show how to download the DROUGHT workflow repository as an example, but 
 
 ::::::
 
-:::{seealso}
-Resources » Software » [Git and GitHub](../../resources/software.md#git-and-github)
-:::
-
 
 ## Set up the Python environment
 
@@ -107,10 +103,6 @@ Every workflow repository contains an `environment.yml` file for the conda packa
 
 We also provide a [general environment configuration](https://github.com/CLIMAAX/workflow_template/blob/main/environment.yml) in which all CLIMAAX workflows can run in our workflow template repository.
 
-:::{seealso}
-Resources » Software » [Python](../../resources/software.md#python)
-:::
-
 
 ## Start Jupyter and run a workflow notebook
 
@@ -128,7 +120,3 @@ jupyter notebook
 ```
 
 The interface is served in the browser, which should open automatically. Otherwise use the link printed to the console to open. The interface will present the contents of the folder from which Jupyter was launched. Workflow notebooks can be started there and edited and run interactively in the browser.
-
-:::{seealso}
-Resources » Software » [Jupyter](../../resources/software.md#jupyter)
-:::
