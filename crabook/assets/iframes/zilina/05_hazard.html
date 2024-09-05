@@ -73,7 +73,7 @@
             zoomControl: true,
             preferCanvas: false,
         }
-    ).setView([49.224, 18.736], 12);
+    ).setView([49.224, 19.236], 7);
 
     var tile_layer = L.tileLayer(
         "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
@@ -95,7 +95,7 @@
         {
             layers: "euroheat_relative_change_rcp45_4326_2016_2045",
             name: "Heatwaves - relative change (2016-2045) - RCP4.5",
-            visible: true,
+            show: true,
             transparent: 'true',
             format: 'image/png'
         }
@@ -107,7 +107,7 @@
             layers: "euroheat_relative_change_rcp45_4326_2046_2075",
             name: "Heatwaves - relative change (2046_2075) - RCP4.5",
             transparent: 'true',
-            visible: false,
+            show: false,
             format: 'image/png'
         }
     ).addTo(map_container);
@@ -118,7 +118,7 @@
             layers: "euroheat_relative_change_rcp85_4326_2016_2045",
             name: "Heatwaves - relative change (2016-2045) - RCP8.5",
             transparent: 'true',
-            visible: false,
+            show: false,
             format: 'image/png'
         }
     ).addTo(map_container);
@@ -129,7 +129,18 @@
             layers: "euroheat_relative_change_rcp85_4326_2046_2075",
             name: "Heatwaves - relative change (2046_2075) - RCP8.5",
             transparent: 'true',
-            visible: false,
+            show: false,
+            format: 'image/png'
+        }
+    ).addTo(map_container);
+
+    var nuts_level3 = L.tileLayer.wms(
+        "https://vps.kajoservices.com/geoserver/geoikp/wms",
+        {
+            layers: "geoikp:nuts_level3",
+            name: "Small regions (NUTS 3)",
+            transparent: 'true',
+            show: false,
             format: 'image/png'
         }
     ).addTo(map_container);
@@ -144,6 +155,7 @@
             "Heatwaves - relative change (2046_2075) - RCP4.5" : hw_eu_2046_2075_rcp45,
             "Heatwaves - relative change (2016-2045) - RCP8.5" : hw_eu_2016_2045_rcp85,
             "Heatwaves - relative change (2046_2075) - RCP8.5" : hw_eu_2046_2075_rcp85,
+            "Small regions (NUTS 3)" : nuts_level3,
         },
     };
     L.control.layers(

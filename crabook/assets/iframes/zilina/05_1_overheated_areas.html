@@ -70,7 +70,7 @@
             zoomControl: true,
             preferCanvas: false,
         }
-    ).setView([49.224, 18.736], 12);
+    ).setView([49.224, 19.236], 9);
 
     var tile_layer = L.tileLayer(
         "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
@@ -87,12 +87,24 @@
         }
     ).addTo(map_container);
 
+    var nuts_level3 = L.tileLayer.wms(
+        "https://vps.kajoservices.com/geoserver/geoikp/wms",
+        {
+            layers: "geoikp:nuts_level3",
+            name: "Small regions (NUTS 3)",
+            transparent: 'true',
+            show: false,
+            format: 'image/png'
+        }
+    ).addTo(map_container);
+
     var layer_control = {
         base_layers : {
             "Base layer" : tile_layer,
         },
         overlays :  {
-            "Land surface temperature" : risk_lst
+            "Land surface temperature" : risk_lst,
+            "Small regions (NUTS 3)" : nuts_level3,
         },
     };
 

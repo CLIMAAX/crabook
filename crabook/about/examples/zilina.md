@@ -15,7 +15,7 @@
 :::::{margin}
 ::::{card} Legend
 :::{image} ../../assets/iframes/images/zilina/legend_heatwave_risk.png
-:scale: 30%
+:scale: 20%
 :::
 ::::
 :::::
@@ -25,7 +25,7 @@
 :::::{margin}
 ::::{card} Legend
 :::{image} ../../assets/iframes/images/zilina/legend_heatwave_risk.png
-:scale: 30%
+:scale: 20%
 :::
 ::::
 :::::
@@ -35,7 +35,7 @@
 :::::{margin}
 ::::{card} Legend
 :::{image} ../../assets/iframes/images/zilina/exposed_features_zilina.png
-:scale: 60%
+:scale: 50%
 :::
 ::::
 :::::
@@ -45,11 +45,19 @@
 :::::{margin}
 ::::{card} Legend
 :::{image} ../../assets/iframes/images/zilina/legend_heatwave_risk.png
-:scale: 30%
+:scale: 20%
 :::
 ::::
 :::::
 
 <iframe src="../../iframes/zilina/08_climate_risk_analysis.html" width="100%" height="650px"></iframe>
+
+:::::{margin}
+::::{card} Legend
+:::{image} ../../assets/iframes/images/zilina/legend_heatwave_risk.png
+:scale: 20%
+:::
+::::
+:::::
 
 <iframe src="../../iframes/zilina/09_future_plans.html" width="100%" height="400px"></iframe>

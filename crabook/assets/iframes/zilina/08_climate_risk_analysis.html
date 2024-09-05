@@ -55,7 +55,7 @@
         {
             center: [38.533, -8.886],
             crs: L.CRS.EPSG3857,
-            zoom: 6,
+            zoom: 9,
             zoomControl: true,
             preferCanvas: false,
         }
@@ -76,12 +76,24 @@
         }
     ).addTo(map_container);
 
+    var nuts_level3 = L.tileLayer.wms(
+        "https://vps.kajoservices.com/geoserver/geoikp/wms",
+        {
+            layers: "geoikp:nuts_level3",
+            name: "Small regions (NUTS 3)",
+            transparent: 'true',
+            show: false,
+            format: 'image/png'
+        }
+    ).addTo(map_container);
+
     var layer_control = {
         base_layers : {
             "Base layer" : tile_layer,
         },
         overlays :  {
             "Heatwave risk identification map" : heatwave_risk_identification_map,
+            "Small regions (NUTS 3)" : nuts_level3,
         },
     };
     L.control.layers(
