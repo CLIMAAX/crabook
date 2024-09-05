@@ -123,17 +123,19 @@ parts:
   - file: notebooks/workflows/heatwaves
     title: 🌡️ HEATWAVES
     sections:
-    - file: notebooks/workflows/HEATWAVES/heat_wave_intro
-      title: Heatwaves
+    - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_intro
+      title: Urban heatwaves
       sections:
-      - file: notebooks/workflows/HEATWAVES/heat_wave_risk_description
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_description
         title: Heatwave workflow methodology
-      - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_euroheat
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_hazard_assessment_euroheat
         title: Hazard assessment (EUROheat)
-      - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_xclim
-        title: Hazard assessment (xclim)
-      - file: notebooks/workflows/HEATWAVES/heat_wave_risk_assessment
-        title: Risk assessment
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_hazard_assessment_xclim
+        title: Hazard assessment (Xclim)
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_assessment
+        title: Risk assessment (satellite-derived data)
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_projected_change_Catalunya_example
+        title: Risk assessment (climate projections)
   - file: notebooks/workflows/droughts
     title: 🏜️ DROUGHTS
     sections:
