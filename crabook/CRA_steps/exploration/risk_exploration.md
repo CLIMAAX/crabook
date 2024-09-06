@@ -62,7 +62,7 @@ Having in mind the Scoping phase and including insights from the previous sub-st
 ::::
 
 ## Choose Workflow
-Within the CLIMAAX Toolbox, various risk workflows are proposed to conduct a detailed quantitative analysis of climate risks (see [Risk Analysis](https://climaax.github.io/crabook-test/CRA_steps/analysis/workflows.html)). Following the prioritization of hazards or risks identified in the "Explore Risks" sub-step, the main goal here is to select the most suitable workflows. These chosen workflows aim to quantify specific risks concerning a particular region. Each workflow follows a ‘stepwise’ data processing and is included and further described in the CLIMAAX Toolbox. These workflows support:
+Within the CLIMAAX Toolbox, various risk workflows are proposed to conduct a detailed quantitative analysis of climate risks (see [Risk Analysis](../analysis/workflows.md)). Following the prioritization of hazards or risks identified in the "Explore Risks" sub-step, the main goal here is to select the most suitable workflows. These chosen workflows aim to quantify specific risks concerning a particular region. Each workflow follows a ‘stepwise’ data processing and is included and further described in the CLIMAAX Toolbox. These workflows support:
 − The estimation of risks from the combination of hazard, exposure and vulnerability data.
 − The analysis of damages using damage curves alongside Hazard and Exposure data.
 − The evaluation of assets or populations exposed to specific climate-related hazards.
@@ -83,5 +83,5 @@ One Risk Workflow may have several options (e.g. Drought Risk). Make sure you un
 
 
 ## Choose Scenario
-Based on the interests and concerns of the regions and their key stakeholders defined in Scoping and further refined in Explore risks, the primary objective of this sub-step is to identify the most appropriate scenario. Selecting scenarios may range from more simple SSP-RCP (see [Technical Choices](https://climaax.github.io/crabook-test/CRA_steps/beforeyoustart.html#)) considerations to a more demanding and detailed process considering climate models, regional resolution/downscaling, global warming levels, low-likelihood high-impact outcomes or impact-oriented climate information (see Annex in our deliverable XY).
+Based on the interests and concerns of the regions and their key stakeholders defined in Scoping and further refined in Explore risks, the primary objective of this sub-step is to identify the most appropriate scenario. Selecting scenarios may range from more simple SSP-RCP (see [Technical Choices](../beforeyoustart/beforeyoustart.md)) considerations to a more demanding and detailed process considering climate models, regional resolution/downscaling, global warming levels, low-likelihood high-impact outcomes or impact-oriented climate information (see Annex in our deliverable XY).
 Choosing the right set of scenarios is crucial for the decision-context and policy output. It will help understand and characterize potential future risks while informing the development and evaluation of different CRM strategies.

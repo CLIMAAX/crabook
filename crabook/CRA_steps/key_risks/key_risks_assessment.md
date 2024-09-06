@@ -80,7 +80,7 @@ Stakeholders and experts would consider adaptation responses and climate risk ma
 
 ```{admonition} Tip
 :class: tip
-The outcome of the Key Risk Assessment can be assigned to high/medium/low risk profiles which then can be hierarchically ordered and assigned as “key” or “less urgent” risk. Key risks should enter the [Climate Risk Management funnel](https://climaax.github.io/crabook-test/CRA_steps/CRM.html).
+The outcome of the Key Risk Assessment can be assigned to high/medium/low risk profiles which then can be hierarchically ordered and assigned as “key” or “less urgent” risk. Key risks should enter the [Climate Risk Management funnel](../CRM.md).
 ```
 
 ```{admonition} Tip

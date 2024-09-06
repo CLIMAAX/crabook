@@ -101,9 +101,9 @@ Links are done by putting the text under [] and target under ().
     [text](relative_path)
     ```
   - ```md
-    [CRA datasets](../CRA_steps/exploration/datasets)
+    [CRA datasets](../CRA_steps/analysis/datasets)
     ```
-  - [CRA datasets](../CRA_steps/exploration/datasets)
+  - [CRA datasets](../CRA_steps/analysis/datasets)
 * - ```md
     [text](target "title")
     ```

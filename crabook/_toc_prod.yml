@@ -31,14 +31,14 @@ parts:
   - file: CRA_steps/analysis/risk_analysis
     title: Risk Analysis
     sections:
-    - file: CRA_steps/exploration/datasets
+    - file: CRA_steps/analysis/datasets
       title: CRA Datasets
       sections:
-      - file: CRA_steps/exploration/hazard_data
+      - file: CRA_steps/analysis/hazard_data
         title: Hazard datasets
-      - file: CRA_steps/exploration/exposure_data
+      - file: CRA_steps/analysis/exposure_data
         title: Exposure datasets
-      - file: CRA_steps/exploration/vulnerability_data
+      - file: CRA_steps/analysis/vulnerability_data
         title: Vulnerability datasets
     - file: CRA_steps/analysis/workflows
       title: Risk workflows
