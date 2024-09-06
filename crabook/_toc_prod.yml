@@ -28,6 +28,8 @@ parts:
     title: Scoping
   - file: CRA_steps/exploration/risk_exploration
     title: Risk Exploration
+  - file: CRA_steps/analysis/risk_analysis
+    title: Risk Analysis
     sections:
     - file: CRA_steps/exploration/datasets
       title: CRA Datasets
@@ -38,9 +40,6 @@ parts:
         title: Exposure datasets
       - file: CRA_steps/exploration/vulnerability_data
         title: Vulnerability datasets
-  - file: CRA_steps/analysis/risk_analysis
-    title: Risk Analysis
-    sections:
     - file: CRA_steps/analysis/workflows
       title: Risk workflows
   - file: CRA_steps/key_risks/key_risks_assessment
@@ -98,17 +97,19 @@ parts:
   - file: notebooks/workflows/heatwaves
     title: 🌡️ HEATWAVES
     sections:
-    - file: notebooks/workflows/HEATWAVES/heat_wave_intro
-      title: Heatwaves
+    - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_intro
+      title: Urban heatwaves
       sections:
-      - file: notebooks/workflows/HEATWAVES/heat_wave_risk_description
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_description
         title: Heatwave workflow methodology
-      - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_euroheat
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_hazard_assessment_euroheat
         title: Hazard assessment (EUROheat)
-      - file: notebooks/workflows/HEATWAVES/heat_wave_hazard_assessment_xclim
-        title: Hazard assessment (xclim)
-      - file: notebooks/workflows/HEATWAVES/heat_wave_risk_assessment
-        title: Risk assessment
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_hazard_assessment_xclim
+        title: Hazard assessment (Xclim)
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_assessment
+        title: Risk assessment (satellite-derived data)
+      - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_projected_change_Catalunya_example
+        title: Risk assessment (climate projections)
   - file: notebooks/workflows/droughts
     title: 🏜️ DROUGHTS
     sections:
@@ -163,6 +164,8 @@ parts:
   chapters:
   - file: resources/support
     title: Support
+  - file: resources/guiding_questions
+    title: Guiding questions and answers 
   - file: resources/glossary
     title: Glossary
   - file: resources/software

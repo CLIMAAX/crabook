@@ -46,6 +46,8 @@ parts:
     title: Scoping
   - file: CRA_steps/exploration/risk_exploration
     title: Risk Exploration
+  - file: CRA_steps/analysis/risk_analysis
+    title: Risk Analysis
     sections:
     - file: CRA_steps/exploration/datasets
       title: CRA Datasets
@@ -56,9 +58,6 @@ parts:
         title: Exposure datasets
       - file: CRA_steps/exploration/vulnerability_data
         title: Vulnerability datasets
-  - file: CRA_steps/analysis/risk_analysis
-    title: Risk Analysis
-    sections:
     - file: CRA_steps/analysis/workflows
       title: Risk workflows
   - file: CRA_steps/key_risks/key_risks_assessment
