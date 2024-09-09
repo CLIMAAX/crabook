@@ -6,7 +6,7 @@
 
 <iframe src="../../iframes/zilina/02_scoping.html" width="100%" height="500px"></iframe>
 
-<iframe src="../../iframes/zilina/03_risk_exploration.html" width="100%" height="800px"></iframe>
+<iframe src="../../iframes/zilina/03_risk_exploration.html" width="100%" height="580px"></iframe>
 
 <iframe src="../../iframes/zilina/04_risk_analysis.html" width="100%" height="250px"></iframe>
 
