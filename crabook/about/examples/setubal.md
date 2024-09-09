@@ -4,7 +4,7 @@
 
 <iframe src="../../iframes/setubal/01_intro_map.html" height="500" width="100%"></iframe>
 
-<iframe src="../../iframes/setubal/02_scoping.html" width="100%" height="340px"></iframe>
+<iframe src="../../iframes/setubal/02_scoping.html" width="100%" height="380px"></iframe>
 
 <iframe src="../../iframes/setubal/03_risk_exploration.html" width="100%" height="750px"></iframe>
 
