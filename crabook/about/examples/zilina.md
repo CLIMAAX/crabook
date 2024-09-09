@@ -10,17 +10,9 @@
 
 <iframe src="../../iframes/zilina/04_risk_analysis.html" width="100%" height="250px"></iframe>
 
-<iframe src="../../iframes/zilina/05_hazard.html" width="100%" height="400px"></iframe>
+<iframe src="../../iframes/zilina/05_hazard.html" width="100%" height="420px"></iframe>
 
-:::::{margin}
-**Legend**
-
-:::{image} ../../assets/iframes/images/zilina/legend_heatwave_risk.png
-:scale: 20%
-:::
-:::::
-
-<iframe src="../../iframes/zilina/05_1_overheated_areas.html" width="100%" height="400px"></iframe>
+<iframe src="../../iframes/zilina/05_1_overheated_areas.html" width="100%" height="440px"></iframe>
 
 :::::{margin}
 **Legend**
