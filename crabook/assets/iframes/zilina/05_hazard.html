@@ -2,10 +2,10 @@
 <head>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
-        <script>
-            L_NO_TOUCH = false;
-            L_DISABLE_3D = false;
-        </script>
+    <script>
+        L_NO_TOUCH = false;
+        L_DISABLE_3D = false;
+    </script>
     
     <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
     
@@ -21,26 +21,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
     
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_container {
-                    width: 100.0%;
-                    height: 100.0%;
-                }
-            </style>
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #div_container {
-                    position: relative;
-                    width: 100.0%;
-                    left: 0;
-                    top: 0;
-                }
-            </style>
-
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <style>
+        #map_container {
+            width: 100.0%;
+            height: 100.0%;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        #div_container {
+            position: relative;
+            width: 100.0%;
+            left: 0;
+            top: 0;
+        }
+
+        .leaflet-bottom.leaflet-right { max-width: 60%; }
         .leaflet-control-title {
             padding: 5px 2px 5px 10px;
             display: inline-block;
@@ -85,7 +84,7 @@
             zoomControl: true,
             preferCanvas: false,
         }
-    ).setView([49.224, 19.236], 7);
+    ).setView([49.224, 18.736], 7);
 
     /*
     var tile_layer = L.tileLayer(
@@ -170,6 +169,7 @@
     ).addTo(map_container);
 
     var zilina_marker = L.marker([49.224, 18.736], { "title": "Žilina" }).addTo(map_container);
+    zilina_marker.bindPopup("<b>Žilina</b>");
 
     var layer_control = {
         base_layers : {
@@ -181,7 +181,7 @@
             "Relative change (2046-2075) - RCP8.5" : hw_eu_2046_2075_rcp85,
         },
         overlays :  {
-            "NUTS3 regions" : nuts_level3,
+            "NUTS 3 regions" : nuts_level3,
             "Žilina": zilina_marker
         },
     };
@@ -198,5 +198,7 @@
     var control_title = L.DomUtil.create("div", "leaflet-control-title", );
     control_title.textContent = "Heatwave Risk";
     control_layers.getContainer().prepend(control_title);
+
+    L.control.scale().addTo(map_container);
 
 </script>

@@ -14,42 +14,10 @@
 
 <iframe src="../../iframes/zilina/05_1_overheated_areas.html" width="100%" height="440px"></iframe>
 
-:::::{margin}
-**Legend**
+<iframe src="../../iframes/zilina/06_exposure.html" width="100%" height="450px"></iframe>
 
-:::{image} ../../assets/iframes/images/zilina/legend_heatwave_risk.png
-:scale: 20%
-:::
-:::::
+<iframe src="../../iframes/zilina/07_vulnerability.html" width="100%" height="440px"></iframe>
 
-<iframe src="../../iframes/zilina/06_exposure.html" width="100%" height="400px"></iframe>
+<iframe src="../../iframes/zilina/08_climate_risk_analysis.html" width="100%" height="710px"></iframe>
 
-:::::{margin}
-**Legend**
-
-:::{image} ../../assets/iframes/images/zilina/exposed_features_zilina.png
-:scale: 50%
-:::
-:::::
-
-<iframe src="../../iframes/zilina/07_vulnerability.html" width="100%" height="400px"></iframe>
-
-:::::{margin}
-**Legend**
-
-:::{image} ../../assets/iframes/images/zilina/legend_heatwave_risk.png
-:scale: 20%
-:::
-:::::
-
-<iframe src="../../iframes/zilina/08_climate_risk_analysis.html" width="100%" height="650px"></iframe>
-
-:::::{margin}
-**Legend**
-
-:::{image} ../../assets/iframes/images/zilina/legend_heatwave_risk.png
-:scale: 20%
-:::
-:::::
-
-<iframe src="../../iframes/zilina/09_future_plans.html" width="100%" height="400px"></iframe>
+<iframe src="../../iframes/zilina/09_future_plans.html" width="100%" height="320px"></iframe>
