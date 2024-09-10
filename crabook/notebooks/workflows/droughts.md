@@ -13,8 +13,7 @@ See our [how to](../workflows_how_to.md), [software](../../resources/software.md
 
 <img alt="Droughts" src="../../images/top/top_droughts.png" class="page-main-photo">
 
-Droughts
-=======================
+# Droughts
 
 Drought can be defined as a prolonged period of abnormally low rainfall, leading to a shortage of water over a specific region for a given period of time. Droughts are characterized by an deficit between water supply and demand, and can have important consequences for society, ecosystems, and agriculture. Understanding the different types of droughts and their complex dynamics is essential for implementing sustainable mitigation and adaptation strategies. Drought is more than just a lack of rainfall as this can propagate to a persistent shortage of surface water, soil moisture, and up to groundwater. For this reason, droughts are often classified into four main types different by their severity, impacts, and time scales:
 
@@ -27,3 +26,25 @@ Drought can be defined as a prolonged period of abnormally low rainfall, leading
 **Socioeconomic drought** encompasses the broader impacts of water scarcity on society, including water supply shortages, increased food prices, and social unrest.
 
 The cascade between drought types is governed by the severity (i.e., magnitude), duration, and spatio-temporal distribution of drought events. Understanding drought dynamics is of pivotal importance to better assess drought risk and developed more informed adaptive strategies to mitigate impacts and build resilient societies under climate change conditions.
+
+
+## Workflows
+
+::::{grid}
+:gutter: 3
+
+:::{grid-item-card} Relative drought
+:columns: 4
+:link: DROUGHTS/01_relative_drought/Risk_workflow_description_RELATIVE_DROUGHT
+:link-type: doc
+:img-bottom: ../../images/top/top_droughts.png
+:::
+
+:::{grid-item-card} Agricultural drought
+:columns: 4
+:link: DROUGHTS/02_agriculture_drought/AGRICULTURE_Risk_workflow_description
+:link-type: doc
+:img-bottom: ../../images/top/top_droughts.png
+:::
+
+::::

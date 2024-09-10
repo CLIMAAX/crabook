@@ -24,6 +24,21 @@ Moreover, further studies have provided robust evidence that the intensification
 Although there is an ongoing debate on the estimated socio-economic losses that could be observed, there is a consensus that extreme rainfall will substantially increase flood damages if insufficient or no adaptation measures to improve the preparedness and coping capacity of communities are developed and implemented.
 
 
+## Workflows
+
+::::{grid}
+:gutter: 3
+
+:::{grid-item-card} Extreme precipitation
+:columns: 4
+:link: HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro
+:link-type: doc
+:img-bottom: ../../images/top/top_heavy_rainfall.png
+:::
+
+::::
+
+
 ## References
 
 - Centre for Research on the Epidemiology of Disasters. (2021). *Extreme weather events in Europe*. https://www.cred.be/sites/default/files/CredCrunch64.pdf
