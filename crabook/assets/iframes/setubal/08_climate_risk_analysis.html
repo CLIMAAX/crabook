@@ -2,10 +2,10 @@
 <head>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
-        <script>
-            L_NO_TOUCH = false;
-            L_DISABLE_3D = false;
-        </script>
+    <script>
+        L_NO_TOUCH = false;
+        L_DISABLE_3D = false;
+    </script>
     
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
@@ -21,24 +21,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
 
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #div_container {
-                    position: relative;
-                    width: 100.0%;
-                    left: 0;
-                    top: 0;
-                }
-                #map_container {
-                    width: 100.0%;
-                    height: 400px;
-                }
-            </style>
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>
+        #div_container {
+            position: relative;
+            width: 100.0%;
+            left: 0;
+            top: 0;
+        }
+        #map_container {
+            width: 100.0%;
+            height: 400px;
+        }
+        .leaflet-bottom.leaflet-right { max-width: 60%; }
+        .leaflet-control-title {
+            padding: 5px 2px 5px 10px;
+            display: inline-block;
+            font-weight: bold;
+            color: #666;
+        }
+        .leaflet-control-layers-toggle {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
 
 </head>
 <body>
-    <div id="div_container" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+    <div id="div_container" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex; margin-top: 10px;">
         <div style="align-self: stretch; color: #21283A; font-size: 24px; font-family: Roboto, sans-serif; font-weight: 900; word-wrap: break-word">Climate Risk Analysis</div>
         <div style="border-top: 5px solid #0A1D6B; padding-bottom: 20px; align-self: stretch; color: #21283A; font-size: 24px; font-family: Roboto, sans-serif; font-weight: 900; word-wrap: break-word"></div>
         <div style="align-self: stretch;" class="folium-map" id="map_container"></div>
@@ -62,10 +73,10 @@
         }
     );
 
-    var tile_layer = L.tileLayer(
-        "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
-        {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-    ).addTo(map_container);
+    // var tile_layer = L.tileLayer(
+    //     "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+    //     {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+    // ).addTo(map_container);
 
     var extreme_precipitation_1976_2005 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
@@ -118,22 +129,32 @@
         }
     ).addTo(map_container);
 
+    var setubal_marker = L.marker([38.533, -8.886], { "title": "Setúbal" }).addTo(map_container);
+    setubal_marker.bindPopup("<b>Setúbal</b>");
+
     var layer_control = {
         base_layers : {
-            "Base layer" : tile_layer,
+            // "Base layer" : tile_layer,
+            "1976-2005" : extreme_precipitation_1976_2005,
+            "2011-2040" : extreme_precipitation_2011_2040,
+            "2041-2070" : extreme_precipitation_2041_2070,
+            "2071-2100" : extreme_precipitation_2071_2100,
         },
         overlays :  {
-            "Extreme precipitation (1976-2005)" : extreme_precipitation_1976_2005,
-            "Extreme precipitation (2011-2040)" : extreme_precipitation_2011_2040,
-            "Extreme precipitation (2041-2070)" : extreme_precipitation_2041_2070,
-            "Extreme precipitation (2071-2100)" : extreme_precipitation_2071_2100,
-            "Small regions (NUTS 3)" : nuts_level3,
+            "NUTS 3 regions" : nuts_level3,
+            "Setúbal": setubal_marker,
         },
     };
-    L.control.layers(
+    var control_layers = L.control.layers(
         layer_control.base_layers,
         layer_control.overlays,
         {"autoZIndex": true, "collapsed": true, "position": "topright"}
     ).addTo(map_container);
+
+    var control_title = L.DomUtil.create("div", "leaflet-control-title", );
+    control_title.textContent = "Precipitation";
+    control_layers.getContainer().prepend(control_title);
+
+    L.control.scale().addTo(map_container);
 
 </script>

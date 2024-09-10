@@ -22,17 +22,9 @@
 
 <iframe src="../../iframes/setubal/06_exposure.html" width="100%" height="500px"></iframe>
 
-<iframe src="../../iframes/setubal/07_vulnerability.html" width="100%" height="400px"></iframe>
+<iframe src="../../iframes/setubal/07_vulnerability.html" width="100%" height="440px"></iframe>
 
-:::::{margin}
-**Legend**
-
-:::{image} ../../assets/iframes/images/setubal/setubal_vulnerability_legend.png
-:scale: 60%
-:::
-:::::
-
-<iframe src="../../iframes/setubal/08_climate_risk_analysis.html" width="100%" height="620px"></iframe>
+<iframe src="../../iframes/setubal/08_climate_risk_analysis.html" width="100%" height="630px"></iframe>
 
 :::::{margin}
 **Legend (m/km2)**
