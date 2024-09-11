@@ -78,6 +78,13 @@ parts:
         title: Hazard assessment - coastal flood maps
       - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_assessment_FLOOD_COASTAL
         title: Risk assessment - economic damages
+    - file: notebooks/workflows/FLOODS/03_Flood_damage_and_population_exposure/Risk_workflow_description_FLOOD_BUILDING_POPULATION
+      title: Flood building damage and population exposed
+      sections:
+      - file: notebooks/workflows/FLOODS/03_Flood_damage_and_population_exposure/Hazard_assessment_FLOOD_BUILDING_POPULATION
+        title: Hazard assessment
+      - file: notebooks/workflows/FLOODS/03_Flood_damage_and_population_exposure/Risk_assessment_FLOOD_BUILDING_POPULATION
+        title: Risk assessment
     - file: notebooks/workflows/vulnerability-curves-adjustment
       title: Working with vulnerability curves
   - file: notebooks/workflows/heavy_rainfall
