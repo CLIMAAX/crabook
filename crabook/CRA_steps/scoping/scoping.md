@@ -1,18 +1,12 @@
-Scoping
-=======================
+# Scoping
 
-A comprehensive CRA profits from an extensive scoping as it sets the ground for further steps and therefore also lays the foundation for the extent and quality of the CRA. This initial process defines objectives (desired results of the analysis), context (subject of analysis, conditions), identifies stakeholders and assigns risk ownership. This step should result in an agreement on the approach to be used for the analysis. All sub-steps are informed by a pre-defined set of principles emerging from the conceptual background described in [Before you start](../beforeyoustart/beforeyoustart.md).
-
-```{image} ../../images/framework/il_framework_ToolboxSteps_FigB_Scoping_ring.png
+```{figure} ../../images/framework/il_framework_ToolboxSteps_FigB_Scoping_ring.png
 :width: 550px
 :align: center
 ```
 
-````{margin}
-```{card}
-Click below for Guiding questions
-```
-````
+A comprehensive CRA profits from an extensive scoping as it sets the ground for further steps and therefore lays the foundation for the scope and quality of the CRA. This initial process defines objectives (desired results of the analysis), context (subject of analysis, conditions for implementation), identifies stakeholders and assigns risk ownership. This step should result in an agreement on the objectives of the CRA and on the approach to be used for the analysis. All sub-steps are informed by the predefined set of [principles](../beforeyoustart/principles) emerging from the conceptual background.
+
 
 ::::{margin}
 :::{dropdown} Guiding questions - Objectives
@@ -24,8 +18,9 @@ Click below for Guiding questions
 - How do your envisaged objectives and envisaged outcomes come together? Does this somehow influence the communication of your results?
 :::
 ::::
-## Define objectives
-The definition of objectives is an important task to better understand purpose, expected outcome and tem-poral and geographical boundaries of the CRA. Such considerations may entail a first brainstorming exercise, outlining expectations and needs may already include relevant hazards, impacted sectors or vulnerable or disproportionally affected groups. It is beneficial to outline the temporal and spatial boundaries as well as limitations of the risk assessment or adaptation measures, thus providing relevant insights for next steps of the CRA.
+
+The definition of **objectives** is an important task to better understand *purpose*, expected *outcome* and temporal and geographical *boundaries* of the CRA. This may entail a first brainstorming exercise, outlining expectations and needs and may already include relevant hazards, impacted sectors or vulnerable or disproportionally affected groups, together with an operational timeline of CRA activities. It is beneficial to outline the temporal and spatial boundaries as well as limitations of the risk assessment, thus providing relevant insights for next steps of the CRA.
+
 
 ::::{margin}
 :::{dropdown} **Guiding questions - Context**
@@ -43,8 +38,8 @@ The definition of objectives is an important task to better understand purpose, 
 :::
 ::::
 
-## Set the context
-When conducting the scoping step, a region should elaborate on the context of their CRA (context analysis) by linking it both to the background that it comes from as well as the space that it will inform. This implies a broad contextualization ranging from risk relevant governance and policy aspects for the region (procedural, legislative, institutional conditions), the formulation of a clear system definition for the risk assessment including temporal and spatial dimensions as well as the consideration of available time and resources.
+When conducting the scoping step, a region should elaborate on the **context** of their CRA (context analysis) by linking it *both to the background that it comes from as well as the space that it will inform*. This implies a broad contextualization ranging from risk relevant governance and policy aspects for the region (procedural, legislative, institutional conditions), the formulation of a clear system definition for the risk assessment including temporal and spatial dimensions as well as the consideration of available time and resources.
+
 
 ::::{margin}
 :::{dropdown} **Guiding questions - Participation & Risk Ownership**
@@ -56,8 +51,7 @@ When conducting the scoping step, a region should elaborate on the context of th
 :::
 ::::
 
-## Participatory processes and risk ownership
-The ideal implementation of an inclusive CRA is hybrid and thus combines top-down application and knowledge together with bottom-up perspectives and experiences. Therefore, it is important for a region to decide the extent of participatory processes that are desired, also in the light of available resources. Once this is clarified, it is necessary for a region to identify a first set of stakeholders by identifying representatives of, for example, impacted sectors, vulnerable groups or disproportionally affected areas, ministries, academia, civil protection agencies or other local and regional entities involved in CRM planning. A proper CRA profits from insights from a variety of fields sharing their expertise or addressing their needs and concerns. Besides the Who it is also relevant to decide When and How stakeholders, experts and representatives should be included. Planning this thoroughly is important as stakeholder participation may lead to an increase of (time) efforts. Further, in this step it is crucial to allocate ownership of risk to ensure communication and efficient CRM.
+The ideal implementation of an inclusive CRA is hybrid and thus combines top-down application of knowledge together with bottom-up perspectives and experiences. Therefore, it is important for a region to decide the extent of **participatory processes** that are desired, also in the light of available resources. Once this is clarified, it is necessary for a region to identify a first set of stakeholders by listing representatives of, for example, impacted sectors, vulnerable groups or disproportionally affected areas, ministries, academia, civil protection agencies or other local and regional entities involved in CRM planning. Besides the *Who*, it is also relevant to decide *When* and *How* stakeholders, experts and priority groups should be included. Planning this thoroughly is important as stakeholder participation may lead to an increase of (time) efforts. Furthermore, in this step it is crucial to allocate **ownership** of risk to ensure communication and efficient CRM by assigning responsibility for the relative risk to stakeholders or the executing entity.
 
 ```{figure} ../../images/illustration/reusability_loop.jpg
 ---
@@ -67,3 +61,12 @@ figclass: margin-caption
 Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
+Throughout this task, relevant **principles** from the conceptual background should be reflected and find application through, for example, stakeholder selection, setting of goals and boundaries, and clearly defining the work plan to ensure quality and rigour.
+
+:::{tip}
+Stakeholder selection is not necessarily concluded in the Scoping phase. Depending on a region’s Risk Outcome, the inclusion of stakeholders may be reassessed or changed as part of the Key Risk Assessment step which evaluates outcomes of the Risk Analysis, and thus indicates a back-and-forth of the process.
+:::
+
+:::{tip}
+It can be beneficial for regions to include national (climate) risk or adaptation documents such as risk and vulnerability assessments prepared in an EU context.
+:::
