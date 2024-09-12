@@ -1,8 +1,15 @@
 # Contribute to risk recipes
 
-We are happy to receive contributions that enhance and expand the capabilities of our risk assessment toolbox. I you want to contribute, you can get in touch with us via the [CLIMAAX organization](https://github.com/CLIMAAX/) on GitHub, where this handbook and the contained [risk workflows](../CRA_steps/analysis/workflows) are at home.
+We are happy to receive contributions that enhance and expand the capabilities of our risk assessment toolbox.
+If you want to contribute, you can get in touch with us via the [CLIMAAX organization](https://github.com/CLIMAAX/) on GitHub, where this handbook and the contained risk workflows are at home.
 
 If you do not have a GitHub account, you can sign up [here](https://github.com/signup).
+
+
+## Code of Conduct
+
+The CLIMAAX Handbook is published with a [Code of Conduct](https://github.com/CLIMAAX/crabook/blob/main/CONDUCT.md).
+By contributing to this project you agree to abide by its terms.
 
 
 ## Workflow for existing hazard
