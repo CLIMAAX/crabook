@@ -7,22 +7,31 @@ width: 550px
 name: Framework_RiskAnalysis
 ```
 
-Once the Risk Exploration is completed, the Risk Analysis allows for the quantification of the risk in a given region. This is carried out through the CLIMAAX Toolbox. In the previous section, the user defined the type of risk workflow and hazard they are interested in; here, the user will follow 5 main steps to calculate their individual Climate Risk. Technical knowledge of Python or similar modelling tools is needed for the application of the risk analysis workflows.
-The first step is to **Set Up the Environment** for the CRA. The risk workflows, described and implemented within the CLIMAAX handbook, require a Python installation, cloning of relevant GitHub repositories and the installation of necessary packages. For this, the user can follow instructions provided in the Readme of the repository.
-Second, the user will **Access Data** on *hazard*, *exposure*, and *vulnerability*. Based on the region of interest, the user can decide whether to use pre-calculated European/large-scala datasets available in the CLIMAAX Toolbox about hazard (e.g. precipitation, water depth and flood extent), exposure (e.g. population, critical infrastructures), and vulnerability (e.g. age, income) or to implement their own, local data. The latter regards advanced users, while basic users profit from data that is provided through workflows. Once this is completed, it will be possible to visualize the maps of hazard, exposure, and vulnerability to have a preliminary idea of the hotspots area possibility affected by high risk.
-Third, the user will be able to **Calculate the Hazard** based on the information and approach selected. As climate risk not only depends on climate-related hazards but also on the exposure and vulnerability of a region/society to the respective hazard, the fourth step **combines hazard data with Exposure and Vulnerability** to assess risk according to the equation
+Once the Risk Exploration is completed, the next step is to apply the risk workflow and scenario decisions in the Risk Analysis to estimate risk in a given region . The risk workflows consider four main steps to calculate a region’s individual Climate Risk: *Set the environment, access data, estimate the hazard and combine with exposure and vulnerability data*. A {abbr}`Python installation (Successful CLIMAAX applicants can run the workflows on the ECMWF servers through JupyterHub hosted at ECMWF cloud infrastructure. In that environment, all workflows are readily available together with the necessary libraries.)` and technical knowledge (e.g., of Python or similar modelling tools and GitHub) is needed for the application of the risk analysis workflows.
 
-*Risk = Hazard × Exposure × Vulnerability*
+For **setting the environment** of the selected workflow the user can find all the necessary information in the respective workflow. For this, the user can follow the instructions provided in the Readme of the repository.
 
-The workflows follow three main approaches:
+**Accessing data** on hazard, exposure, and vulnerability requires a decision on whether to use precalculated European/large-scale datasets available in the CLIMAAX Handbook about hazard (e.g. wildfire, flood water depth, and heatwave), exposure (e.g. population, critical infrastructure), and vulnerability (e.g. GDP) or to implement [own local data](#framework-ownlocaldata). The latter requires advanced users, while basic users can benefit from data provided through workflows. Once this is completed, it is possible to visualize the maps of hazard, exposure, and vulnerability to have a preliminary idea of the hotspots areas potentially affected by high risk. 
 
-- **Exposed assets and/or population** – Risk as overlap between hazard information and exposure.
-- **Economic damage analysis** – Hazard combined with exposure and vulnerability data using damage functions.
-- **Indicators product** - Risk as the product between hazard, exposure, and vulnerability.
+The **Hazard** can be estimated either through precalculated, large-scale European hazard maps or through individual, local data hazard maps. As climate risk not only depends on climate-related hazards but also on the exposure and vulnerability of a region/society to the respective hazard, the final step combines hazard data with **Exposure and Vulnerability** to assess risk according to the equation:
 
-Finally, following these steps Climate Risk is calculated and different visualization options are proposed. For example, risk can be visualized as risk map using different colors for different categories of risk (e.g. red as high risk, while green as low risk). Moreover, the user can visualize a map of the exposed population for a certain moment, or it can visualize a diagram of changes of exposed population for a certain area and specific risk categories (e.g. time series of population exposed to high drought risk).
+> Risk = Hazard × Exposure × Vulnerability
 
-```{admonition} Event-based climate storylines as complementary approach
-:class: hint
-Future storylines (as a combination of past events and climate change information) are helpful to explore what-if-things-had-been-different situations by e.g. exploring intensity or frequency of climatic drivers and the societal response. Climatic drivers include long term changes but also the timing, spatial patterns, and co-occurrence of events in different regions; Future economic and social dimensions can refer to expected changes in demography, economic structure and many more aspects of societal response.
+Different visualisation options can describe the risk estimation ({numref}`framework-visexamples`): For example, risk can be visualised through a risk map with different colors (e.g., green low risk, red high risk), a map showing exposed population or a diagram of changes of exposed population for a certain area and specific risk categories (e.g. time series of population exposed to high drought risk). More details about the Risk Analysis step, risk workflows, and risk visualization are reported in the CLIMAAX [Deliverable 2.4](https://files.cmcc.it/climaax/CLIMAAX_D2.4.pdf).  
+
+
+```{figure} ../../images/framework_visexamples.png
+:name: framework-visexamples
+
+Examples of the different outputs from the three risk assessment approaches with **A** drought risk indexing, **B** coastal flood damage, and **C** drought exposed population. Credit: CLIMAAX consortium.
 ```
+
+:::{admonition} Event-based Climate Storylines
+:class: note
+
+Event-based physical climate storylines (or in brief: climate event storylines) are a complementary approach to produce climate information relevant for decision making. You can find more information on this qualitative risk analysis option [here](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D1.4.pdf).
+:::
+
+:::{tip}
+Including the estimation of current climate risk of the respective hazard can serve as a baseline for tracking future trends, which is relevant for the Monitoring and Evaluation step of the CRA.
+:::

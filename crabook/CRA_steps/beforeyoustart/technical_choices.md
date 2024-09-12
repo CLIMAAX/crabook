@@ -92,6 +92,7 @@ Current conditions, including yearly variations, as well as variations in the co
 :::
 
 
+(framework-ownlocaldata)=
 ## Integration of local data
 
 The selection of datasets for a CRA should follow the [IPCC risk definition](#framework-term-risk) according to which risk results from the interaction of climate-related *hazards*, elements *exposed* to these hazards, and the *vulnerability* of the exposed elements. Local data (hazard, vulnerability, exposure) can help provide a more detailed and accurate picture of the potential risks and impacts of climate change. This applies to locally collected climate variables as well as data that can help identify vulnerable populations that may be disproportionately impacted by climate change. Integrating local data can also help ensure that climate risk assessments are tailored to the specific needs and concerns of local communities.
