@@ -18,6 +18,8 @@ parts:
   - file: CRA_steps/beforeyoustart/beforeyoustart
     title: Before you start
     sections:
+    - file: CRA_steps/beforeyoustart/conceptual_background
+      title: Conceptual Background
     - file: CRA_steps/beforeyoustart/principles
       title: Principles
     - file: CRA_steps/beforeyoustart/technical_choices
@@ -47,7 +49,7 @@ parts:
   - file: CRA_steps/monitoring/monitoring
     title: Monitoring and Evaluation
   - file: CRA_steps/CRM
-    title: Connect CLIMAAX with Climate Risk Management
+    title: Integration in Climate Risk Management
 
 - caption: Risk workflows
   chapters:
