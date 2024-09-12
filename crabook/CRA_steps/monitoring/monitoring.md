@@ -24,10 +24,15 @@ Monitoring and Evaluation
 :::
 ::::
 
-Monitoring and evaluation is both a departure and ending point, as the goal of the CRA is to iteratively go through its process while aiming at continuous improvement. This step therefore also brings in another momentum of opportunities. The M&E step is essential for ensuring Climate Risks (Key and Less Urgent Risks) are effectively monitored and managed and that climate risk management efforts can have appropriate impact. It may include participatory processes and has a special focus on the *learning* component.
+Monitoring and evaluation (M&E) is both a departure and ending point, as the goal of the CRA is to iteratively go through its process while aiming at continuous improvement. This step therefore also brings in another momentum of opportunities. The M&E step is essential for ensuring climate-related risks (key and less urgent risks) are effectively monitored and managed and that climate risk management efforts can have appropriate impact. It may include participatory processes and has a special focus on the *learning* component. Finally, communicating the final results of the CRA is an important outcome of the CRA.
 
-The M&E step unites two separate but also connected sub-steps. While Monitoring has its focus on the process, Evaluation puts emphasis on the outcome – Monitoring therefore refers to the surveillance of climate hazards and their respective risks, whereas Evaluation aims at (re-)evaluating the Climate Risk Assessment itself. In Monitoring, regions should take into account *Less Urgent Risks* as well as *Key Risks* and observe them over time. Putting them into context in relation to specific objectives, principles or needs that were set earlier (e.g., during Scoping or Risk Exploration) concludes the cycle. On the other hand, Evaluation comprises of an iterative reflection on the Climate Risk Assessment cycle, including a comparison of factual and projected climate risk situations. The frequency of Evaluation is defined by the region and may vary according to Risk Outcomes, objectives or policy interest. *Learning* is of key significance in this step as evaluation may continuously generate new knowledge and data and can thus influence processes with regard to, e.g., governance, policy and decision-making or relevant ministries and institutions. It is crucial to understand what works well and what does not and act upon it – as in the CRA process and as in dealing with risks.
-Both M&E steps can facilitate participatory processes and include relevant stakeholders for most extensive engagement and comprehensive understanding of the CRA, thus ensuring that the process is robust and put into context.
+The M&E step unites two separate but also connected sub-steps. While Monitoring has its focus on the *process*, Evaluation puts emphasis on the *outcome*. Monitoring therefore refers to the surveillance of climate hazards and their respective risks, whereas Evaluation aims at (re-)evaluating the Climate Risk Assessment itself.
+
+
+In **Monitoring**, regions should consider *Less Urgent Risks* as well as *Key Risks* and observe them over time. This translates into putting them into context in relation to specific objectives, principles or needs that were set earlier (e.g., during *Scoping* or *Risk Exploration*). It also allows to benchmark the observations against a potential recurring CRA to understand de- or increases of risk as well as potential patterns over time.
+
+On the other hand, **Evaluation** consists of an iterative reflection on the Climate Risk Assessment cycle and its robustness. The frequency of Evaluation is defined by the region and may vary according to Risk Outcomes, objectives or policy interest. **Learning** is of key significance in this step as evaluation may continuously generate new knowledge and data and can thus influence processes about, e.g., governance, policy and decision-making or relevant ministries and institutions. Depending on the issues and needs of a region, it can be beneficial to collect quantitative/qualitative data that is needed for improving future iterations of the CRA. It is crucial to understand what works well and what does not and act upon it– both in the CRA process, and in dealing with risks.
+
 
 ::::{margin}
 :::{dropdown} **Guiding questions - Efficacy, impact and usefulness**
@@ -38,40 +43,33 @@ Both M&E steps can facilitate participatory processes and include relevant stake
 :::
 ::::
 
-Selecting **indicators** for this process is crucial to summarize output of the CRA and make it more valuable. Indicators should be linked to specific objectives, sectors as well as stakeholder’s needs and can be assessed quantitatively or qualitatively. While it is difficult to provide a full set of indicators due to the heterogeneity of regions and risk situations, regions can define their individual indicators that are more relevant for their context and purposes.  Tracking changes of indicators, as well as risk thresholds or trigger levels, may be helpful to indicate a potential overshoot of risk tolerance and need to be attributed to (further) CRM measures. Depending on the focus of the M&E indicators may change. Below, a non-exhaustive list of potential M&E indicators is provided; while Climate Risk Monitoring refers to workflow specific and unspecific indicators, the Climate Risk Assessment Evaluation provides an initial set of performance indicators.
+Selecting **indicators** for the M&E  is crucial to summarize the output of the CRA and make it more valuable. Indicators should therefore be linked to specific objectives, sectors as well as stakeholder’s needs and can be assessed [quantitatively or qualitatively](https://www.fullstory.com/blog/qualitative-vs-quantitative-data/#:~:text=Quantitative%20data%20is%20numbers%2Dbased,what%20happened%20behind%20certain%20behaviors). While it is difficult to provide a full set of indicators due to the heterogeneity of regions and risk situations, regions can define their individual indicators that are more relevant for their context and purposes. 
 
-**Indicators for Climate Risk Monitoring**
-:::{card} Workflow unspecific indicators
-Frequency, intensity, spatial distribution, and duration of climate events; public awareness and engagement; institutional capacity
+
+::::{margin}
+:::{card}
+Further indicators may be taken from the [Sendai Framework](https://www.undrr.org/implementing-sendai-framework/monitoring-sendai-framework). 
+:::
+::::
+
+Climate-related risks require indicators that embrace periodical reassessment and should refer to a baseline to track changes over time effectively. Depending on the focus of the M&E, indicators may change. {numref}`framework-table-indicators` provides a selection of potential M&E indicators: Here, the process of Climate Risk Monitoring refers to both, workflow specific and unspecific indicators, whereas the evaluation of the CRA itself provides an initial set of performance indicators, i.e., *efficacy*, *usefulness* and *impact*.
+
+
+:::{table} Non-exhaustive selection of indicators for the M&E process with a) workflow specific and workflow unspecific indicators for Climate Risk Monitoring and b) performance indicators for the evaluation of the Climate Risk Assessment itself.
+:name: framework-table-indicators
+
+| TODO |
+--------
+| TODO |
 :::
 
-| Workflow | Indicators/impact |
-| -------- | ----------- |
-| Flood risk| Number of overflows; losses and damages (inju-ries, hospitalisations, fatalities, livestock, crops, business, tourism, buildings, etc.); disruption of public infrastructure|
-| Drought risk | Losses and damages to agriculture (crops, live-stock); availability of tap water; extent of agri-cultural areas and people affected|
-| Heat risk | Health impacts (hospitalisations and fatalities); economic productivity|
-| Fire risk | Number of fires; extent of affected areas and people; losses and damages (injuries, hospitalisa-tions, fatalities, agricultural and forest areas, farm and wild animals, buildings, tourism, etc.); disruption of public infrastructure|
-| Snow risk | Disruption of public infrastructure; losses and damages (injuries, hospitalisations, fatalities, livestock, business, buildings, etc.)|
-| Wind risk | Disruption of public infrastructure; losses and damages (injuries, hospitalisations, fatalities, livestock, business, buildings, forests, etc.))|
+
+Communication is part of the participatory processes and **should thus be enforced throughout the whole CRA**, to decrease the risk of generating plans and policies which are not relevant. However, at this stage it is especially important to communicate results  to the public and/or key audiences with a focus on policy- and decision-makers. Regular reporting (e.g., interim reports about decision on workflows or relevant priority groups) or a continuous dialogue with policy- and decision-makers may enhance relevance and accountability of the CRA and the process.
+
+:::{tip}
+The output of the M&E step can inform a report or plan to document and communicate results. This should also include marginalized and disproportionately affected groups (social justice/just resilience) as well as gender, educational or socio-economic aspects.
 :::
 
-**Indicators for the Evaluation of Climate Risk Assessment process**
-
-| Performance Indicators | Examples |
-| -------- | ----------- |
-| Efficacy| Efficient use of resources e.g. time, staff, cost|
-| Usefulness | Raised awareness, improved understanding of risk (Public awareness and engagement, institu-tional capacity, funding and investment)|
-| Impact | Applicability for Risk Assessment and CRM (number of times used, acceptance by experts and stakeholder, translation of results into CRM)|
-
-
-While Communication is part of the participatory processes and should thus be enforced throughout the whole CRA, at this stage it is reasonable to communicate results to the public and/or key audiences with a focus on policy- and decision-makers. A CRA may inform policy making and policy revision for CRM and supports learning over time.
-
-```{admonition} Tip
-:class: tip
-The output of the M&E step can inform a report or plan to document and communicate results. This should also include marginalized and disproportionately affected groups as well as gender aspects.
-```
-
-```{admonition} Tip
-:class: tip
-At this stage it can be relevant to reassess targets, objectives and responsibilities in national/sectoral adaptation plans (NAP/SAP) or strategies (NAS) and include them in the M&E process.
-```
+:::{tip}
+At this stage it can be relevant to reassess targets, objectives and responsibilities in national/sectoral adaptation plans or strategies and include them in the M&E process.
+:::
