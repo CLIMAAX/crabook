@@ -55,12 +55,90 @@ Further indicators may be taken from the [Sendai Framework](https://www.undrr.or
 Climate-related risks require indicators that embrace periodical reassessment and should refer to a baseline to track changes over time effectively. Depending on the focus of the M&E, indicators may change. {numref}`framework-table-indicators` provides a selection of potential M&E indicators: Here, the process of Climate Risk Monitoring refers to both, workflow specific and unspecific indicators, whereas the evaluation of the CRA itself provides an initial set of performance indicators, i.e., *efficacy*, *usefulness* and *impact*.
 
 
-:::{table} Non-exhaustive selection of indicators for the M&E process with a) workflow specific and workflow unspecific indicators for Climate Risk Monitoring and b) performance indicators for the evaluation of the Climate Risk Assessment itself.
+:::{list-table} Non-exhaustive selection of indicators for the M&E process with a) workflow specific and workflow unspecific indicators for Climate Risk Monitoring and b) performance indicators for the evaluation of the Climate Risk Assessment itself.
 :name: framework-table-indicators
 
-| TODO |
---------
-| TODO |
+* - <table class="table monitoring-table">
+      <tr class="subtable-heading">
+        <td colspan="2">a) Indicators for Climate Risk Monitoring</td>
+      </tr>
+      <tr>
+        <th colspan="2">Workflow nonspecific indicators</th>
+      </tr>
+      <tr>
+        <td colspan="2">Frequency, intensity, spatial distribution, and duration of climate events; public awareness and engagement; institutional capacity.</td>
+      </tr>
+      <tr>
+        <th colspan="2">Workflow specific indicators</th>
+      </tr>
+      <tr>
+        <th width="25%">Workflow</th>
+        <th>Indicators/impacts</th>
+      </tr>
+      <tr>
+        <td><img src="../../_images/icon_s_floods.png" class="hazard-icon"/> Flood Risk</td>
+        <td><ul>
+          <li>Number of overflows</li>
+          <li>Losses and damages (injuries, hospitalisations, fatalities, livestock, crops, business, tourism, buildings, etc.)</li>
+          <li>Disruption of public infrastructure</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <td><img src="../../_images/icon_s_droughts.png" class="hazard-icon"/> Drought Risk</td>
+        <td><ul>
+          <li>Losses and damages to agriculture (crops, livestock)</li>
+          <li>Availability of tap water</li>
+          <li>Extent of agricultural areas and people affected</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <td><img src="../../_images/icon_s_heatwaves.png" class="hazard-icon"/> Heatwave Risk</td>
+        <td><ul>
+          <li>Health impacts (hospitalisations and fatalities)</li>
+          <li>Economic productivity</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <td><img src="../../_images/icon_s_fire.png" class="hazard-icon"/> Wildfire Risk</td>
+        <td><ul>
+          <li>Number of fires; extent of affected areas and people; loss and damages (injuries, hospitalisations, fatalities, agricultural and forest areas, farm and wild animals, buildings, tourism, etc.) </li>
+          <li>Disruption of public infrastructure</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <td><img src="../../_images/icon_s_snow.png" class="hazard-icon"/> Snow Risk</td>
+        <td><ul>
+          <li>Disruption of public infrastructure</li>
+          <li>Loss and damages (injuries, hospitalisations, fatalities, livestock, business, buildings, etc.)</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <td><img src="../../_images/icon_s_wind.png" class="hazard-icon"/> Windstorm Risk</td>
+        <td><ul>
+          <li>Disruption of public infrastructure</li>
+          <li>Loss and damages (injuries, hospitalisations, fatalities, livestock, business, buildings, forests, etc.)</li>
+        </ul></td>
+      </tr>
+      <tr class="subtable-heading">
+        <td colspan="2">b) Indicators for the Evaluation of Climate Risk Assessment Process</td>
+      </tr>
+      <tr>
+        <th>Performance Indicator</th>
+        <th>Examples</th>
+      </tr>
+      <tr>
+        <td>Efficacy</td>
+        <td>Efficient use of resources, e.g. time, staff, cost</td>
+      </tr>
+      <tr>
+        <td>Usefulness</td>
+        <td>Raised awareness, improved understanding of risk (Public awareness and engagement, institutional capacity, funding and investment)</td>
+      </tr>
+      <tr>
+        <td>Impact</td>
+        <td>Applicability for Risk Assessment and CRM (number of times used, acceptance by experts and stakeholder, translation of results into CRM)</td>
+      </tr>
+    </table>
 :::
 
 

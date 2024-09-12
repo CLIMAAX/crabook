@@ -41,6 +41,16 @@ table tr td {
     margin-bottom: 2rem;
 }
 
+/* Custom table for Monitoring and Evaluation in Framework */
+table.monitoring-table tr.subtable-heading {
+    font-weight: bold;
+    font-size: 120%;
+    background-color:var(--pst-color-light-highlight);
+}
+table.monitoring-table th {
+    background-color: #f3f4f5;
+}
+
 figcaption {
     font-size: 0.9rem;
 }
