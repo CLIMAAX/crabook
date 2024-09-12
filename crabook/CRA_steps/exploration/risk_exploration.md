@@ -14,14 +14,13 @@ Risk Exploration
 :::
 ::::
 
-Carrying out the Risk Exploration step kicks off a comprehensive process that starts with identifying hazards and risks that are most apparent or of significant concern to key stakeholders and the wider public. Leveraging current knowledge, including insights from experts and stakeholders identified in the scoping phase, allows a first identification of impacted sectors (including activities, supply chains, processes, and infrastructure) and geographic areas at risk (such as ecosystems, landscapes, and communities).It is useful for stakeholders to consider past and ongoing impacts on different sectors, areas and vulnerable groups, and connect them to specific hazards and risks to make “risk” more tangible at this early stage of the CRA process.
-A deeper dive into the system aspects may concretize affected entities (key systems, elements, sectors, communities, social groups, sub-regions), functions or processes that hold significant value in the local context (e.g. stakeholder interests, community priorities or public agenda) and a priori reveal (transboundary) connections or dependencies. These considerations are key for exploring risk in more depth and to choose Risk Workflows.
-From this step, potential risks can be narrowed down and prioritized by broadly exploring hazards, exposures and vulnerabilities while gathering relevant data and information for the choice of workflow(s). It is crucial to also select future scenarios that are relevant for the region and in accordance with the local planning, before moving to the Risk Analysis step and starting to use the Toolbox.
+Risk Exploration starts with a broad screening of the risks (their underlying hazards, exposures and vulnerabilities) that are most apparent or of significant concern to key stakeholders and the wider public. A preliminary, rapid analysis of sectors (including activities, supply chains, processes, and infrastructure) and geographic areas at risk (such as ecosystems, landscapes, and communities) can be conducted based on insights from experts and stakeholders.
+
+A deeper dive into the system aspects may highlight affected entities (key systems, elements, sectors, communities, social groups, sub-regions), functions or processes that hold significant value in the local context (e.g. stakeholder interests, community priorities or public agenda). This can reveal (transboundary) connections or dependencies which might be important for evaluating the respective risk outcome. The following subsections will now delve deeper into the screening of risks as well as the selection of workflows and climate scenarios.
 
 
-```{admonition} Tip
-:class: hint
-At this stage it's crucial to rely as much as possible on factual evidence regarding climate hazards, impacts and risks if available. The focus should especially lie on those hazards that are most likely to result in severe consequences for the region.
+```{tip}
+At this stage it's important to rely as much as possible on factual evidence regarding climate hazards, impacts and risks if available. The focus should especially lie on those hazards that are most likely to result in severe consequences for the region.
 ```
 
 
@@ -38,21 +37,31 @@ At this stage it's crucial to rely as much as possible on factual evidence regar
 :::
 ::::
 
-
 ## Screen Risks
 
-The primary objective of exploring risks is to scrutinize current climate hazards or risks, as well as past and ongoing potential climate-related impacts. To do so, we recommend harnessing participatory approaches alongside data-driven methods to gather insights from experts and stakeholders, beyond the initial risk con-siderations from the scoping step. It is important to complement data and observations on the rate of change, frequency, intensity and duration of these events with stakeholders' perceptions and local knowledge. Where possible, the exploration should dive deeper and cover the multiple dimensions of risk (e.g. taking into account monetary and non-monetary impacts, and cascading effects), relevant aspects, such as impacted sectors, spatial extent, pervasiveness, irreversibility of consequences, and implications across sectors, regions, boundaries or generations. This process also involves reflecting on existing CRM strategies to not only set a baseline, but also understand their effectiveness in past events and envisage their potential performance against ongoing impacts or near-future hazards and risks. All this together can help to get a bigger and better picture of the local climate-related risks.
-Hazards or risks can then be prioritized based on the outcomes of this first participatory process, taking into account objectives and scope defined in the scoping step and depending on the level of knowledge on hazards and risks in the region.
+The primary objective of screening risks is to quickly scrutinize a region's climate risk context. To do so, it is recommended to use participatory approaches such as consultations with experts, stakeholders and priority groups or also group consultations with all relevant actors. This can be complemented with data-driven methods to gather insights beyond the initial risk considerations from the scoping step.  Where possible, the exploration can dive deeper and cover relevant risk-related aspects, such as affected sectors, spatial extent, and implications across sectors, or regions.
 
-```{admonition} Tip
-:class: hint
-Utilizing maps and visual aids to depict exposure, vulnerability, climate-related hazards, impacts, and risks facilitates discussion on the nature and extent of impacts, identifying local risk hotspots, and under-standing direct and indirect effects.
-```
+Experts and stakeholders may also take into account participatory input.  This can be used to ensure transparency, seek feedback or validate findings, by sharing a summary of key discussion points and risk screening results.
 
-```{admonition} Tip
-:class: hint
-When concluding the risk exploration step, it is important to formulate risk statements that include the system boundaries, the time horizon (e.g., ongoing, near-term, mid-term, long-term), affected entities (e.g., sectors, communities, social groups, sub-regions), relevant hazards, impacts or risks (e.g., increase of heavy rain events, drought and heat impacts), scenario assumptions (such as climate change, population growth). This clarity supports succeeding sub-steps: “Choose Workflow” and “Choose Scenario”.
-```
+The overall output of the risk screening sub-step is to shortlist risks based on the knowledge and perception of stakeholders and experts while including past and ongoing impacts, expected future changes, and local concerns.  Additionally, it helps to highlight areas where additional information, data, or knowledge is needed, thus paving the way for appropriate *Risk Workflow* selection.
+
+:::{admonition} Data Spaces and Hubs
+:class: note
+
+Data spaces and hubs are designed to facilitate data sharing, collaboration, and analysis across different stakeholders and organizations.
+
+The [DRMKC Risk Data hub](https://drmkc.jrc.ec.europa.eu/risk-data-hub#/) is an extensive tool that explores disaster risk and vulnerability, provides resources in a learning and training space as well as automated access to data.
+
+The [IPCC Interactive Atlas](https://interactive-atlas.ipcc.ch/) is a valuable resource to access and explore observations, reanalyses and observational products. This is a novel tool for flexible spatial and temporal analyses of much of the observed and projected climate change information underpinning the assessment of the physical basis of climate change, including a regional synthesis for the climatic impact-drivers assessed in the report. This product has been extended and incorporated into the Copernicus Climate Change Service (C3S) to become the [Copernicus Interactive Climate Atlas](https://atlas.climate.copernicus.eu/atlas) (C3S Atlas). It facilitates global and regional in-depth assessment of past trends and future changes in key variables and (extreme) indices for different periods across emission scenarios or for different policy-relevant global warming levels (e.g. 1.5°, 2°, 3° and 4°). Different graphical climate products such as maps and timeseries (or stripes) can be interactively customized to display temporally- or spatially aggregated values (or changes relative to different baselines) over flexible seasons, periods and regions.
+
+Further data spaces and hubs of interest may be: [Climate Data Explorer](https://climexp.knmi.nl/start.cgi), [index-based interactive EEA report](https://www.eea.europa.eu/publications/europes-changing-climate-hazards-1), [Climate Solutions Explorer](https://www.climate-solutions-explorer.eu/explorer?i%5B0%5D%5Bid%5D=1&i%5B0%5D%5Bcenter%5D%5B0%5D=47.31322&i%5B0%5D%5Bcenter%5D%5B1%5D=-1.319482&i%5B0%5D%5Bzoom%5D=3&i%5B0%5D%5BclimateChange%5D=1&i%5B0%5D%5Bsocioeconomics%5D=1&i%5B0%5D%5BshowSettings%5D=true&i%5B0%5D%5Bvulnerability%5D=abs&i%5B0%5D%5Bindicator%5D=pr_r10&i%5B0%5D%5BindicatorName%5D=Heavy%20precipitation%20days), European Drought Impacts Database [EDID](http://edid-test.eu/#/home) or [PESETA IV](https://joint-research-centre.ec.europa.eu/peseta-projects/jrc-peseta-iv_en).
+:::
+
+:::{tip}
+
+The use of maps and visual aids to depict exposure, vulnerability, climate-related hazards, and risks facilitates discussion on the nature and extent of impacts, identifying local risk hotspots, and understanding direct and indirect effects.
+:::
+
 
 ::::{margin}
 :::{dropdown} Guiding questions - Choose Workflow
@@ -62,16 +71,17 @@ Having in mind the Scoping phase and including insights from the previous sub-st
 ::::
 
 ## Choose Workflow
-Within the CLIMAAX Toolbox, various risk workflows are proposed to conduct a detailed quantitative analysis of climate risks (see [Risk Analysis](../analysis/workflows.md)). Following the prioritization of hazards or risks identified in the "Explore Risks" sub-step, the main goal here is to select the most suitable workflows. These chosen workflows aim to quantify specific risks concerning a particular region. Each workflow follows a ‘stepwise’ data processing and is included and further described in the CLIMAAX Toolbox. These workflows support:
-− The estimation of risks from the combination of hazard, exposure and vulnerability data.
-− The analysis of damages using damage curves alongside Hazard and Exposure data.
-− The evaluation of assets or populations exposed to specific climate-related hazards.
-The workflows allow for both a current risk analysis based on historical data and future climate change projections to quantify future risk emerging regional climatic shifts. The selection of the appropriate workflow(s) is crucial for accurately assessing and understanding the range of possible impacts, facilitating informed decision-making and CRM planning.
+
+The CLIMAAX project offers various risk workflows to conduct a detailed quantitative analysis of climate risks. Following the prioritization of hazards or risks identified in the *Screen Risks* sub-step, the main goal here is to select the most suitable workflows.
+
+The workflows allow for both a current risk analysis (based on historical data) and the estimation of future risk emerging from climatic shifts (based on future climate change projections). Selecting appropriate workflow(s) is crucial for accurately assessing and understanding the range of possible impacts, facilitating informed decision-making and CRM planning. Therefore, it is highly recommended to include insights from experts, stakeholders, priority groups and decision-makers (that have participated in the Screen Risks sub-step or through other means of participation) to steer the selection of workflow(s) towards an inclusive and needs-based approach.
+
 
 ```{admonition} Tip
 :class: hint
-One Risk Workflow may have several options (e.g. Drought Risk). Make sure you understand the purpose, focus and advantages of each possibility.
+One Risk Workflow may have several options (e.g., the floods workflows may analyse flash, river or coastal floods). Make sure you understand the purpose, focus and advantages of each possibility.
 ```
+
 
 ::::{margin}
 :::{dropdown} Guiding questions - Choose Scenario
@@ -81,7 +91,18 @@ One Risk Workflow may have several options (e.g. Drought Risk). Make sure you un
 :::
 ::::
 
-
 ## Choose Scenario
-Based on the interests and concerns of the regions and their key stakeholders defined in Scoping and further refined in Explore risks, the primary objective of this sub-step is to identify the most appropriate scenario. Selecting scenarios may range from more simple SSP-RCP (see [Technical Choices](../beforeyoustart/beforeyoustart.md)) considerations to a more demanding and detailed process considering climate models, regional resolution/downscaling, global warming levels, low-likelihood high-impact outcomes or impact-oriented climate information (see Annex in our deliverable XY).
-Choosing the right set of scenarios is crucial for the decision-context and policy output. It will help understand and characterize potential future risks while informing the development and evaluation of different CRM strategies.
+
+Based on the interests and concerns of the regions and their key stakeholders defined in Scoping and further refined in Screen Risks, the objective of this sub-step is to identify relevant future scenarios. Selecting scenarios may range from simple SSP-RCP considerations ([Technical Choices](../beforeyoustart/technical_choices)) to a more detailed, needs-driven, and decision-focused process considering climate models, downscaling, global warming levels or low-likelihood high-impact events (see [Deliverable 1.4](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D1.4.pdf)). Depending on the workflows, various RCP and coupled SSP-RCP scenarios are available in the workflows to support users in this task, thus ensuring a useful risk analysis.
+
+Choosing a suitable set of scenarios is crucial for the decision-context and policy output and should therefore be discussed with decision-makers. It is advised to formulate a limited number of scenarios that show different challenges.
+
+:::{admonition} Simple Scenario Guidance
+:class: note
+
+1. Scenarios are not predictions; they aim to help strategic thinking and explore possible futures.
+2. Get familiar with the available scenarios. Know their underlying assumptions such as future emissions or socio-economic developments.
+3. Consider your decision maker's needs, interests or risk aversion.
+4. Be clear on your envisaged time horizon. Most climate scenarios don't show a difference until 2050 (but vary regarding uncertainty of the model projections).
+5. Selecting a limited number of diverse scenarios is advisable so the level of information and comparability stays manageable while being insightful.
+:::
