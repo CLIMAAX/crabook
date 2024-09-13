@@ -5,8 +5,8 @@
 
 #######################################################################################
 # Book settings
-title                       : crabook  # The title of the book. Will be placed in the left navbar.
-author                      : CLIMAAX community  # The author of the book
+title                       : CLIMAAX CRA Handbook  # The title of the book. Will be placed in the left navbar.
+author                      : the CLIMAAX community  # The author of the book
 copyright                   : "2023-2024"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
 
