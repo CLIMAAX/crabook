@@ -1,4 +1,4 @@
-# Partial mirror of ECLIPS-2.0
+# ECLIPS-2.0 partial mirror
 
 
 ## General
