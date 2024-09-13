@@ -24,9 +24,6 @@ License
 Base URL
 : `https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_gcm_eur/`
 
-Approximate size
-: 1080 MB
-
 File types
 : tif, nc
 

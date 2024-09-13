@@ -35,9 +35,6 @@ This mirror only contains files for the variables `MWMT`, `TD`, `AHM`, `SHM`, `D
 Base URL
 : `https://object-store.os-api.cci1.ecmwf.int/climaax/eclips2.0_mirror/`
 
-Approximate size
-: 19 GB
-
 File types
 : tif
 
