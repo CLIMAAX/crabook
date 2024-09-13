@@ -18,8 +18,6 @@ parts:
   - file: CRA_steps/beforeyoustart/beforeyoustart
     title: Before you start
     sections:
-    - file: CRA_steps/beforeyoustart/conceptual_background
-      title: Conceptual Background
     - file: CRA_steps/beforeyoustart/principles
       title: Principles
     - file: CRA_steps/beforeyoustart/technical_choices
