@@ -164,7 +164,7 @@ parts:
           title: Hazard assessment
         - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_assessment_FIRE_ML
           title: Risk assessment
-      - file: placeholder
+      - file: notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Description
         title: Wildfire (FWI)
         sections:
         - file: notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Hazard_Assessment
