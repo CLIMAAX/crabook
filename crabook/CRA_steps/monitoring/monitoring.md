@@ -8,17 +8,8 @@ Monitoring and Evaluation
 
 ::::{margin}
 :::{dropdown} **Guiding questions**
-- Which indicators for your M&E fit your case best?
-- What is your envisaged reassessment period for the monitoring climate risks?
-- Do you want to focus on the M&E of the risks or also include respective adaptation measures?
-- Are both, key and less urgent risks, included?
-- How are key risks dealt with? Do necessary steps contribute to alleviation of the identified risk?
-- What are key indicators, metrics, methods and means to track the risks, as well as the progress on adaptation and resilience-building?
-- What works well? What does not?
-- How do you evaluate the performance in the CRA itself? What could have been improved? Which stakeholders were relevant and should be included more?
-- What role do stakeholders play in your M&E (e.g. also in the light of a policy outcome?)
+- What role do stakeholders play in your M&E (e.g. also in the light of a policy outcome?) What is their feedback on the CRA?
 - Is learning ensured? How?
-- What is the feedback from stakeholders?
 - Is new data available regarding the risks and/or the system? What else is needed (e.g., data, resources, competencies, research) to understand the risks better?
 - How do you want to communicate your final outcome?
 :::
@@ -29,15 +20,27 @@ Monitoring and evaluation (M&E) is both a departure and ending point, as the goa
 The M&E step unites two separate but also connected sub-steps. While Monitoring has its focus on the *process*, Evaluation puts emphasis on the *outcome*. Monitoring therefore refers to the surveillance of climate hazards and their respective risks, whereas Evaluation aims at (re-)evaluating the Climate Risk Assessment itself.
 
 
+::::{margin}
+:::{dropdown} **Guiding questions - Monitoring**
+- Which indicators for M&E fit your case best?
+- What is your envisaged reassessment period for monitoring climate risks?
+- Do you want to focus on the M&E of the risks or also include respective adaptation measures?
+- Are both, key and less urgent risks, included?
+- How are key risks dealt with? Do necessary steps contribute to alleviation of the identified risk?
+- What are key indicators, metrics, methods and means to track the risks, as well as the progress on adaptation and resilience-building?
+:::
+::::
+
 In **Monitoring**, regions should consider *Less Urgent Risks* as well as *Key Risks* and observe them over time. This translates into putting them into context in relation to specific objectives, principles or needs that were set earlier (e.g., during *Scoping* or *Risk Exploration*). It also allows to benchmark the observations against a potential recurring CRA to understand de- or increases of risk as well as potential patterns over time.
 
 On the other hand, **Evaluation** consists of an iterative reflection on the Climate Risk Assessment cycle and its robustness. The frequency of Evaluation is defined by the region and may vary according to Risk Outcomes, objectives or policy interest. **Learning** is of key significance in this step as evaluation may continuously generate new knowledge and data and can thus influence processes about, e.g., governance, policy and decision-making or relevant ministries and institutions. Depending on the issues and needs of a region, it can be beneficial to collect quantitative/qualitative data that is needed for improving future iterations of the CRA. It is crucial to understand what works well and what does not and act upon it– both in the CRA process, and in dealing with risks.
 
 
 ::::{margin}
-:::{dropdown} **Guiding questions - Efficacy, impact and usefulness**
+:::{dropdown} **Guiding questions - Evaluation: Efficacy, impact and usefulness**
+- What worked well? What did not?
 - How efficiently did you use your resources (e.g. time, staff, cost)?
-- How might your efficiency/non-efficiency have impacted the CRA process?
+- How might your efficiency have impacted the CRA process positively/negatively?
 - How would you value the impact of the CRA regarding an improved understanding of risk (e.g. public awareness and engagement, institutional capacity, funding and investment)?
 - How do you evaluate the applicability of the Risk Assessment for CRM practices (e.g. number of times used, acceptance by experts and stakeholder, translation of results into CRM)?
 :::
