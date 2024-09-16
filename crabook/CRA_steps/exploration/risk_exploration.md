@@ -87,7 +87,6 @@ One Risk Workflow may have several options (e.g., the floods workflows may analy
 :::{dropdown} Guiding questions - Choose Scenario
 :animate: fade-in
 - Including Scoping considerations and taking advantage of the Technical Choices described in the conceptual Framework part, which scenarios are relevant for your workflows? Why?
-- Which factors from the policy level might influence your decision on scenarios?
 :::
 ::::
 
