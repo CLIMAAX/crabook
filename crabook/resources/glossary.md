@@ -3,20 +3,29 @@ Glossary
 
 :::{glossary}
 
+[Adaptive Capacity](#framework-term-adaptivecapacity)
+
 Binder
  Referring to [mybinder.org](https://mybinder.org), an open-source project in the Jupyter ecosystem that allows the creation of custom, interactive, and executable computing environments from GitHub repositories containing Jupyter notebooks. It enables users to convert Jupyter notebooks into shareable web applications that others can use without needing to install any software or dependencies locally.
+
+[Climate Risk Management](#framework-term-crm) (CRM)
 
 Conda environment
  A self-contained and isolated computational environment created and managed by [conda](https://docs.conda.io/en/latest/), an open-source package and environment management system.
 
-CORDEX
- The **C**oordinated **R**egional Climate **D**ownscaling **Ex**periment, a [WRCP framework](https://cordex.org/) to evaluate regional climate model performance. [CORDEX data](https://confluence.ecmwf.int/display/CKB/CORDEX%3A+Regional+climate+projections) can be downloaded from the Copernicus Climate Data Store.
+Coordinated Regional Climate Downscaling Experiment (CORDEX)
+ A [WRCP framework](https://cordex.org/) to evaluate regional climate model performance. [CORDEX data](https://confluence.ecmwf.int/display/CKB/CORDEX%3A+Regional+climate+projections) can be downloaded from the Copernicus Climate Data Store.
 
-Exposure
- See [Exposure](#framework-term-exposure) in the CLIMAAX Framework.
+Coupled Climate Model Intercomparison Project (CMIP)
+ A [WRCP project](https://wcrp-cmip.org/) to better understand past, present and future changes in the climate based on climate modelling.
 
-Hazard
- See [Hazard](#framework-term-hazard) in the CLIMAAX Framework.
+[Expert](#framework-term-expert)
+
+[Exposure](#framework-term-exposure)
+
+[Hazard](#framework-term-hazard)
+
+[Priority group](#framework-term-prioritygroup)
 
 Python
  A programming language widely used for data analysis and visualization.
@@ -30,19 +39,22 @@ Jupyter notebook
  Jupyter notebooks allow for interactive execution of code and are particularly popular for exploratory data analysis and in education.
  See [Jupyter](software.md#jupyter) in our software resources.
 
-Response
- See [Response](#framework-term-response) in the CLIMAAX Framework.
+[Response](#framework-term-response)
 
-Risk
- See [Risk](#framework-term-risk) in the CLIMAAX Framework.
+[Risk](#framework-term-risk)
 
-RCP
- **R**epresentative **C**oncentration **P**athways are climate change scenarios for future greenhouse gas concentrations.
+[Risk Outcome](#framework-term-riskoutcome)
 
-SSP
- **S**hared **S**ocioeconomic **P**athways are global climate change [scenarios](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/#1.6#1.6.1) of socioeconomic changes until the year 2100.
+Representative Concentration Pathways (RCPs)
+ [Climate change scenarios](#framework-climatechangescenarios) for future greenhouse gas concentrations.
 
-Vulnerability
- See [Vulnerability](#framework-term-vulnerability) in the CLIMAAX Framework.
+Shared Socioeconomic Pathways (SSPs)
+ Global [climate change scenarios](#framework-climatechangescenarios) of socioeconomic changes until the year 2100.
+
+[Stakeholder](#framework-term-stakeholder)
+
+[User](#framework-term-user)
+
+[Vulnerability](#framework-term-vulnerability)
 
 :::

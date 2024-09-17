@@ -58,6 +58,10 @@ figcaption p {
     color: var(--pst-color-text-muted);
 }
 
+dl.glossary dt {
+    margin-top: 10px;
+}
+
 img.hazard-icon {
     width: 1.25em;
     vertical-align: text-top;

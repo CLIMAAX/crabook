@@ -20,7 +20,7 @@ figclass: margin-caption
 Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
-
+(framework-climatechangescenarios)=
 ## Climate change scenarios
 
 Future climate and socioeconomic conditions, their complexities and their implications in the context of CRA need to be further understood and explored for the development of CRM strategies that are effective and build long term resilience. Climate scenarios usually explore emissions trajectories of greenhouse gas emissions, pollutants, and emissions related to land. They can be further coupled with future socioeconomic trends, including population, economic and technological development, energy use, and other factors. While they are not predictions of the future, but instead referred to as projections, scenarios can be used in a CRA as a valuable tool to understand how hazards and socioeconomic conditions may change in the future.
