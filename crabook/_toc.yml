@@ -175,7 +175,7 @@ parts:
     title: ❄️ SNOW
     sections:
     - file: notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Risk_workflow_description_SNOW_BLIZZARDS
-      title: Heavy snowfall & blizzard
+      title: Heavy snowfall & blizzards
       sections:
       - file: notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Hazard_assessment_SNOW_BLIZZARDS
         title: Hazard assessment
