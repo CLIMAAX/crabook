@@ -48,6 +48,9 @@ Jupyter notebook
 Representative Concentration Pathways (RCPs)
  [Climate change scenarios](#framework-climatechangescenarios) for future greenhouse gas concentrations.
 
+Return period
+ The return period of an event (e.g., a flood) is calculated using statistical frequency analysis. An event with a return period of 100 years (a ‘1–in–100-year’ event) has a 1% chance of occurring each year. This means that over a long period of, an event of that magnitude will, on average, occur once every 100 years. It does not mean a 100-year event will occur exactly once every 100 years. In fact, it is possible for an event of any return period to occur more than once in the same year, or to appear in consecutive years, or not to happen at all over a long period of time.
+
 Shared Socioeconomic Pathways (SSPs)
  Global [climate change scenarios](#framework-climatechangescenarios) of socioeconomic changes until the year 2100.
 

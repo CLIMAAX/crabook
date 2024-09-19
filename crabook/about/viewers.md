@@ -1,10 +1,9 @@
 European map viewer
 =======================
 
-This map viewer is an exploratory tool that illustrates multiple natural hazard datasets for
+This map viewer is an exploratory tool that illustrates a selection of natural hazard datasets for
 both current and future climate conditions.
 This information can be used for a first understanding of the level of risk in your area of interest.
-Use the map layer icon in the top-right corner of the map to select and compare different hazard maps. 
 
 While the map viewer aims to provide initial insights on the current and future climatic changes,
 it is important to consider additional climate variables relevant for your region.

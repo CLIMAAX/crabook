@@ -14,7 +14,7 @@ parts:
     title: Regional examples
     sections:
     - file: about/examples/setubal
-      title: Setubal example
+      title: Setúbal example
     - file: about/examples/zilina
       title: Žilina example
   - file: about/viewers

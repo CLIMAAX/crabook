@@ -3,7 +3,8 @@
 Regional CRA examples
 =======================
 
-Example applications of the CLIMAAX risk assessment framework from our pilot partners in Europe.
+Several pilots in Europe have already tested and applied the CLIMAAX framework and technical workflows at regional level.
+The pilots are led by a regional authority and are supported by an expert institute in the application of the climate risk assessments.
 
 ::::{grid}
 :gutter: 3
