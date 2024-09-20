@@ -6,6 +6,7 @@
 :::{figure} ../../images/risk_propeller.png
 :scale: 50%
 :align: right
+:name: framework-riskpropeller
 
 Source: [Figure 1.5](https://www.ipcc.ch/report/ar6/wg2/figures/chapter-1/figure-1-005b/) in Ara Begum et al., 2022.
 :::
