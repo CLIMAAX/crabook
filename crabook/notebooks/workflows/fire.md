@@ -36,4 +36,11 @@ Wildfires are uncontrolled fires that spread rapidly through vegetation, often e
 :img-bottom: ../../images/top/top_fire.png
 :::
 
+:::{grid-item-card} Wildfire (Fire Weather Index)
+:columns: 4
+:link: FIRE/02_wildfire_FWI/FWI_Risk_Description
+:link-type: doc
+:img-bottom: ../../images/top/top_fire.png
+:::
+
 ::::
