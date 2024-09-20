@@ -58,8 +58,14 @@ figcaption p {
     color: var(--pst-color-text-muted);
 }
 
+/* Extra space for glossary entries that only link to elsewhere without more text */
 dl.glossary dt {
     margin-top: 10px;
+}
+
+/* Remove extra padding for last-child margin elements which causes weird shadow placement */
+aside.sidebar > :last-child {
+    padding-bottom: 0;
 }
 
 img.hazard-icon {
