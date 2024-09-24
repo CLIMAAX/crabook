@@ -60,7 +60,7 @@ You will receive email notifications with updates to the status of your request.
 Depending on the topic of the request, experts from the CLIMAAX team, e.g., the developers of a specific risk assessment workflow, are consulted when answering a request.
 Service desk requests are otherwise private.
 
-
+(support-jupyterhub)=
 ## JupyterHub
 
 The **exclusive** CLIMAAX JupyterHub server provides access to a JupyterLab web interface where the risk assessment notebooks from the Handbook can be edited and executed on ECMWF cloud computing infrastructure.

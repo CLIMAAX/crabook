@@ -18,7 +18,7 @@ See the documentation provided with these tools for up-to-date information on th
 
 ## Download a workflow repository
 
-We recommend working with git on the command line as it allows not just for conveniently downloadingour workflows but updating and [contributing to](../../community/contribute.md#contribute-to-risk-recipes) to them as well.
+We recommend working with git on the command line as it allows not just for conveniently downloadingour workflows but updating and [contributing to](../../community/contribute) to them as well.
 
 If you have a few moments, maybe you can be [convinced to use git](https://the-turing-way.netlify.app/reproducible-research/vcs).
 If you have never used git or don't have the time for it now, head to the other tab in this section for instructions on how to download the workflows via the GitHub website.
