@@ -151,7 +151,7 @@ parts:
         sections:
         - file: notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Hazard_Assessment
           title: Hazard Assessment
-        - file: notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Asessment
+        - file: notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Assessment
           title: Risk Assessment
   - file: notebooks/workflows/snow
     title: ❄️ SNOW

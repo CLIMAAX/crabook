@@ -95,7 +95,7 @@ These workflows will allow for the climate risk assessment using both historical
     - Road, Population, Ecological and Economic risks
 
 *   - <img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon" />
-    - Wildfire exposure
+    - [Wildfire exposure](../../notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Description)
     - Exposed population
     - Fire Weather Index
     - Population density
@@ -196,7 +196,7 @@ These workflows will allow for the climate risk assessment using both historical
     - ECLIPS2.0 and EFFIS datasets
 
 *   - <img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon" />
-    - Wildfire exposure
+    - [Wildfire exposure](../../notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Description)
     - Historical (e.g. 1981-2005) and future periods (e.g. 2021-2098)
     - RCP2.6, RCP4.5, RCP8.5
     - Fire danger indicators
