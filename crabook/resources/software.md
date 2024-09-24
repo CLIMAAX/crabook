@@ -12,6 +12,7 @@ Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.
 ```
 
 
+(software-python)=
 ## Python
 
 Our workflows use the [Python](https://www.python.org/) programming language and make use of packages (also known as libraries) from the scientific Python ecosystem for data reading, writing, processing and visualization.
@@ -44,6 +45,7 @@ All workflow repositories contain an `environment.yml` file to simplify the crea
 A general environment for all CLIMAAX workflows can be created based on the `environment.yml` file in our [workflow template](https://github.com/CLIMAAX/workflow_template) repository.
 
 
+(software-jupyter)=
 ## Jupyter
 
 Our workflows combine documentation, code and outputs in Jupyter notebooks, a format widely used for data analysis, visualization and educational purposes.
@@ -59,6 +61,7 @@ With a workflow environment activated, run, e.g., `jupyter lab` in a terminal to
 - Project Pythia has a [getting started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html) guide with explanations of the JupyterLab user interface.
 
 
+(software-git)=
 ## Git and GitHub
 
 For collaborative work and the distribution of our workflow source code files, we use the [git](https://git-scm.com/) version control system.

@@ -35,7 +35,7 @@ Coupled Climate Model Intercomparison Project (CMIP)
 
 Python
  A programming language widely used for data analysis and visualization.
- See [Python](software.md#python) in our software resources.
+ See [Python](#software-python) in our software resources.
 
 JupyterBook
  An open-source tool used for creating interactive, web-based books and documentation from Jupyter notebooks and markdown files. This website is generated as a [JupyterBook](https://jupyterbook.org/).
@@ -43,7 +43,7 @@ JupyterBook
 Jupyter notebook
  A document format in which combine code, narrative text, visualizations and other rich media can be combined.
  Jupyter notebooks allow for interactive execution of code and are particularly popular for exploratory data analysis and in education.
- See [Jupyter](software.md#jupyter) in our software resources.
+ See [Jupyter](software-jupyter) in our software resources.
 
 [Response](#framework-term-response)
  
