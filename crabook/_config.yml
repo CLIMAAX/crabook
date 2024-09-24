@@ -75,6 +75,6 @@ sphinx:
       use_repository_button: true
       repository_provider: github
       repository_url: https://github.com/CLIMAAX/crabook
-      announcement: "⚠️ This is the first operational version of the handbook, but it is still a work in progress and will be heavily updated during 2024! ⚠️"
+      announcement: 
 
 
