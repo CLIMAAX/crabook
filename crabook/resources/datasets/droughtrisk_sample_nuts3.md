@@ -15,6 +15,9 @@ In workflows
 Authors
 : This dataset was prepared by [Silvia Artuso](https://iiasa.ac.at/staff/silvia-artuso) and [Dor Fridman](https://iiasa.ac.at/staff/dor-fridman) from [IIASA’s Water Security Research Group](https://iiasa.ac.at/programs/biodiversity-and-natural-resources-bnr/water-security).
 
+Attribution
+: Based on ISIMIP3b bias-adjusted atmospheric climate input data (DOI: [10.48364/ISIMIP.842396.1](https://doi.org/10.48364/ISIMIP.842396.1)).
+
 Year
 : 2024
 
