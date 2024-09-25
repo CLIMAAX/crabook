@@ -1,5 +1,4 @@
-CLIMAAX datasets
-================
+# CLIMAAX datasets
 
 :::{note}
 These pages are under construction.
@@ -24,8 +23,8 @@ Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.
 - [Drought risk data](datasets/droughtrisk_sample_nuts3) (NUTS3)
 - [Precipitation hazard data](datasets/precipitation_idf_gcm_eur) (Europe)
 - [Wildfire training and vulnerability data](datasets/wildfire_sample_cat) (Catalonia)
-- [ECLIPS-2.0 partial mirror](datasets/eclips2.0_mirror) (Europe)
-- [EFFIS Wildfire Risk Mirror](datasets/effis_mirror) (Europe)
+- [ECLIPS-2.0 mirror](datasets/eclips2.0_mirror) (Europe)
+- [EFFIS Wildfire Risk mirror](datasets/effis_mirror) (Europe)
 
 
 ## How to access
