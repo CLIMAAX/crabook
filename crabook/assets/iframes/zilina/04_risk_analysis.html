@@ -61,7 +61,7 @@
         {
             center: [38.533, -8.886],
             crs: L.CRS.EPSG3857,
-            zoom: 6,
+            zoom: 8,
             zoomControl: true,
             preferCanvas: false,
         }
@@ -72,59 +72,75 @@
         {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
     ).addTo(map_container);
 
-    var extreme_precipitation_1976_2005 = L.tileLayer.wms(
+    var euroheat_relative_change_rcp45_4326_2016_2045 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
-            layers: "climaax:Extreme_precipitation_idf_24h_ICHEC-EC-EARTH_historical_RACMO22E_1976-2005_0100y_transformed",
-            name: "Extreme precipitation (1976-2005)",
+            layers: "climaax:euroheat_relative_change_rcp45_4326_2016_2045",
+            name: "Heatwaves - relative change - RCP4.5 (2016-2045)",
             opacity: 0.8,
             transparent: 'true',
             format: 'image/png'
         }
     ).addTo(map_container);
 
-    var extreme_precipitation_2011_2040 = L.tileLayer.wms(
+    var euroheat_relative_change_rcp45_4326_2046_2075 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
-            layers: "climaax:Extreme_precipitation_idf_24h_ICHEC-EC-EARTH_rcp45_RACMO22E_2011-2040_0100y_dif_transformed",
-            name: "Extreme precipitation (2011-2040)",
+            layers: "climaax:euroheat_relative_change_rcp45_4326_2046_2075",
+            name: "Heatwaves - relative change - RCP4.5 (2046-2075)",
             opacity: 0.8,
             transparent: 'true',
             format: 'image/png'
         }
     ).addTo(map_container);
 
-    var extreme_precipitation_2041_2070 = L.tileLayer.wms(
+    var euroheat_relative_change_rcp85_4326_2016_2045 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
-            layers: "climaax:Extreme_precipitation_idf_24h_ICHEC-EC-EARTH_rcp45_RACMO22E_2041-2070_0100y_dif_transformed",
-            name: "Extreme precipitation (2041-2070)",
+            layers: "climaax:euroheat_relative_change_rcp85_4326_2016_2045",
+            name: "Heatwaves - relative change - RCP8.5 (2016-2045)",
             opacity: 0.8,
             transparent: 'true',
             format: 'image/png'
         }
     ).addTo(map_container);
 
-    var extreme_precipitation_2071_2100 = L.tileLayer.wms(
+    var euroheat_relative_change_rcp85_4326_2046_2075 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
-            layers: "climaax:Extreme_precipitation_idf_24h_ICHEC-EC-EARTH_rcp45_RACMO22E_2071-2100_0100y_dif_transformed",
-            name: "Extreme precipitation (2071-2100)",
+            layers: "climaax:euroheat_relative_change_rcp85_4326_2046_2075",
+            name: "Heatwaves - relative change - RCP8.5 (2046-2075)",
             opacity: 0.8,
             transparent: 'true',
             format: 'image/png'
         }
     ).addTo(map_container);
+
+
+    var nuts_level3 = L.tileLayer.wms(
+        "https://vps.kajoservices.com/geoserver/geoikp/wms",
+        {
+            layers: "geoikp:nuts_level3",
+            name: "Small regions (NUTS 3)",
+            transparent: 'true',
+            show: false,
+            format: 'image/png'
+        }
+    ).addTo(map_container);
+
+    var zilina_marker = L.marker([49.224, 18.736], { "title": "Žilina" }).addTo(map_container);
+    zilina_marker.bindPopup("<b>Žilina</b>");
 
     var layer_control = {
         base_layers : {
-            "Base layer" : tile_layer,
+            "RCP 4.5 (2016-2045)" : euroheat_relative_change_rcp45_4326_2016_2045,
+            "RCP 4.5 (2046-2075)" : euroheat_relative_change_rcp45_4326_2046_2075,
+            "RCP 8.5 (2016-2045)" : euroheat_relative_change_rcp85_4326_2016_2045,
+            "RCP 8.5 (2046-2075)" : euroheat_relative_change_rcp85_4326_2046_2075,
         },
         overlays :  {
-            "Extreme precipitation (1976-2005)" : extreme_precipitation_1976_2005,
-            "Extreme precipitation (2011-2040)" : extreme_precipitation_2011_2040,
-            "Extreme precipitation (2041-2070)" : extreme_precipitation_2041_2070,
-            "Extreme precipitation (2071-2100)" : extreme_precipitation_2071_2100,
+            "NUTS 3 regions" : nuts_level3,
+            "Žilina": zilina_marker,
         },
     };
     L.control.layers(

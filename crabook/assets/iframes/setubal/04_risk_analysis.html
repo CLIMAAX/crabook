@@ -53,6 +53,7 @@
         <div style="align-self: stretch; color: #21283A; font-size: 24px; font-family: Roboto, sans-serif; font-weight: 900; word-wrap: break-word">Risk analysis</div>
         <div style="border-top: 5px solid #0A1D6B; padding-bottom: 20px; align-self: stretch; color: #21283A; font-size: 24px; font-family: Roboto, sans-serif; font-weight: 900; word-wrap: break-word"></div>
         <div style="align-self: stretch;" class="folium-map" id="map_container"></div>
+        <img src="../images/setubal/legend_precipitation_relative_change.png" style="display: block; width: 300px; margin: 5px auto;">
         <div style="padding: 20px; opacity: 0.90; background: #F9F9F9; color: #21283A; font-size: 16px; font-family: 'Roboto Condensed', sans-serif; font-weight: 400; line-height: 26.40px; word-wrap: break-word">
             <p>Following the Extreme Precipitation workflow, this map shows the annual
             maximum of daily precipitation and how it is projected to change until 2100.</p>
@@ -89,44 +90,44 @@
     //    {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
     //).addTo(map_container);
 
-    var extreme_precipitation_1976_2005 = L.tileLayer.wms(
+    var precipitation_1971_2000 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
-            layers: "climaax:Extreme_precipitation_idf_24h_ICHEC-EC-EARTH_historical_RACMO22E_1976-2005_0100y_transformed",
-            name: "Extreme precipitation (1976-2005)",
+            layers: "climaax:Precipitation_absolute_values_historical_mean_RACMO22E_KNMI_HadGEM2ES_1971-2000",
+            name: "Precipitation-absolute values (1971-2000)",
             opacity: 0.8,
             transparent: 'true',
             format: 'image/png'
         }
     ).addTo(map_container);
 
-    var extreme_precipitation_2011_2040 = L.tileLayer.wms(
+    var precipitation_2011_2040 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
-            layers: "climaax:Extreme_precipitation_idf_24h_ICHEC-EC-EARTH_rcp45_RACMO22E_2011-2040_0100y_dif_transformed",
-            name: "Extreme precipitation (2011-2040)",
+            layers: "climaax:Precipitation_relative_change_rcp45_mean_RACMO22E_KNMI_HadGEM2ES_2011-2040_1971-2000",
+            name: "Precipitation-relative change (2011-2040)",
             opacity: 0.8,
             transparent: 'true',
             format: 'image/png'
         }
     ).addTo(map_container);
 
-    var extreme_precipitation_2041_2070 = L.tileLayer.wms(
+    var precipitation_2041_2070 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
-            layers: "climaax:Extreme_precipitation_idf_24h_ICHEC-EC-EARTH_rcp45_RACMO22E_2041-2070_0100y_dif_transformed",
-            name: "Extreme precipitation (2041-2070)",
+            layers: "climaax:Precipitation_relative_change_rcp45_mean_RACMO22E_KNMI_HadGEM2ES_2041-2070_1971-2000",
+            name: "Precipitation-relative change (2041-2070)",
             opacity: 0.8,
             transparent: 'true',
             format: 'image/png'
         }
     ).addTo(map_container);
 
-    var extreme_precipitation_2071_2100 = L.tileLayer.wms(
+    var precipitation_2071_2100 = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
-            layers: "climaax:Extreme_precipitation_idf_24h_ICHEC-EC-EARTH_rcp45_RACMO22E_2071-2100_0100y_dif_transformed",
-            name: "Extreme precipitation (2071-2100)",
+            layers: "climaax:Precipitation_relative_change_rcp45_mean_RACMO22E_KNMI_HadGEM2ES_2071-2100_1971-2000",
+            name: "Precipitation-relative change (2071-2100)",
             opacity: 0.8,
             transparent: 'true',
             format: 'image/png'
@@ -149,10 +150,10 @@
 
     var layer_control = {
         base_layers : {
-            "1976-2005" : extreme_precipitation_1976_2005,
-            "2011-2040" : extreme_precipitation_2011_2040,
-            "2041-2070" : extreme_precipitation_2041_2070,
-            "2071-2100" : extreme_precipitation_2071_2100,
+            "1971-2000" : precipitation_1971_2000,
+            "2011-2040" : precipitation_2011_2040,
+            "2041-2070" : precipitation_2041_2070,
+            "2071-2100" : precipitation_2071_2100,
         },
         overlays :  {
             "NUTS 3 regions" : nuts_level3,
