@@ -5,7 +5,9 @@
 
 Our latest overview presentation covers the different parts of the Handbook:
 
+<figure class="align-center">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yrVzm_LQdRI?si=3hWMmRsXl-sDFjQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
 
 - [00:00](https://youtu.be/yrVzm_LQdRI?si=t9kEu_0M9DsINa9-&t=0) Introduction
 - [04:15](https://youtu.be/yrVzm_LQdRI?si=t9kEu_0M9DsINa9-&t=255) Climate risk assessment Framework

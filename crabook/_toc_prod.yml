@@ -11,6 +11,8 @@ parts:
     title: The CLIMAAX project
   - file: about/funding
     title: Funding opportunities
+  - file: about/start
+    title: How to start
 - caption: 🌍 CRA Steps
   chapters:
   - file: CRA_steps/framework
