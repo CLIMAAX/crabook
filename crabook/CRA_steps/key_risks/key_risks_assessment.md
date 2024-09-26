@@ -42,9 +42,9 @@ Guiding questions for assessing risk severity, urgency and the capacity of a reg
 
 - **Risk Severity** refers to the extent of potential serious negative impacts from climate events that could harm a region's functioning and objectives. Considering the risk outcome from workflow(s) application, it is encouraged to also involve stakeholders, experts and priority groups for collecting information on the perception of risks, finally resulting in an indication of risk severity.
 
-- **Risk Urgency** refers to the temporal dimension of risk. For instance, potential impacts  that are assessed to be changing quickly or sooner than expected, increase the urgency of attending to the respective risk.
+- **Risk Urgency** refers to the temporal dimension of risk. For instance, potential impacts that are assessed to be changing quickly or sooner than expected, increase the urgency of attending to the respective risk.
 
-- **Capacity** corresponds to the ability to cope with and adapt to actual and potential harm triggered by climate change. It includes {abbr}`absorptive (Absorptive Capacity: A situation characterised by stability.  It refers to the ability to absorb shocks and stresses without significant changes.)`, {abbr}`adaptive (Adaptive Capacity: A situation characterised by flexibility. This involves making incremental adjustments to better cope with changing conditions.)` and {abbr}`transformative (Transformative Capacity: A situation characterised by structural change. Transformation is about making fundamental changes to systems and structures to address the root causes of vulnerability.)` measures which can happen autonomously (e.g., farmers shifting to drought tolerant crops) or through planned strategies and policies.
+- **Capacity** corresponds to the ability to cope with and adapt to actual and potential harm triggered by climate change. It includes {abbr}`absorptive (Absorptive Capacity: A situation characterised by stability.  It refers to the ability to absorb shocks and stresses without significant changes.)`, {abbr}`adaptive (Adaptive Capacity: A situation characterised by flexibility. This involves making incremental adjustments to better cope with changing conditions.)` and {abbr}`transformative (Transformative Capacity: A situation characterised by structural change. Transformation is about making fundamental changes to systems and structures to address the root causes of vulnerability.)` measures which can happen *autonomously* (e.g., farmers shifting to drought tolerant crops) or through *planned* strategies and policies.
 
   Capacity depends on implemented and planned CRM measures as well as on potential opportunities emerging from tackling the respective risk. Such can be divided in five categories, considering social, human, physical, financial or natural systems, thus providing important entry points for indicator selection and evaluation.
 
@@ -112,7 +112,7 @@ Even if only one risk workflow has been chosen, regions can still profit by addi
 
 
 :::{tip}
-The Key Risk Assessment step is a crucial point for reflecting on principles from the conceptual background (especially social justice/just resilience and the precautionary approach) as well as context, objectives and risk ownership that were set during the scoping step. 
+The *Key Risk Assessment* step is a crucial point for reflecting on [principles](../beforeyoustart/principles) from the conceptual background (especially social justice/just resilience and the precautionary approach) as well as context, objectives and risk ownership that were set during the [*Scoping*](../scoping/scoping) step. 
 :::
 
 :::{tip}

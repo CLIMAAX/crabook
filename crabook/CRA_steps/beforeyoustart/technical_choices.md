@@ -6,7 +6,7 @@ It is recommended to build on the latest [IPCC assessment](https://www.ipcc.ch/r
 
 # Technical choices
 
-The second pillar of the CLIMAAX Framework consists of sound technical choices. These are a crucial part of a CRA and encompass considerations of relevant scenarios, time periods, climate datasets (observations, reanalyses, models). and the extent of local data integration. Since the CRA requires technical choices in the risk workflows, this section focuses on providing more context on these elements.
+The second pillar of the CLIMAAX Framework consists of sound technical choices. These are a crucial part of a CRA and encompass considerations of relevant scenarios, time periods, climate datasets (observations, reanalyses, models) and the extent of local data integration. Since the CRA requires technical choices in the risk workflows, this section focuses on providing more context on these elements.
 
 :::{note}
 Technical choices should reflect the information needs of context-specific applications. Exploring these would benefit from collaboration with local climate change experts.  
@@ -39,7 +39,7 @@ The scenarios are labeled SSPx-y, where 'SSPx' refers to the Shared Socioeconomi
 :::
 ::::
 
-SSP-RCP scenarios that are used to drive climate models span a broad plausible range of future drivers of climate change, for example very low or low greenhouse gas emissions (SSP1-RCP1.9 and SSP1-RCP2.6, respectively) under the assumption of accelerated and effective climate policy implementation, to intermediate emissions (e.g., SSP2-RCP4.5), or to very high emissions scenarios in the absence of additional climate policies (SSP3-RCP7.0 or SSP5-RCP8.5). Considering a range of scenarios allows for the exploration of ‘scenario uncertainty’ in the projected climate outcomes.
+SSP-RCP scenarios that are used to drive climate models span a broad plausible range of future drivers of climate change, for example *very low* or *low greenhouse gas emissions* (SSP1-RCP1.9 and SSP1-RCP2.6, respectively) under the assumption of accelerated and effective climate policy implementation, to *intermediate emissions* (e.g., SSP2-RCP4.5), or to *very high emissions* scenarios in the absence of additional climate policies (SSP3-RCP7.0 or SSP5-RCP8.5). Considering a range of scenarios allows for the exploration of 'scenario uncertainty' in the projected climate outcomes.
 
 :::{admonition} Take home message
 :class: hint
@@ -61,7 +61,7 @@ Climate models are mathematical representations of physical and biogeochemical p
 :::{admonition} Take home message
 :class: hint
 
-Model projections are used to explore what-if scenarios of future climate based on different socioeconomic futures. Each model projection is a possible outcome, but not a prediction.
+Model projections are used to explore *what-if* scenarios of future climate based on different socioeconomic futures. Each model projection is a possible outcome, but not a prediction.
 
 - Covering multiple scenarios to explore possible future regional climate and to assess the robustness of adaptation options in future scenarios can be a beneficial approach.
 - The average of the climate model outputs can be considered a best estimate, while the spread indicates the uncertainty.

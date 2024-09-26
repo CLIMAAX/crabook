@@ -52,7 +52,7 @@ When conducting the scoping step, a region should elaborate on the **context** o
 :::
 ::::
 
-The ideal implementation of an inclusive CRA is hybrid and thus combines top-down application of knowledge together with bottom-up perspectives and experiences. Therefore, it is important for a region to decide the extent of **participatory processes** that are desired, also in the light of available resources. Once this is clarified, it is necessary for a region to identify a first set of stakeholders by listing representatives of, for example, impacted sectors, vulnerable groups or disproportionally affected areas, ministries, academia, civil protection agencies or other local and regional entities involved in CRM planning. Besides the *Who*, it is also relevant to decide *When* and *How* stakeholders, experts and priority groups should be included. Planning this thoroughly is important as stakeholder participation may lead to an increase of (time) efforts. Furthermore, in this step it is crucial to allocate **ownership** of risk to ensure communication and efficient CRM by assigning responsibility for the relative risk to stakeholders or the executing entity.
+The ideal implementation of an inclusive CRA is hybrid and thus combines top-down application of knowledge together with bottom-up perspectives and experiences. Therefore, it is important for a region to decide the extent of [**participatory processes**](../beforeyoustart/participatory_processes) that are desired, also in the light of available resources. Once this is clarified, it is necessary for a region to identify a first set of stakeholders by listing representatives of, for example, impacted sectors, vulnerable groups or disproportionally affected areas, ministries, academia, civil protection agencies or other local and regional entities involved in CRM planning. Besides the *Who*, it is also relevant to decide *When* and *How* stakeholders, experts and priority groups should be included. Planning this thoroughly is important as stakeholder participation may lead to an increase of (time) efforts. Furthermore, in this step it is crucial to allocate **ownership** of risk to ensure communication and efficient CRM by assigning responsibility for the relative risk to stakeholders or the executing entity.
 
 ```{figure} ../../images/illustration/reusability_loop.jpg
 ---
@@ -65,7 +65,7 @@ Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.
 Throughout this task, relevant **principles** from the conceptual background should be reflected and find application through, for example, stakeholder selection, setting of goals and boundaries, and clearly defining the work plan to ensure quality and rigour.
 
 :::{tip}
-Stakeholder selection is not necessarily concluded in the Scoping phase. Depending on a region’s Risk Outcome, the inclusion of stakeholders may be reassessed or changed as part of the Key Risk Assessment step which evaluates outcomes of the Risk Analysis, and thus indicates a back-and-forth of the process.
+Stakeholder selection is not necessarily concluded in the *Scoping* phase. Depending on a region's Risk Outcome, the inclusion of stakeholders may be reassessed or changed as part of the [*Key Risk Assessment*](../key_risks/key_risks_assessment) step which evaluates outcomes of the [*Risk Analysis*](../analysis/risk_analysis), and thus indicates a back-and-forth of the process.
 :::
 
 :::{tip}

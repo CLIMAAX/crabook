@@ -31,7 +31,7 @@ The M&E step unites two separate but also connected sub-steps. While Monitoring 
 :::
 ::::
 
-In **Monitoring**, regions should consider *Less Urgent Risks* as well as *Key Risks* and observe them over time. This translates into putting them into context in relation to specific objectives, principles or needs that were set earlier (e.g., during *Scoping* or *Risk Exploration*). It also allows to benchmark the observations against a potential recurring CRA to understand de- or increases of risk as well as potential patterns over time.
+In **Monitoring**, regions should consider *Less Urgent Risks* as well as *Key Risks* and observe them over time. This translates into putting them into context in relation to specific objectives, principles or needs that were set earlier (e.g., during [*Scoping*](../scoping/scoping) or [*Risk Exploration*](../exploration/risk_exploration)). It also allows to benchmark the observations against a potential recurring CRA to understand de- or increases of risk as well as potential patterns over time.
 
 On the other hand, **Evaluation** consists of an iterative reflection on the Climate Risk Assessment cycle and its robustness. The frequency of Evaluation is defined by the region and may vary according to Risk Outcomes, objectives or policy interest. **Learning** is of key significance in this step as evaluation may continuously generate new knowledge and data and can thus influence processes about, e.g., governance, policy and decision-making or relevant ministries and institutions. Depending on the issues and needs of a region, it can be beneficial to collect quantitative/qualitative data that is needed for improving future iterations of the CRA. It is crucial to understand what works well and what does not and act upon it– both in the CRA process, and in dealing with risks.
 
@@ -145,7 +145,7 @@ Climate-related risks require indicators that embrace periodical reassessment an
 :::
 
 
-Communication is part of the participatory processes and **should thus be enforced throughout the whole CRA**, to decrease the risk of generating plans and policies which are not relevant. However, at this stage it is especially important to communicate results  to the public and/or key audiences with a focus on policy- and decision-makers. Regular reporting (e.g., interim reports about decision on workflows or relevant priority groups) or a continuous dialogue with policy- and decision-makers may enhance relevance and accountability of the CRA and the process.
+Communication is part of the [participatory processes](../beforeyoustart/participatory_processes) and **should thus be enforced throughout the whole CRA**, to decrease the risk of generating plans and policies which are not relevant. However, at this stage it is especially important to communicate results  to the public and/or key audiences with a focus on policy- and decision-makers. Regular reporting (e.g., interim reports about decision on workflows or relevant priority groups) or a continuous dialogue with policy- and decision-makers may enhance relevance and accountability of the CRA and the process.
 
 :::{tip}
 The output of the M&E step can inform a report or plan to document and communicate results. This should also include marginalized and disproportionately affected groups (social justice/just resilience) as well as gender, educational or socio-economic aspects.

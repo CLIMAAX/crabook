@@ -39,11 +39,11 @@ At this stage it's important to rely as much as possible on factual evidence reg
 
 ## Screen Risks
 
-The primary objective of screening risks is to quickly scrutinize a region's climate risk context. To do so, it is recommended to use participatory approaches such as consultations with experts, stakeholders and priority groups or also group consultations with all relevant actors. This can be complemented with data-driven methods to gather insights beyond the initial risk considerations from the scoping step.  Where possible, the exploration can dive deeper and cover relevant risk-related aspects, such as affected sectors, spatial extent, and implications across sectors, or regions.
+The primary objective of screening risks is to quickly scrutinize a region's climate risk context. To do so, it is recommended to use participatory approaches such as consultations with experts, stakeholders and priority groups or also group consultations with all relevant actors. This can be complemented with data-driven methods to gather insights beyond the initial risk considerations from the [*Scoping*](../scoping/scoping) step.  Where possible, the exploration can dive deeper and cover relevant risk-related aspects, such as affected sectors, spatial extent, and implications across sectors, or regions.
 
 Experts and stakeholders may also take into account participatory input.  This can be used to ensure transparency, seek feedback or validate findings, by sharing a summary of key discussion points and risk screening results.
 
-The overall output of the risk screening sub-step is to shortlist risks based on the knowledge and perception of stakeholders and experts while including past and ongoing impacts, expected future changes, and local concerns.  Additionally, it helps to highlight areas where additional information, data, or knowledge is needed, thus paving the way for appropriate *Risk Workflow* selection.
+The overall output of the risk screening sub-step is to shortlist risks based on the knowledge and perception of stakeholders and experts while including past and ongoing impacts, expected future changes, and local concerns.  Additionally, it helps to highlight areas where additional information, data, or knowledge is needed, thus paving the way for appropriate [*Risk Workflow*](../analysis/workflows) selection.
 
 :::{admonition} Data Spaces and Hubs
 :class: note
@@ -74,7 +74,7 @@ Having in mind the Scoping phase and including insights from the previous sub-st
 
 The CLIMAAX project offers various risk workflows to conduct a detailed quantitative analysis of climate risks. Following the prioritization of hazards or risks identified in the *Screen Risks* sub-step, the main goal here is to select the most suitable workflows.
 
-The workflows allow for both a current risk analysis (based on historical data) and the estimation of future risk emerging from climatic shifts (based on future climate change projections). Selecting appropriate workflow(s) is crucial for accurately assessing and understanding the range of possible impacts, facilitating informed decision-making and CRM planning. Therefore, it is highly recommended to include insights from experts, stakeholders, priority groups and decision-makers (that have participated in the Screen Risks sub-step or through other means of participation) to steer the selection of workflow(s) towards an inclusive and needs-based approach.
+The workflows allow for both a current risk analysis (based on historical data) and the estimation of future risk emerging from climatic shifts (based on future climate change projections). Selecting appropriate workflow(s) is crucial for accurately assessing and understanding the range of possible impacts, facilitating informed decision-making and CRM planning. Therefore, it is highly recommended to include insights from experts, stakeholders, priority groups and decision-makers (that have participated in the *Screen Risks* sub-step or through other means of participation) to steer the selection of workflow(s) towards an inclusive and needs-based approach.
 
 
 ```{admonition} Tip
@@ -92,7 +92,7 @@ One Risk Workflow may have several options (e.g., the floods workflows may analy
 
 ## Choose Scenario
 
-Based on the interests and concerns of the regions and their key stakeholders defined in Scoping and further refined in Screen Risks, the objective of this sub-step is to identify relevant future scenarios. Selecting scenarios may range from simple SSP-RCP considerations ([Technical Choices](../beforeyoustart/technical_choices)) to a more detailed, needs-driven, and decision-focused process considering climate models, downscaling, global warming levels or low-likelihood high-impact events (see [Deliverable 1.4](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D1.4.pdf)). Depending on the workflows, various RCP and coupled SSP-RCP scenarios are available in the workflows to support users in this task, thus ensuring a useful risk analysis.
+Based on the interests and concerns of the regions and their key stakeholders defined in *Scoping* and further refined in *Screen Risks*, the objective of this sub-step is to identify relevant future scenarios. Selecting scenarios may range from simple SSP-RCP considerations ([Technical Choices](../beforeyoustart/technical_choices)) to a more detailed, needs-driven, and decision-focused process considering climate models, downscaling, global warming levels or low-likelihood high-impact events (see [Deliverable 1.4](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D1.4.pdf)). Depending on the workflows, various RCP and coupled SSP-RCP scenarios are available in the workflows to support users in this task, thus ensuring a useful risk analysis.
 
 Choosing a suitable set of scenarios is crucial for the decision-context and policy output and should therefore be discussed with decision-makers. It is advised to formulate a limited number of scenarios that show different challenges.
 
