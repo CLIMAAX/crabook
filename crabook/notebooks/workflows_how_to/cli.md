@@ -1,7 +1,7 @@
 # How to use risk workflows: command line interface setup
 
 The steps below demonstrate how to download the files from one of our workflow repositories, install a suitable Python software environment and start a Jupyter interface to interact with the workflow notebooks.
-To follow the steps, access to a **command line interface** (CLI, also known as a terminal or console ) on the computer you are working on is required.
+To follow the steps, access to a **command line interface** (CLI, also known as a terminal or console) on the computer you are working on is required.
 Your choice of command line will depend on your operating system (e.g., Windows, MacOS or Linux).
 Please consult the installation instructions linked below for options that suit your setup.
 
