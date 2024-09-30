@@ -186,6 +186,8 @@ parts:
     title: Guiding questions and answers 
   - file: resources/glossary
     title: Glossary
+  - file: about/viewers/external
+    title: Dashboards and explorers
   - file: resources/software
     title: Software
 
