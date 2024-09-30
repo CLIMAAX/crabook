@@ -4,7 +4,7 @@
 These pages are under construction.
 :::
 
-Workflows as presented in this handbook mostly rely on public datasets hosted, e.g., by the [CDS](https://cds-beta.climate.copernicus.eu/).
+Workflows as presented in this handbook mostly rely on public datasets hosted, e.g., by the [CDS](https://cds.climate.copernicus.eu/).
 However, some workflows have specific data requirements (in terms of variables or resolution) that cannot easily be satisfied with public datasets or simply require large amounts of data as input.
 In these cases, **preprocessed datasets** and **data samples** can be provided by CLIMAAX developers and utilized in the workflows to lower the threshold of entry for users and serve as examples for the datasets required for running the climate risk assessment workflows.
 Such data is hosted on the CLIMAAX cloud storage and described here.

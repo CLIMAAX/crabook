@@ -33,7 +33,7 @@ An account is created by following these steps:
 
 
 :::{tip}
-An ECMWF account will also give you access to datasets in the [Copernicus Climate Data Store](https://cds-beta.climate.copernicus.eu) which are used extensively in the risk assessment workflows.
+An ECMWF account will also give you access to datasets in the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu) which are used extensively in the risk assessment workflows.
 :::
 
 
