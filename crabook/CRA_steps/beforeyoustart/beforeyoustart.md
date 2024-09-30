@@ -1,5 +1,9 @@
 # Before you start
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eshH0Nl0c4U?si=iyQF-eYcILQ99cez" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 
 ## Definition of terms for a common understanding of risk
 

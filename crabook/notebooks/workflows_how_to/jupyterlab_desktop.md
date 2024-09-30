@@ -3,11 +3,19 @@
 As an alternative to the [command-line based steps](cli.md), an environment for running the workflow notebook can be created with [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop).
 This setup requires more steps, but does not require having access to a command line environment from the beginning.
 
+<figure class="align-default">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SQlMSq_NKbk?si=rOIO6qaZ2EFszwzN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
+The video follows the steps below for the setup of JupyterLab Desktop.
+
 :::{note}
 The environment created from these instructions works for all CLIMAAX workflows and is not specific to a certain hazard.
 This is different from the [instructions for the command line](cli), where a hazard-specific environment is set up.
 :::
 
+
+## Step by step instructions
 
 1.  [Install](https://github.com/jupyterlab/jupyterlab-desktop/tree/master?tab=readme-ov-file#installation) and start JupyterLab Desktop.
 
@@ -92,5 +100,7 @@ This is different from the [instructions for the command line](cli), where a haz
     These subfolders contain the hazard and risk assessment notebooks as well as supporting files.
     Double-click a notebook in the sidebar to launch it.
 
+
+## JupyterLab Desktop help
 
 See the [user guide](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/user-guide.md), [environment management](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/python-env-management.md) and [troubleshooting](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/troubleshoot.md) pages of JupyterLab Desktop for further information about the application.

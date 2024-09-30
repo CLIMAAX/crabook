@@ -9,6 +9,10 @@ name: Framework_RiskAnalysis
 
 Once the [*Risk Exploration*](../exploration/risk_exploration) is completed, the next step is to apply the risk workflow and scenario decisions in the *Risk Analysis* to estimate risk in a given region. The risk workflows consider four main steps to calculate a region’s individual Climate Risk: *Prepare application, choose and access data, estimate the hazard and combine with exposure and vulnerability data*. A {abbr}`Python installation (Successful CLIMAAX applicants can run the workflows on the ECMWF servers through JupyterHub hosted at ECMWF cloud infrastructure. In that environment, all workflows are readily available together with the necessary libraries.)` and technical knowledge (e.g., of Python or similar modelling tools and GitHub) is needed for the application of the risk analysis workflows.
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/FHQjErDM1X0?si=1GDyc1TAGeCSJ9fi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 For **setting the environment** of the selected workflow the user can find all the necessary information in the respective workflow. For this, the user can follow the instructions provided in the Readme of the repository.
 
 **Accessing data** on hazard, exposure, and vulnerability requires a decision on whether to use precalculated European/large-scale datasets available in the CLIMAAX Handbook about hazard (e.g. wildfire, flood water depth, and heatwave), exposure (e.g. population, critical infrastructure), and vulnerability (e.g. GDP) or to implement [own local data](#framework-ownlocaldata). The latter requires advanced users, while basic users can benefit from data provided through workflows. Once this is completed, it is possible to visualize the maps of hazard, exposure, and vulnerability to have a preliminary idea of the hotspots areas potentially affected by high risk. 

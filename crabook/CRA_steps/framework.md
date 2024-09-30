@@ -2,6 +2,10 @@
 
 The CLIMAAX Framework is designed to empower regions to conduct inclusive and harmonised Climate Risk Assessments (CRAs). It translates the ambitions of the EU Mission on Adaptation towards transformational adaptation strategies that build resilience into practice by supporting the advancement and implementation of climate risk assessments.
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qAE0PA9iQWQ?si=T0pS3Z1ZXq6AjVQW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 The Framework proposes to adhere to key principles such as social justice and equity, puts participatory processes central to the process, and provides guidance on the selection of sound technical choices for conducting climate risk assessments. The Framework consists of a five-step process (see {numref}`framework-simple`) which forms an iterative cycle. The goal of the CRA Framework is to inform Climate Risk Management (CRM) strategies.
 
 ```{figure} ../images/framework/il_framework_ToolboxSteps_FigA.png

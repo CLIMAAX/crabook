@@ -2,6 +2,10 @@
 
 At the local level, Climate Risk Management (CRM) addresses the unique challenges that the changing climate is bringing to the region. It focuses on developing and implementing strategies that anticipate, prevent, and prepare for climate risks.
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fV5r4DUwh5k?si=JSG7zS87ohhwTOgB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 The [*Key Risk Assessment*](key_risks/key_risks_assessment) as fourth step of the CLIMAAX CRA helps to prioritize climate risks based on risk **severity** and **urgency**. Here, risks are ranked by stakeholders and/or experts regarding their potential impact, the immediacy with which they need to be addressed, the local capacity and readiness to respond to these risks as well as opportunitites emerging from dealing with these risks. **Risk perception** does not only play a crucial role in this evaluation of risks but may also influence public support for CRM and adaptation strategies. Therefore, the quantitative risk estimation ([*Risk Analysis*](analysis/risk_analysis)) (ideally combined with qualitative, participatory approaches) must be used to inform and raise awareness among relevant stakeholders, key local actors, or priority groups. This not only facilitates initiating adequate CRM actions but also ensures public buy-in and alignment with local priorities and needs.
 
 The climate risk profile of a region, including its projected changes over time, is the primary indicator of *what*, *where* and *how* CRM and adaptation responses should be initiated. However, there are additional entry points for CRM. Previous risk management interventions and ongoing adaptation processes in place can reveal valuable opportunities for introducing additional or complementary measures. This may include CRM and adaptation responses undertaken in other areas and sectors, thus broadening the perspective. 

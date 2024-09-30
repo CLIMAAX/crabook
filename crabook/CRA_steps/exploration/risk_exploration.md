@@ -16,6 +16,10 @@ Risk Exploration
 
 Risk Exploration starts with a broad screening of the risks (their underlying hazards, exposures and vulnerabilities) that are most apparent or of significant concern to key stakeholders and the wider public. A preliminary, rapid analysis of sectors (including activities, supply chains, processes, and infrastructure) and geographic areas at risk (such as ecosystems, landscapes, and communities) can be conducted based on insights from experts and stakeholders.
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bRCZLl452zM?si=wrUDYufan5rTGcxG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 A deeper dive into the system aspects may highlight affected entities (key systems, elements, sectors, communities, social groups, sub-regions), functions or processes that hold significant value in the local context (e.g. stakeholder interests, community priorities or public agenda). This can reveal (transboundary) connections or dependencies which might be important for evaluating the respective risk outcome. The following subsections will now delve deeper into the screening of risks as well as the selection of workflows and climate scenarios.
 
 

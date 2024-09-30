@@ -15,6 +15,10 @@
 
 The outputs of the climate risk analysis generate information on the extent, duration, frequency and intensity of risks and thus already provide comprehensive insights on *relevant* risks to be considered. These remain to be contextualized and prioritised. Therefore, as a further analytical step, risks need to be evaluated to identify key risks that may become severe under particular conditions and can lead to severe consequences. Additional insights into the severity and urgency of risks as well as considerations on the capacity of a region to adapt and cope with risk support further understanding and managing of risks ({numref}`framework-keyrisksaspects`; {numref}`framework-keyrisksconsiderations`). This step also allows for the integration of *responses*, the fourth driver of risk according to the {ref}`IPCC Risk Propeller <framework-riskpropeller>`, therefore connecting past CRM measures with future CRM management.
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/p6msA_9ijWY?si=_TUyC09n4vK8BFzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 
 ::::{margin}
 :::{note}

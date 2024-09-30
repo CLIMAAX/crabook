@@ -7,6 +7,9 @@
 
 A comprehensive CRA profits from an extensive scoping as it sets the ground for further steps and therefore lays the foundation for the scope and quality of the CRA. This initial process defines objectives (desired results of the analysis), context (subject of analysis, conditions for implementation), identifies stakeholders and assigns risk ownership. This step should result in an agreement on the objectives of the CRA and on the approach to be used for the analysis. All sub-steps are informed by the predefined set of [principles](../beforeyoustart/principles) emerging from the conceptual background.
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3m4UHj14PLI?si=CsIA32rAI3MwmCJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
 
 ::::{margin}
 :::{dropdown} Guiding questions - Objectives

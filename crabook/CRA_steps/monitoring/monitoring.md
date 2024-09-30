@@ -17,6 +17,10 @@ Monitoring and Evaluation
 
 Monitoring and evaluation (M&E) is both a departure and ending point, as the goal of the CRA is to iteratively go through its process while aiming at continuous improvement. This step therefore also brings in another momentum of opportunities. The M&E step is essential for ensuring climate-related risks (key and less urgent risks) are effectively monitored and managed and that climate risk management efforts can have appropriate impact. It may include participatory processes and has a special focus on the *learning* component. Finally, communicating the final results of the CRA is an important outcome of the CRA.
 
+<figure class="align-center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/y2Tu0vrAt6I?si=9QDZucIddU_XEjld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
+
 The M&E step unites two separate but also connected sub-steps. While Monitoring has its focus on the *process*, Evaluation puts emphasis on the *outcome*. Monitoring therefore refers to the surveillance of climate hazards and their respective risks, whereas Evaluation aims at (re-)evaluating the Climate Risk Assessment itself.
 
 
