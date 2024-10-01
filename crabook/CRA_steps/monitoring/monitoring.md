@@ -85,9 +85,18 @@ Climate-related risks require indicators that embrace periodical reassessment an
       <tr>
         <td><img src="../../_images/icon_s_floods.png" class="hazard-icon"/> Flood Risk</td>
         <td><ul>
-          <li>Number of overflows</li>
+          <li>Number of overflows and related probabilities (100 year event, 500 year event)</li>
           <li>Losses and damages (injuries, hospitalisations, fatalities, livestock, crops, business, tourism, buildings, etc.)</li>
           <li>Disruption of public infrastructure</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <td><img src="../../_images/icon_s_heavy_rainfall.png" class="hazard-icon"/> Heavy Rainfall Risk</td>
+        <td><ul>
+          <li>Losses and damages (injuries, hospitalisations, fatalities, livestock, crops, business, tourism, buildings, etc.)</li>
+          <li>Disruption of public infrastructure</li>
+          <li>Overflow of sewage systems</li>
+          <li>Flooding of low-land points (e.g., under bridges, underground parking lots) and surface water accumulation across an urban area</li>
         </ul></td>
       </tr>
       <tr>
