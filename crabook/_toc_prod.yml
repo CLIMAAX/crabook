@@ -13,7 +13,7 @@ parts:
     title: Funding opportunities
   - file: about/start
     title: How to start
-- caption: 🌍 CRA Steps
+- caption: CRA steps
   chapters:
   - file: CRA_steps/framework
     title: What is the CLIMAAX Framework?
@@ -178,7 +178,7 @@ parts:
       - file: notebooks/workflows/STORMS/01_windstorm/Risk_assessment_STORMS
         title: Risk assessment
 
-- caption: 📚 Resources
+- caption: Resources
   chapters:
   - file: resources/support
     title: Support
@@ -199,7 +199,7 @@ parts:
     - file: resources/datasets/eclips2.0_mirror
     - file: resources/datasets/effis_mirror
 
-- caption: 🙋🏻‍♀️ Join the community
+- caption: Join the community
   chapters:
   - url: https://www.climaax.eu/community-of-practice/
     title: Community Of Practice
