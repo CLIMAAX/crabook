@@ -1,29 +1,5 @@
-Frequently Asked Questions
-==========================
+# Frequently Asked Questions
 
 :::{note}
-This page is under construction.
+We will be adding answers to questions here soon.
 :::
-
-## Framework
-
-:::::{dropdown} Test Question.
-
-Test answer.
-:::::
-
-
-## Risk Workflows
-
-:::::{dropdown} Test Question.
-
-Test answer.
-:::::
-
-
-## Technical
-
-:::::{dropdown} Test Question.
-
-Test answer.
-:::::
