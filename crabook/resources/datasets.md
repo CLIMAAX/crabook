@@ -1,12 +1,8 @@
-# CLIMAAX datasets
-
-:::{note}
-These pages are under construction.
-:::
+# Datasets
 
 Workflows as presented in this handbook mostly rely on public datasets hosted, e.g., by the [CDS](https://cds.climate.copernicus.eu/).
 However, some workflows have specific data requirements (in terms of variables or resolution) that cannot easily be satisfied with public datasets or simply require large amounts of data as input.
-In these cases, **preprocessed datasets** and **data samples** can be provided by CLIMAAX developers and utilized in the workflows to lower the threshold of entry for users and serve as examples for the datasets required for running the climate risk assessment workflows.
+In these cases, **preprocessed datasets** and **data samples** can be provided by CLIMAAX developers and utilized in the workflows to lower the barrier of entry for users and to serve as blueprints for the input data required by the climate risk assessment workflows.
 Such data is hosted on the CLIMAAX cloud storage and described here.
 
 ```{figure} ../images/illustration/data_manager.jpg
@@ -17,12 +13,26 @@ figclass: margin-caption
 Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
+:::{note}
+Datasets hosted on the CLIMAAX cloud storage are provided for the convenience of workflow users.
+This service should not be considered a long-term and reliable source of data.
+Datasets will be moved to a persistent and citable location in the future.
+:::
 
-## Available Datasets
+
+## CLIMAAX datasets
+
+Datasets specifically realated to one of the CLIMAAX workflows:
 
 - [Drought risk data](datasets/droughtrisk_sample_nuts3) (NUTS3)
 - [Precipitation hazard data](datasets/precipitation_idf_gcm_eur) (Europe)
 - [Wildfire training and vulnerability data](datasets/wildfire_sample_cat) (Catalonia)
+
+
+## Dataset mirrors
+
+Open datasets from elsewhere re-hosted for more convenient access in the CLIMAAX workflows:
+
 - [ECLIPS-2.0 mirror](datasets/eclips2.0_mirror) (Europe)
 - [EFFIS Wildfire Risk mirror](datasets/effis_mirror) (Europe)
 

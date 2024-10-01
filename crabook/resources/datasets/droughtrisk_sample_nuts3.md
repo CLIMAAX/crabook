@@ -21,9 +21,6 @@ Attribution
 Year
 : 2024
 
-License
-: TODO
-
 
 ## Technical
 

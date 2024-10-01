@@ -12,7 +12,7 @@ Spatial coverage
 In workflows
 : [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> Wildfire (ML approach)](../../notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML)
 
-DOI
+DOI & original source
 : [10.5281/zenodo.3952159](https://doi.org/10.5281/zenodo.3952159)
 
 Authors
@@ -42,7 +42,9 @@ Pooch registry
 : [registry.txt](https://object-store.os-api.cci1.ecmwf.int/climaax/eclips2.0_mirror/metadata/registry.txt)
 
 :::{warning}
-This mirror is provided for the convenice of CLIMAAX workflow users and does not guarantee the long-term stability of the original Zenodo-hosted dataset. Please use the dataset DOI from Zenodo for citations and reliable access. URLs associated with this dataset may change without announcement in the future.
+This mirror is provided for the convenice of CLIMAAX workflow users only.
+Please use the original data source for citations and general access.
+Availability of and URLs associated with this dataset may change without announcement.
 :::
 
 

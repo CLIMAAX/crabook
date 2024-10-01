@@ -10,7 +10,7 @@ Spatial coverage
 : Europe
 
 In workflows
-: [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> TODO]()
+: [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> Wildfire (FWI)](../../notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Description)
 
 Original source
 : [EFFIS Wildfire Risk Viewer](https://forest-fire.emergency.copernicus.eu/apps/fire.risk.viewer/)

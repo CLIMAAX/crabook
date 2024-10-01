@@ -1,5 +1,8 @@
 # Wildfire training and vulnerability data
 
+:::{important}
+This dataset is still under construction and contents may change without announcement.
+:::
 
 ## General
 
@@ -12,20 +15,17 @@ Spatial coverage
 In workflows
 : [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> Wildfire (ML approach)](../../notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML)
 
-Attribution
+Authors
 : TODO
 
-License
-: TODO
+Year
+: 2024
 
 
 ## Technical
 
 Base URL
 : `https://object-store.os-api.cci1.ecmwf.int/climaax/wildfire_sample_cat/`
-
-Approximate size
-: 1325 MB
 
 File types
 : cpg, csv, dbf, prj, shp, shx, tif, txt, xls, xml, zip
