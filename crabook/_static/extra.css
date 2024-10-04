@@ -73,6 +73,11 @@ aside.sidebar > :last-child {
     padding-bottom: 0;
 }
 
+/* Hide padding in collapsed dropdown admonitions */
+.admonition.toggle-hidden .admonition-title ~ * {
+    padding: 0;
+}
+
 img.hazard-icon {
     width: 1.25em;
     vertical-align: text-top;
@@ -110,4 +115,27 @@ details.sd-dropdown div.sd-tab-set:last-child div.sd-tab-content {
 }
 .dataset-file-list > ul ul {
     border-left: 2px solid var(--pst-color-border);
+}
+
+/* Climate scenarios pages */
+.scenarios-widget-controls {
+    margin-bottom: 0.5rem;
+}
+.scenarios-widget-controls label {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid var(--pst-color-border);
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    background-color: var(--pst-color-surface);
+    transition: border-color .15s ease-in-out;
+}
+.scenarios-widget-controls label:hover {
+    border-color: var(--pst-color-link-hover);
+}
+.scenarios-widget-controls label select {
+    margin-left: 0.5em;
+}
+.scenarios-widget #plotDiv {
+    margin-top: 1rem;
 }
