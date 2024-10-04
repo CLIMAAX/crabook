@@ -1,6 +1,7 @@
 [submodule "crabook/notebooks/workflows/FLOODS"]
 	path = crabook/notebooks/workflows/FLOODS
 	url = https://github.com/CLIMAAX/FLOODS
+	branch = main
 [submodule "crabook/notebooks/workflows/DROUGHTS"]
 	path = crabook/notebooks/workflows/DROUGHTS
 	url = https://github.com/CLIMAAX/DROUGHTS
@@ -24,3 +25,8 @@
 [submodule "crabook/notebooks/workflows/HEAVY_RAINFALL"]
 	path = crabook/notebooks/workflows/HEAVY_RAINFALL
 	url = https://github.com/CLIMAAX/HEAVY_RAINFALL.git
+	branch = main
+[submodule "crabook/notebooks/CLIMATE_SCENARIOS"]
+	path = crabook/notebooks/CLIMATE_SCENARIOS
+	url = https://github.com/CLIMAAX/CLIMATE_SCENARIOS.git
+	branch = handbook
