@@ -21,6 +21,7 @@ When reaching out to us, please prefer our general channels, i.e. the forum, Git
 This way we can process requests more efficiently and transparently.
 
 
+(support-account)=
 ## ECMWF account
 
 To use the support described below, registering at ECMWF is necessary.
@@ -44,6 +45,7 @@ All topics with our tag can be viewed on a dedicated [overview page](https://f
 Posts in the forum are public and anyone registered can participate, giving you the opportunity to interact with the whole CLIMAAX community.
 
 
+(support-servicedesk)=
 ## Service desk
 
 For questions and support related to the CLIMAAX Handbook, including the Framework, workflows, datasets and software, as well as all services associated with your ECMWF account, the **exclusive** CLIMAAX service desk can be contacted via our support request form:
@@ -60,19 +62,73 @@ You will receive email notifications with updates to the status of your request.
 Depending on the topic of the request, experts from the CLIMAAX team, e.g., the developers of a specific risk assessment workflow, are consulted when answering a request.
 Service desk requests are otherwise private.
 
+:::{important}
+
+Eligibility for support through the service desk is validated via an allowlist.
+The allowlist is initialized with the email addresses known to us from the selection process following the open calls.
+To **extend eligibility** to accounts not yet on the allowlist, please inform us about the email addresses of the accounts to be added in a **service desk request from a known account**.
+:::
+
+
 (support-jupyterhub)=
 ## JupyterHub
 
-The **exclusive** CLIMAAX JupyterHub server provides access to a JupyterLab web interface where the risk assessment notebooks from the Handbook can be edited and executed on ECMWF cloud computing infrastructure.
+The **exclusive** [CLIMAAX JupyterHub](https://climaax-jupyterhub.ecmwf.int/) provides access to a JupyterLab web interface where the risk assessment notebooks can be edited and executed on ECMWF cloud computing infrastructure.
 
-The software environment preinstalled on the hub contains everything needed to run the risk assessment workflows from the Handbook and is managed by the CLIMAAX team.
-A limited amount of disk storage is attached to your account, so you can upload your own datasets or download datasets from other providers to the cloud for use in workflows.
-Please note that while your data is persistent in the cloud, we do not provide backups and therefore strongly recommend that you keep copies of important files in another location outside of the hub.
-Technical assistance for the JupyterHub is provided through the service desk as described above.
+Please note the following information on our JupyterHub setup and usage:
 
-:::{important}
-[Two factor authentication](https://confluence.ecmwf.int/display/UDOC/TOTP%3A+How+to+activate) must be activated on your ECMWF account to access the JupyterHub.
+:::{dropdown} Access requirements
+
+Access to the CLIMAAX JupyterHub requires
+
+1. an [ECMWF account](#support-account),
+2. activated [two factor authentication](https://confluence.ecmwf.int/display/UDOC/TOTP%3A+How+to+activate) on that account,
+3. additional access permissions granted only after a service desk request.
+
+After account creation, **permissions must be obtained through a [service desk](#support-servicedesk) request**:
+Please use an informative title like "CLIMAAX JupyterHub access" for the request.
+Permission is only given to eligible accounts associated with the CLIMAAX project.
+
 :::
 
-The availability of the CLIMAAX JupyterHub will be announced soon.
-We will then also provide more details about its usage.
+:::{dropdown} Sessions and resource usage
+
+If your sessions fails to start for the first time after login, try again immediately.
+If the startup problem persists, please contact support via the [service desk](#support-servicedesk).
+
+Please use the provided computing resources responsibly.
+Shut down a session you are no longer using via the *Hub Control Panel* (under the *File* menu in the JupyterLab interface) to free up resources for other users.
+Logging out alone will not stop a running session.
+Sessions may be terminated by the server due to inactivity.
+:::
+
+:::{dropdown} Persistent storage
+
+Each account can use up to 75 GB of persistent storage.
+Only data saved in the **home directory** (`/home/jovyan`) is persistent between sessions.
+Data cannot be shared between accounts.
+
+Data stored on the CLIMAAX JupyterHub is *not* backed up.
+Users are responsible for keeping copies of important data that cannot easily be re-obtained in other locations.
+:::
+
+:::{dropdown} Software environment
+
+The default [Python](#software-python) environment of the JupyterHub comes with all packages required to run CLIMAAX workflows and is managed by the CLIMAAX team.
+Run `conda list` or `pip list` in a terminal to see all installed packages.
+
+Additional packages can be installed by users with conda or pip.
+We recommend using the `--user` option for `pip install` to ensure that packages are installed in the home directory and therefore persistent between sessions.
+Packages installed outside of the home directory have to be reinstalled in every session.
+
+We welcome suggestions for adding packages to the default environment via the [service desk](#support-servicedesk).
+:::
+
+:::{dropdown} Automatic workflow downloads
+
+To simplify access to workflows for users, all CLIMAAX workflow repositories are automatically cloned into a `workflows` folder in the home directory.
+This automated action is run every time a new session is started, but only clones a repository if a folder with the repository name does not already exist.
+Existing repositories are not updated to avoid conflicts with user modifications in the workflows.
+:::
+
+Technical assistance for the JupyterHub is provided through the [service desk](#support-servicedesk).
