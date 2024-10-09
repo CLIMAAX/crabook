@@ -29,4 +29,4 @@
 [submodule "crabook/notebooks/CLIMATE_SCENARIOS"]
 	path = crabook/notebooks/CLIMATE_SCENARIOS
 	url = https://github.com/CLIMAAX/CLIMATE_SCENARIOS.git
-	branch = handbook
+	branch = main
