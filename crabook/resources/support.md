@@ -95,7 +95,8 @@ In order to be able to use the CLIMAAX JupyterHub, you need to:
 If your sessions fails to start for the first time after login, try again immediately.
 If the startup problem persists, please contact support via the [service desk](#support-servicedesk).
 
-Session runtime is currently limited to 12 h.
+The runtime of an individual session is currently limited to 12 h.
+Please make sure you save your work regularly to avoid data loss if your session is terminated at the end of the time limit.
 We will update this policy as necessary to suit user needs and ensure that the provided computing resources are used responsibly.
 A session can be shut down manually via the *Hub Control Panel* (under the *File* menu in the JupyterLab interface).
 Logging out will not stop a running session.
