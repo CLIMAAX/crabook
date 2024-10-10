@@ -79,16 +79,15 @@ Please note the following information on our JupyterHub setup and usage:
 
 :::{dropdown} Access requirements
 
-Access to the CLIMAAX JupyterHub requires
+In order to be able to use the CLIMAAX JupyterHub, you need to:
 
-1. an [ECMWF account](#support-account),
-2. activated [two factor authentication](https://confluence.ecmwf.int/display/UDOC/TOTP%3A+How+to+activate) on that account,
-3. additional access permissions granted only after a service desk request.
+1. Have an [ECMWF account](#support-account).
+2. Activate [two factor authentication](https://confluence.ecmwf.int/display/UDOC/TOTP%3A+How+to+activate) on that account.
+3. Apply for additional access permissions through a [service desk request](#support-servicedesk).
+   Please use an informative title like "CLIMAAX JupyterHub access" for the request.
+   Permission is only given to eligible accounts associated with the CLIMAAX project.
 
-After account creation, **permissions must be obtained through a [service desk](#support-servicedesk) request**:
-Please use an informative title like "CLIMAAX JupyterHub access" for the request.
-Permission is only given to eligible accounts associated with the CLIMAAX project.
-
+**You can only access the JupyterHub after the additional permissions are granted in step 3.**
 :::
 
 :::{dropdown} Sessions and resource usage
