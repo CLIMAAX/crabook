@@ -96,8 +96,9 @@ If your sessions fails to start for the first time after login, try again immedi
 If the startup problem persists, please contact support via the [service desk](#support-servicedesk).
 
 The runtime of an individual session is currently limited to 12 h.
-Please make sure you save your work regularly to avoid data loss if your session is terminated at the end of the time limit.
-We will update this policy as necessary to suit user needs and ensure that the provided computing resources are used responsibly.
+The time at which a session finishes is displayed in the top right corner of the JupyterLab interface (please convert the UTC time to your local time zone).
+Save your work regularly to avoid data loss when a session finishes.
+We will update our session runtime policy as necessary to suit user needs and ensure that the provided computing resources are used responsibly.
 A session can be shut down manually via the *Hub Control Panel* (under the *File* menu in the JupyterLab interface).
 Logging out will not stop a running session.
 :::
