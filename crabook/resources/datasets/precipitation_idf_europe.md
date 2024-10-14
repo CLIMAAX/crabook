@@ -1,22 +1,18 @@
-# Precipitation hazard data
+# Precipitation pre-calculated IDF
 
-:::{warning}
-
-This dataset has been deprecated in favour of the updated [precipitation_idf_europe](precipitation_idf_europe).
-Files remain available for a while longer to support older versions of the Extreme precipitation workflow, but will be deleted from the CLIMAAX servers in the future.
-:::
+Intensity, Duration, Frequency.
 
 
 ## General
 
 Dataset ID
-: `precipitation_idf_gcm_eur`
+: `precipitation_idf_europe`
 
 Spatial coverage
 : Europe
 
 In workflows
-: [<img src="../../images/icon_s/icon_s_heavy_rainfall.png" class="hazard-icon"> Extreme precipitation](../../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro) (≤ v2024.10.0)
+: [<img src="../../images/icon_s/icon_s_heavy_rainfall.png" class="hazard-icon"> Extreme precipitation](../../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro)  (≥ v2024.10.1)
 
 Authors
 : The Center of Applied Research in Hydrometeorology from the Universitat Politècnica de Catalunya (CRAHI-UPC).
@@ -33,15 +29,15 @@ Year
 ## Technical
 
 Base URL
-: `https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_gcm_eur/`
+: `https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_europe/`
 
 File types
-: tif, nc
+: GeoTIFF, NetCDF
 
 Pooch registry
-: [registry.txt](https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_gcm_eur/metadata/registry.txt)
+: [registry.txt](https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_europe/metadata/registry.txt)
 
 
 ## Contents
 
-<div class="dataset-file-list" data-base-url="https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_gcm_eur/"></div>
+<div class="dataset-file-list" data-base-url="https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_europe/"></div>

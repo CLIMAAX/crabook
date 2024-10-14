@@ -25,7 +25,7 @@ Datasets will be moved to a persistent and citable location in the future.
 Datasets specifically realated to one of the CLIMAAX workflows:
 
 - [Drought risk data](datasets/droughtrisk_sample_nuts3) (NUTS3)
-- [Precipitation hazard data](datasets/precipitation_idf_gcm_eur) (Europe)
+- [Precipitation pre-calculated IDF](datasets/precipitation_idf_europe) (Europe)
 - [Wildfire training and vulnerability data](datasets/wildfire_sample_cat) (Catalonia)
 
 
