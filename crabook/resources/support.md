@@ -62,11 +62,15 @@ You will receive email notifications with updates to the status of your request.
 Depending on the topic of the request, experts from the CLIMAAX team, e.g., the developers of a specific risk assessment workflow, are consulted when answering a request.
 Service desk requests are otherwise private.
 
-:::{important}
+:::{admonition} Important: eligibility
+:class: important
 
 Eligibility for support through the service desk is validated via an allowlist.
 The allowlist is initialized with the email addresses known to us from the selection process following the open calls.
 To **extend eligibility** to accounts not yet on the allowlist, please inform us about the email addresses of the accounts to be added in a **service desk request from a known account**.
+
+Please note that addition to the allowlist does *not* automatically grant access to the [JupyterHub](#support-jupyterhub).
+Further permissions need to be requested for JupyterHub access via the service desk from the account seeking access (see instructions below).
 :::
 
 
@@ -86,6 +90,7 @@ In order to be able to use the CLIMAAX JupyterHub, you need to:
 3. Apply for additional access permissions through a [service desk request](#support-servicedesk).
    Please use an informative title like "CLIMAAX JupyterHub access" for the request.
    Permission is only given to eligible accounts associated with the CLIMAAX project.
+   See above for information on eligibility.
 
 **You can only access the JupyterHub after the additional permissions are granted in step 3.**
 :::
