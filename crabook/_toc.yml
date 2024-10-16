@@ -8,8 +8,6 @@ parts:
   chapters:
   - file: about/climaax
     title: The CLIMAAX project
-  - file: about/funding
-    title: Funding opportunities
   - file: about/examples
     title: Regional examples
     sections:

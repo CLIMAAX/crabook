@@ -9,8 +9,6 @@ parts:
   chapters:
   - file: about/climaax
     title: The CLIMAAX project
-  - file: about/funding
-    title: Funding opportunities
   - file: about/start
     title: How to start
 - caption: CRA steps

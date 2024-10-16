@@ -1,7 +1,7 @@
 # CLIMAAX CRA Handbook
 
 
-<iframe src="iframes/home/index.html" name="iframe_home" width="100%" height="1720px"></iframe>
+<iframe src="iframes/home/index.html" name="iframe_home" width="100%" height="1680px"></iframe>
 
 <iframe src="iframes/home/cra_map_example_text.html" width="100%" height="300px"></iframe>
 

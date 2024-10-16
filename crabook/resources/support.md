@@ -9,7 +9,6 @@ The Handbook with the Framework description, workflows, technical documentation 
 You can get reach out to us with questions and [contribute](../community/contribute.md) via the Forum and GitHub, independent of your relationship with the CLIMAAX project.
 
 The service desk and JupyterHub server are **exclusively** offered to our project partners and participating regions that receive financial support through the CLIMAAX project.
-We are currently accepting applications to our [second Open Call](../about/funding.md).
 :::
 
 
