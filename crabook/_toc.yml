@@ -217,14 +217,3 @@ parts:
     title: Community Of Practice
   - file: community/contribute
     title: Contribute to risk recipes
-
-- caption: Internal resources
-  chapters:
-  - file: internal/markdown
-    title: Markdown basics
-  - file: internal/images
-    title:  How to add an image
-  - file: internal/tables
-    title:  How to add a table
-  - file: internal/admonitions
-    title: How to add the info boxes
