@@ -68,8 +68,9 @@ Eligibility for support through the service desk is validated via an allowlist.
 The allowlist is initialized with the email addresses known to us from the selection process following the open calls.
 To **extend eligibility** to accounts not yet on the allowlist, please inform us about the email addresses of the accounts to be added in a **service desk request from a known account**.
 
-Please note that addition to the allowlist does *not* automatically grant access to the [JupyterHub](#support-jupyterhub).
-Further permissions need to be requested for JupyterHub access via the service desk from the account seeking access (see instructions below).
+We recommend to register ECMWF accounts for all added email addresses *before* their addition to the allowlist.
+Only then can we also immediately grant permissions to access the [CLIMAAX JupyterHub](#support-jupyterhub).
+Email addresses added to our eligibility allowlist without a corresponding registered ECMWF account will not receive these permissions when added to the allowlist and have to ask for them explicitly via a service desk request.
 :::
 
 
@@ -86,12 +87,11 @@ In order to be able to use the CLIMAAX JupyterHub, you need to:
 
 1. Have an [ECMWF account](#support-account).
 2. Activate [two factor authentication](https://confluence.ecmwf.int/display/UDOC/TOTP%3A+How+to+activate) on that account.
-3. Apply for additional access permissions through a [service desk request](#support-servicedesk).
-   Please use an informative title like "CLIMAAX JupyterHub access" for the request.
-   Permission is only given to eligible accounts associated with the CLIMAAX project.
-   See above for information on eligibility.
+3. Be eligible for CLIMAAX support.
+   Eligibility is managed through an allowlist, see the information on eligibility and JupyterHub access in the documentation of the [service desk](#support-servicedesk).
 
-**You can only access the JupyterHub after the additional permissions are granted in step 3.**
+Access to the JupyterHub requires that special permissions are set on your ECMWF account.
+If your account did not receive these permissions when added to the allowlist, you have to ask for them via a service desk request.
 :::
 
 :::{dropdown} Sessions and resource usage
