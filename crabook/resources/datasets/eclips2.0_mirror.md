@@ -1,4 +1,4 @@
-# ECLIPS-2.0 mirror
+# ECLIPS-2.0 (mirror)
 
 
 ## General

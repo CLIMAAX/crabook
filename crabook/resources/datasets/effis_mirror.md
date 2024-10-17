@@ -1,4 +1,4 @@
-# EFFIS Wildfire Risk mirror
+# EFFIS Wildfire Risk (mirror)
 
 
 ## General

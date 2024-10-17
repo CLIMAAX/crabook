@@ -221,6 +221,7 @@ parts:
     - file: resources/datasets/droughtrisk_sample_nuts3
     - file: resources/datasets/precipitation_idf_europe
     - file: resources/datasets/wildfire_sample_cat
+    - file: resources/datasets/fwi_1981-2010_europe
     - file: resources/datasets/eclips2.0_mirror
     - file: resources/datasets/effis_mirror
   - url: https://github.com/CLIMAAX/crabook/releases

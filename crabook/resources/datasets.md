@@ -33,11 +33,14 @@ Datasets specifically realated to one of the CLIMAAX workflows:
 
 Open datasets from elsewhere re-hosted for more convenient access in the CLIMAAX workflows:
 
-- [ECLIPS-2.0 mirror](datasets/eclips2.0_mirror) (Europe)
-- [EFFIS Wildfire Risk mirror](datasets/effis_mirror) (Europe)
+- [FWI simulations with CMIP6-informed perturbations](datasets/fwi_1981-2010_europe) (Europe)
+- [ECLIPS-2.0](datasets/eclips2.0_mirror) (Europe)
+- [EFFIS Wildfire Risk](datasets/effis_mirror) (Europe)
 
 
 ## How to access
+
+Most of our datasets are comprised of multiple files available for individual download via https.
 
 ::::{tab-set}
 
