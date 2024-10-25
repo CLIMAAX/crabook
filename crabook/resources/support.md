@@ -129,11 +129,32 @@ Packages installed outside of the home directory have to be reinstalled in every
 We welcome suggestions for adding packages to the default environment via the [service desk](#support-servicedesk).
 :::
 
-:::{dropdown} Automatic workflow downloads
+:::{dropdown} Workflow downloads and updates
 
-To simplify access to workflows for users, all CLIMAAX workflow repositories are automatically cloned into a `workflows` folder in the home directory.
+To simplify access to workflows for users, all CLIMAAX workflow repositories are automatically cloned (i.e., downloaded with [git](#software-git)) into a `workflows` folder in the home directory.
 This automated action is run every time a new session is started, but only clones a repository if a folder with the repository name does not already exist.
-Existing repositories are not updated to avoid conflicts with user modifications in the workflows.
+
+Existing repositories are **not updated automatically** to avoid overwriting user-made modifications to existing workflow files.
+To update a workflow, navigate into its folder and select *Pull from remote* in the *Git* menu at the top.
+Note however, that this may result in a conflict if you have already made modifications to a file that is being updated.
+These conflicts can be resolved with git, although some experience with git is recommended before attempting the manual resolution of a merge conflict.
+:::
+
+:::{dropdown} CDS API token configuration (.cdsapirc)
+
+We recommend to [save your CDS access token/key in a configuration file in your home directory](https://cds.climate.copernicus.eu/how-to-api) so you don't have to specify it explicitly in the workflow notebooks that use `cdsapi`.
+With the `KEY` variable in these notebooks set to `None`, the token from your configuration file is used instead.
+This also reduces the likelihood of you accidentally sharing your personal key with others.
+
+Because the JupyterLab file browser does not handle files starting with a `.`, the `.cdsapirc` file has to be created in another way, e.g., by running
+
+```text
+%%writefile ~/.cdsapi
+url: https://cds.climate.copernicus.eu/api
+key: ********-****-****-*****-************
+```
+
+once from a Python console or notebook.
 :::
 
 Technical assistance for the JupyterHub is provided through the [service desk](#support-servicedesk).
