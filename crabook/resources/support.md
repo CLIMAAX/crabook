@@ -154,7 +154,7 @@ url: https://cds.climate.copernicus.eu/api
 key: ********-****-****-*****-************
 ```
 
-once from a Python console or notebook.
+once from a Python console or notebook (put your own key instead of the ***).
 :::
 
 Technical assistance for the JupyterHub is provided through the [service desk](#support-servicedesk).
