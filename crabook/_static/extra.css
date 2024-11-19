@@ -7,6 +7,40 @@ html {
     --pst-font-family-monospace: "Roboto Mono", var(--pst-font-family-monospace-system);
 }
 
+.climaax-lightgreen {
+    color: #05DBBD;
+}
+.climaax-darkgreen {
+    color: #0EAF94;
+}
+.climaax-yellow {
+    color: #F9BC12;
+}
+.climaax-orange {
+    color: #F47A00;
+}
+.climaax-darkblue {
+    color: #0A1D6B;
+}
+.climaax-lightblue {
+    color: #1A74B5;
+}
+.climaax-cyan {
+    color: #1596B8;
+}
+
+.fontsize-large {
+    font-size: 120%;
+}
+
+.card-contrast {
+    color: #F9F9F9;
+    background-color: #0A1D6B;
+}
+.card-contrast .sd-card-text {
+    color: #F9F9F9;
+}
+
 table tr td {
     min-width: 2.5rem;
 }
