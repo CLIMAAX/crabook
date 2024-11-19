@@ -44,6 +44,9 @@ parts:
     title: Scoping
   - file: CRA_steps/exploration/risk_exploration
     title: Risk Exploration
+    sections:
+    - file: CRA_steps/exploration/scenarios_guidance
+      title: Scenarios guidance
   - file: CRA_steps/analysis/risk_analysis
     title: Risk Analysis
     sections:
