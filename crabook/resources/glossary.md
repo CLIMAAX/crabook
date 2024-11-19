@@ -26,6 +26,9 @@ Coupled Climate Model Intercomparison Project (CMIP)
 
 [Exposure](#framework-term-exposure)
  
+GCM
+ General Circulation Model or Global Climate Model (in contrast to {term}`RCM`).
+
 
 [Hazard](#framework-term-hazard)
  
@@ -53,6 +56,9 @@ Jupyter notebook
 
 [Risk Outcome](#framework-term-riskoutcome)
  
+
+RCM
+ Regional Climate Model (in contrast to {term}`GCM`).
 
 Representative Concentration Pathways (RCPs)
  [Climate change scenarios](#framework-climatechangescenarios) for future greenhouse gas concentrations.
