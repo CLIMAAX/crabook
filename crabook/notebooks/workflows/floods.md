@@ -44,4 +44,11 @@ The proper assessment of flood risk is crucial for developing effective mitigati
 :img-bottom: ../../images/top/top_floods.png
 :::
 
+:::{grid-item-card} Flood building damage and population exposed
+:columns: 4
+:link: FLOODS/03_Flood_damage_and_population_exposure/Risk_workflow_description_FLOOD_BUILDING_POPULATION
+:link-type: doc
+:img-bottom: ../../images/top/top_floods.png
+:::
+
 ::::
