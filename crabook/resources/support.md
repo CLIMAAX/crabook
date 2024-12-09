@@ -149,7 +149,7 @@ This also reduces the likelihood of you accidentally sharing your personal key w
 Because the JupyterLab file browser does not handle files starting with a `.`, the `.cdsapirc` file has to be created in another way, e.g., by running
 
 ```text
-%%writefile ~/.cdsapi
+%%writefile ~/.cdsapirc
 url: https://cds.climate.copernicus.eu/api
 key: ********-****-****-*****-************
 ```
