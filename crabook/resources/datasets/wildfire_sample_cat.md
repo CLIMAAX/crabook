@@ -18,6 +18,9 @@ In workflows
 Authors
 : TODO
 
+Attribution
+: Data in *data_Catalonia/climate* derived from the [CHELSA](https://chelsa-climate.org/downloads/) (subfolder *CHELSA_Historical*) and [ECLIPS2.0](https://doi.org/10.5281/zenodo.3952159) (other files) datasets.
+
 Year
 : 2024
 
