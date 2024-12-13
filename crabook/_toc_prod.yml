@@ -143,11 +143,14 @@ parts:
         title: Wildfire (ML approach)
         sections:
         - file: notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML
-          title: Hazard assessment
+          title: Hazard assessment (ECLIPS)
+        - file: notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML_CHELSA
+          title: Hazard assessment (CHELSA)
         - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_assessment_FIRE_ML
           title: Risk assessment
         - file: notebooks/workflows/FIRE/01_wildfire_ML/Change_assessment_FIRE_ML
           title: Change assessment
+        - file: notebooks/workflows/src/FIRE/01_wildfire_ML/shared_funcs
       - file: notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Description
         title: Wildfire (FWI)
         sections:
