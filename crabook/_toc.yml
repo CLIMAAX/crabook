@@ -218,6 +218,8 @@ parts:
     - file: resources/datasets/wildfire_sample_cat
     - file: resources/datasets/eclips2.0_mirror
     - file: resources/datasets/effis_mirror
+  - url: https://github.com/CLIMAAX/crabook/releases
+    title: Release Notes
 
 - caption: Join the community
   chapters:
