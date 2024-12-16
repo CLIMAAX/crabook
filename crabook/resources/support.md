@@ -79,82 +79,9 @@ Email addresses added to our eligibility allowlist without a corresponding regis
 
 The **exclusive** [CLIMAAX JupyterHub](https://climaax-jupyterhub.ecmwf.int/) provides access to a JupyterLab web interface where the risk assessment notebooks can be edited and executed on ECMWF cloud computing infrastructure.
 
-Please note the following information on our JupyterHub setup and usage:
+For more information, see our dedicated JupyterHub pages:
 
-:::{dropdown} Access requirements
-
-In order to be able to use the CLIMAAX JupyterHub, you need to:
-
-1. Have an [ECMWF account](#support-account).
-2. Activate [two factor authentication](https://confluence.ecmwf.int/display/UDOC/TOTP%3A+How+to+activate) on that account.
-3. Be eligible for CLIMAAX support.
-   Eligibility is managed through an allowlist, see the information on eligibility and JupyterHub access in the documentation of the [service desk](#support-servicedesk).
-
-Access to the JupyterHub requires that special permissions are set on your ECMWF account.
-If your account did not receive these permissions when added to the allowlist, you have to ask for them via a service desk request.
-:::
-
-:::{dropdown} Sessions and resource usage
-
-If your sessions fails to start for the first time after login, try again immediately.
-If the startup problem persists, please contact support via the [service desk](#support-servicedesk).
-
-The runtime of an individual session is currently limited to 12 h.
-The time at which a session finishes is displayed in the top right corner of the JupyterLab interface (please convert the UTC time to your local time zone).
-Save your work regularly to avoid data loss when a session finishes.
-We will update our session runtime policy as necessary to suit user needs and ensure that the provided computing resources are used responsibly.
-A session can be shut down manually via the *Hub Control Panel* (under the *File* menu in the JupyterLab interface).
-Logging out will not stop a running session.
-:::
-
-:::{dropdown} Persistent storage
-
-Each account can use up to 75 GB of persistent storage.
-Only data saved in the **home directory** (`/home/jovyan`) is persistent between sessions.
-Data cannot be shared between accounts.
-
-Data stored on the CLIMAAX JupyterHub is *not* backed up.
-Users are responsible for keeping copies of important data that cannot easily be re-obtained in other locations.
-:::
-
-:::{dropdown} Software environment
-
-The default [Python](#software-python) environment of the JupyterHub comes with all packages required to run CLIMAAX workflows and is managed by the CLIMAAX team.
-Run `conda list` or `pip list` in a terminal to see all installed packages.
-
-Additional packages can be installed by users with conda or pip.
-We recommend using the `--user` option for `pip install` to ensure that packages are installed in the home directory and therefore persistent between sessions.
-Packages installed outside of the home directory have to be reinstalled in every session.
-
-We welcome suggestions for adding packages to the default environment via the [service desk](#support-servicedesk).
-:::
-
-:::{dropdown} Workflow downloads and updates
-
-To simplify access to workflows for users, all CLIMAAX workflow repositories are automatically cloned (i.e., downloaded with [git](#software-git)) into a `workflows` folder in the home directory.
-This automated action is run every time a new session is started, but only clones a repository if a folder with the repository name does not already exist.
-
-Existing repositories are **not updated automatically** to avoid overwriting user-made modifications to existing workflow files.
-To update a workflow, navigate into its folder and select *Pull from remote* in the *Git* menu at the top.
-Note however, that this may result in a conflict if you have already made modifications to a file that is being updated.
-These conflicts can be resolved with git, although some experience with git is recommended before attempting the manual resolution of a merge conflict.
-:::
-
-:::{dropdown} CDS API token configuration (.cdsapirc)
-
-We recommend to [save your CDS access token/key in a configuration file in your home directory](https://cds.climate.copernicus.eu/how-to-api) so you don't have to specify it explicitly in the workflow notebooks that use `cdsapi`.
-With the `KEY` variable in these notebooks set to `None`, the token from your configuration file is used instead.
-This also reduces the likelihood of you accidentally sharing your personal key with others.
-
-Because the JupyterLab file browser does not handle files starting with a `.`, the `.cdsapirc` file has to be created in another way, e.g., by running
-
-```text
-%%writefile ~/.cdsapirc
-url: https://cds.climate.copernicus.eu/api
-key: ********-****-****-*****-************
-```
-
-once from a Python console or notebook (put your own key instead of the ***).
-:::
+- [](jupyterhub/info)
+- [](jupyterhub/tips)
 
 Technical assistance for the JupyterHub is provided through the [service desk](#support-servicedesk).

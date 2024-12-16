@@ -202,6 +202,9 @@ parts:
   chapters:
   - file: resources/support
     title: Support
+    sections:
+    - file: resources/jupyterhub/info
+    - file: resources/jupyterhub/tips
   - file: resources/guiding_questions
     title: Guiding questions and answers 
   - file: resources/FAQ
