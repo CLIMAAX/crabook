@@ -33,7 +33,7 @@ Examples of the different outputs from the three risk assessment approaches with
 :::{admonition} Event-based Climate Storylines
 :class: note
 
-Event-based physical climate storylines (or in brief: climate event storylines) are a complementary approach to produce climate information relevant for decision making. You can find more information on this qualitative risk analysis option [here](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D1.4.pdf).
+Event-based physical climate storylines (or in brief: climate event storylines) are a complementary approach to produce climate information relevant for decision making. You can find more information on this qualitative risk analysis option [here](https://files.cmcc.it/climaax/Deliverables/CLIMAAX_D1.4_Climate%20Risk%20Assessment%20Framework_revised.pdf).
 :::
 
 :::{tip}

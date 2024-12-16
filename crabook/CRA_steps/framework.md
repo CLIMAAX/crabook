@@ -32,5 +32,5 @@ Highlights of the CLIMAAX Framework and Toolbox entail:
 5. Use of climate and **socio-economic scenarios** that are relevant for impacts and risks that needs to be accounted for regions and communities for adaptation/risk management strategies.
 
 :::{note}
-A full, advanced description of the CLIMAAX CRA Framework can be found [here](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D1.4.pdf).
+A full, advanced description of the CLIMAAX CRA Framework can be found [here](https://files.cmcc.it/climaax/Deliverables/CLIMAAX_D1.4_Climate%20Risk%20Assessment%20Framework_revised.pdf).
 :::
