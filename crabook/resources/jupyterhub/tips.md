@@ -31,14 +31,32 @@ key: ********-****-****-*****-************
 from a Python console or notebook (put your own key instead of the ***).
 
 
+## Error on access
+
+Example error messages:
+
+- **"403: Forbidden"**
+
+Permission to access the CLIMAAX JupyterHub must be granted explicitly by the CLIMAAX support team after creation of your ECMWF account.
+This requires your action.
+Please contact support via the [service desk](#support-servicedesk) and ask for access permissions for your account.
+
+
+## Error on session startup
+
+Example error messages:
+
+- **"Spawn failed: 0/18 nodes are available: ..."**
+- **"Server at ... didn't respond in ... seconds"**
+
+Please try to start a session again after a few seconds.
+Startup errors most often occur at times when our computational resources are very busy.
+Trying again once or twice should lead to a successful session start.
+However, if the startup problem persist despite multiple attempts, please contact support via the [service desk](#support-servicedesk).
+
+
 ## Installing packages
 
 Additional packages can be installed with conda or pip.
 We recommend using the `--user` option for `pip install` to ensure that packages are installed in the home directory and therefore persistent between sessions.
 Packages installed outside of the home directory have to be reinstalled in every session.
-
-
-## Session doesn't start
-
-If your sessions fails to start for the first time after login, try again immediately.
-If the startup problem persists, please contact support via the [service desk](#support-servicedesk).

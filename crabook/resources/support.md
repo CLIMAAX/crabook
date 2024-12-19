@@ -65,12 +65,7 @@ Service desk requests are otherwise private.
 :class: important
 
 Eligibility for support through the service desk is validated via an allowlist.
-The allowlist is initialized with the email addresses known to us from the selection process following the open calls.
-To **extend eligibility** to accounts not yet on the allowlist, please inform us about the email addresses of the accounts to be added in a **service desk request from a known account**.
-
-We recommend to register ECMWF accounts for all added email addresses *before* their addition to the allowlist.
-Only then can we also immediately grant permissions to access the [CLIMAAX JupyterHub](#support-jupyterhub).
-Email addresses added to our eligibility allowlist without a corresponding registered ECMWF account will not receive these permissions when added to the allowlist and have to ask for them explicitly via a service desk request.
+Please inform us about email addresses of accounts to be added to this list with a service desk request from an account that is known to us (i.e., already on the list).
 :::
 
 
@@ -79,7 +74,7 @@ Email addresses added to our eligibility allowlist without a corresponding regis
 
 The **exclusive** [CLIMAAX JupyterHub](https://climaax-jupyterhub.ecmwf.int/) provides access to a JupyterLab web interface where the risk assessment notebooks can be edited and executed on ECMWF cloud computing infrastructure.
 
-For more information, see our dedicated JupyterHub pages:
+Please see our dedicated JupyterHub pages for further information:
 
 - [](jupyterhub/info)
 - [](jupyterhub/tips)
