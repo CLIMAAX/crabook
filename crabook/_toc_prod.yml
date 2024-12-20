@@ -183,8 +183,13 @@ parts:
   chapters:
   - file: resources/support
     title: Support
+    sections:
+    - file: resources/jupyterhub/info
+    - file: resources/jupyterhub/tips
   - file: resources/guiding_questions
     title: Guiding questions and answers 
+  - file: resources/FAQ
+    title: FAQ
   - file: resources/glossary
     title: Glossary
   - file: about/viewers/external
@@ -199,6 +204,8 @@ parts:
     - file: resources/datasets/wildfire_sample_cat
     - file: resources/datasets/eclips2.0_mirror
     - file: resources/datasets/effis_mirror
+  - url: https://github.com/CLIMAAX/crabook/releases
+    title: Release Notes
 
 - caption: Join the community
   chapters:
