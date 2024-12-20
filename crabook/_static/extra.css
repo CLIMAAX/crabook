@@ -83,6 +83,9 @@ img.hazard-icon {
     vertical-align: text-top;
     margin-right: 1px;
 }
+.sd-summary-title img.hazard-icon {
+    margin-right: 0.7em;
+}
 
 aside.margin.workflow-info {
     padding-left: 1rem;
