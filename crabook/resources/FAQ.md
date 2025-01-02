@@ -17,8 +17,10 @@ This page is under construction. We continue to refine our answers to the questi
 
 :::{dropdown} Can I replace the LUISA landcover data with another land use dataset?
 
-Yes, but expect the workflows to require adaptation to the resulting changes to the land use classification.
-E.g., when mapping monetary value to land use classes and computing damages based on a vulnerability curve you may have to edit/remove/add entries in the tables for values and damages to match the classes of your substituted dataset.
+Yes.
+However, the workflows may have to be adapted to the substituted land use classification.
+
+E.g., when mapping monetary value to land use classes and computing damages based on a vulnerability curve you may have to edit/remove/add entries in the tables for values and damages to match the classes of the substituted dataset.
 :::
 
 
@@ -36,17 +38,17 @@ See the report of [Huizinga et al. (2017)](https://publications.jrc.ec.europa.eu
 :::{dropdown} How can I best work with population data when a high-density city dominates the surrounding low-density areas?
  
 We recommend to control the scaling of outputs to receive meaningful results.
-This could, e.g., mean manually setting the bins for risk categories when using a risk index method such that information from less densely populated regions are retained.
+E.g., this could mean manually setting the bins for risk categories when using a risk index method such that information from less densely populated regions are retained.
 You can further consider creating separate outputs for low- and high-density regions.
 
 A [logarithmic scaling](https://en.wikipedia.org/wiki/Logarithmic_scale) of results during visualization can also help to retain information across multiple orders of magnitude.
-However, care must be taken when interpreting logarithmic data since the quantitative relationship between a linear increase in darkness/intensity along a colorbar and the values represented by those colors is not proportional anymore, which can lead to misinterpretation.
+However, care must be taken when interpreting logarithmic data since the quantitative relationship between a linear increase in darkness/intensity along a colorbar and the values represented by those colors is not proportional anymore.
 :::
 
 
 :::{dropdown} How can I import results from a workflow into other software (e.g., GIS) for further processing?
 
-Many of our workflows are configured to present their results not just as plots in the notebooks, but also to write them to disk in a georeferenced format for further processing.
+Many of our workflows are configured to present their results not just as plots in the Jupyter notebooks, but also to write them to disk in a georeferenced format for further processing.
 This is usually a NetCDF file with latitude-longitude coordinates or a GeoTIFF file with an attached coordinate reference system.
 
 If a workflow result is not currently exported by a workflow, we recommend to use the [xarray](https://tutorial.xarray.dev/fundamentals/01.1_io.html) and [rioxarray](https://corteva.github.io/rioxarray/html/examples/examples.html) packages to export georeferenced information.
@@ -57,19 +59,20 @@ If a workflow result is not currently exported by a workflow, we recommend to us
 
 :::{dropdown} <img src="../images/icon_s/icon_s_floods.png" class="hazard-icon"> Can I use the maps for the future hazard of the river floods workflow to assess damages?
 
-Technically yes, but the data resolution is too coarse for us to give a recommendation to use them in the damage assessment.
+Technically, yes.
+However, the data resolution is too coarse for us to give a recommendation to use them in the damage assessment.
 
-We instead suggest to consider damage estimation approaches based on the high-resolution historical data, e.g., by considering scenarios like "what if the 20 year return period today becomes the 10 year return period tomorrow?" and evaluating the likelyhood of these scenarios based on the coarser-resolution future data.
+We instead suggest to consider damage estimation approaches based on the high-resolution historical data, e.g., by considering scenarios like "what if the 20 year return period today becomes the 10 year return period tomorrow?".
+The likelihood of such scenarios can then be evaluated based on the coarser-resolution future data.
 :::
 
 
 :::{dropdown} <img src="../images/icon_s/icon_s_floods.png" class="hazard-icon"> When multiple rivers flow through my area of interest should I consider them together or separately in the river flooding workflow?
 
-In the workflow and flood maps used as input to the workflow they are considered together.
+In the workflow and the flood maps used as input to the workflow they are considered together.
 However, for a more detailed analysis it could indeed be interesting to look at each river's catchment separately.
 
 This can be implemented, e.g., by clipping the area of interest based on the shape of the catchment (https://github.com/CLIMAAX/FLOODS/issues/8).
-
 :::
 
 
