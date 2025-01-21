@@ -46,3 +46,9 @@ These uncertainties need to be kept in mind when interpreting the results of a C
 While results will provide a reasonable **first-order assessment** of risk hotspots, locally developed data, for instance, from national or regional statistics offices, are needed for a more refined analysis that can inform decision-making.
 In this context, it is important that the data used are approved and trusted by local stakeholders ([Gramberger et al., 2015](https://doi.org/10.1007/s10584-014-1225-x); [Reimann et al., 2021](https://doi.org/10.1016/j.futures.2020.102691)).
 :::
+
+
+:::{seealso}
+
+[CLIMAAX Deliverable D2.3](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D2.3.pdf) - Report on pan European vulnerability and exposure projections
+:::

@@ -32,12 +32,12 @@ At the European scale, several population datasets are worth mentioning. The GEO
     - Lightly modelled based on census data and Landsat imagery;\
         available in 5-year time steps
     - Overconcentration of population where built-up land undetected (less problematic in Europe)
-*   - WorldPop
+*   - [WorldPop](https://hub.worldpop.org/doi/10.5258/SOTON/WP00682)
     - Global
     - 2000-2020
     - 3 arcsec, 30 arcsec
     - Random Forest algorithm
-    - Bondarenko et al., 2020; Stevens et al., 2015
+    - [Bondarenko et al., 2020](https://dx.doi.org/10.5258/SOTON/WP00665); [Stevens et al., 2015](https://dx.doi.org/10.1371/journal.pone.0107042)
     - High spatial and temporal resolution
     - Modelling algorithm based on several input datasets
 *   - GPW v4
@@ -108,7 +108,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Pros
     - Cons
 *   - Settlements 
-    - GHS-BUILT
+    - [GHS-BUILT](https://human-settlement.emergency.copernicus.eu/datasets.php)
     - Global
     - 1975-2030
     - From 10 m to 1km/30 arcsec
@@ -124,7 +124,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Very high resolution; Distinguishes residential and non-residential buildings
     - Ukraine missing
 *   - Buildings, Infrastructure
-    - OSM
+    - [OSM](https://www.openstreetmap.org/)
     - Global
     - Most recent
     - Vector data (points, lines, polygons)
@@ -144,19 +144,19 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Europe
     - 1990, 2000, 2006, 2012, 2018 
     - 100 m
-    - Copernicus Land Monitoring Service, 2018 
+    - [Copernicus Land Monitoring Service, 2018](https://land.copernicus.eu/pan-european/corine-land-cover/clc2018)
     - Relatively long time series
     - Fewer land cover categories or less spatial detail than LUISA
 *   - 
-    - LUISA
+    - [LUISA](http://data.europa.eu/89h/51858b51-8f27-4006-bf82-53eba35a142c)
     - Europe
     - 2012, 2018
     - 50 m
-    - Pigaiani & Batista e Silva, 2021
+    - [Pigaiani & Batista e Silva, 2021](https://doi.org/10.2760/503006)
     - 17 land cover categories
     - Ukraine missing; Mixed land use in a cell
 *   - 
-    - SPAM2010
+    - [SPAM2010](https://doi.org/10.7910/DVN/PRFF8V)
     - Global
     - 2010
     - 5 arc minutes
@@ -164,7 +164,7 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - 42 crops available
     - Low resolution
 *   - Livestock density
-    - GLW
+    - [GLW](https://livestock.geo-wiki.org/home-2/)
     - Global
     - 2010, 2015
     - 5 arc minutes
@@ -172,19 +172,19 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - 8 different animals
     - Low resolution
 *   - Competition on water
-    - Aqueduct v4
+    - [Aqueduct v4](https://www.wri.org/aqueduct)
     - Global
     - 1979-2019
     - Hydrological sub-catchment scale
-    - Kuzma et al., 2023
+    - [Kuzma et al., 2023](https://doi.org/10.46830/writn.23.00061)
     - Global coverage
     - Scaled for hydrological sub-catchments 
 *   - Aggregate Crop Production Value
-    - GAEZ
+    - [GAEZ](https://gaez.fao.org/)
     - Global
     - 2010
     - 5 arc minutes
-    - Fischer et al., 2021
+    - [Fischer et al., 2021](https://doi.org/10.4060/cb4744en)
     - Global coverage
     - Low resolution
 :::
@@ -237,7 +237,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2015-2100
     - 5 arcmin
     - Global CWatM
-    - Burek et al., 2020
+    - [Burek et al., 2020](https://doi.org/10.5194/gmd-13-3267-2020)
     - Global coverage
     - Dataset not public, but available upon request
 *   - Urban land
@@ -245,7 +245,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2015-2100
     - 1 km
     - Artificial Neural Network algorithm
-    - Chen et al., 2020
+    - [Chen et al., 2020](https://doi.org/10.1038/s41467-020-14386-x)
     - Global coverage
     - Modelling algorithm based on several input datasets
 *   - 
@@ -269,7 +269,7 @@ Projections of future urban land are available for the SSPs until 2100, such as 
     - 2030-2080 
     - Hydrological sub-catchment scale
     - Modelled (Aqueduct v4)
-    - Kuzma et al., 2023
+    - [Kuzma et al., 2023](https://doi.org/10.46830/writn.23.00061)
     - Global coverage
     - Scaled for hydrological sub-catchments
 :::
