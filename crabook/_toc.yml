@@ -197,6 +197,7 @@ parts:
         title: Hazard assessment
       - file: notebooks/workflows/STORMS/01_windstorm/Risk_assessment_STORMS
         title: Risk assessment
+      - file: notebooks/workflows/STORMS/01_windstorm/Selection_helper_STORMS
 
 - caption: Resources
   chapters:
