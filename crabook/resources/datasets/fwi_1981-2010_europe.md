@@ -10,7 +10,7 @@ Spatial coverage
 : Europe
 
 In workflows
-: [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> TODO](../../notebooks/workflows/FIRE/03_FWI_TODO)
+: [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> FWI response model](../../notebooks/workflows/FIRE/03_wildfire_response/workflow_description)
 
 Original source
 : 30-Year Canadian Fire Weather Index Simulations over Europe: CMIP6-Informed Temperature and Precipitation Perturbations (DOI [10.5281/zenodo.10458186](https://doi.org/10.5281/zenodo.10458186))
