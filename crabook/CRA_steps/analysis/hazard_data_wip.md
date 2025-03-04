@@ -18,7 +18,7 @@ The collection is not complete and favours datasets with global or European cove
 We highly recommend to consider **alternative and complementary local datasets** for your risk analysis in addition to the ones listed here.
 Reach out to your local meteorological service and search for other providers of data tailored to your area of interest.
 Look out for regional climate model projections and statistically downscaled and bias-corrected datasets that take into account local conditions.
-Some information may only be accessible in your local language.
+Some information may only be accessible in the local language.
 :::
 
 
@@ -30,13 +30,13 @@ Available variables include atmospheric temperature, wind speed and precipitatio
 
 ### Observations
 
-Observations comprise information from surface weather stations and other platforms that monitor the state of the earth system like aircraft and satellites.
+Observations comprise information from surface weather stations and other platforms that monitor the state of the Earth system like aircraft and satellites.
 Consistent and quality-controlled timeseries of observations can be a source of reliable and accurate local information.
 Some stations have long historical records suitable for analysis of the local climate of the past.
-However, differences in measurement techniques and equipment complicate comparisons between observational records in time and space.
-The spatial and temporal coverage of station data in general is often incomplete and highly local events, e.g., precipitation extremes, may be missed by the network.
-Satellites can cover large areas but only pass infrequently over a specific area if placed in a polar orbit.
-Gridded observation datasets aim to fill gaps in the coverage by combining observations from different sources with statistical techniques.
+However, differences in measurement techniques and equipment can complicate comparisons between observational records in time and space.
+The spatial and temporal coverage of station data is often incomplete and highly local events, e.g., precipitation extremes, may be missed by the network.
+Satellites cover large areas in general but only pass infrequently over a specific area if placed in a polar orbit.
+Gridded observation datasets aim to fill gaps in the coverage by combining observations from different sources with interpolation and statistical techniques.
 
 
 :::{dropdown} E-OBS
@@ -77,30 +77,19 @@ Resolution
 
 ### Reanalysis
 
-TODO
-Recreations of the state of the Earth system by a computer model under the consideration of available observations.
-Reanalysis combines model data with observations into a complete and consistent dataset using the laws of physics.
-Not merely an interpolation between observations, but inclusion of scientific knowledge about processes in the atmosphere etc. as encoded in the model.
-
-Reanalysis data give complete and consistent information of meteorological variables covering large areas with an evenly spaced time and spatial resolution.
-This makes it easier to analyse past climate trends.
-However, reanalysis datasets can only be considered as a “best estimate”, as they are produced by combining observations and models.
-Therefore, reanalysis data are affected by limitations associated with observational, global and/or regional weather model data.
-The uncertainty estimate is complicated even further, as for different time periods the spatial and temporal coverage of the available observational data may vary.
+Reanalysis products are recreations of the state of the Earth system by a computer model under the consideration of available observations.
+Reanalysis datasets provide complete and consistent gridded information in time and space and can be considered a best *model* estimate for the state of the atmosphere and related components.
+The approach presents a generally better way to consolidate the information of a diverse and incomplete set of observations when compared to interpolation techniques but limitations of both the model that produces the reanalysis and the coverage of the observational record apply.
+Notably, reanalysis data is not bound to reproduce the observations and values on the grid usually represent the average conditions in the associated grid boxes.
 Modern reanalysis products offer explicit uncertainty estimates from an associated ensemble system.
 
 :::{figure} ../../images/hazard_image.png
-:figclass: margin-caption
 :name: three-stages-of-reanalysis
 
-The three stages of reanalysis; the amount of observational data used for the RA per area unit increases from the global to the surface reanalysis as indicated by the arrows. (Source: __[UERRA data user guide](https://datastore.copernicus-climate.eu/documents/uerra/D322_Lot1.4.1.2_User_guides_v3.3.pdf)__)
+A global reanalysis provides the boundary conditions for a regional reanalysis, which in turn provides the background for a specialized surface reanalysis.
+As the modelling of local conditions improves with increasingly specialized models, more observations can be considered in a given area.
+Source: __[UERRA data user guide](https://datastore.copernicus-climate.eu/documents/uerra/D322_Lot1.4.1.2_User_guides_v3.3.pdf)__.
 :::
-
-{numref}`three-stages-of-reanalysis` shows different types of reanalysis and their relationship.
-Global reanalysis from global weather models.
-Limited-area models nested inside global models to refine reanalysis data for a specific region.
-Surface reanalysis based on models of the surface, with global or regional reanalysis data driving the surface model.
-From global to regional to surface, resolution and use of observations generally increases.
 
 
 :::{dropdown} ERA5
@@ -172,8 +161,7 @@ Resolution
 
 :::{dropdown} UERRA-HARMONIE & MESCAN-SURFEX
 
-Regional reanalysis for Europe.
-Output from the [Uncertainties in Ensembles of Regional ReAnalyses](https://uerra.eu) project.
+Regional reanalysis for Europe produced by the [Uncertainties in Ensembles of Regional ReAnalyses](https://uerra.eu) project.
 
 Dataset
 : [single levels](https://doi.org/10.24381/cds.32b04ec5), [pressure levels](https://doi.org/10.24381/cds.92221551), [height levels](https://doi.org/10.24381/cds.44ec8078) and [soil levels](https://doi.org/10.24381/cds.33525ca7)
