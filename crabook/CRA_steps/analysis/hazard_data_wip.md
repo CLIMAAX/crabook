@@ -15,16 +15,17 @@ The collection is not complete and favours datasets with global or European cove
 
 :::{tip}
 
-We highly recommend to consider **alternative and complementary local datasets** for your risk analysis in addition to the ones listed here.
-Reach out to your local meteorological service and search for other providers of data tailored to your area of interest.
-Look out for regional climate model projections and statistically downscaled and bias-corrected datasets that take into account local conditions.
+We highly recommend to consider **alternative and complementary local datasets** for a risk analysis in addition to the options listed here.
+Contact to your local meteorological service and search for other providers of data tailored to your area of interest.
+Look out especially for regional climate model projections and statistically downscaled and bias-corrected datasets that take into account local conditions.
 Some information may only be accessible in the local language.
 :::
 
 
 ## General climate datasets
 
-Datasets of quantities that characterize the Earth system in general and usually require further processing before use as a meaningful hazard indicator.
+These are datasets of quantities that characterize the Earth system in general.
+For use a meaningful hazard indicator, they usually require further processing.
 Available variables include atmospheric temperature, wind speed and precipitation but also information about the state of other Earth system components, e.g., soil properties.
 
 
@@ -179,34 +180,19 @@ Resolution
 
 ### Climate model projections
 
-TODO
-Data from climate model simulations.
-Direct and bias-corrected.
-Runs often started in the past, provide not just future projection but also consistent dataset to represent the present climate.
+These datasets are produced by simulations of the Earth system with climate models ("model runs").
+As for reanalysis ({numref}`three-stages-of-reanalysis`), there are global climate models (GCMs) and regional climate models (RCMs), with the latter driven by boundary conditions from the former.
+Climate model runs are usually started in the past and provide a consistent dataset of the historical and future climate.
+This allows for the correction of model bias with respect to other historical data records and for the assessment of change signals without the introduction of model bias.
+Projections of climate models depend on assumptions about drivers of the Earth system, which are formalized in emissions scenarios and socioeconomic pathways.
 
-Data from climate model projections introduce a whole range of uncertainties which are not all present in reanalysis data.
-First off, climate model projections are based on scenarios (e.g., emissions and land use) which are based on assumptions like, e.g., future use of natural resources, societal development, and population increase.
-Uncertainties also exist regarding the past, especially in terms of natural and anthropogenic aerosol emissions and volcanic eruptions since about the start of the industrial aera.
-The RCP and SSP scenarios have been developed to span a plausible range of future emission pathways, but there is not absolute ground truth.
-Therefore, the choice of a certain scenario (e.g., RCP or SSP) will influence the outcome of any climate model simulation (see, e.g., Chen et al. 2021, especially Section 1.4 and the references therein).
+Climate models represent physical processes in varying degrees of simplification.
+This reduces computational costs but limits how well these processes and their effects are (re)produced in simulations.
+E.g., many clouds and orographic effects occur at spatial and temporal scales not explicitly resolved by current climate models.
+Because each model has its specific representation of the Earth system, projections differ between models for the same scenarios.
+Chaos and stochasticity in the Earth system additionally mean that multiple runs with the same model and scenario do not produce identical projections.
+Single- and multi-model ensembles of projections should therefore be considered to account for the inherent uncertainties of climate modelling in quantitative CRA.
 
-Further uncertainties arise because many physical processes (e.g., cloud physics, climate feedback mechanisms) in the atmosphere are still not well enough constrained by observations.
-Also, many atmospheric processes occur at length scales much smaller than what a global climate model can resolve.
-Good examples for this are, e.g., convective clouds and thunderstorms.
-Such processes are parameterised in climate models, which leads to uncertainties as well.
-Process- and resolution-related uncertainties lead to differences in simulation results between different models, because different models parameterise different processes differently.
-This means that different climate models may arrive at quite different results even if the underlying scenarios are the same.
-This is especially true for projections of local changes.
-On the other hand, exactly these differences in climate models allow us to quantify the underlying uncertainties by analysing so-called ensembles of climate model projections, namely, multiple model runs from a range of climate models.
-This provides us with a statistical distribution of climate projections, including a best estimate and an uncertainty range (see, e.g., Lee et al., 2021., especially Section 4.2.5 and the references therein for more information).
-
-To increase the spatial resolution of climate models, regional climate models are used in addition to global climate models to produce climate projections.
-In EURO-CORDEX models (which are used in many of the CRA Toolbox workflows), for instance, the spatial resolution is 12 km as compared to a resolution of the order of 100 km for global climate models.
-This allows for many physical processes to be resolved and computed explicitly, thereby removing some of the resolution-related uncertainties.
-However, regional climate models only cover a small part of the globe, which means that they need to be provided with boundary conditions from (or driven by) global climate models.
-This also means that some of the uncertainties of the driving global climate model are inherited by the regional climate model (Adachi et al., 2018).
-Also, spatial distribution of some variables of the regional climate model can be quite different than the "original" spatial distribution computed by the driving global climate model in the same modelling domain.
-Again, using ensembles of regional climate model projections can help to assess the uncertainties of the model results (see, e.g., Von Trentini et al., 2019, Mankin et al., 2020 for a detailed discussion).
 
 :::{dropdown} CMIP6
 
