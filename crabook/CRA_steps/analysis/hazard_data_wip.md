@@ -10,12 +10,10 @@ In this context, the IPCC Assessment Reports (ARs) have played a key role in sha
 
 This page collects references to open-access datasets that characterize climate hazards for the past, present and future.
 The collected entries are broadly categorized into general datasets that characterize the state of the earth system and datasets created to quantify specific hazards.
+The collection is not complete and favours datasets with global or European coverage.
 
 
 :::{tip}
-
-The datasets collected here provide a common basis for the workflows included in the handbook.
-It is not a complete collection and favours datasets with global or European coverage.
 
 We highly recommend to consider **alternative and complementary local datasets** for your risk analysis in addition to the ones listed here.
 Reach out to your local meteorological service and search for other providers of data tailored to your area of interest.
@@ -26,23 +24,24 @@ Some information may only be accessible in your local language.
 
 ## General climate datasets
 
-These datasets contain quantities that generally characterize the Earth system and usually have to by processed further to create a meaningful hazard indicator.
-This includes atmospheric variables like temperature, wind speed and direction and precipitation but also information about the state of other Earth system components, e.g., soil properties.
+Datasets of quantities that characterize the Earth system in general and usually require further processing before use as a meaningful hazard indicator.
+Available variables include atmospheric temperature, wind speed and precipitation but also information about the state of other Earth system components, e.g., soil properties.
 
 
 ### Observations
 
-Observational datasets contain information from surface weather stations, radar and satellite products and other platforms equipped with sensors for the state of the earth system.
-
-Uncertainties in observational datasets arise mainly from incomplete spatial and temporal coverage.
-Therefore, there is often a lack of consistent quality-controlled timeseries of meteorological quantities covering long time periods.
-For example, understanding past trends in extreme precipitation may be difficult due to the highly local nature of those events, which may be hard to capture using observations.
-Also, measurement techniques or equipment may differ between regions and time periods, making comparisons between different observation time series difficult.
+Observations comprise information from surface weather stations and other platforms that monitor the state of the earth system like aircraft and satellites.
+Consistent and quality-controlled timeseries of observations can be a source of reliable and accurate local information.
+Some stations have long historical records suitable for analysis of the local climate of the past.
+However, differences in measurement techniques and equipment complicate comparisons between observational records in time and space.
+The spatial and temporal coverage of station data in general is often incomplete and highly local events, e.g., precipitation extremes, may be missed by the network.
+Satellites can cover large areas but only pass infrequently over a specific area if placed in a polar orbit.
+Gridded observation datasets aim to fill gaps in the coverage by combining observations from different sources with statistical techniques.
 
 
 :::{dropdown} E-OBS
 
-Daily gridded observational dataset for precipitation, temperature, sea level pressure, relative humidity, wind speed and global radiation in Europe based on [ECA&D](https://www.ecad.eu/download/ensembles/download.php) information
+Daily gridded observational dataset for precipitation, temperature, sea level pressure, relative humidity, wind speed and global radiation in Europe based on [ECA&D](https://www.ecad.eu/download/ensembles/download.php) information.
 
 Dataset
 : https://doi.org/10.24381/cds.151d3ec6
@@ -60,7 +59,7 @@ Resolution
 
 :::{dropdown} CHIRPS
 
-Rainfall Estimates from Rain Gauge and Satellite Observations
+Rainfall Estimates from Rain Gauge and Satellite Observations.
 
 Dataset
 : https://www.chc.ucsb.edu/data/chirps
