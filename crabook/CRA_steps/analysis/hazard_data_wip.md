@@ -5,33 +5,40 @@
 Work in progress page!
 :::
 
-TODO
-Past and future climate.
+Climate-related hazards have traditionally been prominently featured in the conceptualization of climate risk, often dominating the discourse.
+In this context, the IPCC Assessment Reports (ARs) have played a key role in shaping the role of hazard in climate risk conceptualization, as it is essential for understanding the potential intensity, frequency, and spatial distribution of climate risk. 
 
+This page collects references to open-access datasets that characterize climate hazards for the past, present and future.
+The collected entries are broadly categorized into general datasets that characterize the state of the earth system and datasets created to quantify specific hazards.
 
-## Data Providers
-
-TODO: keep this section?
-The Copernicus Climate Change Service (C3S) Climate Data Store (CDS) provides access to a wide variety of climate-related data, including observational data from ground-based instruments, satellites and other sources, reanalysis data, and environmental and climate model projections.
-Users need to sign up for an account on the {abbr}`CDS (Climate Data Store)` website and use the {abbr}`CDS (Climate Data Store)` API or the web interface to download the required data.
 
 :::{tip}
 
-Check with your local meteorological service! TODO
-:::
+The datasets collected here provide a common basis for the workflows included in the handbook.
+It is not a complete collection and favours datasets with global or European coverage.
 
+We highly recommend to consider **alternative and complementary local datasets** for your risk analysis in addition to the ones listed here.
+Reach out to your local meteorological service and search for other providers of data tailored to your area of interest.
+Look out for regional climate model projections and statistically downscaled and bias-corrected datasets that take into account local conditions.
+Some information may only be accessible in your local language.
+:::
 
 
 ## General climate datasets
 
-TODO
-Quantities that characterize the Earth system.
-Basic properties of the atmosphere like temperature, wind, and precipitation amounts.
+These datasets contain quantities that generally characterize the Earth system and usually have to by processed further to create a meaningful hazard indicator.
+This includes atmospheric variables like temperature, wind speed and direction and precipitation but also information about the state of other Earth system components, e.g., soil properties.
 
 
 ### Observations
 
-TODO
+Observational datasets contain information from surface weather stations, radar and satellite products and other platforms equipped with sensors for the state of the earth system.
+
+Uncertainties in observational datasets arise mainly from incomplete spatial and temporal coverage.
+Therefore, there is often a lack of consistent quality-controlled timeseries of meteorological quantities covering long time periods.
+For example, understanding past trends in extreme precipitation may be difficult due to the highly local nature of those events, which may be hard to capture using observations.
+Also, measurement techniques or equipment may differ between regions and time periods, making comparisons between different observation time series difficult.
+
 
 :::{dropdown} E-OBS
 
@@ -76,13 +83,19 @@ Recreations of the state of the Earth system by a computer model under the consi
 Reanalysis combines model data with observations into a complete and consistent dataset using the laws of physics.
 Not merely an interpolation between observations, but inclusion of scientific knowledge about processes in the atmosphere etc. as encoded in the model.
 
+Reanalysis data give complete and consistent information of meteorological variables covering large areas with an evenly spaced time and spatial resolution.
+This makes it easier to analyse past climate trends.
+However, reanalysis datasets can only be considered as a “best estimate”, as they are produced by combining observations and models.
+Therefore, reanalysis data are affected by limitations associated with observational, global and/or regional weather model data.
+The uncertainty estimate is complicated even further, as for different time periods the spatial and temporal coverage of the available observational data may vary.
+Modern reanalysis products offer explicit uncertainty estimates from an associated ensemble system.
+
 :::{figure} ../../images/hazard_image.png
 :figclass: margin-caption
 :name: three-stages-of-reanalysis
 
 The three stages of reanalysis; the amount of observational data used for the RA per area unit increases from the global to the surface reanalysis as indicated by the arrows. (Source: __[UERRA data user guide](https://datastore.copernicus-climate.eu/documents/uerra/D322_Lot1.4.1.2_User_guides_v3.3.pdf)__)
 :::
-
 
 {numref}`three-stages-of-reanalysis` shows different types of reanalysis and their relationship.
 Global reanalysis from global weather models.
@@ -117,7 +130,7 @@ In workflows
 
 :::{dropdown} ERA5-Land
 
-ERA5-Land has enhanced horizontal resolution compared to ERA5, but it covers only land areas.
+ERA5-Land has enhanced horizontal resolution compared to ERA5, but only covers land areas.
 ERA5-land parameter uncertainty currently can be accessed using the equivalent ERA5 fields.
 
 Dataset
@@ -135,9 +148,9 @@ Resolution
 
 
 
-:::{dropdown} CERRA: Copernicus European Regional ReAnalysis
+:::{dropdown} CERRA
 
-Regional reanalysis for Europe.
+The [Copernicus European Regional ReAnalysis](https://climate.copernicus.eu/copernicus-regional-reanalysis-europe-cerra).
 Inputs are the observational data, lateral boundary conditions from ERA5 global reanalysis and physiographic datasets describing surface characteristics.
 
 Dataset
@@ -177,13 +190,36 @@ Resolution
 :::
 
 
-### Climate Projections
+### Climate model projections
 
 TODO
 Data from climate model simulations.
 Direct and bias-corrected.
 Runs often started in the past, provide not just future projection but also consistent dataset to represent the present climate.
 
+Data from climate model projections introduce a whole range of uncertainties which are not all present in reanalysis data.
+First off, climate model projections are based on scenarios (e.g., emissions and land use) which are based on assumptions like, e.g., future use of natural resources, societal development, and population increase.
+Uncertainties also exist regarding the past, especially in terms of natural and anthropogenic aerosol emissions and volcanic eruptions since about the start of the industrial aera.
+The RCP and SSP scenarios have been developed to span a plausible range of future emission pathways, but there is not absolute ground truth.
+Therefore, the choice of a certain scenario (e.g., RCP or SSP) will influence the outcome of any climate model simulation (see, e.g., Chen et al. 2021, especially Section 1.4 and the references therein).
+
+Further uncertainties arise because many physical processes (e.g., cloud physics, climate feedback mechanisms) in the atmosphere are still not well enough constrained by observations.
+Also, many atmospheric processes occur at length scales much smaller than what a global climate model can resolve.
+Good examples for this are, e.g., convective clouds and thunderstorms.
+Such processes are parameterised in climate models, which leads to uncertainties as well.
+Process- and resolution-related uncertainties lead to differences in simulation results between different models, because different models parameterise different processes differently.
+This means that different climate models may arrive at quite different results even if the underlying scenarios are the same.
+This is especially true for projections of local changes.
+On the other hand, exactly these differences in climate models allow us to quantify the underlying uncertainties by analysing so-called ensembles of climate model projections, namely, multiple model runs from a range of climate models.
+This provides us with a statistical distribution of climate projections, including a best estimate and an uncertainty range (see, e.g., Lee et al., 2021., especially Section 4.2.5 and the references therein for more information).
+
+To increase the spatial resolution of climate models, regional climate models are used in addition to global climate models to produce climate projections.
+In EURO-CORDEX models (which are used in many of the CRA Toolbox workflows), for instance, the spatial resolution is 12 km as compared to a resolution of the order of 100 km for global climate models.
+This allows for many physical processes to be resolved and computed explicitly, thereby removing some of the resolution-related uncertainties.
+However, regional climate models only cover a small part of the globe, which means that they need to be provided with boundary conditions from (or driven by) global climate models.
+This also means that some of the uncertainties of the driving global climate model are inherited by the regional climate model (Adachi et al., 2018).
+Also, spatial distribution of some variables of the regional climate model can be quite different than the "original" spatial distribution computed by the driving global climate model in the same modelling domain.
+Again, using ensembles of regional climate model projections can help to assess the uncertainties of the model results (see, e.g., Von Trentini et al., 2019, Mankin et al., 2020 for a detailed discussion).
 
 :::{dropdown} CMIP6
 
@@ -229,9 +265,9 @@ Resolution
 :::
 
 
-:::{dropdown} CORDEX: Coordinated Regional Climate Downscaling Experiment
+:::{dropdown} CORDEX
 
-High-resolution regional climate model simulations for Europe, produced by a consortium of European research institutions.
+High-resolution regional climate model simulations for Europe, produced by a consortium of European research institutions within the [Coordinated Regional Climate Downscaling Experiment](https://cordex.org/).
 Boundary conditions for the regional climate models come from global climate models of CMIP5.
 
 Dataset
@@ -257,9 +293,9 @@ In workflows
 :::
 
 
-:::{dropdown} ISIMIP3b: bias-corrected atmospheric climate input data
+:::{dropdown} ISIMIP3b
 
-The [Inter-Sectoral Impact Model Intercomparison Project](https://www.isimip.org/) (ISIMIP) provides bias-corrected CMIP6 climate forcing data.
+The [Inter-Sectoral Impact Model Intercomparison Project](https://www.isimip.org/) (ISIMIP) provides bias-corrected CMIP6 atmospheric climate data.
 The bias-adjustment corrects the simulated data towards corrected ERA5 reanalysis ([W5E5](doi.org/10.48364/ISIMIP.342217)).
 
 Dataset
@@ -282,10 +318,10 @@ In workflows
 :::
 
 
-:::{dropdown} ECLIPS-2.0: bias-corrected EURO-CORDEX
+:::{dropdown} ECLIPS-2.0
 
+Bias-corrected and downscaled data of five EURO-CORDEX regional climate models and two greenhouse gas concentration scenarios.
 80 annual, seasonal and monthly climate variables for two past and five future periods.
-Downscaled from output of five regional climate models driven by two greenhouse gas concentration scenarios.
 
 Dataset
 : https://doi.org/10.5281/zenodo.3952159
@@ -343,6 +379,8 @@ In workflows
 
 TODO
 Datasets with pre-processing, event selection, additional modelling applied.
+From simple statistical summaries of climate variables in an easy-to-access format to information created from models of or based on physical processes.
+Many of these datasets build on general climate datasets as input to the hazard-specific models.
 
 
 ### <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> Floods
