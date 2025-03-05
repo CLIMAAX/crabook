@@ -76,6 +76,24 @@ Resolution
 :::
 
 
+:::{dropdown} Landsat C2L1
+
+A product from the [Landsat missions](https://www.usgs.gov/landsat-missions) of Earth observation satellites.
+Collection 2 is a major reprocessing effort of the Landsat archive, with calibrated multispectral images provided as Level-1 data.
+Spectral band coverage changes with sensors on newer satellites.
+
+
+Dataset
+: USGS [product page](https://www.usgs.gov/landsat-missions/landsat-collection-2-level-1-data) and [EarthExplorer](https://earthexplorer.usgs.gov/)
+
+Temporal coverage
+: Landsat 1 launched in 1972; newest OLI and TIRS sensors on Landsat 8 and 9 since Februrary 2013
+
+Spatial coverage
+: global, completed about every 18 days
+:::
+
+
 ### Reanalysis
 
 Reanalysis products are recreations of the state of the Earth system by a computer model under the consideration of available observations.
@@ -330,7 +348,7 @@ Documentation
 : [Technical specification](https://os.zhdk.cloud.switch.ch/chelsav2/EUR11/documentation/CHELSA_EUR11_technical_documentation.pdf)
 
 Temporal coverage
-: 1981-2000, 1981–2005, 2021-2040, 2041-2060, 2051-2080, 2061-2080
+: 1981-2000, 1981-2005, 2021-2040, 2041-2060, 2051-2080, 2061-2080
 
 Scenarios
 : RCP 4.5, 8.5
@@ -350,10 +368,8 @@ In workflows
 
 ## Hazard-specific datasets
 
-TODO
-Datasets with pre-processing, event selection, additional modelling applied.
-From simple statistical summaries of climate variables in an easy-to-access format to information created from models of or based on physical processes.
-Many of these datasets build on general climate datasets as input to the hazard-specific models.
+They usually built on top of general climate datasets and have additional processing and filtering applied to quantify specific hazards more directly.
+This ranges from the detection of hazardous events and basic statistical summaries of climate variables in an easy-to-access format to the application of dedicated hazard models to produce hazard indicators.
 
 
 ### <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> Floods
@@ -492,14 +508,19 @@ In workflows
 
 :::{dropdown} Online Global Land Surface Temperature Estimation from Landsat 
 
+Temperature of the Earth's surface (as it would feel to the touch), estimated from a combination of Landsat images from different spectral bands.
+
 Dataset
 : https://rslab.gr/Landsat_LST.html
 
+Documentation
+: https://doi.org/10.3390/rs9121208
+
 Temporal coverage
-: past; depends on satellite
+: past; depending on satellite
 
 Spatial coverage
-: global
+: global, completed about every 18 days
 
 In workflows
 : <img src="../../images/icon_s/icon_s_heatwaves.png" alt="" class="hazard-icon"> [Urban heatwaves](../../notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_intro)
@@ -544,9 +565,6 @@ Spatial coverage
 
 Resolution
 : 31 km horizontal
-
-In workflows
-: coming soon...
 :::
 
 
