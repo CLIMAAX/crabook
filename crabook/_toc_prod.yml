@@ -185,6 +185,7 @@ parts:
   - file: resources/support
     title: Support
     sections:
+    - file: resources/servicedesk
     - file: resources/jupyterhub/info
     - file: resources/jupyterhub/tips
   - file: resources/guiding_questions

@@ -1,3 +1,4 @@
+(support-jupyterhub)=
 # JupyterHub information
 
 Access the CLIMAAX JupyterHub at **[climaax-jupyterhub.ecmwf.int](https://climaax-jupyterhub.ecmwf.int/)**.
@@ -5,14 +6,24 @@ Access the CLIMAAX JupyterHub at **[climaax-jupyterhub.ecmwf.int](https://climaa
 
 ## Access requirements
 
+The JupyterHub is available to the selected regions of the CLIMAAX Open Calls.
+
 To use the CLIMAAX JupyterHub, you need to:
 
-1. Create an [ECMWF account](#support-account).
-2. Activate [two factor authentication](https://confluence.ecmwf.int/display/UDOC/TOTP%3A+How+to+activate) on that account.
-3. Have special JupyterHub access permissions for that account.
+1. Create an **[ECMWF account](#support-account)**.
+2. Activate **[two factor authentication](https://confluence.ecmwf.int/display/UDOC/TOTP%3A+How+to+activate)** on that account.
+3. Request **access permissions** for that account **with a [service desk](#support-servicedesk) request**.
+   These additional access permissions are *not* granted automatically and can *only* be obtained through a service desk request.
 
-The JuypterHub access permissions are *not* granted automatically with the creation of your ECMWF account.
-If your account has not received these permissions yet, please send a short request via the [service desk](#support-servicedesk) asking for access.
+
+## Technical support
+
+Technical assistance for the JupyterHub is provided through the [service desk](#support-servicedesk).
+
+:::{seealso}
+
+[](./tips)
+:::
 
 
 ## Sessions
