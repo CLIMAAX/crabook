@@ -38,11 +38,13 @@ Pooch registry
 : [registry.txt](https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_europe/metadata/registry.txt)
 
 Coordinate reference system
-: Fields from NetCDF files in `hazard_assessment` folder on the [rotated pole EURO-CORDEX domain](https://cordex.org/domains/cordex-region-euro-cordex/):
-  
+: Fields from the NetCDF files in `hazard_assessment/non_bias_corrected` are specified on the [rotated pole EURO-CORDEX domain](https://cordex.org/domains/cordex-region-euro-cordex/) (coordinates `rlat`, `rlon`):
+
   ```
   cartopy.crs.RotatedPole(pole_latitude=39.25, pole_longitude=-162)
   ```
+
+  Fields of non-rotated latitude and longitude (`lat` and `lon`) are provided with all NetCDF files in `hazard_assessment`.
 
 
 ## Contents
