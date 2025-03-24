@@ -130,7 +130,7 @@ parts:
       - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_description
         title: Heatwave workflow methodology
       - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_hazard_assessment_euroheat
-        title: Hazard assessment (EUROheat)
+        title: Hazard assessment (EuroHEAT)
       - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_hazard_assessment_xclim
         title: Hazard assessment (Xclim)
       - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_assessment
