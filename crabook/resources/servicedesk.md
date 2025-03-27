@@ -23,3 +23,22 @@ We determine **eligibility** for service desk support via the submitting account
 Please inform us about email addresses to be added our list with a service desk request from an account that is already known to us through the list of eligible accounts.
 The list is initialized with the contact points from the open call process.
 :::
+
+
+## Drop-in sessions
+
+Drop-in sessions organized by the CLIMAAX support team are accessible to all selected regions of the Open Calls and members of our [Community of Practice](https://www.climaax.eu/community-of-practice/).
+Starting in April 2025, sessions are held on Monday, alternating weekly between 11:00 and 15:00 CEST (Central European Summer Time).
+The current schedule:
+
+- 7 April 2025: 15:00 CEST (13:00 UTC)
+- 14 April 2025: 11:00 CEST (09:00 UTC)
+- 21 April 2025: no session
+- 28 April 2025: 11:00 CEST (09:00 UTC)
+- 05 May 2025: 15:00 CEST (13:00 UTC)
+- 12 May 2025: 11:00 CEST (09:00 UTC)
+- 19 May 2025: 15:00 CEST (13:00 UTC)
+- 26 May 2025: 11:00 CEST (09:00 UTC)
+- 02 June 2025: 15:00 CEST (13:00 UTC)
+- 09 June 2025: no session
+- 16 June 2025: 15:00 CEST (13:00 UTC)
