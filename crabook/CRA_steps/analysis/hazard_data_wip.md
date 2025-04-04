@@ -379,7 +379,7 @@ This ranges from the detection of hazardous events and basic statistical summari
 
 :::{dropdown} JRC river flood hazard maps for Europe and the Mediterranean Basin region
 
-Gridded inundation depth (in m) along the river network, for nine different flood return periods (from 1-in-10-years to 1-in-500-years).
+Gridded inundation depth (in m) along the river network, for nine different flood return periods (from 1-in-10-years to 1-in-500-years). 
 
 Dataset
 : http://data.europa.eu/89h/1d128b6c-a4ee-4858-9e34-6210707f3c81
@@ -388,29 +388,17 @@ Spatial coverage
 : Most of geographical Europe and all the river basins entering the Mediterranean and Black Seas in the Caucasus, Middle East and Northern Africa countries.
   River basins > 150 km².
 
+Resolution
+: 3'' x 3'' horizontal (30-75 m)
+
 In workflows
 : <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro),
   <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [Flood building damage and population exposed](03_Flood_damage_and_population_exposure/Risk_workflow_description_FLOOD_BUILDING_POPULATION)
 :::
 
-
-:::{dropdown} JRC global river flood hazard maps
-:name: dataset-jrc-global-river-flood-hazard-maps
-
-Gridded inundation depth (in m) along the river network, for seven different flood return periods (from 1-in-10-years to 1-in-500-years).
-
-Dataset
-: http://data.europa.eu/89h/jrc-floods-floodmapgl_rp50y-tif
-
-Spatial coverage
-: Global, except Greenland and Antarctica and small islands with river basins smaller than 500 km²
-
-Resolution
-: 90 m (3 arcseconds)
-:::
-
-
 :::{dropdown} WRI Aqueduct Floods Hazard Maps
+
+Gridded dataset of inundation depth (in m) corresponding to extreme flood events with a range of return periods (2, 5, 10, 25, 50, 100, 250, 500 and 1000 years) for multiple climate scenarios (RCP4.5 and RCP8.5) and projection time horizons (2030, 2050, 2080). The flood maps are available based on 5 climate models. Please note that this is a global dataset associated with a large degree of uncertainty.   
 
 Dataset
 : https://www.wri.org/data/aqueduct-floods-hazard-maps
@@ -419,7 +407,7 @@ Documentation
 : https://www.wri.org/research/aqueduct-floods-methodology
 
 Temporal coverage
-: 2010, 2030, 2050, 2080
+: 1980, 2030, 2050, 2080
 
 Scenarios
 : RCP4.5/SSP2, RCP8.5/SSP2, RCP8.5/SSP3
@@ -428,7 +416,7 @@ Spatial coverage
 : global
 
 Resolution
-: 30'' x 30'' horizontal
+: 30'' x 30'' horizontal (300-750 m in Europe)
 
 In workflows
 : <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
@@ -437,31 +425,36 @@ In workflows
 
 :::{dropdown} Deltares Global Flood Maps
 
-Inundation maps of flood depth.
+Global flood maps dataset for coastal flood hazard under the present-day climate (ca. 2018) and projections for 2050 (RCP8.5 climate scenario). Within each scenario several flood maps are available, corresponding to extreme sea storms with different return periods. The dataset is based on extreme values derived from a global dataset of storm surges combined with sea level rise projections.
 
 Dataset
 : https://planetarycomputer.microsoft.com/dataset/deltares-floods
 
+Temporal coverage
+: 2018, 2050
+
+Scenarios
+: RCP8.5/SSP2, RCP8.5/SSP3
+
 Spatial coverage
 : global
+
+Resolution
+: 3'' x 3'' horizontal (30-75 m in Europe)
 
 In workflows
 : <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [Coastal floods](../../notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL)
 :::
 
+:::{dropdown} Global sea level change timeseries and indicators from 1950 to present day derived from reanalysis
 
-:::{dropdown} Global sea level change indicators from 1950 to 2050 derived from reanalysis and high resolution CMIP6 climate projections
-
-Statistical indicators of tides, storm surges and sea level that can be used to characterize global sea level in present-day conditions and also to assess changes under climate change.
+Timeseries and statistical indicators of tides, storm surges and sea level that can be used to characterize global sea level in present-day conditions. This dataset provides information on tides and can be used to compute extremes of water levels and surges. Surge projections under climate scenarios up to 2050 are also available, but due to high degree of uncertainty in local applications these are not used in the workflows.
 
 Dataset
-: https://doi.org/10.24381/cds.6edf04e0
+: [Timeseries](https://doi.org/10.24381/cds.a6d42d60), [Indicators](https://doi.org/10.24381/cds.6edf04e0)
 
 Temporal coverage
-: 1950 to 2050
-
-Scenarios
-: SSP5-8.5
+: 1950 to 2024
 
 Spatial coverage
 : global
@@ -477,6 +470,12 @@ Sea-level projections associated with the Intergovernmental Panel on Climate Cha
 
 Dataset
 : [Zenodo](https://doi.org/10.5281/zenodo.5914709), [NASA Sea Level Projection Tool](https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool)
+
+Temporal coverage
+: 2020 to 2150
+
+Scenarios
+: SSP1-1.9, SSP1-2.6, SSP2-4.5, SSP3-7.0, SSP5-8.5
 
 Spatial coverage
 : global
