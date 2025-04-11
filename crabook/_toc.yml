@@ -206,6 +206,26 @@ parts:
       - file: notebooks/workflows/STORMS/01_windstorm/Risk_assessment_STORMS
         title: Risk assessment
       - file: notebooks/workflows/STORMS/01_windstorm/Selection_helper_STORMS
+  - file: notebooks/workflows/multi
+    title: Multi-hazard
+    sections:
+    - file: placeholder
+      sections:
+      - file: notebooks/workflows/MULTI_infrastructure/01_UERRA_Hazards/01_UERRA_preprocessing
+      - file: notebooks/workflows/MULTI_infrastructure/01_UERRA_Hazards/02_UERRA_indicators_calculate
+      - file: notebooks/workflows/MULTI_infrastructure/01_UERRA_Hazards/03_UERRA_indicators_plots
+      - file: notebooks/workflows/MULTI_infrastructure/02_CORDEX_Hazards/04_cordex_tempDaysAbove_plots
+      - file: notebooks/workflows/MULTI_infrastructure/02_CORDEX_Hazards/04_cordex_tempDaysAbove
+      - file: notebooks/workflows/MULTI_infrastructure/02_CORDEX_Hazards/05_cordex_tempPercentiles_plots
+      - file: notebooks/workflows/MULTI_infrastructure/02_CORDEX_Hazards/05_cordex_tempPercentiles
+      - file: notebooks/workflows/MULTI_infrastructure/02_CORDEX_Hazards/06_cordex_precipPercentile_plots
+      - file: notebooks/workflows/MULTI_infrastructure/02_CORDEX_Hazards/06_cordex_precipPercentile
+      - file: notebooks/workflows/MULTI_infrastructure/02_CORDEX_Hazards/07_cordex_returnLevelsPrecip_plots
+      - file: notebooks/workflows/MULTI_infrastructure/02_CORDEX_Hazards/07_cordex_returnLevelsPrecip
+      - file: notebooks/workflows/MULTI_infrastructure/03_Exposure_Vulnerability/08_Exposure_vulnerability_temp
+      - file: notebooks/workflows/MULTI_infrastructure/03_Exposure_Vulnerability/09_Exposure_vulnerability_precip
+      - file: notebooks/workflows/MULTI_infrastructure/04_Hazards_extraction_datasets/10_hazard_extraction_airports
+      - file: notebooks/workflows/MULTI_infrastructure/04_Hazards_extraction_datasets/11_Hazard_uncertainty_evaluation
 
 - caption: Resources
   chapters:

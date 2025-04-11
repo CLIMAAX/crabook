@@ -30,3 +30,6 @@
 	path = crabook/notebooks/CLIMATE_SCENARIOS
 	url = https://github.com/CLIMAAX/CLIMATE_SCENARIOS.git
 	branch = main
+[submodule "crabook/notebooks/workflows/MULTI_infrastructure"]
+	path = crabook/notebooks/workflows/MULTI_infrastructure
+	url = https://github.com/CLIMAAX/MULTI_infrastructure.git
