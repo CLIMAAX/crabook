@@ -57,7 +57,7 @@ Please see our dedicated service desk page for further information:
 
 ## JupyterHub
 
-The **exclusive** [CLIMAAX JupyterHub](https://climaax-jupyterhub.ecmwf.int/) provides access to a JupyterLab web interface where the risk assessment notebooks can be edited and executed on ECMWF cloud computing infrastructure.
+The **exclusive** [CLIMAAX JupyterHub](https://jupyterhub.ecmwf.int/) provides access to a JupyterLab web interface where the risk assessment notebooks can be edited and executed on ECMWF cloud computing infrastructure.
 
 Please see our dedicated JupyterHub pages for further information:
 
