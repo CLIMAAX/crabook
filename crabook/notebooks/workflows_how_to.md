@@ -123,7 +123,7 @@ Check with your IT department if your organization offers a JupyterHub service t
 :name: jupyterhub-climaax
 ```
 
-The [CLIMAAX JupyterHub](https://climaax-jupyterhub.ecmwf.int/) is hosted on ECMWF infrastructure and provides a ready-to-use environment for running risk workflows.
+The CLIMAAX JupyterHub is hosted on ECMWF infrastructure and provides a ready-to-use environment for running risk workflows.
 It is **managed by the CLIMAAX team** for CLIMAAX partners and selected participants of the open calls.
 
 :::{seealso}

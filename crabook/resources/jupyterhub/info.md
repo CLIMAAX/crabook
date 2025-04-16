@@ -1,7 +1,12 @@
 (support-jupyterhub)=
 # JupyterHub information
 
-Access the CLIMAAX JupyterHub at **[climaax-jupyterhub.ecmwf.int](https://climaax-jupyterhub.ecmwf.int/)**.
+Access the CLIMAAX JupyterHub at **[jupyterhub.ecmwf.int](https://jupyterhub.ecmwf.int/)**.
+
+:::{important}
+
+If you have multiple compute backend options, choose the **ECMWF CLIMAAX - CCI** environment.
+:::
 
 
 ## Access requirements
