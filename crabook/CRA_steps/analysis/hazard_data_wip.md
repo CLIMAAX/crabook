@@ -5,11 +5,15 @@
 Work in progress page!
 :::
 
-Climate-related hazards have traditionally been prominently featured in the conceptualization of climate risk, often dominating the discourse.
-In this context, the IPCC Assessment Reports (ARs) have played a key role in shaping the role of hazard in climate risk conceptualization, as it is essential for understanding the potential intensity, frequency, and spatial distribution of climate risk. 
+Climate risk is calculated from the combination of:
 
-This page collects references to open-access datasets that characterize climate hazards for the past, present and future.
-The collected entries are broadly categorized into general datasets that characterize the state of the earth system and datasets created to quantify specific hazards.
+    Hazard × Vulnerability × Exposure = Risk
+
+Within this equation, the hazard is often the dominant factor.
+The [IPCC Assessment Reports](https://www.ipcc.ch/reports/) have played a key role in shaping the role of hazard in climate risk conceptualization, as it is essential for understanding the potential intensity, frequency, and spatial distribution of climate risk. 
+
+This page provides references to open-access datasets that characterize natural climate-related hazards for the past, present and future.
+The collected entries are broadly categorized into general datasets that characterize the state of the Earth system and datasets created to quantify specific hazards.
 The collection is not complete and favours datasets with global or European coverage.
 
 
@@ -34,10 +38,12 @@ Available variables include atmospheric temperature, wind speed and precipitatio
 Observations comprise information from surface weather stations and other platforms that monitor the state of the Earth system like aircraft and satellites.
 Consistent and quality-controlled timeseries of observations can be a source of reliable and accurate local information.
 Some stations have long historical records suitable for analysis of the local climate of the past.
-However, differences in measurement techniques and equipment can complicate comparisons between observational records in time and space.
-The spatial and temporal coverage of station data is often incomplete and highly local events, e.g., precipitation extremes, may be missed by the network.
-Satellites cover large areas in general but only pass infrequently over a specific area if placed in a polar orbit.
-Gridded observation datasets aim to fill gaps in the coverage by combining observations from different sources with interpolation and statistical techniques.
+However, differences in measurement techniques and equipment can complicate comparisons between or the merging of observational records in time and space.
+
+The spatial and temporal coverage of station data can be incomplete and highly local events, e.g., precipitation extremes, may be missed by the network.
+Satellites in a polar orbit can provide high spatial resolution and cover large areas in general but only pass infrequently over a specific area.
+Geostationary satellites provide temporally continuous coverage of areas in their field of view but with lower spatial resolution and non-favourable viewing angles at higher latitudes.
+Gridded observation datasets aim to fill coverage gaps by combining observations from different sources with interpolation and statistical techniques.
 
 
 :::{dropdown} E-OBS
@@ -91,16 +97,20 @@ Temporal coverage
 
 Spatial coverage
 : global, completed about every 18 days
+
+In workflows
+: <img src="../../images/icon_s/icon_s_heatwaves.png" alt="" class="hazard-icon"> [Urban heatwaves](../../notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_intro)
 :::
 
 
 ### Reanalysis
 
-Reanalysis products are recreations of the state of the Earth system by a computer model under the consideration of available observations.
-Reanalysis datasets provide complete and consistent gridded information in time and space and can be considered a best *model* estimate for the state of the atmosphere and related components.
-The approach presents a generally better way to consolidate the information of a diverse and incomplete set of observations when compared to interpolation techniques but limitations of both the model that produces the reanalysis and the coverage of the observational record apply.
-Notably, reanalysis data is not bound to reproduce the observations and values on the grid usually represent the average conditions in the associated grid boxes.
-Modern reanalysis products offer explicit uncertainty estimates from an associated ensemble system.
+Reanalysis products are recreations of the state of the Earth system by a computer model to which a variety of available observations are given as inputs.
+Reanalysis datasets provide complete and consistent gridded information in time and space, which simplifies data processing.
+They can be considered a best *model estimate* for the state of the atmosphere and related components, but do not generally reproduce observational records even if these records were provided to the producing model as input.
+The limitations of both the computer model and the coverage and quality of the observational record restrict the quality of the reanalysis, but it is nevertheless the preferred method to consolidate the information of a diverse and incomplete set of observations for many climate-related applications.
+Values of variables in reanalysis datasets usually represent the average conditions in the associated grid boxes.
+Modern reanalysis products also offer explicit estimates of uncertainty from the modelling system.
 
 :::{figure} ../../images/hazard_image.png
 :name: three-stages-of-reanalysis
@@ -198,18 +208,19 @@ Resolution
 
 ### Climate model projections
 
-These datasets are produced by simulations of the Earth system with climate models ("model runs").
+These datasets are produced by simulations of the Earth system with climate models.
 As for reanalysis ({numref}`three-stages-of-reanalysis`), there are global climate models (GCMs) and regional climate models (RCMs), with the latter driven by boundary conditions from the former.
 Climate model runs are usually started in the past and provide a consistent dataset of the historical and future climate.
-This allows for the correction of model bias with respect to other historical data records and for the assessment of change signals without the introduction of model bias.
+These consistent datasets are important to account for biases, i.e., models' individual preferences for under- or overestimating the values of output variables.
+By simulating the past as well as the future, biases can be corrected through comparison with other historical data records and change signals can be assessed within each simulation without the introduction of model bias.
 Projections of climate models depend on assumptions about drivers of the Earth system, which are formalized in emissions scenarios and socioeconomic pathways.
 
 Climate models represent physical processes in varying degrees of simplification.
 This reduces computational costs but limits how well these processes and their effects are (re)produced in simulations.
 E.g., many clouds and orographic effects occur at spatial and temporal scales not explicitly resolved by current climate models.
-Because each model has its specific representation of the Earth system, projections differ between models for the same scenarios.
+Because each model has its specific representation of the Earth system, projected changes differ between models for the same scenarios.
 Chaos and stochasticity in the Earth system additionally mean that multiple runs with the same model and scenario do not produce identical projections.
-Single- and multi-model ensembles of projections should therefore be considered to account for the inherent uncertainties of climate modelling in quantitative CRA.
+To account for the inherent uncertainties of climate modelling in quantitative CRA, multiple projections (so-called ensembles) from a single or multiple models should ideally be considered.
 
 
 :::{dropdown} CMIP6
@@ -371,8 +382,11 @@ In workflows
 
 ## Hazard-specific datasets
 
-They usually built on top of general climate datasets and have additional processing and filtering applied to quantify specific hazards more directly.
-This ranges from the detection of hazardous events and basic statistical summaries of climate variables in an easy-to-access format to the application of dedicated hazard models to produce hazard indicators.
+Hazard-specific datasets are often created from observational, reanalysis or climate datasets.
+Additional processing steps have been applied to quantify a specific hazard more directly and to derive indicators that quantify the severity of the hazard.
+This ranges from the detection of hazardous events and basic statistical summaries of climate variables in an easy-to-access format to datasets generated with dedicated hazard models to produce hazard indicators.
+Due to their direct relevance for CRA, hazard-specific datasets are generally more easy to use.
+However, decisions made in the processing of the data, e.g., on thresholds that define a hazardous event, may not be suitable for all use cases.
 
 
 ### <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> Floods
