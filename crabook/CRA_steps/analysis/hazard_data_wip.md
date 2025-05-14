@@ -10,7 +10,7 @@ Climate risk is calculated from the combination of:
     Hazard × Vulnerability × Exposure = Risk
 
 Within this equation, the hazard is often the dominant factor.
-The [IPCC Assessment Reports](https://www.ipcc.ch/reports/) have played a key role in shaping the role of hazard in climate risk conceptualization, as it is essential for understanding the potential intensity, frequency, and spatial distribution of climate risk. 
+The [IPCC Assessment Reports](https://www.ipcc.ch/reports/) have played a key role in shaping the role of hazard in climate risk conceptualization, as it is essential for understanding the potential *intensity, frequency, and spatial distribution* of climate risk. 
 
 This page provides references to open-access datasets that characterize natural climate-related hazards for the past, present and future.
 The collected entries are broadly categorized into general datasets that characterize the state of the Earth system and datasets created to quantify specific hazards.
@@ -19,7 +19,7 @@ The collection is not complete and favours datasets with global or European cove
 
 :::{tip}
 
-We highly recommend to consider **alternative and complementary local datasets** for a risk analysis in addition to the options listed here.
+We highly recommend considering **alternative and complementary local datasets** for a risk analysis in addition to the options listed here.
 Contact to your local meteorological service and search for other providers of data tailored to your area of interest.
 Look out especially for regional climate model projections and statistically downscaled and bias-corrected datasets that take into account local conditions.
 Some information may only be accessible in the local language.
@@ -147,8 +147,8 @@ In workflows
 
 :::{dropdown} ERA5-Land
 
-ERA5-Land has enhanced horizontal resolution compared to ERA5, but only covers land areas.
-ERA5-land parameter uncertainty currently can be accessed using the equivalent ERA5 fields.
+ERA5-Land has higher horizontal resolution compared to ERA5, but only covers land areas.
+ERA5-land parameter uncertainty can be accessed using the equivalent ERA5 fields.
 
 Dataset
 : https://doi.org/10.24381/cds.e2161bac
@@ -300,7 +300,7 @@ In workflows
 
 :::{dropdown} ISIMIP3b
 
-The [Inter-Sectoral Impact Model Intercomparison Project](https://www.isimip.org/) (ISIMIP) provides bias-corrected CMIP6 atmospheric climate data.
+The [Inter-Sectoral Impact Model Intercomparison Project](https://www.isimip.org/) (ISIMIP) provides bias-corrected and statistically downscaled CMIP6 atmospheric climate data.
 The bias-adjustment corrects the simulated data towards corrected ERA5 reanalysis ([W5E5](doi.org/10.48364/ISIMIP.342217)).
 
 Dataset
@@ -317,6 +317,9 @@ Scenarios
 
 Spatial coverage
 : global
+
+Resolution
+: 0.5°, 1° or 2° horizontal (depending on variable)
 
 In workflows
 : <img src="../../images/icon_s/icon_s_droughts.png" alt="" class="hazard-icon"> [Relative drought](../../notebooks/workflows/DROUGHTS/01_relative_drought/Risk_workflow_description_RELATIVE_DROUGHT)
