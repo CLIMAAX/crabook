@@ -108,7 +108,7 @@ In workflows
 Reanalysis products are recreations of the state of the Earth system by a computer model to which a variety of available observations are given as inputs.
 Reanalysis datasets provide complete and consistent gridded information in time and space, which simplifies data processing.
 They can be considered a best *model estimate* for the state of the atmosphere and related components, but do not generally reproduce observational records even if these records were provided to the producing model as input.
-The limitations of both the computer model and the coverage and quality of the observational record restrict the quality of the reanalysis, but it is nevertheless the preferred method to consolidate the information of a diverse and incomplete set of observations for many climate-related applications.
+In the reanalysis method, the individual strengths of the computer model and observational record complement the weaknesses of the other and thereby usually improve upon simpler interpolation schemes.
 Values of variables in reanalysis datasets usually represent the average conditions in the associated grid boxes.
 Modern reanalysis products also offer explicit estimates of uncertainty from the modelling system.
 
