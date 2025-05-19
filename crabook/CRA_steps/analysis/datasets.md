@@ -11,16 +11,29 @@ figclass: margin-caption
 Illustration created by Scriberia with The Turing Way community. CC-BY 4.0. [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)
 ```
 
-
 ## Hazard data
 
-A more comprehensive overview of pan-European hazard datasets with technical specifications can be found under the follwing links:
+:::{admonition} [CLIMAAX Deliverable D2.2](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D2.2.pdf)
+:class: seealso margin
+
+Report on hazard tools of relevance to the CRA Toolbox
+:::
+
+Hazard is essential to understand the potential intensity, frequency, and spatial distribution of climate risk.
+
+In addition to the following summary of [hazard datasets](./hazard_data), more comprehensive overviews of pan-European hazard datasets with technical specifications are provided:
 
 - [Hazard data inventory](https://docs.google.com/spreadsheets/d/1esRRDgI_kXyiwai3fR_Q1vz-cUfcyWquGE2CHjqtiCY)
 - [Hazard pre-selection table](https://docs.google.com/spreadsheets/d/1HW1MWW--MWx1HgoXK6ANGrkYdy7-N8D2efcl7QQXRGQ)
 
 
 ## Exposure and vulnerability data
+
+:::{admonition} [CLIMAAX Deliverable D2.3](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D2.3.pdf)
+:class: seealso margin
+
+Report on pan European vulnerability and exposure projections
+:::
 
 Exposure and vulnerability can be classified based on their social and physical characteristics ({numref}`datasets-expvul-characteristics`).
 This aligns with the United Nations Office for Disaster Risk Reduction’s (UNDRR) [Risk Information Exchange](https://rix.undrr.org/) (RiX), which catalogues data on the three risk drivers.
@@ -35,7 +48,7 @@ Classification of exposure (purple) and vulnerability (yellow) characteristics i
 :::
 
 
-In the following sections, a more detailed description of a selected set of data from the [full database](https://docs.google.com/spreadsheets/d/1bQmnTUam2HNH_3rENR7wQnmkIe5xEu8N) is provided; datasets can be selected based on data needs in terms of spatial and temporal resolution and the underlying acquisition or modelling approach.
+In the following sections on [exposure](./exposure_data) and [vulnerability](./vulnerability_data) datasets, a more detailed description of a selected set of data from the [full database](https://docs.google.com/spreadsheets/d/1bQmnTUam2HNH_3rENR7wQnmkIe5xEu8N) is provided; datasets can be selected based on data needs in terms of spatial and temporal resolution and the underlying acquisition or modelling approach.
 Additional technical details of the example datasets are provided along with relevant information for using the data in CRA, including datasets that reflect current as well as future conditions.
 
 
@@ -48,7 +61,6 @@ In this context, it is important that the data used are approved and trusted by 
 :::
 
 
-:::{seealso}
+## See also
 
-[CLIMAAX Deliverable D2.3](https://www.climaax.eu/wp-content/uploads/2024/07/CLIMAAX_D2.3.pdf) - Report on pan European vulnerability and exposure projections
-:::
+**[Climate Risk STAC](https://climate-risk-data.github.io/climate-risk-stac/)** is a catalog of hazard, exposure and vulnerability datasets, grouped into a) climate processes (i.e. hazard) and b) socioeconomic processes (i.e. exposure and vulnerability).
