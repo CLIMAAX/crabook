@@ -54,7 +54,6 @@ parts:
       title: CRA Datasets
       sections:
       - file: CRA_steps/analysis/hazard_data
-      - file: CRA_steps/analysis/hazard_data_wip
       - file: CRA_steps/analysis/exposure_data
       - file: CRA_steps/analysis/vulnerability_data
       - file: CRA_steps/analysis/uncertainties
