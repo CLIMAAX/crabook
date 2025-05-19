@@ -5,8 +5,10 @@
 For questions and support related to the CLIMAAX Handbook, including the Framework, workflows, datasets and software, as well as all services associated with your ECMWF account, the CLIMAAX service desk can be contacted via our support request form:
 
 1. **Go to https://jira.ecmwf.int/plugins/servlet/desk/portal/4/create/186?customfield_13413=14215**.
-2. **Log in** with your ECMWF account if you are not already. Information and help for the login process is available in the user documentation of ECMWF.
-3. Provide a title and description of your request and **select the “CLIMAAX” service** in the list at the bottom.
+2. **Log in** with your ECMWF account.
+   Information and help for the login process is available in the [user documentation](https://confluence.ecmwf.int/display/UDOC/Login+and+authentication+information) of ECMWF.
+   If you are already logged in, you immediately proceed to the next step.
+3. Enter a **title and description** for your request and make sure the “CLIMAAX” service is selected in the list at the bottom.
    Otherwise your request will reach the CLIMAAX support team only with delay.
 4. **Click “Create”** to send the request.
 
