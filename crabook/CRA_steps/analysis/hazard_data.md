@@ -1,4 +1,4 @@
-# Hazard datasets (WIP)
+# Hazard datasets
 
 Climate risk is calculated from the combination of:
 
