@@ -7,7 +7,7 @@ Dataset ID
 : `fwi_1981-2010_europe`
 
 Spatial coverage
-: Europe
+: Europe and the Mediterranean (approx. 30°N–72°N, 10°W–40°E), land only
 
 In workflows
 : [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> FWI response model](../../notebooks/workflows/FIRE/03_wildfire_response/workflow_description)
