@@ -91,3 +91,10 @@ We welcome and recognize all contributions. You can see a list of current contri
 ## Credits
 
 This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
+
+
+## License
+
+`Apache-2.0 OR CC-BY-4.0`
+
+The CLIMAAX CRA Handbook is available under both the [Apache License 2.0](LICENSE-Apache-2.0) and the [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0) license.
