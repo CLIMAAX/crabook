@@ -97,4 +97,4 @@ This project is created using the excellent open source [Jupyter Book project](h
 
 `Apache-2.0 OR CC-BY-4.0`
 
-The CLIMAAX CRA Handbook is available under both the [Apache License 2.0](LICENSE-Apache-2.0) and the [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0) license.
+The CLIMAAX CRA Handbook is available under both the [Apache License 2.0](LICENSE-Apache-2.0) or the [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0) license.
