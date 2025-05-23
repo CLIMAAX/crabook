@@ -56,6 +56,46 @@ Otherwise, the following relation found by [Huizinga et al. (2017)](https://publ
 \mathrm{construction\ cost / m^2} =  a \cdot (\mathrm{GDP\ per\ capita})^b
 ```
 
+:::{important}
+
+In the construction cost formula {eq}`construction-cost`, values of the GDP and construction cost have specific units that must not be changed.
+When using the $a$ and $b$ parameters of Huizinga et al. (2017; see below),
+
+- GDP must be specified in year 2010 US$ and 
+- construction costs are computed in year 2010 €.
+
+Suitable input values for GDP are provided by Huizinga et al. (2017) in the [data spreadsheet](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC105688/copy_of_global_flood_depth-damage_functions__30102017.xlsx) attached to their report.
+The [World Bank's data portal](https://data.worldbank.org/) can also be searched for GDP information.
+
+**Conversion of currency and adjustments for inflation should be applied to the output costs/damages, not the input GDP.**
+:::
+
+Based on the construction cost, the damage to existing structures is computed as
+
+```{math}
+:label: maximum-damage-original
+\begin{align}
+  \mathrm{Max\ damage\ structure / m^2} = \; &  \mathrm{construction\ cost / m^2} * \mathrm{depreciated\ value} \\
+  &  * (1 - \mathrm{undamageable\ percentage}) * \mathrm{materials\ used\ factor} \\
+\end{align}
+```
+
+When the maximum damage for a structure is known, the damage to content can be estimated by multiplying the structure damage with a content importance factor $f$.
+It estimates how much the content is worth based on how valuable the building is.
+
+```{math}
+:label: maximum-damage-content
+\mathrm{Max\ damage\ content / m^2} = f \cdot \mathrm{Max\ damage\ structure / m^2}
+```
+
+The total damage per square meter can then be defined by adding the maximum content and structural damage together.
+
+```{math}
+:label: total-damage
+\mathrm{Total\ damage / m^2} = \mathrm{Max\ damage\ structure / m^2} + \mathrm{Max\ damage\ content / m^2}
+```
+
+
 ::::{dropdown} Empirical values for building use classes
 
 [Huizinga et al. (2017)](https://publications.jrc.ec.europa.eu/repository/handle/JRC105688) assume different building costs per type of building:
@@ -79,30 +119,6 @@ Otherwise, the following relation found by [Huizinga et al. (2017)](https://publ
 :::
 ::::
 
-
-:::{important}
-
-In the construction cost formula {eq}`construction-cost`, the GDP and construction cost values have specific units that must not be changed.
-The $a$ and $b$ parameters of Huizinga et al. (2017) assume that
-
-- GDP is given in year 2010 US$ and 
-- construction costs are computed in year 2010 €.
-
-Suitable input values for GDP are provided by Huizinga et al. (2017) in the [data spreadsheet](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC105688/copy_of_global_flood_depth-damage_functions__30102017.xlsx) attached to their report.
-The [World Bank's data portal](https://data.worldbank.org/) can also be searched for GDP information.
-
-**Conversion of currency and adjustments for inflation should be applied to the output costs/damages, not the input GDP.**
-:::
-
-Based on the construction cost, the damage to existing structures is computed as
-
-```{math}
-:label: maximum-damage-original
-\begin{align}
-  \mathrm{Max\ damage\ structure / m^2} = \; &  \mathrm{construction\ cost / m^2} * \mathrm{depreciated\ value} \\
-  &  * (1 - \mathrm{undamageable\ percentage}) * \mathrm{materials\ used\ factor} \\
-\end{align}
-```
 
 ::::{dropdown} Indicatory values for the undamageable percentage
 :::{list-table}
@@ -147,14 +163,6 @@ Source: [Huizinga et al. (2017)](https://publications.jrc.ec.europa.eu/repositor
 ::::
 
 
-When the maximum damage for a structure is known, the damage to content can be estimated by multiplying the structure damage with a content importance factor $f$.
-It estimates how much the content is worth based on how valuable the building is.
-
-```{math}
-:label: maximum-damage-content
-\mathrm{Max\ damage\ content / m^2} = f \cdot \mathrm{Max\ damage\ structure / m^2}
-```
-
 ::::{dropdown} Indicatory values for the importance of content factor
 :::{list-table}
 :header-rows: 1
@@ -173,13 +181,6 @@ It estimates how much the content is worth based on how valuable the building is
 Source: [Huizinga et al. (2017)](https://publications.jrc.ec.europa.eu/repository/handle/JRC105688)
 ::::
 
-
-The total damage per square meter can then be defined by adding the maximum content and structural damage together.
-
-```{math}
-:label: total-damage
-\mathrm{Total\ damage / m^2} = \mathrm{Max\ damage\ structure / m^2} + \mathrm{Max\ damage\ content / m^2}
-```
 
 
 ### For a rasterized land use dataset
