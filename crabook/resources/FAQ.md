@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# Frequently asked questions
 
 :::{note}
 
@@ -6,14 +6,7 @@ This page is under construction. We continue to refine our answers to the questi
 :::
 
 
-
 ## Data
-
-%:::{dropdown} Which datasets can I use when my area of interest is not covered by the EURO-CORDEX domain?
-%
-%...
-%:::
-
 
 :::{dropdown} Can I replace the LUISA landcover data with another land use dataset?
 
@@ -24,15 +17,26 @@ E.g., when mapping monetary value to land use classes and computing damages base
 :::
 
 
-:::{dropdown} How can I create a custom damage table for the risk assessment?
+::::{dropdown} How can I customize the estimation of damages in the risk assessment?
 
-We recommend to start with the provided table and adapt the GDP per capita value first of all.
-From there, you can edit the table anyway you like to obtain an acccurate representation of your region.
-If you find that the preconfigured formulas in the tables do not lead to representative values for your area of interest, you can change the formulas in addition to their parameters or prescribe values directly instead of computing them via a formula.
+A damage estimation for a flood or windstorm is created by multiplying how much can possibly be damaged by a percentage of what is actually damaged based on the severity of the hazard.
+{numref}`damage-estimation-method` shows the possible approaches to adapting general data to fit the local or regional situation:
 
-The preconfigured formulas in our tables were fitted to global data and constructed to provide a consistent estimation of values/damages across the globe.
-See the report of [Huizinga et al. (2017)](https://publications.jrc.ec.europa.eu/repository/handle/JRC105688) and our [related overview](../notebooks/workflows/vulnerability-curves-adjustment) in the Handbook for more information on the values and formulas in the damage tables.
+:::{figure}  ../images/vuln_curve_adjustment_method.png
+:width: 80%
+:name: damage-estimation-method
+:align: center
+
+Standard damage estimations and damage curves from literature are adjusted to the local context using local knowledge.
+The two final products are a table with custom maximum damage per land use and a set of damage curves for the various land uses in the region.
 :::
+
+- Adapt the maximum damage estimation for your region (see [](./FAQ/maximum_damages.md))
+- Adapt the vulnerability curves for your region (see [](./FAQ/vulnerability_curves.md))
+- Improve the land use information with local knowledge
+
+We recommend to start with updating the provided damage estimation spreadsheet template (`LUISA_damage_info_curves_template.xlsx`) with local values.
+::::
 
 
 :::{dropdown} How can I best work with population data when a high-density city dominates the surrounding low-density areas?

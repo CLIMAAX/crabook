@@ -104,8 +104,6 @@ parts:
         title: Hazard assessment
       - file: notebooks/workflows/FLOODS/03_Flood_damage_and_population_exposure/Risk_assessment_FLOOD_BUILDING_POPULATION
         title: Risk assessment
-    - file: notebooks/workflows/vulnerability-curves-adjustment
-      title: Working with vulnerability curves
   - file: notebooks/workflows/heavy_rainfall
     title: 🌧️ HEAVY RAINFALL
     sections:
@@ -237,7 +235,9 @@ parts:
   - file: resources/guiding_questions
     title: Guiding questions and answers 
   - file: resources/FAQ
-    title: FAQ
+    sections:
+    - file: resources/FAQ/maximum_damages
+    - file: resources/FAQ/vulnerability_curves
   - file: resources/glossary
     title: Glossary
   - file: resources/software
@@ -252,11 +252,11 @@ parts:
     - file: resources/datasets/eclips2.0_mirror
     - file: resources/datasets/effis_mirror
   - url: https://github.com/CLIMAAX/crabook/releases
-    title: Release Notes
+    title: Release notes
 
 - caption: Join the community
   chapters:
   - url: https://www.climaax.eu/community-of-practice/
-    title: Community Of Practice
+    title: Community of Practice
   - file: community/contribute
     title: Contribute to risk recipes
