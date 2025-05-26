@@ -233,7 +233,7 @@ parts:
     - file: resources/jupyterhub/info
     - file: resources/jupyterhub/tips
   - file: resources/guiding_questions
-    title: Guiding questions and answers 
+    title: Guiding questions and answers
   - file: resources/FAQ
     sections:
     - file: resources/FAQ/maximum_damages
