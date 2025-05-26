@@ -26,6 +26,7 @@ Coupled Climate Model Intercomparison Project (CMIP)
 
 [Exposure](#framework-term-exposure)
  
+
 GCM
  General Circulation Model or Global Climate Model (in contrast to {term}`RCM`).
 
