@@ -35,8 +35,8 @@ The two final products are a table with custom maximum damage per land use and a
 - Adapt the vulnerability curves for your region (see [](./FAQ/vulnerability_curves.md))
 - Improve the land use information with local knowledge
 
-We recommend to start with updating the provided damage estimation spreadsheet template (`LUISA_damage_info_curves_*.xlsx`) with local values.
-As a first step, adjust the GDP/capita.
+We recommend to start by updating the provided damage estimation spreadsheet template with local values.
+As a first step, adjust the GDP/capita (see the [note on currency units](#maximum-damages-units)).
 ::::
 
 

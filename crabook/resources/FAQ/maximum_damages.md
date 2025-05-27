@@ -2,7 +2,7 @@
 
 A guide to estimate the maximum damage per square meter of different asset classes.
 
-The calculations outlined in the following are implemented in the damage estimation spreadsheet template (`LUISA_damage_info_curves_template.xlsx`) provided with CLIMAAX workflows that follow this methodology of estimating damages.
+The calculations outlined in the following are implemented in the damage estimation spreadsheet template (`LUISA_damage_info_curves*.xlsx`) provided with CLIMAAX workflows that follow this methodology of estimating damages.
 
 :::{note}
 
@@ -56,9 +56,10 @@ Otherwise, the following relation found by [Huizinga et al. (2017)](https://publ
 \mathrm{construction\ cost / m^2} =  a \cdot (\mathrm{GDP\ per\ capita})^b
 ```
 
+(maximum-damages-units)=
 :::{important}
 
-In the construction cost formula {eq}`construction-cost`, values of the GDP and construction cost have specific units that must not be changed.
+In the construction cost formula {eq}`construction-cost`, values of the GDP and construction cost have specific units that cannot be changed.
 When using the $a$ and $b$ parameters of Huizinga et al. (2017; see below),
 
 - GDP must be specified in year 2010 US$ and 
