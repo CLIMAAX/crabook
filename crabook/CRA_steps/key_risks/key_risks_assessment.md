@@ -4,16 +4,29 @@
 :width: 550px
 :align: center
 ```
+
+
 ::::{margin}
 :::{dropdown} Guiding questions
-:animate: fade-in
 
 - What are the relevant stakeholders, experts or representatives from the scoping step that need to be considered?
-- Which stakeholders/experts/relevant groups that have not been identified in the scoping phase, may be of relevance now in the light of the Risk Analysis results?
+-	Which stakeholders/experts/relevant groups that have not been identified in the scoping phase, may be of relevance now in the light of the Risk Analysis results?
 :::
 ::::
 
-The outputs of the climate risk analysis generate information on the extent, duration, frequency and intensity of risks and thus already provide comprehensive insights on *relevant* risks to be considered. These remain to be contextualized and prioritised. Therefore, as a further analytical step, risks need to be evaluated to identify key risks that may become severe under particular conditions and can lead to severe consequences. Additional insights into the severity and urgency of risks as well as considerations on the capacity of a region to adapt and cope with risk support further understanding and managing of risks ({numref}`framework-keyrisksaspects`; {numref}`framework-keyrisksconsiderations`). This step also allows for the integration of *responses*, the fourth driver of risk according to the {ref}`IPCC Risk Propeller <framework-riskpropeller>`, therefore connecting past CRM measures with future CRM management.
+
+The outputs of the climate risk analysis generate quantitative information on climate risks and their impacts.
+These results remain to be interpreted within a regional/local to support prioritization of risks.
+Therefore, as a further analytical step, risk needs to be evaluated to identify key risks in terms of *severity* and *urgency* as well as regarding a region's/community's *resilience capacity* to cope with and adapt to a specific risk.
+This step allows for the integration of *responses* to risk – the fourth driver of risk according to the {ref}`IPCC Risk Propeller <framework-riskpropeller>`, therefore connecting the individual risk context of a region/community and its resilience capacity with future directions for CRM.
+For this, consultation and involvement of selected stakeholders, experts and priority groups is essential to collect information on the perception of risks.
+These may be harnessed e.g., via stakeholder workshops or focus group discussions.
+
+:::{tip}
+
+The *Key Risk Assessment* step is a crucial point for reflecting on [principles](../beforeyoustart/principles) from the conceptual background (especially social justice/just resilience and the precautionary approach) as well as context, objectives and risk ownership that were set during the [Scoping](../scoping/scoping) step.
+:::
+
 
 <figure class="align-center">
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/p6msA_9ijWY?si=_TUyC09n4vK8BFzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -21,36 +34,53 @@ The outputs of the climate risk analysis generate information on the extent, dur
 
 
 ::::{margin}
-:::{note}
-Guiding questions for assessing risk severity, urgency and the capacity of a region will follow soon together with a set of indicators.
-:::
-
 :::{dropdown} Guiding questions - Severity
-:animate: fade-in
 
-...
+-	Is your respective climate risk high in impact and/or frequency in your region/community?
+  E.g., high human loss, large areas affected, massive financial damage, important sectors affected, impairment of critical infrastructure.
+-	Does your respective climate risk possibly unleash irreversible consequences?
+  E.g., human loss, loss of industrial or economic areas, destruction of ecosystems and biodiversity, loss of agricultural land.
+-	Does your respective climate risk have the potential to cause cascading effects?
+  E.g., disease outbreak, biodiversity loss, destabilized supply chains, economic disruption, social unrest.
 :::
 
 :::{dropdown} Guiding questions - Urgency
-:animate: fade-in
 
-...
+-	Is your respective climate hazard expected to worsen significantly in the near future?
+-	Is your respective climate hazard associated with sudden events (e.g., heavy rain) or with slow onset processes (e.g., sea level rise)? How may this influence your urgency scoring?
+-	Does your respective climate hazard have the potential to persist?
 :::
 
 :::{dropdown} Guiding questions - Capacity
-:animate: fade-in
 
-...
+-	Does your region/community have sufficient financial, human, natural, physical and social resilience capacity to address the respective climate risk including related events and processes?
+  E.g., comprehensive financial capacity (available means to prepare and respond to the risk), human capacity (awareness, knowledge and learning), natural capacity (resource management and ecosystem health), physical capacity (ability to forecast and warn, provide critical infrastructure and services), and social capacity (social inclusion in DRM, equity, representation, favorable policy environment, political stability).
+-	Does your region have specific interventions implemented or planned that may reduce the respective climate risk?
+  E.g., built hazard protection, hazard protection plans, specific policies, hazard warning systems, hazard insurance, hazard awareness campaigns. 
+-	Does your resilience capacity mainly focus on coping with impacts (relief and recovery to bounce back after events), adapting to risk (implement forward-looking risk management) or transformational processes (redesign systems, address inequalities, employ proactive strategies to bounce forward ahead of events)?
 :::
 ::::
 
-- **Risk Severity** refers to the extent of potential serious negative impacts from climate events that could harm a region's functioning and objectives. Considering the risk outcome from workflow(s) application, it is encouraged to also involve stakeholders, experts and priority groups for collecting information on the perception of risks, finally resulting in an indication of risk severity.
 
-- **Risk Urgency** refers to the temporal dimension of risk. For instance, potential impacts that are assessed to be changing quickly or sooner than expected, increase the urgency of attending to the respective risk.
+Assessing severity and urgency supports the understanding of risk outcomes by interpreting the output metrics in each regional/local context.
+Further, reviewing the resilience capacity of a region to deal with the risk may pinpoint strengths and weaknesses respectively to the relative risk ({numref}`framework-keyrisksconsiderations`).
+Applying this social risk evaluation process to several climate risks allows for priority risk ranking, thus informing future CRM needs.
+Severity, urgency, and resilience capacity are interdependent and may influence one another, potentially requiring a dynamic evaluation process that moves back and forth between these three elements ({numref}`framework-keyrisksaspects`).
 
-- **Capacity** corresponds to the ability to cope with and adapt to actual and potential harm triggered by climate change. It includes {abbr}`absorptive (Absorptive Capacity: A situation characterised by stability.  It refers to the ability to absorb shocks and stresses without significant changes.)`, {abbr}`adaptive (Adaptive Capacity: A situation characterised by flexibility. This involves making incremental adjustments to better cope with changing conditions.)` and {abbr}`transformative (Transformative Capacity: A situation characterised by structural change. Transformation is about making fundamental changes to systems and structures to address the root causes of vulnerability.)` measures which can happen *autonomously* (e.g., farmers shifting to drought tolerant crops) or through *planned* strategies and policies.
+- Severity emerges from the previous risk estimation step (**risk analysis outcome**), providing information on magnitude of risk or changes in frequency.
+  A sensemaking process of the risk outcomes in terms of potential physical, social, ecological and financial impact and damage supports its contextualization within the individual region/community situation.
+  Additionally, irreversibility or cascading effects may be considered, where information is available.
+  For example, a flood event in a certain area may destroy housing, recreational areas or important businesses, which consequently can trigger long-term economic damage or even social unrest.
 
-  Capacity depends on implemented and planned CRM measures as well as on potential opportunities emerging from tackling the respective risk. Such can be divided in five categories, considering social, human, physical, financial or natural systems, thus providing important entry points for indicator selection and evaluation.
+
+- Urgency refers to the temporal dimension of **hazard**.
+  It depends on the rate of change (current and future severity; indicated above) as well as timing of occurrence, persistence, or hazard acceleration trends (slow-onset vs. sudden-onset).
+  For instance, hazards that appear to be changing quickly or sooner than expected, increase urgency.
+
+
+- Resilience capacity corresponds to the **ability** to cope, adapt and transform to actual and potential harm triggered by climate change.
+  Considering physical, social, financial, human, or natural resilience capacities supports a broad assessment of the status quo and additionally enables an exploration of adaptation gaps, which is relevant for informing future CRM options.
+  For example, a region may have limited financial resources but may yet benefit from favorable policy conditions and a healthy surrounding ecosystem, both of which can significantly enhance flood risk reduction efforts. 
 
 
 :::{figure} ../../images/framework_key_risks_aspects.png
@@ -61,64 +91,70 @@ Guiding questions for assessing risk severity, urgency and the capacity of a reg
 Key Risk Assessment conceptualisation <br>considering severity, urgency and capacity. <br>Credit: CLIMAAX consortium.
 :::
 
-:::{list-table} Possible considerations within assessment of risk severity, urgency and capacity.
+
+:::{list-table} Possible considerations within assessment of risk severity, urgency and resilience capacity.
 :widths: 5 5 5
 :header-rows: 1
 :name: framework-keyrisksconsiderations
 
 * - Severity
   - Urgency
-  - Capacity
+  - Resilience Capacity
 
 * - Risks are considered severe if potential impacts
 
-    -	Are high in magnitude, likelihood, or duration (e.g., severe impacts, large areas, cascading effects, irreversibility);
-    -	Negatively affect the functioning of relevant systems and processes;
-    -	May occur during critical timing of processes (e.g., increased precipitation projected for harvest seasons);
-    -	Coincide with low capacity and may incur adaptation limits.
+    - Are high in magnitude or frequency (e.g., large areas affected, massive financial damage, severe increase of likelihood);
+    - Negatively affect the functioning of relevant systems and processes with possibly irreversible consequences;
+    - Have the potential to cause cascading effects (e.g., disease outbreak, biodiversity loss, destabilized supply chains, economic disruption, social unrest).
     
-  - Urgency of risks is related to the timing of hazards and depends on
+  - Urgency is related to the time components of hazard and depends on
 
-    -	Risk severity;
-    -	Observed or projected change in the near future.
-    
-  - Capacity relates to
+    - The rate of change indicated through current and future severity;
+    - Hazard acceleration trends (slow- vs. sudden-onset);
+    - Persistence;
+    - Timing of hazard occurrence (e.g., phases of heightened vulnerability such as critical timing of harvest season, tourist season).
+  
+  - Capacity considers any ability to absorb, adapt to and transform respective risk, originating 
 
-    -	CRM measures implemented and in planning stages;
-    -	Emergent development and business opportunities arising from addressing risks;
-    -	And should consider social, human, physical, financial or natural dimensions.
+    - From general resilience capacity or specific processes and mechanisms in place to tackle the risk;
+    - Within physical, financial, human, social and natural dimensions.
 
 :::
 
 
-Implemented or planned CRM measures greatly influence the ability to respond to risk and thus provide an important baseline for capacity assessment. Functioning heatplans in a city, innovative water irrigation systems against agricultural drought or also planned policy measures are crucial to take into consideration when prioritising risks. However, capacity also refers to opportunities arising while dealing with the respective risk. For example, if a development plan is being conducted in a region, inputs on current and future risks are required to appropriately plan for, e.g. new housing. Such planning may entail suitable and acceptable adaptation measures (e.g., nature based solutions, and/or insurance coverage), thus effectively  contributing to the increase of the overall capacity of a region.
+:::{tip}
 
-These elements of the Key Risk Assessment integrate into a risk dashboard for risk prioritisation ({numref}`framework-keyrisksdashboard`).The assessment should be carried out by harnessing participatory processes for a bottom-up verification and may thus involve experts, stakeholders and priority groups.  
-
-:::{figure} ../../images/framework_key_risks_dashboard.png
-:name: framework-keyrisksdashboard
-
-Key Risk Assessment Dashboard considering severity, urgency and capacity. The latter consists of a) CRM measures that have already been undertaken and b) opportunities emerging from tackling climate-related risks. The overall outcome suggests a risk prioritisation of the respective risk outcomes leading to key and less urgent risks to consider. Source: Adapted from the [European Climate Risk Assessment](https://doi.org/10.2800/204249) (EEA 2024). 
+To prioritize quantified climate risk within the CLIMAAX toolbox, it is recommended to self-assess severity, urgency and resilience capacity within your regional/communal context.
+You can access a [protocol](./key_risks_protocol_easy.pdf) that guides you through the process together with a [dashboard template](./key_risks_dashboard_template_simple.xlsx) to support you in your individual evaluation process.
 :::
 
-Even if only one risk workflow has been chosen, regions can still profit by adding more detail to the climate risk analysed by assessing e.g., relevance, baseline CRM measures and opportunities.
 
 ::::{margin}
 :::{dropdown} Guiding questions
 :animate: fade-in
 
-- How can you rank your risk outcome in a final risk scoring, taking into account severity, urgency and resilience?
-- Which are a) key risks that need to be considered in CRM practices and b) less urgent risks that need to feed into the monitoring process?
+-	How can you rank your risk outcome in a final risk scoring, taking into account severity, urgency and resilience capacity?
+-	Which are a) key risks that need to be considered in CRM practices and b) less urgent risks that need to feed into the monitoring process?
 :::
 ::::
 
-**Risk prioritisation should result in assigning "key" risks. Key Risks are recommended to be included directly in [CRM strategies and plans](../CRM.md) while other risks would be further monitored.**
+
+Self-assessment and evaluation of the mentioned elements within the Key Risk Assessment step integrate into a risk dashboard for risk prioritization ({numref}`framework-keyrisksdashboard`).
+The assessment should draw on participatory processes to include bottom-up perspectives and may thus involve stakeholders, experts from various fields and representatives of priority groups.
+The outcome of evaluating selected risks results in risk prioritization, thus identifying "key" risks.
+These priorities may then be directly translated to [CRM strategies and plans](../CRM.md), while other risks would be further monitored.
 
 
-:::{tip}
-The *Key Risk Assessment* step is a crucial point for reflecting on [principles](../beforeyoustart/principles) from the conceptual background (especially social justice/just resilience and the precautionary approach) as well as context, objectives and risk ownership that were set during the [*Scoping*](../scoping/scoping) step. 
+:::{figure} ../../images/framework_key_risks_dashboard.png
+:name: framework-keyrisksdashboard
+
+Example of Key Risk Assessment through risk ranking, considering severity, urgency and resilience capacity.
+The overall outcome suggests risk prioritization indicating key and less urgent risks.
+Source: Adapted from [European Climate Risk Assessment](https://doi.org/10.2800/204249) (EEA 2024). 
 :::
 
+
 :::{tip}
-It may be beneficial to include considerations that go beyond direct and tangible impacts of potential climate risks and consider indirect and intangible impacts such as environmental, cultural or psychological impacts.
+
+Even if only one risk workflow has been chosen, regions can still profit by adding more detail to the climate risk analyzed by assessing e.g., expected impacts, time components, or CRM measures that are already in place to tackle the respective risk.
 :::
