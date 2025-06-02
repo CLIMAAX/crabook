@@ -147,6 +147,7 @@ These priorities may then be directly translated to [CRM strategies and plans](.
 
 :::{figure} ../../images/framework_key_risks_dashboard.png
 :name: framework-keyrisksdashboard
+:width: 90%
 
 Example of Key Risk Assessment through risk ranking, considering severity, urgency and resilience capacity.
 The overall outcome suggests risk prioritization indicating key and less urgent risks.
