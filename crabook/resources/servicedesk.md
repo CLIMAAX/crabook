@@ -44,3 +44,9 @@ The current schedule:
 - 02 June 2025: 15:00 CEST (13:00 UTC)
 - 09 June 2025: no session
 - 16 June 2025: 15:00 CEST (13:00 UTC)
+- 23 June 2025: 11:00 CEST (9:00 UTC)
+- 30 June 2025: 15:00 CEST (13:00 UTC)
+- 07 July 2025: 11:00 CEST (9:00 UTC)
+- 14 July 2025: 15:00 CEST (13:00 UTC)
+- 21 July 2025: 11:00 CEST (9:00 UTC)
+- 28 July 2025: 15:00 CEST (13:00 UTC)
