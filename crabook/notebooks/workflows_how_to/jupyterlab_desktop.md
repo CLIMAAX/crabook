@@ -63,7 +63,7 @@ This is different from the [instructions for the command line](cli), where a haz
         Put
 
         ```
-        !pip install damagescanner==0.7 earthkit-data==0.13.6 earthkit-geo==0.3.0 earthkit-meteo==0.4.1 earthkit-plots==0.2.8 eodag==3.2.0 gisco-geodata==0.1.2 git+https://github.com/tommyod/paretoset.git@5d8f3a739eeb38fb0b63340840353ad99845a5f0 pyDataverse==0.3.4 pylandtemp==0.0.1a1 git+https://github.com/kapadia/usgs.git@ec8b5e2e77cc020890d9dbab0fa46cb2d4867e44
+        !pip install damagescanner==0.7 earthkit-data==0.13.6 earthkit-geo==0.3.0 earthkit-meteo==0.4.1 earthkit-plots==0.2.8 eodag==3.2.0 gisco-geodata==0.1.2 git+https://github.com/tommyod/paretoset.git@5d8f3a739eeb38fb0b63340840353ad99845a5f0 pyDataverse==0.3.4 pylandtemp==0.0.1a1 usgs==0.3.6
         ````
 
         and press `Shift` + `Enter`.
