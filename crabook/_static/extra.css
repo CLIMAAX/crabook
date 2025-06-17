@@ -29,8 +29,14 @@ html {
     color: #1596B8;
 }
 
-.fontsize-large {
-    font-size: 120%;
+.fontsize-125 {
+    font-size: 125%;
+}
+.fontsize-150 {
+    font-size: 150%;
+}
+.fontweight-normal {
+    font-weight: normal !important;
 }
 
 .card-contrast {
