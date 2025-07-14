@@ -41,3 +41,5 @@ The current schedule:
 - 14 July 2025: 15:00 CEST (13:00 UTC)
 - 21 July 2025: 11:00 CEST (9:00 UTC)
 - 28 July 2025: 15:00 CEST (13:00 UTC)
+- 04 August 2025: 11:00 CEST (9:00 UTC)
+- 11 August 2025: 15:00 CEST (13:00 UTC)
