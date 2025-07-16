@@ -33,13 +33,9 @@ Drop-in sessions organized by the CLIMAAX support team are accessible to all sel
 Starting in April 2025, sessions are held on Monday, alternating weekly between 11:00 and 15:00 CEST (Central European Summer Time).
 The current schedule:
 
-- 09 June 2025: no session
-- 16 June 2025: 15:00 CEST (13:00 UTC)
-- 23 June 2025: 11:00 CEST (9:00 UTC)
-- 30 June 2025: 15:00 CEST (13:00 UTC)
-- 07 July 2025: 11:00 CEST (9:00 UTC)
-- 14 July 2025: 15:00 CEST (13:00 UTC)
 - 21 July 2025: 11:00 CEST (9:00 UTC)
 - 28 July 2025: 15:00 CEST (13:00 UTC)
 - 04 August 2025: 11:00 CEST (9:00 UTC)
 - 11 August 2025: 15:00 CEST (13:00 UTC)
+- 18 August 2025: 11:00 CEST (9:00 UTC)
+- 25 August 2025: 15:00 CEST (13:00 UTC)
