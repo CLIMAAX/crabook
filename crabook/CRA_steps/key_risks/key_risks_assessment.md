@@ -149,7 +149,7 @@ These priorities may then be directly translated to [CRM strategies and plans](.
 :name: framework-keyrisksdashboard
 :width: 90%
 
-Example of Key Risk Assessment through risk ranking, considering severity, urgency and resilience capacity.
+Example of Key Risk Assessment through risk ranking, considering severity (of current – C and future – F risk), urgency and resilience capacity.
 The overall outcome suggests risk prioritization indicating key and less urgent risks.
 Source: Adapted from [European Climate Risk Assessment](https://doi.org/10.2800/204249) (EEA 2024). 
 :::
