@@ -104,3 +104,10 @@ This is different from the [instructions for the command line](cli), where a haz
 ## JupyterLab Desktop help
 
 See the [user guide](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/user-guide.md), [environment management](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/python-env-management.md) and [troubleshooting](https://github.com/jupyterlab/jupyterlab-desktop/blob/master/troubleshoot.md) pages of JupyterLab Desktop for further information about the application.
+
+
+## Known issues
+
+- On Windows, JupyterLab desktop is not able to install conda-based Python environments for users with a space (` `) in their home directory (i.e., `C:\Users\<User Name>\`).
+  Without a known fix for this issue ([#837](https://github.com/jupyterlab/jupyterlab-desktop/issues/837)), the application cannot be set up by such users.
+  Step 3 of the instructions above immediately finishes due to a failure in the installation.
