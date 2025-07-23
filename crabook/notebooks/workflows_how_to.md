@@ -66,6 +66,7 @@ Our step-by-step instructions take you through downloading the workflows and the
 - [JupyterLab Desktop setup instructions](workflows_how_to/jupyterlab_desktop.md)
 
 While we generally recommend working on the command line, users not or less familiar with these tools can use the JupyterLab Desktop instructions, which require minimal interaction with a command line interface.
+If you are able to run Docker containers on your infrastructure, we also provide an [image with a preinstalled environment](workflows_how_to/docker.md).
 :::
 :::::
 
