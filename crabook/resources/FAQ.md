@@ -1,19 +1,14 @@
 # Frequently asked questions
 
-:::{note}
 
-This page is under construction. We continue to refine our answers to the questions already on the list and will be adding more entries in the future.
-:::
-
-
-## Data
+## Hazard, exposure and vulnerability data
 
 :::{dropdown} Can I replace the LUISA landcover data with another land use dataset?
 
 Yes.
 However, the workflows may have to be adapted to the substituted land use classification.
 
-E.g., when mapping monetary value to land use classes and computing damages based on a vulnerability curve you may have to edit/remove/add entries in the tables for values and damages to match the classes of the substituted dataset.
+E.g., when mapping monetary value to land use classes and computing damages based on a [vulnerability curve](./FAQ/vulnerability_curves.md) you may have to edit/remove/add entries in the tables for values and damages to match the classes of the substituted dataset.
 :::
 
 
@@ -40,7 +35,7 @@ As a first step, adjust the GDP/capita (see the [note on currency units](#maximu
 ::::
 
 
-:::{dropdown} How can I best work with population data when a high-density city dominates the surrounding low-density areas?
+:::{dropdown} How do I work with population data when a high-density city dominates the surrounding low-density areas?
  
 We recommend to control the scaling of outputs to receive meaningful results.
 E.g., this could mean manually setting the bins for risk categories when using a risk index method such that information from less densely populated regions are retained.
@@ -50,14 +45,6 @@ A [logarithmic scaling](https://en.wikipedia.org/wiki/Logarithmic_scale) of resu
 However, care must be taken when interpreting logarithmic data since the quantitative relationship between a linear increase in darkness/intensity along a colorbar and the values represented by those colors is not proportional anymore.
 :::
 
-
-:::{dropdown} How can I import results from a workflow into other software (e.g., GIS) for further processing?
-
-Many of our workflows are configured to present their results not just as plots in the Jupyter notebooks, but also to write them to disk in a georeferenced format for further processing.
-This is usually a NetCDF file with latitude-longitude coordinates or a GeoTIFF file with an attached coordinate reference system.
-
-If a workflow result is not currently exported by a workflow, we recommend to use the [xarray](https://tutorial.xarray.dev/fundamentals/01.1_io.html) and [rioxarray](https://corteva.github.io/rioxarray/html/examples/examples.html) packages to export georeferenced information.
-:::
 
 
 ## Risk workflows
@@ -94,4 +81,34 @@ A proposed workflow addition for downloading the required satellite images from 
 The reference DEM is important in the workflow as it defines the reference grid to interpolate all other input data to.
 We recommend to choose data with a resolution between 500 and 50 m for best results.
 Increasing the resolution further will lead to diminishing returns for the workflow's output, also because the preconfigured climate datasets with 1 km resolution limit further improvements.
+:::
+
+
+
+## Data processing
+
+
+:::{dropdown} How can I import results from a workflow into other software (e.g., GIS) for further processing?
+
+Many of our workflows are configured to present their results not just as plots in the Jupyter notebooks, but also to write them to disk in a georeferenced format for further processing.
+This is usually a NetCDF file with latitude-longitude coordinates or a GeoTIFF file with an attached coordinate reference system.
+
+If a workflow result is not currently exported by a workflow, we recommend to use the [xarray](https://tutorial.xarray.dev/fundamentals/01.1_io.html) and [rioxarray](https://corteva.github.io/rioxarray/html/examples/examples.html) packages to export georeferenced information.
+:::
+
+
+:::{dropdown} How can I load my file for use in a workflow?
+
+Here are some recommended Python packages for loading different file formats:
+
+| File type | Common extensions | Recommended package |
+|---|---|---|
+| GeoTIFF | `.tif`, `.tiff` | [xarray](https://docs.xarray.dev/en/stable/) with [rioxarray](https://corteva.github.io/rioxarray/stable/) |
+| NetCDF | `.nc` | [xarray](https://docs.xarray.dev/en/stable/) with [netcdf4](https://unidata.github.io/netcdf4-python/) |
+| CSV | `.csv` | [pandas](https://pandas.pydata.org/docs/index.html) |
+| Excel Workbook | `.xlsx` | [pandas](https://pandas.pydata.org/docs/index.html) |
+| Geojson | `.json`, `.geojson` | [geopandas](https://geopandas.org/en/stable/) |
+| Shapefile | `.shp` | [geopandas](https://geopandas.org/en/stable/) |
+
+See also: Resources » Software » [Python](software.md#python).
 :::
