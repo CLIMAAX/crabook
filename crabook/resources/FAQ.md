@@ -68,14 +68,6 @@ This can be implemented, e.g., by clipping the area of interest based on the sha
 :::
 
 
-:::{dropdown} <img src="../images/icon_s/icon_s_heatwaves.png" class="hazard-icon"> How can I apply the satellite-based heatwave risk assessment to regions larger than the maximum size allowed by the RSLab data portal?
-
-Land surface temperature data for regions larger than allowed for download by the RSLab data portal can be computed from Landsat Collection 2 Level 1 imagery, e.g., with the [pylandtemp](https://github.com/pylandtemp/pylandtemp) package.
-
-A proposed workflow addition for downloading the required satellite images from a [USGS data portal](https://earthexplorer.usgs.gov/) and computing the land surface temperature can be found in the pull request https://github.com/CLIMAAX/HEATWAVES/pull/15.
-:::
-
-
 :::{dropdown} <img src="../images/icon_s/icon_s_fire.png" class="hazard-icon"> How should I best choose the digital elevation model (DEM) required by the Wildfire (ML approach) workflow?
 
 The reference DEM is important in the workflow as it defines the reference grid to interpolate all other input data to.
