@@ -14,7 +14,7 @@ The collection is not complete and favours datasets with global or European cove
 
 :::{tip}
 
-We highly recommend considering **alternative and complementary local datasets** for a risk analysis in addition to the options listed here.
+We highly recommend considering **alternative and complementary [local datasets](#framework-ownlocaldata)** for a risk analysis in addition to the options listed here.
 Contact to your local meteorological service and search for other providers of data tailored to your area of interest.
 Look out especially for regional climate model projections and statistically downscaled and bias-corrected datasets that take into account local conditions.
 Some information may only be accessible in the local language.
