@@ -584,6 +584,28 @@ Resolution
 
 ### <img src="../../images/icon_s/icon_s_wind.png" alt="" class="hazard-icon"> Wind
 
+
+:::{dropdown} Windstorm tracks and footprints derived from reanalysis over Europe between 1940 to present
+
+Climate indicators of windstorms associated with extratropical cyclones, derived from ERA5 over a pan-European domain.
+
+Dataset
+: https://doi.org/10.24381/bf1f06a9
+
+Temporal coverage
+: 1940 to present
+
+Spatial coverage
+: 25°W-35°E, 30°N-70°N
+
+Resolution
+: 0.016° horizontal (downscaled), 0.25° (ERA5 grid)
+
+In workflows
+: <img src="../../images/icon_s/icon_s_wind.png" alt="" class="hazard-icon"> [Windstorm](../../notebooks/workflows/STORMS/01_windstorm/Risk_workflow_description_STORMS)
+:::
+
+
 :::{dropdown} Winter windstorm indicators for Europe from 1979 to 2021 derived from reanalysis
 
 Climatological indicators on European winter windstorms and their economic impact derived from ERA5 reanalysis.
@@ -599,7 +621,22 @@ Spatial coverage
 
 Resolution
 : 1 km horizontal
+:::
 
-In workflows
-: <img src="../../images/icon_s/icon_s_wind.png" alt="" class="hazard-icon"> [Windstorm](../../notebooks/workflows/STORMS/01_windstorm/Risk_workflow_description_STORMS)
+
+:::{dropdown} Synthetic windstorm events for Europe from 1986 to 2011
+
+Synthetic set of plausible windstorm events windstorm events over Europe based on modelled climatic conditions.
+
+Dataset
+: https://doi.org/10.24381/cds.ce973f02
+
+Temporal coverage
+: 1986 to 2011; September to May
+
+Spatial coverage
+: 25°W-40.5°E, 34.4°N-71.5°N
+
+Resolution
+: 4.4 km horizontal (interpolated from 25 km)
 :::
