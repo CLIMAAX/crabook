@@ -155,6 +155,8 @@ parts:
         title: Hazard assessment
       - file: notebooks/workflows/DROUGHTS/02_agriculture_drought/AGRICULTURE_DROUGHT_Risk_Assessment
         title: Risk assessment
+      - file: notebooks/workflows/DROUGHTS/02_agriculture_drought/crop_table.ipynb
+        title: Crop table
   - file: notebooks/workflows/fire
     title: 🔥 FIRE
     sections:
