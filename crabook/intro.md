@@ -63,7 +63,3 @@ The source of data for this map are the [river flood hazard maps](https://data.j
 The locations of EU health facilities are retrieved from OpenStreetMap.
 
 <iframe src="iframes/home/cra_map_example.html" width="100%" height="400px"></iframe>
-
-
-% Temporarily disabled until regional example pages are released
-<iframe style="display:none;" src="iframes/home/hazard_examples.html" width="100%" height="1000px"></iframe>
