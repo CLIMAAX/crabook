@@ -271,7 +271,7 @@ Dataset
 : https://doi.org/10.24381/cds.bc91edc3
 
 Documentation
-: [known issues](https://errata.es-doc.org/)
+: [known issues](https://errata.ipsl.fr/static/index.html)
 
 Temporal coverage
 : 1951-2005 (historical), 1989-2008 (evaluation), 2006-2100 (future)
