@@ -76,12 +76,6 @@ The Python/Conda environment is needed only for building the book, so you can ac
    jupyter-book build crabook/
     ```
 
-### Table of contents switching
-
-*TLDR*: To have a page show up in our [production version](https://handbook.climaax.eu/) of the CRA book, it has to be added to [`crabook/_toc_prod.yml`](crabook/_toc_prod.yml).
-
-The build process on GitHub in [`.github/workflows/build-deploy-book.yml`](.github/workflows/build-deploy-book.yml) contains a step to detect the repository it is started from. If this repository is `CLIMAAX/crabook`, the default table of contents [`crabook/_toc.yml`](crabook/_toc.yml) is replaced by the file [`crabook/_toc_prod.yml`](crabook/_toc.yml). This enables us to hide pages in the [production repository](https://github.com/CLIMAAX/crabook) that are still under development in our [test repository](https://github.com/CLIMAAX/crabook-test) without having to edit the table of contents file back-and-forth every time changes are pushed to production.
-
 
 ## Contributors
 
