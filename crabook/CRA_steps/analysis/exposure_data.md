@@ -188,11 +188,19 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - Global coverage
     - Scaled for hydrological sub-catchments 
 *   - Aggregate Crop Production Value
-    - [GAEZ](https://gaez.fao.org/)
+    - [GAEZ v4](https://gaez.fao.org/)
     - Global
     - 2010
     - 5 arc minutes
     - [Fischer et al., 2021](https://doi.org/10.4060/cb4744en)
+    - Global coverage
+    - Low resolution
+*   -
+    - [GAEZ v5](https://www.fao.org/gaez)
+    - Global
+    - 2020
+    - 5 arc minutes
+    - [model documentation](https://github.com/un-fao/gaezv5/wiki)
     - Global coverage
     - Low resolution
 :::
