@@ -156,12 +156,20 @@ Several datasets that represent settlements, buildings, infrastructure, and diff
     - 17 land cover categories
     - Ukraine missing; Mixed land use in a cell
 *   - 
-    - [SPAM2010](https://doi.org/10.7910/DVN/PRFF8V)
+    - [SPAM](https://doi.org/10.7910/DVN/PRFF8V)
     - Global
     - 2010
     - 5 arc minutes
     - [Yu et al., 2020](https://doi.org/10.5194/essd-12-3545-2020)
     - 42 crops available
+    - Low resolution
+*   -
+    - [SPAM](https://doi.org/10.7910/DVN/SWPENT)
+    - Global
+    - 2020
+    - 5 arc minutes
+    -
+    - 46 crops available
     - Low resolution
 *   - Livestock density
     - [GLW](https://livestock.geo-wiki.org/home-2/)
