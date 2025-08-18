@@ -98,6 +98,34 @@ figcaption p {
     color: var(--pst-color-text-muted);
 }
 
+.prev-next-footer {
+    margin-top: 1rem;
+}
+
+/* Custom footer in _templates/extra-footer.html */
+main > footer {
+    margin-top: 1.5rem;
+}
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+}
+.flex-footer > div {
+    flex: 1;
+    text-align: center;
+    padding: 1rem 1rem;
+    min-width: 250px;
+}
+.flex-footer .smalltext {
+    font-size: 80%;
+}
+.flex-footer img {
+    max-height: 50px;
+}
+
 /* Limit full-width content size when left menu bar is collapsed */
 div.full-width {
     max-width: 84rem;

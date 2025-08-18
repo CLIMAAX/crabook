@@ -62,6 +62,7 @@ sphinx:
   config:
     html_extra_path: ['assets']
     html_theme: sphinx_book_theme
+    templates_path: ["_templates"]
     html_last_updated_fmt: "%b %d, %Y"
     html_show_copyright: false
     html_js_files:
@@ -76,6 +77,4 @@ sphinx:
       use_repository_button: true
       repository_provider: github
       repository_url: https://github.com/CLIMAAX/crabook
-      announcement: 
-
-
+      announcement: ""
