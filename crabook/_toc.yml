@@ -4,7 +4,8 @@ parts:
 - caption: About us
   chapters:
   - file: about/climaax
-    title: The CLIMAAX project
+  - file: about/mission
+    title: Mission on Adaptation
   - file: about/start
     title: How to start
 - caption: CRA steps
