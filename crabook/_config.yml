@@ -65,8 +65,7 @@ sphinx:
     templates_path: ["_templates"]
     html_last_updated_fmt: "%b %d, %Y"
     html_show_copyright: false
-    html_js_files:
-      - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    html_js_files: ["require-2.3.7.min.js"]
     html_context:
       default_mode: light
     html_theme_options:
