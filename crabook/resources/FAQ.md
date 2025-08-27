@@ -104,3 +104,27 @@ Here are some recommended Python packages for loading different file formats:
 
 See also: Resources » Software » [Python](software.md#python).
 :::
+
+
+:::{dropdown} How can I reproject a dataset from one coordinate reference system (CRS) to another?
+
+Use the [rio.reproject()](https://corteva.github.io/rioxarray/stable/rioxarray.html#rioxarray.raster_array.RasterArray.reproject) method provided by rioxarray for all xarray data arrays and datasets.
+E.g.:
+
+```python
+ds = xr.open_dataset(...)
+ds.rio.reproject("EPSG:4326")
+```
+
+The dataset that is reprojected must have its CRS configured.
+You can check the CRS of a dataset with
+
+```python
+ds.rio.crs
+```
+
+To configure the CRS manually, use [rio.write_crs()](https://corteva.github.io/rioxarray/stable/rioxarray.html#rioxarray.rioxarray.XRasterBase.write_crs) and make sure the spatial dimensions are set up properly, e.g., by naming the appropriate coordinates `x` and `y` or with [rio.set_spatial_dims()](https://corteva.github.io/rioxarray/stable/rioxarray.html#rioxarray.rioxarray.XRasterBase.set_spatial_dims).
+
+Note that additional parameters such as the output resolution and resampling method can be specified when reprojecting with rioxarray.
+The [reproject_match](https://corteva.github.io/rioxarray/stable/rioxarray.html#rioxarray.raster_array.RasterArray.reproject_match) method easily matches the CRS of another dataset.
+:::
