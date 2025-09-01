@@ -496,6 +496,23 @@ In workflows
 : <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [Coastal floods](../../notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL)
 :::
 
+:::{dropdown} Hydrology-related climate impact indicators from 1970 to 2100 derived from bias adjusted European climate projections
+
+Daily mean river discharge and a set of climate impact indicators for water quantity and quality based on hydrological impact modelling, forced by bias adjusted regional climate simulations from EURO-CORDEX.
+
+Dataset
+: https://doi.org/10.24381/cds.73237ad6
+
+Temporal coverage
+: 1970 to 2100
+
+Spatial coverage
+: Europe (E-HYPE domain with 8.8 million km², subdivided into [35408 subcatchments](https://zenodo.org/records/581451))
+
+Resolution
+: 5 km x 5 km horizontal and catchments
+:::
+
 
 ### <img src="../../images/icon_s/icon_s_heatwaves.png" alt="" class="hazard-icon"> Heatwaves
 
