@@ -77,3 +77,4 @@ sphinx:
       repository_provider: github
       repository_url: https://github.com/CLIMAAX/crabook
       announcement: ""
+    suppress_warnings: ["mystnb.unknown_mime_type"]
