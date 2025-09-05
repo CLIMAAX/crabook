@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: CLIMAAX CRA Handbook
+abstract: >-
+  The CLIMAAX project has developed a methodological
+  framework for climate risk assessment (CRA) and a
+  supporting toolbox. The software implementation of the
+  combined framework and toolbox is known as the CLIMAAX CRA
+  Handbook.
+type: software
+url: "https://handbook.climaax.eu/"
+repository-code: "https://github.com/CLIMAAX/crabook"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+authors:
+  - name: The CLIMAAX project
