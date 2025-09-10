@@ -30,12 +30,6 @@ The list is initialized with the contact points from the open call process.
 ## Drop-in sessions
 
 Drop-in sessions organized by the CLIMAAX support team are accessible to all selected regions of the Open Calls and members of our [Community of Practice](https://www.climaax.eu/community-of-practice/).
-Starting in April 2025, sessions are held on Monday, alternating weekly between 11:00 and 15:00 CEST (Central European Summer Time).
-The current schedule:
 
-- 21 July 2025: 11:00 CEST (9:00 UTC)
-- 28 July 2025: 15:00 CEST (13:00 UTC)
-- 04 August 2025: 11:00 CEST (9:00 UTC)
-- 11 August 2025: 15:00 CEST (13:00 UTC)
-- 18 August 2025: 11:00 CEST (9:00 UTC)
-- 25 August 2025: 15:00 CEST (13:00 UTC)
+The regular schedule for the drop-in session ended at the end of August 2025. 
+Further sessions are only scheduled on-demand from now on and will be listed here in advance.
