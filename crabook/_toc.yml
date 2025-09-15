@@ -60,7 +60,7 @@ parts:
     title: 🌊 RIVER & COASTAL FLOODS
     sections:
     - file: notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro
-      title: River floods
+      title: River floods (flood maps)
       sections:
       - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_workflow_description_FLOOD_RIVER
         title: River floods workflow methodology
@@ -68,6 +68,15 @@ parts:
         title: Hazard assessment - river flood maps
       - file: notebooks/workflows/FLOODS/02_River_flooding/Risk_assessment_FLOOD_RIVER
         title: Risk assessment - economic damages
+    - file: notebooks/workflows/FLOODS/04_River_discharge_analysis/workflow_description_river_discharges
+      title: River floods (discharges)
+      sections:
+      - file: notebooks/workflows/FLOODS/04_River_discharge_analysis/hazard_assessment_get_data
+        title: Hazard assessment (get data)
+      - file: notebooks/workflows/FLOODS/04_River_discharge_analysis/hazard_assessment_discharge_analysis
+        title: Hazard assessment (analysis)
+      - file: notebooks/workflows/FLOODS/04_River_discharge_analysis/hazard_assessment_compare_to_observations_GRDC
+        title: Hazard assessment (validation)
     - file: notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL
       title: Coastal floods
       sections:
@@ -207,6 +216,7 @@ parts:
     - file: resources/datasets/wildfire_sample_cat
     - file: resources/datasets/eclips2.0_mirror
     - file: resources/datasets/effis_mirror
+    - file: resources/datasets/river_discharges_mirror
   - url: https://github.com/CLIMAAX/crabook/releases
     title: Release notes
 

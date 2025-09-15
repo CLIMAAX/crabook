@@ -39,7 +39,7 @@ These workflows will allow for the climate risk assessment using both historical
     - Risk output
 
 *   - <img src="../../images/icon_s/icon_s_floods.png" class="hazard-icon" />
-    - [River floods](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
+    - [River floods (flood maps)](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
     - Damage assessment
     - River flood depth and extent maps
     - Land use, vulnerability damage curves
@@ -148,10 +148,16 @@ These workflows will allow for the climate risk assessment using both historical
     - Datasets
 
 *   - <img src="../../images/icon_s/icon_s_floods.png" class="hazard-icon" />
-    - [River floods](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
+    - [River floods (flood maps)](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
     - 1980, 2030, 2050, and 2080
     - RCPs 4.5 and 8.5
     - JRC and Aqueduct
+
+*   - <img src="../../images/icon_s/icon_s_floods.png" class="hazard-icon" />
+    - [River floods (discharge analysis)](../../notebooks/workflows/FLOODS/04_River_discharge_analysis/workflow_description_river_discharges)
+    - Reference (1971-2000) and 2011-2040, 2041-2070, 2071-2100
+    - RCPs 2.6, 4.5 and 8.5
+    - Hydrological climate impact indicators
 
 *   - <img src="../../images/icon_s/icon_s_floods.png" class="hazard-icon" />
     - [Coastal floods](../../notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL)

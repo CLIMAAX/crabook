@@ -30,9 +30,16 @@ The proper assessment of flood risk is crucial for developing effective mitigati
 ::::{grid}
 :gutter: 3
 
-:::{grid-item-card} River floods
+:::{grid-item-card} River floods (flood maps)
 :columns: 4
 :link: FLOODS/02_River_flooding/FLOOD_RIVER_intro
+:link-type: doc
+:img-bottom: ../../images/top/top_floods.png
+:::
+
+:::{grid-item-card} River floods (discharges)
+:columns: 4
+:link: FLOODS/04_River_discharge_analysis/workflow_description_river_discharges
 :link-type: doc
 :img-bottom: ../../images/top/top_floods.png
 :::

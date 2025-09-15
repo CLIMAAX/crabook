@@ -404,7 +404,7 @@ Resolution
 : 3'' x 3'' horizontal (30-75 m)
 
 In workflows
-: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro),
+: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods (flood maps)](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro),
   <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [Flood building damage and population exposed](03_Flood_damage_and_population_exposure/Risk_workflow_description_FLOOD_BUILDING_POPULATION)
 :::
 
@@ -431,7 +431,7 @@ Resolution
 : 30'' x 30'' horizontal (300-750 m in Europe)
 
 In workflows
-: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
+: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods (flood maps)](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
 :::
 
 
@@ -494,6 +494,26 @@ Spatial coverage
 
 In workflows
 : <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [Coastal floods](../../notebooks/workflows/FLOODS/01_Coastal_flooding/Risk_workflow_description_FLOOD_COASTAL)
+:::
+
+:::{dropdown} Hydrology-related climate impact indicators from 1970 to 2100 derived from bias adjusted European climate projections
+
+Daily mean river discharge and a set of climate impact indicators for water quantity and quality based on hydrological impact modelling, forced by bias adjusted regional climate simulations from EURO-CORDEX.
+
+Dataset
+: https://doi.org/10.24381/cds.73237ad6
+
+Temporal coverage
+: 1970 to 2100
+
+Spatial coverage
+: Europe (E-HYPE domain with 8.8 million km², subdivided into [35408 subcatchments](https://zenodo.org/records/581451))
+
+Resolution
+: 5 km x 5 km horizontal and catchments
+
+In workflows
+: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods (discharges)](../../notebooks/workflows/FLOODS/04_River_discharge_analysis/workflow_description_river_discharges)
 :::
 
 
