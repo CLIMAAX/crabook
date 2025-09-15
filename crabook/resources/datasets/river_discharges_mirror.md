@@ -10,7 +10,7 @@ Spatial coverage
 : Europe (E-HYPE domain with 8.8 million km², subdivided into [35408 subcatchments](https://zenodo.org/records/581451))
 
 In workflows
-: [<img src="../../images/icon_s/icon_s_floods.png" class="hazard-icon"> TODO](../../notebooks/workflows/FLOODS/04_TODO)
+: <img src="../../images/icon_s/icon_s_floods.png" class="hazard-icon"> [River flooding (discharges)](../../notebooks/workflows/FLOODS/04_River_discharge_analysis/workflow_description_river_discharges)
 
 Original source
 : Hydrology-related climate impact indicators from 1970 to 2100 derived from bias adjusted European climate projections (DOI [10.24381/cds.73237ad6](https://doi.org/10.24381/cds.73237ad6))
@@ -43,7 +43,7 @@ URLs
   `https://object-store.os-api.cci1.ecmwf.int/climaax/river_discharges_mirror/rdis_extremes_rel_E-HYPEcatch_allmodels.zarr`
 
 Dataset type
-: zarr
+: zarr (version 2)
 
 :::{warning}
 This mirror is provided for the convenice of CLIMAAX workflow users only.
@@ -54,24 +54,5 @@ Availability of and URLs associated with this dataset may change without announc
 
 ## Dataset transformation
 
-The following processing was applied to the datasets produced by the [`TODO` notebook](TODO) to create this mirror:
-
-```python
-import xarray as xr
-
-(xr.open_dataset("rdis_day_E-HYPEcatch_allmodels.nc", chunks={"time": -1, "id": 100})
-    .transpose("id", "gcm_rcm", "catchmodel", "time")
-    .to_zarr("rdis_day_E-HYPEcatch_allmodels.zarr"))
-
-(xr.open_dataset("rdis_ymonmean_abs_E-HYPEcatch_allmodels.nc", chunks={"time": -1, "id": 1000})
-    .transpose("id", "scenario", "time_period", "gcm_rcm", "catchmodel", "time")
-    .to_zarr("rdis_ymonmean_abs_E-HYPEcatch_allmodels.zarr"))
-
-(xr.open_dataset("rdis_extremes_abs_E-HYPEcatch_allmodels.nc", chunks=-1 )
-    .transpose("id", "scenario", "gcm_rcm", "time")
-    .to_zarr("rdis_extremes_abs_E-HYPEcatch_allmodels.zarr"))
-
-(xr.open_dataset("rdis_extremes_rel_E-HYPEcatch_allmodels.nc", chunks=-1)
-    .transpose("id", "scenario", "gcm_rcm", "time")
-    .to_zarr("rdis_extremes_rel_E-HYPEcatch_allmodels.zarr"))
-```
+Data was collected based on the default configuration in the [River floods (discharges): get data](../../notebooks/workflows/FLOODS/04_River_discharge_analysis/hazard_assessment_get_data) notebook.
+Dimensions of the dataset were reordered after merging the downloaded files to optimize for local-in-space access (dimension `id` first).

@@ -511,6 +511,9 @@ Spatial coverage
 
 Resolution
 : 5 km x 5 km horizontal and catchments
+
+In workflows
+: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River flooding (discharges)](../../notebooks/workflows/FLOODS/04_River_discharge_analysis/workflow_description_river_discharges)
 :::
 
 
