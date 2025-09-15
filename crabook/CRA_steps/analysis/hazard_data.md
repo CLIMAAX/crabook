@@ -404,7 +404,7 @@ Resolution
 : 3'' x 3'' horizontal (30-75 m)
 
 In workflows
-: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro),
+: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods (flood maps)](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro),
   <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [Flood building damage and population exposed](03_Flood_damage_and_population_exposure/Risk_workflow_description_FLOOD_BUILDING_POPULATION)
 :::
 
@@ -431,7 +431,7 @@ Resolution
 : 30'' x 30'' horizontal (300-750 m in Europe)
 
 In workflows
-: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
+: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods (flood maps)](../../notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro)
 :::
 
 
@@ -513,7 +513,7 @@ Resolution
 : 5 km x 5 km horizontal and catchments
 
 In workflows
-: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River flooding (discharges)](../../notebooks/workflows/FLOODS/04_River_discharge_analysis/workflow_description_river_discharges)
+: <img src="../../images/icon_s/icon_s_floods.png" alt="" class="hazard-icon"> [River floods (discharges)](../../notebooks/workflows/FLOODS/04_River_discharge_analysis/workflow_description_river_discharges)
 :::
 
 
