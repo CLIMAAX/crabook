@@ -33,3 +33,5 @@ Drop-in sessions organized by the CLIMAAX support team are accessible to all sel
 
 The regular schedule for the drop-in session ended at the end of August 2025. 
 Further sessions are only scheduled on-demand from now on and will be listed here in advance.
+
+- 29 September 2025: 14:00 CEST (12:00 UTC): info session on new [river floods (discharges)](../notebooks/workflows/FLOODS/04_River_discharge_analysis/workflow_description_river_discharges) workflow
