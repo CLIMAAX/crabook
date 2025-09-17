@@ -16,7 +16,7 @@
 
 
 The outputs of the climate risk analysis generate quantitative information on climate risks and their impacts.
-These results remain to be interpreted within a regional/local to support prioritization of risks.
+These results remain to be interpreted within a regional/local context to support prioritization of risks.
 Therefore, as a further analytical step, risk needs to be evaluated to identify key risks in terms of *severity* and *urgency* as well as regarding a region's/community's *resilience capacity* to cope with and adapt to a specific risk.
 This step allows for the integration of *responses* to risk – the fourth driver of risk according to the {ref}`IPCC Risk Propeller <framework-riskpropeller>`, therefore connecting the individual risk context of a region/community and its resilience capacity with future directions for CRM.
 For this, consultation and involvement of selected stakeholders, experts and priority groups is essential to collect information on the perception of risks.
