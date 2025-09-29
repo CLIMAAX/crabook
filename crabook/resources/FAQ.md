@@ -1,5 +1,11 @@
 # Frequently asked questions
 
+:::{admonition} Can't find what you are looking for?
+:class: tip
+
+Ask your question in our [Handbook forum on GitHub](#handbook-forum)!
+:::
+
 
 ## Hazard, exposure and vulnerability data
 

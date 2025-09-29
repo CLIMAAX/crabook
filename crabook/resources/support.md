@@ -2,26 +2,28 @@
 
 Support is offered by the CLIMAAX project for climate risk assessments following the Framework and utilizing the workflows in this Handbook.
 
-:::{admonition} Public and exclusive support
-:class: note
-
-The Handbook with the Framework description, workflows, technical documentation and supporting pages are **public** and open to everyone.
-You can reach out to us with questions and [contribute](../community/contribute.md) via the Forum and GitHub, independent of your relationship with the CLIMAAX project.
-
-The [service desk](#support-servicedesk) and [JupyterHub](#support-jupyterhub) are **exclusively** offered to our project partners and participating regions that receive financial support through the CLIMAAX project (i.e., selected regions of the CLIMAAX open calls).
-:::
-
-
 We recommend to always check the Handbook for information before reaching out to us.
-The website is regularly updated by the CLIMAAX team and frequently asked questions added to our [FAQ](FAQ.md).
-A basic search function is available in the top left under our logo or you can use your favourite search engine.
+See our [release notes](https://github.com/CLIMAAX/crabook/releases) for the latest updates to the Handbook and the [FAQ](FAQ.md) for answers to frequently asked questions.
+A search function is available in the top left under our logo or you can use your favourite search engine.
 
-When reaching out to us, please prefer our general channels, i.e. the forum, GitHub and service desk, rather than contacting individuals from the CLIMAAX team directly via email.
+When reaching out to us, please use GitHub and the service desk, rather than contacting individuals from the CLIMAAX team directly via email.
 This way we can process requests more efficiently and transparently.
 
 
+(support-github)=
+## On GitHub
+
+:::{seealso}
+:class: margin
+[](../community/engage.md)
+:::
+
+The CLIMAAX Handbook is developed openly on GitHub.
+We have issues enabled on all repositories in the [CLIMAAX organisation](https://github.com/CLIMAAX) and also offer support through the [Handbook forum](#handbook-forum) on GitHub.
+With the forum, you can reach not just the CLIMAAX team but also other users of the Handbook.
+
 (support-account)=
-## ECMWF account
+## With an ECMWF account
 
 :::{tip}
 :class: margin
@@ -38,26 +40,17 @@ An account is created by following these steps:
 4. Follow the instructions to create a new account.
 
 
-## Forum
+### Service desk
 
-A CLIMAAX tag is available to associate topics in any category of the **public** [ECMWF forum](https://forum.ecmwf.int) with the CLIMAAX project.
-All topics with our tag can be viewed on a dedicated [overview page](https://forum.ecmwf.int/tag/climaax).
-Posts in the forum are public and anyone registered can participate, giving you the opportunity to interact with the whole CLIMAAX community.
+The CLIMAAX service desk provides support related to the CLIMAAX Handbook, including the Framework, workflows, datasets and software.
 
-
-## Service desk
-
-The **exclusive** CLIMAAX service desk provides support related to the CLIMAAX Handbook, including the Framework, workflows, datasets and software.
-
-Please see our dedicated service desk page for further information:
-
-- [](servicedesk)
+Please see our [dedicated service desk page](servicedesk) for further information.
 
 
+### JupyterHub
 
-## JupyterHub
-
-The **exclusive** [CLIMAAX JupyterHub](https://jupyterhub.ecmwf.int/) provides access to a JupyterLab web interface where the risk assessment notebooks can be edited and executed on ECMWF cloud computing infrastructure.
+The [CLIMAAX JupyterHub](https://jupyterhub.ecmwf.int/) is available to project partners and participating regions that receive financial support through the CLIMAAX project (i.e., selected regions of the CLIMAAX open calls).
+It provides access to a JupyterLab web interface where the risk assessment notebooks can be edited and executed on ECMWF cloud computing infrastructure.
 
 Please see our dedicated JupyterHub pages for further information:
 

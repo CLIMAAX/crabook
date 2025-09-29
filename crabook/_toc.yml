@@ -222,7 +222,5 @@ parts:
 
 - caption: Join the community
   chapters:
-  - url: https://www.climaax.eu/community-of-practice/
-    title: Community of Practice
+  - file: community/engage
   - file: community/contribute
-    title: Contribute to risk recipes
