@@ -28,8 +28,14 @@ The forum gives you the opportunity to interact with other Handbook users and th
 Participation in the forum is subject to our [Code of Conduct](https://github.com/CLIMAAX/crabook/blob/main/CONDUCT.md).
 Please note that it is not possible to send direct messages to other users on the GitHub platform.
 
+:::{tip}
+You can configure [notifications](https://docs.github.com/en/subscriptions-and-notifications/concepts/about-notifications) to stay up-to-date with activities in the Handbook repository.
+Click on the {octicon}`eye;0.9em` **Watch** button of the repository to see available options.
+:::
+
 
 ## See how others have used the Handbook
 
 - [](../resources/guiding_questions.md): insights from our pilot regions.
-- [CLIMAAX Zenodo community](https://zenodo.org/communities/climaax): explore regional CRAs following the CLIMAAX methodology.
+- Explore the [catalogue of workflow applications](https://github.com/CLIMAAX/examples) on GitHub.
+- Find regional CRAs following the CLIMAAX methodology in our [Zenodo community](https://zenodo.org/communities/climaax).

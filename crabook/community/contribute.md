@@ -1,54 +1,156 @@
-# Contribute to risk recipes
+# Contribute to the Handbook
 
-We are happy to receive contributions that enhance and expand the capabilities of our risk assessment toolbox.
-If you want to contribute, you can get in touch with us via the [CLIMAAX organization](https://github.com/CLIMAAX/) on GitHub, where this handbook and the contained risk workflows are at home.
+We are happy to receive contributions that showcase and enhance the Handbook.
 
-If you do not have a GitHub account, you can sign up [here](https://github.com/signup).
+The Handbook is developed openly on GitHub and we accept contributions in the form of issues and pull requests.
+Visit the [CLIMAAX organization](https://github.com/CLIMAAX) to discover all repositories.
 
-
-## Code of Conduct
-
-The CLIMAAX Handbook is published with a [Code of Conduct](https://github.com/CLIMAAX/crabook/blob/main/CONDUCT.md).
-By contributing to this project you agree to abide by its terms.
+All contributions are subject to our [Code of Conduct](https://github.com/CLIMAAX/crabook/blob/main/CONDUCT.md).
 
 
-## Workflow for existing hazard
+## Catalogue of workflow applications
 
-On GitHub, you can create an [**issue**](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) or a [**pull request**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), depending on the type of your contribution:
+The [CLIMAAX/examples](https://github.com/CLIMAAX/examples) repository is our catalogue for regional workflow applications.
 
-:::{card} {octicon}`issue-opened` Issue
+To contribute an new example to the catalogue, create a pull request with all files for your example and provide the requested information.
+You can complete your submission with the GitHub web interface:
 
-Create an issue for questions about workflows and data used in the workflows, feature proposals and for discussion of ideas and problems related to workflows.
+
+::::{dropdown} Step 1: Log in to your GitHub account
+
+A GitHub account is required to submit examples.
+You can sign up [here](https://github.com/signup).
+::::
+
+
+::::{dropdown} Step 2: Fork the examples repository
+
+Click on the `Fork` button of the [CLIMAAX/examples](https://github.com/CLIMAAX/examples) repository.
+
+:::{figure} ../images/examples/examples-fork-a-copy.png
+:width: 70%
 :::
 
-:::{card} {octicon}`git-pull-request` Pull request
+Set up your fork with the dialogue.
+Usually, you can keep the default settings.
 
-Create a pull request to contribute a new workflow, additions to an existing workflow or to send us a bug fix for a problem in a workflow.
-
-Pull requests represent a proposal to merge code into the repository. You will need some basic knowledge of git to create a pull request. See our [software resources](../resources/software) page for more information.
-
-To create a pull request, please [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the workflow repository first, commit your changes, push to your fork and then create a pull request in the original repository of the CLIMAAX organization.
+:::{figure} ../images/examples/examples-fork-dialogue.png
+:width: 90%
 :::
 
-The table below contains direct links to our workflow repositories for each hazard:
+Click on `Create fork`.
+GitHub will redirect you to your forked repository.
+Make sure it says "forked from [CLIMAAX/examples](https://github.com/CLIMAAX/examples)" in the top left.
 
-Hazard | {octicon}`repo` | {octicon}`issue-opened` | {octicon}`git-pull-request`
-:--|:-:|:-:|:-:
-RIVER & COASTAL FLOODS | [Repository](https://github.com/CLIMAAX/FLOODS) | [Issues](https://github.com/CLIMAAX/FLOODS/issues) | [Pull requests](https://github.com/CLIMAAX/FLOODS/pulls)
-HEAVY RAINFALL | [Repository](https://github.com/CLIMAAX/HEAVY_RAINFALL) | [Issues](https://github.com/CLIMAAX/HEAVY_RAINFALL/issues) | [Pull requests](https://github.com/CLIMAAX/HEAVY_RAINFALL/pulls)
-HEATWAVES | [Repository](https://github.com/CLIMAAX/HEATWAVES) | [Issues](https://github.com/CLIMAAX/HEATWAVES/issues) | [Pull requests](https://github.com/CLIMAAX/HEATWAVES/pulls)
-DROUGHTS | [Repository](https://github.com/CLIMAAX/DROUGHTS) | [Issues](https://github.com/CLIMAAX/DROUGHTS/issues) | [Pull requests](https://github.com/CLIMAAX/DROUGHTS/pulls)
-FIRE | [Repository](https://github.com/CLIMAAX/FIRE) | [Issues](https://github.com/CLIMAAX/FIRE/issues) | [Pull requests](https://github.com/CLIMAAX/FIRE/pulls)
-SNOW | [Repository](https://github.com/CLIMAAX/SNOW) | [Issues](https://github.com/CLIMAAX/SNOW/issues) | [Pull requests](https://github.com/CLIMAAX/SNOW/pulls)
-WIND | [Repository](https://github.com/CLIMAAX/STORMS) | [Issues](https://github.com/CLIMAAX/STORMS/issues) | [Pull requests](https://github.com/CLIMAAX/STORMS/pulls)
+:::{figure} ../images/examples/examples-fork-overview.png
+:width: 70%
+:::
+::::
 
-:::{note}
-Our workflows are open-source and any contributions are published under the existing license of the workflow repository (see the `LICENSE` file in the repository).
+
+::::{dropdown} Step 3: Create a new commit with your files
+
+Open the `Add file` menu and select `Upload files`.
+
+:::{figure} ../images/examples/examples-upload-files.png
+:width: 70%
 :::
 
+Collect all files you want to submit in a folder and upload the entire folder.
+Name the folder after the hazard considered in your example and at least one of:
 
-## Workflow for new hazard
+- your area of interest,
+- an implemented feature,
+- a specific event you are showcasing.
 
-To propose a risk assessment workflow for a hazard or combination of hazards not included in our selection, please open an issue on our [handbook repository](https://github.com/CLIMAAX/crabook).
+Avoid the use of spaces in the folder name.
+For example, these are acceptable folder names:
 
-We provide a [template repository](https://github.com/CLIMAAX/workflow_template) for new workflows. Please read and follow the instructions at the top of the template's `README.md` to get started with a new repository.
+- `Windstorm_Kyrill`
+- `Heavy_snowfall_cut-off_population`
+- `Extreme_precipitation_warning_thresholds_Toscana`
+- `Coastal_floods_with_barriers_Bretagne`
+
+:::{caution}
+Before committing any file, make sure to **remove all personal access tokens** (e.g., for the CDS) and other content that mustn't be shared.
+Once such information is committed to the history of changes on GitHub, it becomes accessible to others and cannot be removed anymore.
+:::
+
+Please do not include operating system-specific or hidden files and folders like `thumbs.db`, `__MACOSX/` or `.iypnb_checkpoints/` from your upload.
+
+**Do not submit data files** to this repository unless their combined size is small (at most 1 MB) and prefer text-based formats if you are adding data with your submission here.
+E.g., a customized crop table in the CSV format for an agricultural drought workflow application can be included here, but a NetCDF file containing gridded data is better provided elsewhere.
+We recommend [Zenodo](https://zenodo.org/) to provide additional data files and the [pooch](https://www.fatiando.org/pooch/latest/) Python package to integrate them into a notebook.
+
+You are welcome to submit a **README file** as part of your example to provide additional context and information.
+Place it in the folder and upload it together with the other files.
+If your example needs Python packages not included in the common CLIMAAX environment, add a `requirements.txt` file with packages to be installed from PyPI in your submitted folder.
+
+:::{figure} ../images/examples/examples-commit-dialogue.png
+:width: 90%
+:::
+
+There is no need to describe the committed changes here, as this information is collected in the next step.
+Commit your changes directly to the main branch of your fork.
+
+Click on `Commit changes`.
+::::
+
+
+::::{dropdown} Step 4: Create a pull request
+
+From the main page of your forked repository, create a pull request by clicking on `Contribute` and then `Open pull request`.
+
+:::{figure} ../images/examples/examples-open-pull-request.png
+:width: 90%
+:::
+
+In the pull request dialogue, make sure the base repository is set to CLIMAAX/examples.
+Enter a meaningful title for your pull request and and fill out the requested information in the description template.
+
+Please note the requirement to accept the licensing conditions:
+All content submitted to the CLIMAAX/examples repository and the Handbook is published under a **dual license model**.
+Licensees can choose whether to apply the Apache-2.0 license or the CC-BY-4.0 license at reuse.
+By submitting an example, you affirm that submitted content can be published under these terms and agree to its use under these terms.
+This is especially important to consider when your submission includes software or data that you are not the copyright owner of.
+Any content taken from the Handbook is reusable under these terms.
+
+:::{figure} ../images/examples/examples-pull-request-dialogue.png
+:width: 90%
+:::
+
+Click on `Create pull request` to submit your example.
+::::
+
+
+::::{dropdown} Step 5: Work with the reviewer
+
+Once you have submitted your pull request (PR), a review process starts.
+The Handbook support team will assign a reviewer for your submission (this can take a few days) and run automatic checks to support the review.
+The selected reviewer may accept and merge your PR directly or provide feedback.
+They can ask you for additional information and make suggestions for changes in the PR.
+Please check your GitHub notifications and engage with the reviewer to finalize your submission.
+
+When the review process is completed and your PR is merged, your example becomes part of the catalogue.
+The Handbook support team will consider all examples for (full or partial) inclusion in the Handbook.
+::::
+
+::::{dropdown} Step 6: Share your example
+
+Showcase your example to other CRA practitioners in the [Handbook forum](https://github.com/CLIMAAX/crabook/discussions/categories/regional-perspectives)!
+::::
+
+If you want to contribute to the catalogue with an example already hosted elsewhere, open an [issue](https://github.com/CLIMAAX/examples/issues) and send us a link!
+
+
+## Handbook and workflow repositories
+
+Instead of submitting an example to the catalogue, you are also welcome to create [issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) and [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) directly on the [Handbook repository](https://github.com/CLIMAAX/crabook) and the workflow repositories for individual hazards.
+
+:::{tip}
+Reach out via the [Handbook forum](https://github.com/CLIMAAX/crabook/discussions) if you are not sure where to report an issue or contribute.
+:::
+
+To propose a risk assessment workflow for a hazard or combination of hazards not included in our selection, please open an issue in the Handbook repository first.
+
+We provide a [template repository](https://github.com/CLIMAAX/workflow_template) for new workflows.
