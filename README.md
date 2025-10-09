@@ -1,94 +1,58 @@
 # Climate Risk Assessment Handbook
 
-The Handbook is published at https://handbook.climaax.eu
+Visit the Handbook at https://handbook.climaax.eu/
 
 <img src="https://raw.githubusercontent.com/CLIMAAX/crabook/main/crabook/logo.png" height="100" />
 
 
+## See also
+
+- [Release notes](https://github.com/CLIMAAX/crabook/releases)
+- [Discussion forum](https://github.com/CLIMAAX/crabook/discussions)
+- [Catalogue of workflow applications](https://github.com/CLIMAAX/examples)
+- [Community of Practice](https://www.climaax.eu/community-of-practice/)
+- [CLIMAAX homepage](https://climaax.eu/)
+- [EU Mission on Adaptation to Climate Change](https://www.climaax.eu/eu-mission-on-adaptation-to-climate-change/)
+
+
 ## Development
+
+### Setting up
+
+```bash
+# Clone the Handbook repository
+git clone https://github.com/CLIMAAX/crabook.git
+cd crabook
+
+# Clone all workflow repositories
+git submodule update --init --recursive
+
+# Set up the Python environment (here with conda and pip)
+conda create -n crabook python=3.13 pip
+conda activate crabook
+pip install -r requirements.txt
+```
 
 ### Building the book
 
-#### For the first time
+To build the HTML version of the Handbook (in `crabook/_build/html/`):
 
-If you'd like to develop and/or build this Climate Risk Assesment book, you should:
+```bash
+jb build crabook
+```
 
-1. Clone this repository
-   ```bash
-    git clone git@github.com:CLIMAAX/crabook.git
-    ```
-2. Go to the the `crabook/` directory that was created by git in the previous step
-   ```bash
-   cd crabook
-   ```
-3. Create a Python or Conda virtual environment (example for Conda)
-   ```bash
-    conda create -n crabook python=3.11 pip
-    ```
-4. Activate the environment
-    ```bash
-    conda activate crabook
-    ```
-5. Install the libraries, choose:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   installs only the packages required to build the book, while
-   ```bash
-   pip install -r requirements-dev.txt
-   ```
-   additionally installs packages for the development of some components of the book, but which are not required during building.
-6. Find the markdown files and edit what you need.
-7. Remove any existing builds by running
-    ```bash
-   jupyter-book clean crabook/
-    ```
-8. Finally build the book
-    ```bash
-    jupyter-book build crabook/
-    ```
+To remove existing builds:
 
-A fully-rendered HTML version of the book will be built in `crabook/_build/html/`.
-
-Open the file `crabook/_build/html/intro.html` and navigate to the material you changed to check if everything is as expected.
-
-Once you're happy with the changes, create a new branch, commit your changes and send us a pull request if you'd like to contribute.
-
-
-#### Every next time
-
-The Python/Conda environment is needed only for building the book, so you can activate it after editing the files.
-
-1. Edit the book's source files located in the `crabook/` directory
-   ```bash
-   cd crabook/crabook
-   ```
-2. Activate the environment
-   ```bash
-    conda activate crabook
-    ```
-3. Remove any existing builds by running
-    ```bash
-   jupyter-book clean crabook/
-    ```
-4. Finally build the book
-    ```bash
-   jupyter-book build crabook/
-    ```
-
-
-## Contributors
-
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/CLIMAAX/crabook/graphs/contributors).
-
-
-## Credits
-
-This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
+```bash
+jb clean crabook
+```
 
 
 ## License
 
-`Apache-2.0 OR CC-BY-4.0`
+`Apache-2.0 OR CC-BY-4.0` ([SPDX license identifier](https://spdx.dev/learn/handling-license-info/)).
 
-The CLIMAAX CRA Handbook is available under both the [Apache License 2.0](LICENSE-Apache-2.0) or the [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0) license.
+
+## Acknowledgements
+
+This project has received funding from the European Union’s Horizon Europe – the Framework Programme for Research and Innovation (2021-2027) under grant agreement No. 101093864.
