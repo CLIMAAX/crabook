@@ -49,20 +49,34 @@ html[data-theme="light"] .highlight .c1 { color: #888; }
 table tr td {
     min-width: 2.5rem;
 }
+/* Consistent border color */
 .table tbody  {
-    border-color: rgb(229, 231, 234); /* consistent border color */
+    border-color: var(--pst-color-table-inner-border); 
 }
 /* Disable table highlights on hover and zebra-background */
 .table tbody tr:hover { background-color: unset; }
 .table tbody tr:nth-child(2n+1) { background-color: unset; }
 .table tbody tr:nth-child(2n) { background-color: unset; }
 
-/* A bit more space for menu entries */
-.bd-sidebar-primary li.has-children > .reference {
-  margin-right: revert;
-  padding-right: 30px;
+/* No indentation for top-level menu entries */
+nav.bd-links li > a {
+    padding: .20rem .65rem .20rem 0;
+}
+/* Vertical line to highlight menu structure */
+nav.bd-links ul ul {
+    padding-left: 0.7rem;
+    margin-left: 0.2rem;
+    border-left: 0.1rem solid var(--pst-color-table-inner-border); 
+}
+/* No vertical bars next to active items in main and content menus */
+nav.bd-links .current > a, .toc-entry a.nav-link.active {
+    box-shadow: none;
 }
 
+/* Fix position of figure captions in margin */
+figure > a, figure > a > img {
+    display: unset;
+}
 
 .climaax-lightgreen {
     color: var(--climaax-lightgreen);
