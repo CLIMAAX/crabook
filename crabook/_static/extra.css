@@ -1,32 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+    --climaax-lightgreen: #05DBBD;
+    --climaax-lightgreen-bg: #c1f6ef;
+    --climaax-darkgreen: #0EAF94;
+    --climaax-darkgreen-bg: #c3ebe4;
+    --climaax-yellow: #F9BC12;
+    --climaax-yellow-bg: #feeec4;
+    --climaax-orange: #F47A00;
+    --climaax-orange-bg: #fcdebf;
+    --climaax-darkblue: #0A1D6B;
+    --climaax-darkblue-bg: #c2c7da;
+    --climaax-lightblue: #1A74B5;
+    --climaax-lightblue-bg: #c6dced;
+    --climaax-cyan: #1596B8;
+    --climaax-cyan-bg: #c5e5ed;
+}
+
 html {
     --pst-font-family-base: "Roboto", var(--pst-font-family-base-system);
     --pst-font-family-heading: "Roboto", var(--pst-font-family-base-system);
     --pst-font-family-monospace: "Roboto Mono", var(--pst-font-family-monospace-system);
 }
 
+html[data-theme="light"] {
+    --pst-color-primary: var(--climaax-lightblue);
+    --pst-color-primary-bg: var(--climaax-lightblue-bg);
+    --pst-color-secondary: var(--climaax-orange);
+    --pst-color-secondary-bg: var(--climaax-orange-bg);
+    --pst-color-accent: var(--climaax-darkblue);
+    /* Admonitions */
+    --pst-color-info: var(--climaax-lightblue);
+    --pst-color-info-bg: var(--climaax-lightblue-bg);
+    --pst-color-success: var(--climaax-darkgreen);
+    --pst-color-success-bg: var(--climaax-darkgreen-bg);
+    --pst-color-warning: var(--climaax-yellow);
+    --pst-color-warning-bg: var(--climaax-yellow-bg);
+    --pst-color-danger: var(--climaax-orange);
+    --pst-color-danger-bg: var(--climaax-orange-bg);
+    /* Code cells */
+    --mystnb-source-margin-color: var(--pst-color-text-muted);
+}
+
+/* Pygments overrides: syntax highlighting */
+html[data-theme="light"] .highlight .c1 { color: #888; }
+
+table tr td {
+    min-width: 2.5rem;
+}
+.table tbody  {
+    border-color: rgb(229, 231, 234); /* consistent border color */
+}
+/* Disable table highlights on hover and zebra-background */
+.table tbody tr:hover { background-color: unset; }
+.table tbody tr:nth-child(2n+1) { background-color: unset; }
+.table tbody tr:nth-child(2n) { background-color: unset; }
+
+/* A bit more space for menu entries */
+.bd-sidebar-primary li.has-children > .reference {
+  margin-right: revert;
+  padding-right: 30px;
+}
+
+
 .climaax-lightgreen {
-    color: #05DBBD;
+    color: var(--climaax-lightgreen);
 }
 .climaax-darkgreen {
-    color: #0EAF94;
+    color: var(--climaax-darkgreen);
 }
 .climaax-yellow {
-    color: #F9BC12;
+    color: var(--climaax-yellow);
 }
 .climaax-orange {
-    color: #F47A00;
+    color: var(--climaax-orange);
 }
 .climaax-darkblue {
-    color: #0A1D6B;
+    color: var(--climaax-darkblue);
 }
 .climaax-lightblue {
-    color: #1A74B5;
+    color: var(--climaax-lightblue);
 }
 .climaax-cyan {
-    color: #1596B8;
+    color: var(--climaax-cyan);
 }
 
 .fontsize-125 {
@@ -41,14 +98,10 @@ html {
 
 .card-contrast {
     color: #F9F9F9;
-    background-color: #0A1D6B;
+    background-color: var(--climaax-darkblue);
 }
 .card-contrast .sd-card-text {
     color: #F9F9F9;
-}
-
-table tr td {
-    min-width: 2.5rem;
 }
 
 .dropdown-download-buttons {
@@ -63,32 +116,22 @@ table tr td {
 }
 
 .bd-header-article .btn {
-    color: #0A1D6B;
+    color: var(--climaax-darkblue);
 }
 .bd-header-article .dropdown-source-buttons .btn {
-    color: #0EAF94;
+    color: var(--climaax-darkgreen);
 }
 .bd-header-article .btn-fullscreen-button {
-    color: #F9BC12;
+    color: var(--climaax-yellow);
 }
 .bd-header-article .btn.search-button {
-    color: #F47A00;
+    color: var(--climaax-orange);
 }
 
 .page-main-photo {
     display: block;
     margin-top: -0.5rem;
     margin-bottom: 2rem;
-}
-
-/* Custom table for Monitoring and Evaluation in Framework */
-table.monitoring-table tr.subtable-heading {
-    font-weight: bold;
-    font-size: 120%;
-    background-color:var(--pst-color-light-highlight);
-}
-table.monitoring-table th {
-    background-color: #f3f4f5;
 }
 
 figcaption {
@@ -131,11 +174,6 @@ div.full-width {
     max-width: 84rem;
 }
 
-/* Extra space for glossary entries that only link to elsewhere without more text */
-dl.glossary dt {
-    margin-top: 10px;
-}
-
 /* Remove extra padding for last-child margin elements which causes weird shadow placement */
 aside.sidebar > :last-child {
     padding-bottom: 0;
@@ -167,10 +205,14 @@ aside.margin.workflow-info p {
     color: var(--pst-color-text-muted);
 }
 
-/* Hide line/shadow below tab content in answers to guiding questions */
-details.sd-dropdown div.sd-tab-set:last-child div.sd-tab-content {
-    box-shadow: 0 -0.0625rem var(--sd-color-tabs-overline);
-    padding-bottom: 0;
+/* Custom table for Monitoring and Evaluation in Framework */
+table.monitoring-table tr.subtable-heading {
+    font-weight: bold;
+    font-size: 120%;
+    background-color:var(--pst-color-light-highlight);
+}
+table.monitoring-table th {
+    background-color: #f3f4f5;
 }
 
 .dataset-file-list {
