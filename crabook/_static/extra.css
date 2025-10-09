@@ -39,24 +39,22 @@ html[data-theme="light"] {
     --pst-color-warning-bg: var(--climaax-yellow-bg);
     --pst-color-danger: var(--climaax-orange);
     --pst-color-danger-bg: var(--climaax-orange-bg);
-    /* Code cells */
-    --mystnb-source-margin-color: var(--pst-color-text-muted);
+    /* Code cells left border color */
+    --mystnb-source-margin-color: var(--pst-color-info);
+    /* Table row highlighting color */
+    --pst-color-table-row-hover-bg: var(--climaax-lightblue-bg);
 }
 
 /* Pygments overrides: syntax highlighting */
 html[data-theme="light"] .highlight .c1 { color: #888; }
 
-table tr td {
-    min-width: 2.5rem;
-}
-/* Consistent border color */
-.table tbody  {
-    border-color: var(--pst-color-table-inner-border); 
-}
-/* Disable table highlights on hover and zebra-background */
-.table tbody tr:hover { background-color: unset; }
-.table tbody tr:nth-child(2n+1) { background-color: unset; }
-.table tbody tr:nth-child(2n) { background-color: unset; }
+table tr td { min-width: 2.5rem; }
+/* Consistent table cell border color */
+.table tbody  { border-color: var(--pst-color-table-inner-border); }
+/* Ensure spacing for multiple outputs */
+div.output.text_html{ margin-top: 1rem; }
+/* Fix mismatched greys in xarray output */
+div.output.text_html pre { background-color: unset; }
 
 /* No indentation for top-level menu entries */
 nav.bd-links li > a {
@@ -225,9 +223,9 @@ table.monitoring-table tr.subtable-heading {
     font-size: 120%;
     background-color:var(--pst-color-light-highlight);
 }
-table.monitoring-table th {
-    background-color: #f3f4f5;
-}
+table.monitoring-table th { background-color: var(--pst-color-table-heading-bg); }
+#framework-table-indicators { border: 0; }
+#framework-table-indicators > tbody > tr > td { padding: 0; }
 
 .dataset-file-list {
     max-height: 30rem;
