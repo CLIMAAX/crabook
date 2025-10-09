@@ -134,3 +134,53 @@ To configure the CRS manually, use [rio.write_crs()](https://corteva.github.io/r
 Note that additional parameters such as the output resolution and resampling method can be specified when reprojecting with rioxarray.
 The [reproject_match](https://corteva.github.io/rioxarray/stable/rioxarray.html#rioxarray.raster_array.RasterArray.reproject_match) method easily matches the CRS of another dataset.
 :::
+
+
+## Software issues
+
+:::{dropdown} How do I fix a validation error when downloading files with Pooch?
+
+Pooch’s file verification is based on a known hash that relates to the content of the downloaded file. If the known hash doesn’t correspond to the hash computed from the contents of the downloaded file, a validation error is raised.
+
+The contents of the downloaded file may differ from expectations due to errors in the file transfer. Redownloading the file can fix this. If the problem persists, the downloaded file has likely changed on the server it is retrieved from, e.g., because the provider has replaced it with a new version. To disable the validation after downloading, set
+
+```python
+Pooch.retrieve(…, known_hash=None, …)
+```
+
+If you encounter an updated dataset, please let us know in a GitHub issue so we can check out the changes in the dataset and update the affected workflow notebooks.
+:::
+
+
+:::{dropdown} What should I do when a data request to the Copernicus Climate Data Store (CDS) fails or shows warnings?
+
+There can be a variety of causes some of which are critical, while others are only informational.
+
+First, check if the message is an error or a warning. Text on a red background in the notebook output does not necessarily indicate a failure. The code will continue to run in the case of a warning. Warnings are often shown to announce issues with the CDS and for datasets no longer maintained.
+
+To resolve different kinds of errors:
+
+- Check if you need to accept a required license. Some datasets require a one-time manual license acceptance on the CDS website before they can be downloaded. Look for a link in the error message and follow it to accept the license.
+- Ensure that your CDS API token is correctly set in the notebook, with quotation marks around the token value. You can find your token and all ways to configure the cdsapi client in the [setup guide]( https://cds.climate.copernicus.eu/how-to-api).
+- Your request may be rejected because it contains too much data. This typically happens when requesting long time periods and large spatial regions. If you are asking for NetCDF data and the dataset is orginally stored in GRIB format, an additional size penalty will be applied. Try to split the request, e.g., into multiple time periods to reduce its size.
+- When requesting CORDEX data, check that the specified model combination exists. Not all GCM-RCM combinations are valid. Use the interactive [download form]( https://cds.climate.copernicus.eu/datasets/projections-cordex-domains-single-levels?tab=download) on the CDS website to explore valid combinations.
+- Check the status of the CDS systems on https://status.ecmwf.int.
+:::
+
+
+:::{dropdown} Why do I get a “PermissionDenied” error when writing a NetCDF file, and how can I fix it?
+
+This error typically occurs when the file you're trying to write already exists and is still open in another process. This often happens when running a cell that replaces an existing NetCDF file after previously loading it for inspection or when switching between notebooks that access the same file (e.g., hazard and risk notebooks).
+
+To resolve the issue, you can
+
+- **Close the file**: Check if the file is open in another notebook. If so, call `.close()` on the dataset variable that holds the file.
+- **Delete the file**: Use a file browser (e.g., the one built into JupyterLab) to delete the file. It should then be possible to write the file again.
+- **Restart the kernel**: This clears all variables, so be careful that you don’t lose any progress. Interrupting the kernel is not sufficient.
+:::
+
+
+:::{dropdown} Why do package imports fail in VS Code after installing a CLIMAAX Python environment locally?
+
+Check that VS Code is using the correct environment (kernel) for your notebook. Look in the top-right corner of the notebook interface for the [kernel selector](https://code.visualstudio.com/docs/datascience/jupyter-kernel-management). VS Code remembers the last kernel used for each notebook, but when starting a notebook for the first time or after renaming or moving a notebook, you have to set the kernel manually.
+:::
