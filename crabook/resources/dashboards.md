@@ -1,5 +1,4 @@
-European dashboards and explorers
-=======================
+# European dashboards and explorers
 
 Plenty of great tools for exploring climate, environmental, vulnerability and exposure data are already online and can be accessed openly.
 Here, we summarize some of these relavant dashboards and portals for exploring data relevant for conducting a Climate Risk Assessment.

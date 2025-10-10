@@ -204,7 +204,7 @@ parts:
     - file: resources/FAQ/vulnerability_curves
   - file: resources/glossary
     title: Glossary
-  - file: about/viewers/external
+  - file: resources/dashboards
     title: Dashboards and explorers
   - file: resources/software
     title: Software
