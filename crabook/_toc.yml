@@ -166,6 +166,13 @@ parts:
           title: Hazard Assessment
         - file: notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Assessment
           title: Risk Assessment
+      - file: notebooks/workflows/FIRE/03_wildfire_response/workflow_description
+        title: FWI response model
+        sections:
+        - file: notebooks/workflows/FIRE/03_wildfire_response/hazard_assessment_historical
+        - file: notebooks/workflows/FIRE/03_wildfire_response/hazard_assessment_response
+        - file: notebooks/workflows/FIRE/03_wildfire_response/hazard_assessment_projections
+        - file: notebooks/workflows/FIRE/03_wildfire_response/risk_assessment_population
   - file: notebooks/workflows/snow
     title: ❄️ SNOW
     sections:

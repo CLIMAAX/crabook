@@ -599,6 +599,9 @@ Spatial coverage
 
 Resolution
 : 31 km horizontal
+
+In workflows
+: <img src="../../images/icon_s/icon_s_fire.png" alt="" class="hazard-icon"> [](../../notebooks/workflows/FIRE/03_wildfire_response/workflow_description)
 :::
 
 
