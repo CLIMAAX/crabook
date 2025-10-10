@@ -216,6 +216,7 @@ parts:
     - file: resources/datasets/wildfire_sample_cat
     - file: resources/datasets/eclips2.0_mirror
     - file: resources/datasets/effis_mirror
+    - file: resources/datasets/fwi_1981-2010_europe
     - file: resources/datasets/river_discharges_mirror
   - url: https://github.com/CLIMAAX/crabook/releases
     title: Release notes
