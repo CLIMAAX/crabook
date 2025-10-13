@@ -10,7 +10,7 @@ Spatial coverage
 : Europe and the Mediterranean (approx. 30°N–72°N, 10°W–40°E), land only
 
 In workflows
-: [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> FWI response model](../../notebooks/workflows/FIRE/03_wildfire_response/workflow_description)
+: <img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> [FWI response model](../../notebooks/workflows/FIRE/03_response_model_FWI/workflow_description)
 
 Original source
 : 30-Year Canadian Fire Weather Index Simulations over Europe: CMIP6-Informed Temperature and Precipitation Perturbations (DOI [10.5281/zenodo.10458186](https://doi.org/10.5281/zenodo.10458186))
@@ -25,7 +25,7 @@ License
 : [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 Related publication
-: El Garroussi, S., Di Giuseppe, F., Barnard, C. et al. Europe faces up to tenfold increase in extreme fires in a warming climate. npj Clim Atmos Sci 7, 30 (2024). https://doi.org/10.1038/s41612-024-00575-8
+: El Garroussi, S., Di Giuseppe, F., Barnard, C. et al. Europe faces up to tenfold increase in extreme fires in a warming climate. *npj Clim Atmos Sci* 7, 30 (2024). https://doi.org/10.1038/s41612-024-00575-8
 
 :::{note}
 This mirror contains the original data reencoded and with transposed coordinates in a zarr dataset.
@@ -40,7 +40,7 @@ URL
 : `https://object-store.os-api.cci1.ecmwf.int/climaax/fwi_1981-2010_europe/`
 
 Dataset type
-: zarr
+: zarr (version 2)
 
 :::{warning}
 This mirror is provided for the convenice of CLIMAAX workflow users only.

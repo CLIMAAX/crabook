@@ -43,11 +43,11 @@ Wildfires are uncontrolled fires that spread rapidly through vegetation, often e
 :img-bottom: ../../images/top/top_fire.png
 :::
 
-%:::{grid-item-card} FWI response and affected population
-%:columns: 4
-%:link: FIRE/03_wildfire_response/workflow_description
-%:link-type: doc
-%:img-bottom: ../../images/top/top_fire.png
-%:::
+:::{grid-item-card} FWI response model and affected population
+:columns: 4
+:link: FIRE/03_response_model_FWI/workflow_description
+:link-type: doc
+:img-bottom: ../../images/top/top_fire.png
+:::
 
 ::::

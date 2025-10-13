@@ -33,9 +33,9 @@ Datasets specifically realated to one of the CLIMAAX workflows:
 
 Open datasets from elsewhere re-hosted for more convenient access in the CLIMAAX workflows:
 
-%- [FWI simulations with CMIP6-informed perturbations](datasets/fwi_1981-2010_europe) (Europe)
 - [ECLIPS-2.0](datasets/eclips2.0_mirror) (Europe)
 - [EFFIS Wildfire Risk](datasets/effis_mirror) (Europe)
+- [FWI simulations with CMIP6-informed perturbations](datasets/fwi_1981-2010_europe) (Europe)
 - [River discharges forced by EURO-CORDEX](datasets/river_discharges_mirror) (Europe)
 
 

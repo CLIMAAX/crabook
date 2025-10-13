@@ -599,6 +599,9 @@ Spatial coverage
 
 Resolution
 : 31 km horizontal
+
+In workflows
+: <img src="../../images/icon_s/icon_s_fire.png" alt="" class="hazard-icon"> [FWI response model](../../notebooks/workflows/FIRE/03_response_model_FWI/workflow_description)
 :::
 
 
