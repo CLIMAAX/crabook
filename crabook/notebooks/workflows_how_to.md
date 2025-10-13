@@ -97,6 +97,13 @@ The computing resources provided by binder are not always sufficient to run all 
 :::::
 
 
+:::::{tab-item} Docker deployment
+
+If you have access to an environment where you can run a Docker container, you can deploy the [Docker image](workflows_how_to/docker.md) maintained by CLIMAAX on GitHub.
+It has the same ready-to-go software environment also used for the Binder sessions.
+:::::
+
+
 :::::{tab-item} JupyterHub
 
 ```{image} ../images/jupyter-hub-logo.svg
