@@ -64,8 +64,3 @@ Note that one person can cover more than one type of role.
 :::
 
 </div>
-
-
-## Next steps
-
-Use the navigation at the bottom of the pages to advance step-by-step through the CLIMAAX Framework:

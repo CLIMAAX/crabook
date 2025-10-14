@@ -8,6 +8,12 @@ parts:
     title: Mission on Adaptation
   - file: about/start
     title: How to start
+
+- caption: Join the community
+  chapters:
+  - file: community/engage
+  - file: community/contribute
+
 - caption: CRA steps
   chapters:
   - file: CRA_steps/framework
@@ -227,8 +233,3 @@ parts:
     - file: resources/datasets/river_discharges_mirror
   - url: https://github.com/CLIMAAX/crabook/releases
     title: Release notes
-
-- caption: Join the community
-  chapters:
-  - file: community/engage
-  - file: community/contribute
