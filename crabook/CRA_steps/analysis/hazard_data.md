@@ -123,7 +123,8 @@ Includes an ensemble component at half the resolution to provide information on 
 
 Dataset
 : [hourly data on single levels](https://doi.org/10.24381/cds.adbb2d47),
-  [hourly data on pressure levels](https://doi.org/10.24381/cds.bd0915c6)
+  [hourly data on pressure levels](https://doi.org/10.24381/cds.bd0915c6),
+  [hourly time series on single levels](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-timeseries)
 
 Temporal coverage
 : 1940 to near-present
@@ -146,7 +147,8 @@ ERA5-Land has higher horizontal resolution compared to ERA5, but only covers lan
 ERA5-land parameter uncertainty can be accessed using the equivalent ERA5 fields.
 
 Dataset
-: https://doi.org/10.24381/cds.e2161bac
+: [hourly data](https://doi.org/10.24381/cds.e2161bac),
+  [hourly time series](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-timeseries)
 
 Temporal coverage
 : 1950 to near-present
