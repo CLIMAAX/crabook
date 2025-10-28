@@ -33,6 +33,8 @@ exclude_patterns:
   - "_build"
   - "Thumbs.db"
   - ".DS_Store"
+  - "requirements.txt"
+  - "**dashboards/bias-uncertainty/preprocessing"
 
 #######################################################################################
 # Launch button settings
