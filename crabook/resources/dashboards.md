@@ -3,11 +3,6 @@
 Plenty of great tools for exploring climate, environmental, vulnerability and exposure data are already online and can be accessed openly.
 Here, we summarize some of these relavant dashboards and portals for exploring data relevant for conducting a Climate Risk Assessment.
 
-:::{note}
-This list will be updated throughout the project.
-Send us a suggestion in an [issue](https://github.com/CLIMAAX/crabook/issues) on GitHub!
-:::
-
 
 ## IPCC Interactive Climate Atlas
 
@@ -41,6 +36,12 @@ Complementary to the IPCC Climate Atlas, Copernicus Climate Change service produ
 
 Using this application, it is possible to explore past and future climate for global and regional analysis, as well to download images ready for documents.
 More information can be found in the [Climate Atlas announcement](https://climate.copernicus.eu/copernicus-interactive-climate-atlas-guide-powerful-new-c3s-tool).
+
+
+## Model bias and uncertainty for EURO-CORDEX CMIP5
+
+A [dashboard](https://handbook.climaax.eu/dashboards/bias-uncertainty/) to explore regional model biases and projection uncertainty on NUTS2 level.
+
 
 
 ## JRC dashboards
