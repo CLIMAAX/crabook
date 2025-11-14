@@ -7,6 +7,63 @@ Ask your question in our [Handbook forum on GitHub](#handbook-forum)!
 :::
 
 
+## Framework
+
+:::{dropdown} Do I have to use the workflows from the Handbook to follow the CLIMAAX Framework for CRA?
+
+No, feel free to use other tools to support your risk analysis.
+:::
+
+
+
+## Risk workflows
+
+:::{dropdown} <img src="../images/icon_s/icon_s_floods.png" class="hazard-icon"> Can I use the maps for the future hazard of the river floods workflow to assess damages?
+
+Technically, yes.
+However, the data resolution is too coarse for us to give a recommendation to use them in the damage assessment.
+
+We instead suggest to consider damage estimation approaches based on the high-resolution historical data, e.g., by considering scenarios like "what if the 20 year return period today becomes the 10 year return period tomorrow?".
+The likelihood of such scenarios can then be evaluated based on the coarser-resolution future data.
+:::
+
+
+:::{dropdown} <img src="../images/icon_s/icon_s_floods.png" class="hazard-icon"> When multiple rivers flow through my area of interest should I consider them together or separately in the river flooding workflow?
+
+In the workflow and the flood maps used as input to the workflow they are considered together.
+However, for a more detailed analysis it could indeed be interesting to look at each river's catchment separately.
+
+This can be implemented, e.g., by clipping the area of interest based on the shape of the catchment (https://github.com/CLIMAAX/FLOODS/issues/8).
+:::
+
+
+:::{dropdown} <img src="../images/icon_s/icon_s_heavy_rainfall.png" class="hazard-icon"> How does the extreme precipitation workflow account for exposure and vulnerability?
+
+The exposure and vulnerability factors in this workflow are accounted for through the definition of the critical thresholds based on the concept of risk tolerance. The critical thresholds should be selected based on their impact, using past events as guidance. See the provided [guide](../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_criticalthresholds.md#developing-impact-based-rainfall-thresholds-a-guide) for more information on how damage to infrastructure and other factors can be taken into account.
+
+The [Catalonia example, step 6.4](../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/EXTREME_PRECIPITATION_Risk_Assessment_examples.ipynb#where-in-catalonia-will-the-frequency-of-100-mm-in-24-hours-events-increase-and-decrease-regional-hotspots-overlays-and-transparency), additionally shows how to overlay exposure and vulnerability as is more commonly done in other workflows of the Handbook.
+:::
+
+
+:::{dropdown} <img src="../images/icon_s/icon_s_droughts.png" class="hazard-icon"> Is it possible to choose a regional subdivision other than NUTS3 for the relative drought workflow?
+
+Yes, as long as there is a sufficient number of regions and data of matching granularity is available.
+Multiple regions are required to obtain a stable normalisation of the vulnerability and exposure data and comparative analysis.
+
+The example dataset provided with the workflow compares NUTS3 regions within a country.
+The [publication](https://doi.org/10.1016/j.gloenvcha.2016.04.012) whose methodology the workflow implements, uses a different set of administrative regions and compares these globally.
+:::
+
+
+:::{dropdown} <img src="../images/icon_s/icon_s_fire.png" class="hazard-icon"> How should I best choose the digital elevation model (DEM) required by the Wildfire (ML approach) workflow?
+
+The reference DEM is important in the workflow as it defines the reference grid to interpolate all other input data to.
+We recommend to choose data with a resolution between 500 and 50 m for best results.
+Increasing the resolution further will lead to diminishing returns for the workflow's output, also because the preconfigured climate datasets with 1 km resolution limit further improvements.
+:::
+
+
+
 ## Hazard, exposure and vulnerability data
 
 :::{dropdown} Can I replace the LUISA landcover data with another land use dataset?
@@ -53,37 +110,7 @@ However, care must be taken when interpreting logarithmic data since the quantit
 
 
 
-## Risk workflows
-
-:::{dropdown} <img src="../images/icon_s/icon_s_floods.png" class="hazard-icon"> Can I use the maps for the future hazard of the river floods workflow to assess damages?
-
-Technically, yes.
-However, the data resolution is too coarse for us to give a recommendation to use them in the damage assessment.
-
-We instead suggest to consider damage estimation approaches based on the high-resolution historical data, e.g., by considering scenarios like "what if the 20 year return period today becomes the 10 year return period tomorrow?".
-The likelihood of such scenarios can then be evaluated based on the coarser-resolution future data.
-:::
-
-
-:::{dropdown} <img src="../images/icon_s/icon_s_floods.png" class="hazard-icon"> When multiple rivers flow through my area of interest should I consider them together or separately in the river flooding workflow?
-
-In the workflow and the flood maps used as input to the workflow they are considered together.
-However, for a more detailed analysis it could indeed be interesting to look at each river's catchment separately.
-
-This can be implemented, e.g., by clipping the area of interest based on the shape of the catchment (https://github.com/CLIMAAX/FLOODS/issues/8).
-:::
-
-
-:::{dropdown} <img src="../images/icon_s/icon_s_fire.png" class="hazard-icon"> How should I best choose the digital elevation model (DEM) required by the Wildfire (ML approach) workflow?
-
-The reference DEM is important in the workflow as it defines the reference grid to interpolate all other input data to.
-We recommend to choose data with a resolution between 500 and 50 m for best results.
-Increasing the resolution further will lead to diminishing returns for the workflow's output, also because the preconfigured climate datasets with 1 km resolution limit further improvements.
-:::
-
-
-
-## Data processing
+## Data processing and visualisation
 
 
 :::{dropdown} How can I import results from a workflow into other software (e.g., GIS) for further processing?
@@ -95,7 +122,7 @@ If a workflow result is not currently exported by a workflow, we recommend to us
 :::
 
 
-:::{dropdown} How can I load my file for use in a workflow?
+:::{dropdown} How can I load my own data file for use in a workflow?
 
 Here are some recommended Python packages for loading different file formats:
 
@@ -164,7 +191,7 @@ To resolve different kinds of errors:
 - Ensure that your CDS API token is correctly set in the notebook, with quotation marks around the token value. You can find your token and all ways to configure the cdsapi client in the [setup guide]( https://cds.climate.copernicus.eu/how-to-api).
 - Your request may be rejected because it contains too much data. This typically happens when requesting long time periods and large spatial regions. If you are asking for NetCDF data and the dataset is orginally stored in GRIB format, an additional size penalty will be applied. Try to split the request, e.g., into multiple time periods to reduce its size.
 - When requesting CORDEX data, check that the specified model combination exists. Not all GCM-RCM combinations are valid. Use the interactive [download form]( https://cds.climate.copernicus.eu/datasets/projections-cordex-domains-single-levels?tab=download) on the CDS website to explore valid combinations.
-- Check the status of the CDS systems on https://status.ecmwf.int.
+- Check the status of the CDS systems on https://cds.climate.copernicus.eu/live and https://status.ecmwf.int.
 :::
 
 
