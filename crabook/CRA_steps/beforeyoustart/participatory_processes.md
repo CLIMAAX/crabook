@@ -2,7 +2,7 @@
 
 Participatory processes are fundamental for the assessment of vulnerability and are thus located at the very heart of the CLIMAAX Framework. They allow for inclusion of multiple bottom-up aspects that are relevant to undertake a comprehensive CRA. They ensure that diverse knowledge systems and interests — especially those of groups most affected by climate change — are recognized and reflected making assessment outcomes more legitimate and actionable. Integrating principles of social justice, equity, and inclusivity throughout CRA can therefore strengthen the foundation for risk management and adaptation planning. An inclusive and participatory **co-creation** approach, where all knowledge holders have the opportunity to engage with their contributions fully respected ([Van Aalst, Cannon and Burton, 2008](https://doi.org/10.1016/j.gloenvcha.2007.06.002)) is therefore strongly recommended. This process therefore ranges from involving stakeholders across all CRA stages, from scoping the system and problem at stake to designing actionable solutions. Such approach can:
 
-- Improve the quality and fairness of assessments and decisions by recognizing and incorporating a rich knowledge about territorial dynamics, culture, constraints, contingencies as well as the social context - thus reflecting a wide range of perspectives.
+- Improve the quality and fairness of assessments and decisions by recognizing and incorporating a rich knowledge about territorial dynamics, culture, constraints, contingencies as well as the social context — thus reflecting a wide range of perspectives.
 - Increase the legitimacy and acceptance of the CRA process and the decision-making outcomes by reflecting the best and most comprehensive available knowledge.
 - Build or increase understanding, knowledge, and capacities in the actors involved.
 
@@ -26,7 +26,7 @@ Levels of exposure and vulnerability vary widely depending on location, economic
 
 Additionally, communities and sectors face compound risks — especially those whose livelihoods and economies depend on natural resources, places, and infrastructure exposed to climate impacts, such as farmers or coastal communities. These risks may include significant economic losses (such as damage to critical infrastructure, crop destruction, reduced or altered land use, devaluation of properties and farmland) and disruptions to ecosystem functions like soil and aquifer salinization that can lead in turn to adverse effects on mental well-being driven by environmental stress and anxiety related to the loss of income, traditions, and connections to place ([Foudi, Osés-Eraso and Galarraga, 2017](https://doi.org/10.1002/2017WR020435); [European Environment Agency, 2019](https://www.eea.europa.eu/en/analysis/publications/cc-adaptation-agriculture); [European Climate and Health Observatory, 2022](https://climate-adapt.eea.europa.eu/en/observatory/policy-context/national-policy-analysis-2022/national_policies_adaptation_health_analysis_eea_2022.pdf/@@download/file); [IPCC, 2022](https://www.ipcc.ch/report/ar6/wg2/)).
 
-Failing to include these groups during CRA can perpetuate cycles of marginalization and injustice or create new inequalities and vulnerabilities. Overlooking their specific needs and risks can undermine the feasibility and effectiveness of adaptation options that rely on public support, users’ adoption, and stakeholder buy-in. Failing to get these communities on board can also manifest as misrecognition or disrespect potentially leading to procedural injustices — with perspectives and experiences dismissed or undervalued — and in turn to distributional injustices, leaving certain groups disproportionately bearing climate impacts without receiving commensurate benefits or support from adaptation ([Ciullo et al., 2020](https://doi.org/10.1111/risa.13527)). Therefore, in CRA, ensuring procedural justice means that all relevant stakeholders — not just the most powerful or well-resourced — are able to access and understand the necessary information and contribute to adaptation.
+Failing to include these groups during CRA can perpetuate cycles of marginalization and injustice or create new inequalities and vulnerabilities. Overlooking their specific needs and risks can undermine the feasibility and effectiveness of adaptation options that rely on public support, users' adoption, and stakeholder buy-in. Failing to get these communities on board can also manifest as misrecognition or disrespect potentially leading to procedural injustices — with perspectives and experiences dismissed or undervalued — and in turn to distributional injustices, leaving certain groups disproportionately bearing climate impacts without receiving commensurate benefits or support from adaptation ([Ciullo et al., 2020](https://doi.org/10.1111/risa.13527)). Therefore, in CRA, ensuring procedural justice means that all relevant stakeholders — not just the most powerful or well-resourced — are able to access and understand the necessary information and contribute to adaptation.
 
 
 ## Engagement opportunities across the CRA steps
@@ -54,14 +54,14 @@ Stakeholder and citizen engagement can be facilitated through various approaches
     - [AGORA project focus group protocols](https://adaptationagora.eu/outputs/)
 - * Risk Analysis
   * Complement quantitative analysis with local data and context; validate and interpret results.
-  * Participatory GIS mapping for community-driven data collection to further understand exposure and identify most vulnerable groups; Climate risk storylines or Climate stories for communicating risk outputs in accessible and actionable ways
+  * Participatory GIS mapping for community-driven data collection to further understand exposure and identify most vulnerable groups; *Climate risk storylines* or *Climate stories* for communicating risk outputs in accessible and actionable ways.
   * - [Participatory GIS mapping](https://weadapt.org/knowledge-base/sei-urban-toolbox-for-liveable-cities/participatory-geographic-information-systems-pgis/)
     - [Toolkit for science communicators and trainers](https://questproject.eu/download/presentation-toolkit-for-science-communicators-and-trainers-pdf/?wpdmdl=17551&refresh=67e51dd1a3a2e1743068625)
     - [Climate risk storylines](https://dashboard.myriadproject.eu/storylines-repository/)
     - [Climate stories](https://reachout-cities.eu/how-to-build-a-climate-story-a-practical-guide/)
 - * Key Risk Assessment
   * Prioritise risks and evaluate urgency, severity, and capacity to respond.
-  * Deliberative workshops using the risk evaluation protocol and dashboard to support collective appraisal, understanding the social significance of risks, their prioritization and capacity of regions to respond
+  * Deliberative workshops using the risk evaluation protocol and dashboard to support collective appraisal, understanding the social significance of risks, their prioritization and capacity of regions to respond.
   * - [CLIMAAX key risk assessment dashboard](../key_risks/key_risks_assessment)
     - [Risk evaluation protocol](../key_risks/key_risks_protocol_easy.pdf)
 - * Monitoring and Evaluation
@@ -119,7 +119,7 @@ To support regions in citizen and stakeholder engagement, two thematic webinars 
 </figure>
 
 - It introduced key principles and strategies for science communication, with tips for tailoring messages to different audiences and contexts (presentation [here](TODO)) supported by the [Toolkit for Science Communicators and Trainers](https://questproject.eu/download/presentation-toolkit-for-science-communicators-and-trainers-pdf/?wpdmdl=17551&refresh=67e51dd1a3a2e1743068625) from the QUEST project.
-- Case studies included in the Myriad-EU and REACHOUT project showcased practical examples and good practices for climate risk communication including: [climate storylines](TODO) for unpacking the complexities of multi-risk events and inform deliberation and decision-making (see also an example of a storyline on the North Sea 1983 flood), and [Milan's experience](TODO) with climate stories and risk maps for communicating risk and raise public awareness on risks and adaptation options (cf. also [the REACHOUT Climate Stories](https://reachout-cities.eu/climate-stories/))
+- Case studies included in the Myriad-EU and REACHOUT project showcased practical examples and good practices for climate risk communication including: [climate storylines](TODO) for unpacking the complexities of multi-risk events and inform deliberation and decision-making (see also [an example of a storyline on the North Sea 1983 flood](https://storymaps.arcgis.com/stories/7e043c0fea4c4dc2adc66cb5dca4ee2d)), and [Milan's experience](TODO) with climate stories and risk maps for communicating risk and raise public awareness on risks and adaptation options (cf. also [the REACHOUT Climate Stories](https://reachout-cities.eu/climate-stories/))
 :::
 
 
@@ -139,7 +139,7 @@ To support regions in citizen and stakeholder engagement, two thematic webinars 
 
 ### Additional support from MIP4Adapt
 
-In addition to the DIY Manual, MIP4Adapt offers several complementary support services to help regions and local authorities strengthen stakeholder and citizen engagement in practice.
+In addition to the DIY Manual, *MIP4Adapt* offers several complementary support services to help regions and local authorities strengthen stakeholder and citizen engagement in practice.
 
 - The [Stakeholder and Citizen Engagement Training Programme](https://futurium.ec.europa.eu/en/eu-mission-adaptation-community/events/stakeholder-and-citizen-engagement-training-programme-events-organised-mip4adapt) (material and recordings available).
 - [Open Call for Support to Citizen Events](https://climate-adapt.eea.europa.eu/en/mission/news/news/2025-mip4adapt-open-call-for-support-to-citizen-events) — five days of expert support to co-design and deliver impactful events 
