@@ -1,0 +1,48 @@
+/*
+JupyterBook strips tags from the menu entries, so we can't add the icons there.
+The solution used to be putting emojis in the entries, then replacing these with
+our icons on load using JavaScript. This CSS solution is not as clean (if the
+menu structure changes, the child counts here need to be changed too) but avoids
+the icon flicker that sometimes happens when the JavaScript doesn't kick in fast
+enough on load.
+*/
+
+.bd-sidebar-primary .navbar-nav > ul.nav:nth-of-type(4) a.reference.internal::before {
+    content: "";
+    background-size: 1.3em;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: none;
+    width: 1.4em;
+    height: 1.4em;
+    vertical-align: top;
+    margin-right: 0.3em;
+}
+.bd-sidebar-primary .navbar-nav > ul.nav:nth-of-type(4) > li:nth-child(2) > a.reference.internal::before {
+    background-image: url("icon_s/icon_s_floods.png");
+    display: inline-block;
+}
+.bd-sidebar-primary .navbar-nav > ul.nav:nth-of-type(4) > li:nth-child(3) > a.reference.internal::before {
+    background-image: url("icon_s/icon_s_heavy_rainfall.png");
+    display: inline-block;
+}
+.bd-sidebar-primary .navbar-nav > ul.nav:nth-of-type(4) > li:nth-child(4) > a.reference.internal::before {
+    background-image: url("icon_s/icon_s_heatwaves.png");
+    display: inline-block;
+}
+.bd-sidebar-primary .navbar-nav > ul.nav:nth-of-type(4) > li:nth-child(5) > a.reference.internal::before {
+    background-image: url("icon_s/icon_s_droughts.png");
+    display: inline-block;
+}
+.bd-sidebar-primary .navbar-nav > ul.nav:nth-of-type(4) > li:nth-child(6) > a.reference.internal::before {
+    background-image: url("icon_s/icon_s_fire.png");
+    display: inline-block;
+}
+.bd-sidebar-primary .navbar-nav > ul.nav:nth-of-type(4) > li:nth-child(7) > a.reference.internal::before {
+    background-image: url("icon_s/icon_s_snow.png");
+    display: inline-block;
+}
+.bd-sidebar-primary .navbar-nav > ul.nav:nth-of-type(4) > li:nth-child(8) > a.reference.internal::before {
+    background-image: url("icon_s/icon_s_wind.png");
+    display: inline-block;
+}

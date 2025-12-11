@@ -63,7 +63,7 @@ parts:
     - file: notebooks/workflows_how_to/docker.md
       title: Docker image
   - file: notebooks/workflows/floods
-    title: 🌊 RIVER & COASTAL FLOODS
+    title: RIVER & COASTAL FLOODS
     sections:
     - file: notebooks/workflows/FLOODS/02_River_flooding/FLOOD_RIVER_intro
       title: River floods (flood maps)
@@ -100,7 +100,7 @@ parts:
       - file: notebooks/workflows/FLOODS/03_Flood_damage_and_population_exposure/Risk_assessment_FLOOD_BUILDING_POPULATION
         title: Risk assessment
   - file: notebooks/workflows/heavy_rainfall
-    title: 🌧️ HEAVY RAINFALL
+    title: HEAVY RAINFALL
     sections:
     - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro
       title: Extreme precipitation
@@ -114,7 +114,7 @@ parts:
       - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/EXTREME_PRECIPITATION_Risk_Assessment_examples
         title: Risk assessment examples
   - file: notebooks/workflows/heatwaves
-    title: 🌡️ HEATWAVES
+    title: HEATWAVES
     sections:
     - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_intro
       title: Urban heatwaves
@@ -130,7 +130,7 @@ parts:
       - file: notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_risk_projected_change_Catalunya_example
         title: Risk assessment (climate projections)
   - file: notebooks/workflows/droughts
-    title: 🏜️ DROUGHTS
+    title: DROUGHTS
     sections:
     - file: notebooks/workflows/DROUGHTS/01_relative_drought/Risk_workflow_description_RELATIVE_DROUGHT
       title: Relative drought
@@ -151,7 +151,7 @@ parts:
       - file: notebooks/workflows/DROUGHTS/02_agriculture_drought/crop_table.ipynb
         title: Crop table
   - file: notebooks/workflows/fire
-    title: 🔥 FIRE
+    title: FIRE
     sections:
       - file: notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML
         title: Wildfire (ML approach)
@@ -180,7 +180,7 @@ parts:
         - file: notebooks/workflows/FIRE/03_response_model_FWI/hazard_assessment_projections
         - file: notebooks/workflows/FIRE/03_response_model_FWI/risk_assessment_population
   - file: notebooks/workflows/snow
-    title: ❄️ SNOW
+    title: SNOW
     sections:
     - file: notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Risk_workflow_description_SNOW_BLIZZARDS
       title: Heavy snowfall & blizzards
@@ -190,7 +190,7 @@ parts:
       - file: notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Risk_assessment_SNOW_BLIZZARDS
         title: Risk assessment
   - file: notebooks/workflows/storms
-    title: 💨 WIND
+    title: WIND
     sections:
     - file: notebooks/workflows/STORMS/01_windstorm/Risk_workflow_description_STORMS
       title: Windstorm
