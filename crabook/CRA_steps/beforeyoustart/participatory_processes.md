@@ -1,6 +1,6 @@
 # Participatory processes
 
-Participatory processes are fundamental for the assessment of climate risk and are thus located at the very heart of the CLIMAAX Framework. They allow for inclusion of multiple bottom-up aspects that are relevant to undertake a comprehensive CRA and ensure that diverse knowledge systems and interests are recognized and reflected — especially those of groups most affected by climate change — thus making assessment outcomes more legitimate and actionable. Integrating principles of social justice, equity, and inclusivity throughout a CRA also strengthens the foundation for risk management and adaptation planning. An inclusive and participatory **co-creation** approach, where all knowledge holders have the possibility to engage with their contributions fully respected ([Van Aalst, Cannon and Burton, 2008](https://doi.org/10.1016/j.gloenvcha.2007.06.002)) is therefore strongly recommended. This process therefore ranges from involving stakeholders across all CRA stages, to system scoping to designing actionable solutions. In summary, participation and stakeholder engagement can:
+Participatory processes are fundamental for the assessment of climate risk and are thus located at the very heart of the CLIMAAX Framework. They allow for inclusion of multiple bottom-up aspects that are relevant to undertake a comprehensive CRA and ensure that diverse knowledge systems and interests are recognized and reflected — especially those of groups most affected by climate change — thus making assessment outcomes more legitimate and actionable. Integrating principles of social justice, equity, and inclusivity throughout a CRA also strengthens the foundation for risk management and adaptation planning. An inclusive and participatory **co-creation** approach, where all knowledge holders have the possibility to engage with their contributions fully respected ([Van Aalst, Cannon and Burton, 2008](https://doi.org/10.1016/j.gloenvcha.2007.06.002)) is therefore strongly recommended. This process therefore ranges from involving stakeholders across all CRA stages, to system scoping, to designing actionable solutions. In summary, participation and stakeholder engagement can:
 
 - Improve the quality and fairness of assessments and decisions by recognizing and incorporating a rich knowledge about territorial dynamics, culture, constraints, contingencies as well as the social context — thus reflecting a wide range of perspectives.
 - Increase the legitimacy and acceptance of the CRA process and decision-making outcomes by reflecting the best and most comprehensive available knowledge.
@@ -31,7 +31,7 @@ Failing to include these groups during CRA can perpetuate cycles of marginalizat
 
 Stakeholder and citizen engagement can be facilitated through various approaches depending on available resources, capacities, and institutional preferences. Authorities are encouraged to engage stakeholders and citizens throughout the full CRA cycle. A co-creation approach, which invites stakeholders to participate across all stages — from defining the problem to designing solutions — represents the most comprehensive form of engagement. Engagement can be *continuous* and *iterative* (e.g., establishing [climate assemblies](https://www.knoca.eu/guidances-documents/preparing-for-a-climate-assembly) with direct mandates or creating communities of practice to provide input at each of the CRA steps) or *event-based* (e.g., through workshops, focus group discussions or World Cafè sessions tailored to the objectives of each CRA step). {numref}`participatory-processes-engagement-table` below summarises a set of suggested actions and suitable engagement approaches for each step of the CRA process, along with references to supporting tools and guidance detailed in the [Practical resources](#participatory-processes-resources) section including those provided by CLIMAAX Community of Practice.
 
-:::{list-table} TODO
+:::{list-table} Engagement opportunities across the CRA steps
 :name: participatory-processes-engagement-table
 :header-rows: 1
 
@@ -80,13 +80,13 @@ The [DIY Manual for Stakeholder and Citizen Engagement by MIP4Adapt](https://cli
 
 The manual is suitable for both experienced and beginner regions, offering guidance, practical steps, and tips. It is available in English and 23 EU languages and complemented by thematic flyers and related tools, which can be used throughout the CRA as well as adaptation planning cycle — especially for:
 
-- Establishing the core foundation of participation
-- Designing stakeholder mapping and analysis exercises
-- Planning climate change communication strategies
-- Selecting suitable engagement approaches for each CRA step
-- Creative engagement
-- Engagement with the private sector
-- Supporting vulnerable groups
+- Establishing the core foundation of participation.
+- Designing stakeholder mapping and analysis exercises.
+- Planning climate change communication strategies.
+- Selecting suitable engagement approaches for each CRA step.
+- Creative engagement.
+- Engagement with the private sector.
+- Supporting vulnerable groups.
 
 
 ### CLIMAAX CoP activities and resources 
@@ -102,9 +102,9 @@ To support regions in citizen and stakeholder engagement, two thematic webinars 
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/D4JCI-gJsfM?si=Q0Id_HowCZgjb0dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </figure>
 
-- It presented the EU Mission on Adaptation framework for engagement, highlighting a suite of practical resources and support offers available to regional and local authorities and examples from Mission regions, such as: workshops in Gran Canaria (Spain) to validate and prioritise adaptation measures; the design of a Community of Practice in Valongo (Portugal) for the municipal adaptation plan, and a Citizen Assembly on extreme heat in Vila Franca de Xira (Portugal) (presentation [here](TODO)).
-- It featured practitioner case studies from EU projects, including the AGORA project’s co-creation processes in the cities of [Dresden](TODO) and [Malmö](TODO) using workshops and focus group protocols (see [guidelines](https://adaptationagora.eu/outputs/)) tailored to different community profiles to enable nuanced discussion of climate risks and priorities, and the TRANSCEND project’s Scenathon approach in Emilia-Romagna region (Italy) to integrate complex scientific models into water management deliberation and decision-making. 
-- Presented [lessons learned from EU-funded projects](TODO) and a [policy brief on stakeholder engagement in climate adaptation and resilience](https://transformar.eu/storage/2024/11/Policy-brief_stakeholder-engagement-in-climate-adaptation-and-resilience_a4.pdf) including real-life examples of successful stakeholder engagement, tools and recommendations for involving communities, NGOs, and businesses.
+- It presented the EU Mission on Adaptation framework for engagement, highlighting a suite of practical resources and support offers available to regional and local authorities and examples from Mission regions, such as: workshops in Gran Canaria (Spain) to validate and prioritise adaptation measures; the design of a Community of Practice in Valongo (Portugal) for the municipal adaptation plan, and a Citizen Assembly on extreme heat in Vila Franca de Xira (Portugal).
+- It featured practitioner case studies from EU projects, including the AGORA project’s co-creation processes in the cities of Dresden and Malmö using workshops and focus group protocols (see [guidelines](https://adaptationagora.eu/outputs/)) tailored to different community profiles to enable nuanced discussion of climate risks and priorities, and the TRANSCEND project’s Scenathon approach in Emilia-Romagna region (Italy) to integrate complex scientific models into water management deliberation and decision-making. 
+- Presented lessons learned from EU-funded projects and a [policy brief on stakeholder engagement in climate adaptation and resilience](https://transformar.eu/storage/2024/11/Policy-brief_stakeholder-engagement-in-climate-adaptation-and-resilience_a4.pdf) including real-life examples of successful stakeholder engagement, tools and recommendations for involving communities, NGOs, and businesses.
 :::
 
 
@@ -116,8 +116,8 @@ To support regions in citizen and stakeholder engagement, two thematic webinars 
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/36K9tSALaIw?si=JYBA4B1B0J05Ee5b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </figure>
 
-- It introduced key principles and strategies for science communication, with tips for tailoring messages to different audiences and contexts (presentation [here](TODO)) supported by the [Toolkit for Science Communicators and Trainers](https://questproject.eu/download/presentation-toolkit-for-science-communicators-and-trainers-pdf/?wpdmdl=17551&refresh=67e51dd1a3a2e1743068625) from the QUEST project.
-- Case studies included in the Myriad-EU and REACHOUT project showcased practical examples and good practices for climate risk communication including: [climate storylines](TODO) for unpacking the complexities of multi-risk events and inform deliberation and decision-making (see also [an example of a storyline on the North Sea 1983 flood](https://storymaps.arcgis.com/stories/7e043c0fea4c4dc2adc66cb5dca4ee2d)), and [Milan's experience](TODO) with climate stories and risk maps for communicating risk and raise public awareness on risks and adaptation options (cf. also [the REACHOUT Climate Stories](https://reachout-cities.eu/climate-stories/))
+- It introduced key principles and strategies for science communication, with tips for tailoring messages to different audiences and contexts supported by the [Toolkit for Science Communicators and Trainers](https://questproject.eu/download/presentation-toolkit-for-science-communicators-and-trainers-pdf/?wpdmdl=17551&refresh=67e51dd1a3a2e1743068625) from the QUEST project.
+- Case studies included in the Myriad-EU and REACHOUT project showcased practical examples and good practices for climate risk communication including: climate storylines for unpacking the complexities of multi-risk events and inform deliberation and decision-making (see also [an example of a storyline on the North Sea 1983 flood](https://storymaps.arcgis.com/stories/7e043c0fea4c4dc2adc66cb5dca4ee2d)), and Milan's experience with climate stories and risk maps for communicating risk and raise public awareness on risks and adaptation options (cf. also [the REACHOUT Climate Stories](https://reachout-cities.eu/climate-stories/))
 :::
 
 
