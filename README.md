@@ -12,6 +12,7 @@ Visit the Handbook at https://handbook.climaax.eu/
 - [Catalogue of workflow applications](https://github.com/CLIMAAX/examples)
 - [Community of Practice](https://www.climaax.eu/community-of-practice/)
 - [CLIMAAX homepage](https://climaax.eu/)
+- [10.5281/zenodo.18186357](https://doi.org/10.5281/zenodo.18186357)
 - [EU Mission on Adaptation to Climate Change](https://www.climaax.eu/eu-mission-on-adaptation-to-climate-change/)
 
 
