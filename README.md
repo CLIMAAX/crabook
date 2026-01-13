@@ -48,6 +48,13 @@ To remove existing builds:
 jb clean crabook
 ```
 
+### Release process
+
+1. Tag all submodule repositories that have changed since the last release.
+2. Tag the Handbook and create a release from the tag. Provide release notes for changes from all repositories.
+3. The zenodo-upload action creates a new Zenodo version draft. [Go to Zenodo](https://zenodo.org/records/18196375), enter the new version dialogue, check the file contents, update the list of contributors if necessary, fill in the publication date, and the version number and publish.
+4. Announce the new release on the Handbook discussion forum.
+
 
 ## License
 
