@@ -1,0 +1,78 @@
+name: zenodo-upload
+
+on:
+  release:
+  workflow_dispatch:
+
+jobs:
+
+  bundles:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v5
+      with:
+        submodules: 'true'
+        path: 'crabook-src-${{ github.ref_name }}'
+
+    # Leave out version name from archive so files from previous record on
+    # Zenodo are replaced when uploading.
+    - name: Create src bundle
+      run: zip -r crabook-src.zip 'crabook-src-${{ github.ref_name }}' -x '*/.git/*'
+
+    # Create artifacts to provide a manual fallback for when the upload fails.
+    # When downloading this bundle, there will be an archive inside an archive.
+    - name: Create src bundle artifact
+      uses: actions/upload-artifact@v5
+      with:
+        name: crabook-src
+        path: crabook-src.zip
+
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.13'
+
+    - name: Install dependencies
+      run: pip install -r 'crabook-src-${{ github.ref_name }}/requirements.txt'
+
+    # Remove the sources from the html to reduce size and avoid duplication.
+    - name: Build the Handbook
+      run: |
+        cd 'crabook-src-${{ github.ref_name }}'
+        jb build crabook
+        rm -r crabook/_build/html/_sources
+        mv crabook/_build/html '../crabook-html-${{ github.ref_name }}'
+
+    # As above, only put the version number inside the archive.
+    - name: Create html bundle
+      run: zip -r crabook-html.zip 'crabook-html-${{ github.ref_name }}'
+
+    # As above, archive within an archive on download for manual fallback.
+    - name: Create html bundle artifact
+      uses: actions/upload-artifact@v5
+      with:
+        name: crabook-html
+        path: crabook-html.zip
+
+  record:
+    runs-on: ubuntu-latest
+    needs: bundles
+    steps:
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.13'
+
+    - name: Install openscm-zenodo
+      run: pip install openscm-zenodo
+
+    # Get the crabook-src and crabook-html archives from above
+    - uses: actions/download-artifact@v7
+
+    # Create a new draft version on Zenodo and replace the existing files with
+    # the ones built above. openscm-zenodo will keep the metadata from the
+    # existing record for the new draft version. The draft has to be finalised
+    # via the Zenodo web interface due to missing functionality in the API that
+    # we need to fill all metadata (dual license, multiple affiliations) and
+    # because the metadata updates via the API are all-or-nothing (see PR #23).
+    - name: Create a new draft version on Zenodo
+      run: openscm-zenodo create-new-version --zenodo-domain "https://zenodo.org" --token "${{ secrets.ZENODO_TOKEN }}" --n-threads 1 18196375 crabook-src/crabook-src.zip crabook-html/crabook-html.zip
