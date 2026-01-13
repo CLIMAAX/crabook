@@ -1,4 +1,7 @@
 cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
 title: CLIMAAX CRA Handbook
 abstract: >-
   The CLIMAAX project has developed a methodological
@@ -6,11 +9,13 @@ abstract: >-
   supporting toolbox. The software implementation of the
   combined framework and toolbox is known as the CLIMAAX CRA
   Handbook.
+authors:
+  - name: CLIMAAX
+    website: 'https://www.climaax.eu'
 type: software
-url: "https://handbook.climaax.eu/"
-repository-code: "https://github.com/CLIMAAX/crabook"
+doi: 10.5281/zenodo.18186357
+url: 'https://handbook.climaax.eu/'
+repository-code: 'https://github.com/CLIMAAX/crabook'
 license:
   - Apache-2.0
   - CC-BY-4.0
-authors:
-  - name: The CLIMAAX project
