@@ -35,6 +35,7 @@ exclude_patterns:
   - ".DS_Store"
   - "requirements.txt"
   - "**dashboards/bias-uncertainty/preprocessing"
+  - "**dashboards/scenarios/*.ipynb"
 
 #######################################################################################
 # Launch button settings
