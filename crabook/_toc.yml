@@ -43,8 +43,6 @@ parts:
       - file: CRA_steps/analysis/uncertainties
     - file: CRA_steps/analysis/scenarios
       title: Use of scenarios in CRA
-    - file: notebooks/CLIMATE_SCENARIOS/workflow
-      title: Climate projections
     - file: CRA_steps/analysis/workflows
       title: Risk workflows
   - file: CRA_steps/key_risks/key_risks_assessment
