@@ -268,7 +268,6 @@ How do we put the knowledge provided above into practice? In this exercise, we w
 2. Collect observation trends
 3. Collect simulation trends
 4. Look into IPCC reports why this occurs
-5. Advanced steps
 
 ::::{admonition} Latvian example
 :class: note dropdown
