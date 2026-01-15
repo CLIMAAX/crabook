@@ -260,7 +260,7 @@ We can learn from historical events and how these might impact society if they o
 
 
 
-## Excercise
+## Exercise
 
 How do we put the knowledge provided above into practice? In this exercise, we will explore the range of potential climate futures for your region and help you discover why these changes occur. These plausible changes are highlighted using individual climate model projections that can be reviewed for future weather patterns in one of the other CLIMAAX risk workflows. To help guide you we have worked out an example. We introduce each of the steps using a real-life example in Latvia. Be sure to expand the Latvian example section if you want to see how we execute and interpret each step for a real study.
 
