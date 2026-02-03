@@ -43,16 +43,16 @@ Begin by identifying the specific climatic conditions that contribute to your cl
 - Total Snowfall
 - Surface Wind Speed
 
+:::{note}
+Some of the variables above are **accumulated** (e.g., total precipitation, frost days), some are **averaged** (e.g., mean temperature, minimum temperature) and some characterize short-term **extremes** (e.g., minimum of minimum temperature, maximum 1-day precipitation). The choice of indicator should align with the desired application.
+:::
 
 ::::{admonition} Latvian example
 :class: tip dropdown
 
-Flooding in Latvia has two main flood drivers in Latvia, flooding is primarily driven by two factors. One is the snowpack accumulated in winter that rapidly melts and the melt water flows into rivers during spring. Another driver is spring precipitation, which saturates the soil and when this soil is confronted with extra rainfall, the region starts to flood.
+In Latvia, flooding is primarily driven by two factors. One is the snowpack accumulated in winter that rapidly melts and the melt water flows into rivers during spring. Another driver is spring precipitation, which saturates the soil and when this soil is confronted with extra rainfall, the region starts to flood.
 
-To analyse developments for the two flood mechanisms we select the following climate impact drivers: 
-
-- Average precipitation March till May 
-- Snowfall in December till February
+To analyse developments for the two flood mechanisms we select the following climate impact drivers: **Average precipitation March till May** and **Snowfall in December till February**.
 ::::
 
 
@@ -104,7 +104,7 @@ In the whole of NEU we find that snow has a slightly increasing trend. The incre
 Snow trend in winter in NEU (https://atlas.climate.copernicus.eu/atlas)
 :::
 
-Based on what we know of the climatic impact drivers we would expect that there are slight increases in both snowmelt and saturated soil floods.
+Based on the above graphs, we would expect an increase in flood hazard associated with both the snowmelt and spring rainfall resulting in saturated soil.
 ::::
 
 
@@ -125,7 +125,7 @@ Use our [**climate scenarios dashboard**](https://handbook.climaax.eu/dashboards
 Plot of uncertainties for climate variable in NEU
 :::
 
-For precipitation, we notice that when emissions increase, SSP model mean changes increase. Individual model projections all indicate an increase in spring precipitation, yet the amount is more unclear. When analysing what could happen in the future we see that in each SSP small increases can occur (<5%) while high increases (>15%) only occur under high emission scenarios. When using this information with known flood mechanisms where soils are saturated and extra rain leads to high discharges, we can expect more of these events to occur. An increase of 10% extra precipitation in the spring season is not unlikely across models and can lead to severe changes in discharges.
+Looking at changes in accumulated total precipitation over the spring season, we see that high-emission scenarios result in larger mean increases in precipitation (mean change across climate models). Projections based on individual climate models are ranging widely – some models show minor increase (<5%), while other models show much larger change (>15% in high-emission scenarios). When using this information with known flood mechanisms where soils are saturated and extra rain leads to high discharges, we can expect more of these events to occur. An increase of 10% extra precipitation in the spring season is not unlikely across models and can lead to severe changes in discharges.
 
 Snowfall ({numref}`fig-scenarios-excercise-latvia-cascade-snow`) is expected to decrease when emissions, and thus also temperatures, increase. Given that Northern Europe historically received roughly 1.3 mm/day of snow in winter the range given is between a 24% reduction to a 7% increase in snowfall. Few models project an increase and this might only be due to randomness of weather. However, 7% extra snowfall in winter snowpack can result in large changes in melt discharges and might be worth investigating as a potential 'what if' scenario. A reduction of 24% is also interesting as it greatly limits snow accumulation and therefore the snow melt flood mechanism.
 
