@@ -2,7 +2,11 @@
 
 A scenario is a strategic planning tool designed to explore "what-if" situations, helping us prepare for problems that might arise in the future. Scenarios can help to understand how external economic, environmental, social and/or political contexts may influence the risk in a region. In the context of the CLIMAAX project, scenarios relate to climate change and socio-economic development. Examples of scenario variables include rainfall and other aspects of the climate, demographic and socio-economic trends and changes, food consumption and prices. 
 
-In the context of Climate Risk Assessments (CRA), scenarios support local authorities in understanding how the future may unfold, making them essential for informed decision-making and effective planning. These pages aim to provide guidance for scenario development, further and more detailed information is available in the list of background reading available at the end of this section.
+In the context of Climate Risk Assessments (CRA), scenarios support local authorities in understanding how the future may unfold, making them essential for informed decision-making and effective planning. These pages aim to provide guidance for scenario development. Further and more detailed information is available in the list of [background reading](scenarios-background-reading).
+
+:::{seealso}
+Before you start » [](../beforeyoustart/technical_choices)
+:::
 
 
 ## Why explore multiple scenarios?
@@ -20,9 +24,10 @@ The choice of which scenario to prioritize in planning largely depends on the us
 
 By systematically developing and analyzing multiple climate and socio-economic scenarios, we can better understand potential future risks and develop strategies that are robust across a range of possible futures. This approach enhances our ability to plan effectively, allocate resources wisely, and build resilience against the uncertainties of climate change.
 
-Ideally, the analysis should be carried out for all the scenario combinations, and the selection of which strategy to use should be based on the evaluation of which is best able to cope with all possible future developments. In reality, most analyses are carried out for a limited number of scenarios. The climate risk management strategy that results from this is then analyzed in a 'scenario analysis' to test the strategy for its robustness and flexibility in other possible futures. 
+Ideally, the analysis should be carried out for all the scenario combinations, and the selection of which strategy to use should be based on the evaluation of which is best able to cope with all possible future developments. In reality, most analyses are carried out for a limited number of scenarios. The [climate risk management](../CRM) strategy that results from this is then analyzed in a 'scenario analysis' to test the strategy for its robustness and flexibility in other possible futures.
 
 
+(scenarios-background-reading)=
 ## Background reading
 
 - Buskop, F. E.; Sperna Weiland, F.; van den Hurk, B. (2024). Amplifying exploration of regional climate risks: Clustering future projections on regionally relevant impact drivers instead of emission scenarios. Environmental Research: Climate, 3(4), 045030. DOI: [10.1088/2752-5295/ad9f8f](https://doi.org/10.1088/2752-5295/ad9f8f).

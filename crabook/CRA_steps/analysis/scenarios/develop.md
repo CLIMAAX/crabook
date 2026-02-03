@@ -19,7 +19,7 @@ Changes in 1/100 year return period river discharge for in the Lielupe basin acr
 
 :::{seealso}
 :class: margin
-[Hazard datasets » Climate model projections](#hazard-datasets-climate-model-projections)
+Hazard datasets » [Climate model projections](#hazard-datasets-climate-model-projections)
 :::
 
 **CMIP vs CORDEX**: When exploring future climate scenarios, you can use for example CMIP6 or CORDEX data. CMIP6 provides data from the latest global climate model runs (~50–100 km) while CORDEX is a downscaled version of the older CMIP5 data (~12 km), which tries to better capture small-scale variations. CORDEX can, therefore, be more useful for local and regional studies.
