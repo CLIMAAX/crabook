@@ -43,6 +43,10 @@ parts:
       - file: CRA_steps/analysis/uncertainties
     - file: CRA_steps/analysis/scenarios
       title: Use of scenarios in CRA
+      sections:
+      - file: CRA_steps/analysis/scenarios/toolbox
+      - file: CRA_steps/analysis/scenarios/models
+      - file: CRA_steps/analysis/scenarios/excercise
     - file: CRA_steps/analysis/workflows
       title: Risk workflows
   - file: CRA_steps/key_risks/key_risks_assessment
