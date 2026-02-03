@@ -1,4 +1,7 @@
-# Which climate models should be used?
+# Model choice, custom scenarios and storylines
+
+
+## Which climate models should be used?
 
 A global climate model (GCM) is a mathematical representation of the physical and biogeochemical processes that make up the Earth’s climate. GCMs produce simulations of past, current and future large-scale climates.
 
@@ -8,32 +11,24 @@ One way to analyse the group of projections from GCMs is by averaging the projec
 
 :::{figure} ../../../images/scenarios-rp-changes-lielupe.png
 :name: fig-scenarios-models-example-lielupe
+:width: 90%
 
 Changes in 1/100 year return period river discharge for in the Lielupe basin across various climate models. Adapted from [Buskop et al. (2024)](https://doi.org/10.1088/2752-5295/ad9f8f).
 :::
 
 
-:::{admonition} Additional considerations
-:class: tip
+:::{seealso}
+:class: margin
+[Hazard datasets » Climate model projections](#hazard-datasets-climate-model-projections)
+:::
 
 **CMIP vs CORDEX**: When exploring future climate scenarios, you can use for example CMIP6 or CORDEX data. CMIP6 provides data from the latest global climate model runs (~50–100 km) while CORDEX is a downscaled version of the older CMIP5 data (~12 km), which tries to better capture small-scale variations. CORDEX can, therefore, be more useful for local and regional studies.
 
-**Choice of time horizon**: A project’s planning horizon is another important consideration. Over relatively short periods (i.e., the next decade), the range of projected climate change between different SSPs is small. However, after the middle of the century, the climate projections for the scenarios quickly diverge, which could result in widely varying impacts between the scenarios. In the latest IPCC report, 2021–2040 is referred to as near term, 2041–2060 as mid-term, and 2081–2100 as long term, relative to 1850–1900, which is used as a proxy for the pre-industrial period.
-:::
 
+**Choice of time horizon**: A project’s planning horizon is another important consideration. Over relatively short periods (i.e., the next decade), the range of projected climate change between different SSPs is small. However, after the middle of the century, the climate projections for the scenarios quickly diverge, which could result in widely varying impacts between the scenarios. In the latest IPCC report, 2021–2040 is referred to as near term, 2041–2060 as mid-term, and 2081–2100 as long term, relative to 1850–1900, which is used as a proxy for the pre-industrial period.
 
 :::{note}
 Current conditions, including yearly variations, as well as variations in the coming decades do not significantly change until the 2050s. Therefore, we do not recommend to focus on the scenarios for the near term. **Scenario choice impacts outcomes from the mid-century onwards only.**
-:::
-
-:::{admonition} A small exercise
-:class: tip
-
-Here are some guiding questions that can help you to build socioeconomic scenarios that are regionally relevant for you:
-
-- Describe potential societal risk drivers
-- Envision various ways of how these might change
-- How do these changes affect current-day risks?
 :::
 
 
@@ -47,8 +42,16 @@ What makes a scenario useful to take along in the CRA? Here we provide a list of
 - **Distinctive:** Create scenarios that are unique compared to others. This allows exploration of different possibilities or outcomes, supporting your considerations towards various futures rather than repeating the same ideas.
 
 
-::::{admonition} Practical example
+:::{admonition} Guiding questions to help build regionally relevant socioeconomic scenarios
 :class: tip
+
+- Which societal risk drivers are relevant for your region?
+- In which ways could these risk drivers change in the future?
+- How do these changes affect current-day risks?
+:::
+
+::::{admonition} Practical example: scenario matrix
+:class: tip dropdown
 
 Here we provide a few simple examples of how one can build up a scenario matrix. The matrix is a versatile tool for examining how different combinations of these drivers could influence risk levels.
 

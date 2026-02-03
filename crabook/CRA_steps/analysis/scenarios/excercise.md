@@ -6,7 +6,7 @@ We introduce each of the steps using a real-life example in Latvia. Be sure to e
 
 
 ::::{admonition} Latvian example
-:class: note dropdown
+:class: tip dropdown
 
 For our example, we take the Lielupe basin, covering parts of Lithuania and Latvia. For Latvia, the basin has been characterised as a flood zone of national importance. See the figure below for an indication of the flood challenges in the region. Information on how these floods will develop in the future is of significant value as more and more adaptation plans and investments will need to be made as we head into the mid-century. 
 
@@ -45,7 +45,7 @@ Begin by identifying the specific climatic conditions that contribute to your cl
 
 
 ::::{admonition} Latvian example
-:class: note dropdown
+:class: tip dropdown
 
 Flooding in Latvia has two main flood drivers in Latvia, flooding is primarily driven by two factors. One is the snowpack accumulated in winter that rapidly melts and the melt water flows into rivers during spring. Another driver is spring precipitation, which saturates the soil and when this soil is confronted with extra rainfall, the region starts to flood.
 
@@ -84,7 +84,7 @@ We analyse past climate behaviour by following the next steps:
 
 
 ::::{admonition} Latvian example
-:class: note dropdown
+:class: tip dropdown
 
 As Latvia is situated on the border between NEU and WCE we need to choose which region. Since the European risk assessment considers the Baltic states to be part of NEU we also choose this region. Overall, there has been an upward trend in ERA5 data for precipitation as can be seen from the graph.
 
@@ -113,7 +113,7 @@ Based on what we know of the climatic impact drivers we would expect that there 
 Use our [**climate scenarios dashboard**](https://handbook.climaax.eu/dashboards/scenarios) to collect information on simulation trends.
 
 ::::{admonition} Latvian example
-:class: note dropdown
+:class: tip dropdown
 
 {numref}`fig-scenarios-excercise-latvia-cascade-precip` is obtained by selecting the change in Total Precipitation for the season Mar-May for the year 2041 for the NEU region. We notice that that the individual model projections span a much larger range of change than the SSP averaged scenarios. Here we see that individual models behave differently towards the same emission scenarios. This can be either due to differences in the way they represent physical processes or because they are subject to randomness of the weather and might have hit a cold snap or dry spell in their simulations.
 

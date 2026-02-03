@@ -12,7 +12,7 @@ Representation of SSP narratives, RCPs and future socio-economic developments.
 
 **RCPs** help us understand a range of potential futures based on different assumptions of future greenhouse gas emissions. This trend is influenced by population growth, economic activity, socio-economic developments, land-use change and binding targets in emission reductions. Combinations of these assumptions lead to different levels of future greenhouse gas emissions which are used in climate models to simulate the climate response.
 
-RCPs are usually described in a set of four pathways that lead to different levels of ‘radiative forcing’ (the extra energy trapped in the Earth system that warms the planet) caused by humans due to the emission of greenhouse gases. The RCPs cover radiative forcing levels of 2.6, 4.5, 6 and 8.5 W/m² compared to the pre-industrial period by the end of the century. They contain relevant information such as greenhouse gas emissions, air pollutants and land use.
+RCPs are usually described in a set of four pathways that lead to different levels of 'radiative forcing' (the extra energy trapped in the Earth system that warms the planet) caused by humans due to the emission of greenhouse gases. The RCPs cover radiative forcing levels of 2.6, 4.5, 6 and 8.5 W/m² compared to the pre-industrial period by the end of the century. They contain relevant information such as greenhouse gas emissions, air pollutants and land use.
 
 - **RCP 2.6** is the low emissions scenario where we limit human-caused climate change. Carbon emissions reduce to near zero before the end of the century.
 - **RCP 4.5**, a medium emissions scenario, represents a future where we include measures to limit human-caused climate change. This scenario requires global carbon emissions to stabilize by end of the century.
@@ -33,7 +33,7 @@ There are global SSP-related datasets available for several of the above-mention
 
 ## Fully integrated scenarios – SSPs
 
-The **Shared Socioeconomic Pathways (SSPs)** are part of the most recent IPCC6 scenario framework that refer to possible socio-economic developments instead of emissions. They describe plausible major global developments in the form of narratives that together lead to challenges for emission mitigation and adaptation to climate change in the future. Five SSP pathways have been developed by the international scientific community,  allowing to explore climate change across a range of very different futures, see Figure 2:
+The **Shared Socioeconomic Pathways (SSPs)** are part of the most recent IPCC6 scenario framework that refer to possible socio-economic developments instead of emissions. They describe plausible major global developments in the form of narratives that together lead to challenges for emission mitigation and adaptation to climate change in the future. Five SSP pathways have been developed by the international scientific community,  allowing to explore climate change across a range of very different futures, see {numref}`fig-scenarios-temperature-change`:
 
 - **SSP1-1.9 (Sustainability)**: A low-challenge scenario aiming for carbon neutrality by mid-century, keeping warming near 1.5°C, aligned with the Paris Agreement.
 - **SSP1-2.6 (Middle-of-the-road development)**: Also sustainable, but with slightly higher emissions, leading to roughly 2°C warming, similar to the older RCP2.6.
@@ -42,17 +42,18 @@ The **Shared Socioeconomic Pathways (SSPs)** are part of the most recent IPCC6 s
 - **SSP5-8.5 (Fossil-fuelled development)**: Rapid, fossil-fuel-intensive growth with high challenges, leading to the highest emissions, forcing of 8.5 W/m², and significant warming, similar to RCP8.5. 
 
 :::{figure} ../../../images/scenarios-temperature-change.png
+:name: fig-scenarios-temperature-change
 
 Temperature change under the five SSP scenarios used by the IPCC. Image taken from [IPCC, 2021](https://dx.doi.org/10.1017/9781009157896.001).
 :::
 
 
-## Workflows
+## Scenarios, models and exploration options in workflows
 
 <div class="full-width">
 
 :::{list-table} Overview of climate hazard workflows, emission scenarios, and user customization options. The table highlights how each hazard incorporates climate models and scenarios, whether they allow user input or rely on emission averaged data for analysis.
-:widths: 1 8 3 8 10 20
+:widths: 1 8 3 5 10 20
 :header-rows: 1
 
 * - 
@@ -60,7 +61,7 @@ Temperature change under the five SSP scenarios used by the IPCC. Image taken fr
   - Emission Scenarios
   - \# Climate Models
   - Exploration option
-  - Climatic impact drivers in the example exercise
+  - Climatic impact drivers in the [example exercise](./excercise)
 * - <img src="../../../images/icon_s/icon_s_floods.png" class="hazard-icon" />
   - River flooding	
   - RCP4.5, RCP8.5

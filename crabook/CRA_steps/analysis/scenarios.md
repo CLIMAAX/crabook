@@ -1,4 +1,4 @@
-# The use of scenarios in climate risk assessments
+# The use of scenarios in climate risk assessment
 
 A scenario is a strategic planning tool designed to explore "what-if" situations, helping us prepare for problems that might arise in the future. Scenarios can help to understand how external economic, environmental, social and/or political contexts may influence the risk in a region. In the context of the CLIMAAX project, scenarios relate to climate change and socio-economic development. Examples of scenario variables include rainfall and other aspects of the climate, demographic and socio-economic trends and changes, food consumption and prices. 
 
