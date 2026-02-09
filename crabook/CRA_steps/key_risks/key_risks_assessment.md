@@ -157,5 +157,5 @@ Source: Adapted from [European Climate Risk Assessment](https://doi.org/10.2800/
 
 :::{tip}
 
-Even if only one risk workflow has been chosen, regions can still profit by adding more detail to the climate risk analyzed by assessing e.g., expected impacts, time components, or CRM measures that are already in place to tackle the respective risk.
+Even if only one risk workflow has been chosen, regions can still profit by adding more detail to the climate risk analyzed by assessing e.g., expected impacts, time components, [scenario](../analysis/scenarios) definition and choice, or CRM measures that are already in place to tackle the respective risk.
 :::

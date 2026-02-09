@@ -26,10 +26,6 @@
 	path = crabook/notebooks/workflows/HEAVY_RAINFALL
 	url = https://github.com/CLIMAAX/HEAVY_RAINFALL.git
 	branch = main
-[submodule "crabook/notebooks/CLIMATE_SCENARIOS"]
-	path = crabook/notebooks/CLIMATE_SCENARIOS
-	url = https://github.com/CLIMAAX/CLIMATE_SCENARIOS.git
-	branch = main
 [submodule "crabook/assets/dashboards"]
 	path = crabook/assets/dashboards
 	url = https://github.com/CLIMAAX/dashboards.git

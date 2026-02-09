@@ -202,7 +202,7 @@ Resolution
 : 11 km (UERRA-HARMONIE) and 5.5 km (MESCAN-SURFEX) horizontal
 :::
 
-
+(hazard-datasets-climate-model-projections)=
 ### Climate model projections
 
 These datasets are produced by simulations of the Earth system with climate models.
