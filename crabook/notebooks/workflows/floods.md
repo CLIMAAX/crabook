@@ -59,3 +59,8 @@ The proper assessment of flood risk is crucial for developing effective mitigati
 :::
 
 ::::
+
+
+## Community of Practice
+
+- [River Flood Risk Assessment: Learning from Regions](https://www.climaax.eu/events/community-of-practice-river-flood-risk-assessment-learning-from-regions/) webinar (19 February 2026)

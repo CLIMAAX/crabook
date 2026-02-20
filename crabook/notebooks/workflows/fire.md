@@ -51,3 +51,8 @@ Wildfires are uncontrolled fires that spread rapidly through vegetation, often e
 :::
 
 ::::
+
+
+## Community of Practice
+
+- [Wildfire Risk Assessment: Learning from Regions](https://www.climaax.eu/events/community-of-practice-wildfire-risk-assessment-learning-from-regions/) webinar (11 December 2025)
