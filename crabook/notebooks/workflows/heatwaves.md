@@ -37,4 +37,6 @@ Heatwaves are becoming more frequent and severe due to climate change, making th
 
 ## Community of Practice
 
-- [Heatwave Risk Assessment: Learning from Regions](https://www.climaax.eu/events/community-of-practice-heatwave-risk-assessment-learning-from-regions/) webinar (27 November 2025)
+[Heatwave Risk Assessment: Learning from Regions](https://www.climaax.eu/events/community-of-practice-heatwave-risk-assessment-learning-from-regions/) webinar (27 November 2025):
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ndSmOCWn6kM?si=5gPB6MWYfdBxFREC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
