@@ -34,5 +34,4 @@ Drop-in sessions organized by the CLIMAAX support team are accessible to all sel
 The regular schedule for the drop-in session ended at the end of August 2025. 
 Further sessions are only scheduled on-demand from now on and will be listed here in advance.
 
-- 3 November 2025: 14:00 CET (13:00 UTC): demo of the new [wildfire workflow](../notebooks/workflows/FIRE/03_response_model_FWI/workflow_description).
-- 10 November 2025: 11:00 CET (10:00 UTC): introduction to a new EURO-CORDEX model bias dashboard.
+- 23 March 2026: 15:30 CET (14:30 UTC): template for the 3rd deliverable (M22).
