@@ -64,7 +64,7 @@ jobs:
         python-version: '3.13'
 
     - name: Install openscm-zenodo
-      run: pip install openscm-zenodo
+      run: pip install openscm-zenodo typing_extensions
 
     # Get the crabook-src and crabook-html archives from above
     - uses: actions/download-artifact@v7
