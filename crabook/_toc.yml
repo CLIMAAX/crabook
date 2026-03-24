@@ -206,6 +206,17 @@ parts:
       - file: notebooks/workflows/STORMS/01_windstorm/Risk_assessment_STORMS
         title: Risk assessment
       - file: notebooks/workflows/STORMS/01_windstorm/Selection_helper_STORMS
+  - file: notebooks/workflows/multi
+    title: MULTI
+    sections:
+    - file: notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/workflow_description
+      sections:
+      - file: notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/Hazard_prepare_climate_data_UERRA
+      - file: notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/Hazard_prepare_climate_data_CORDEX
+      - file: notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/Hazard_indicators_compute
+      - file: notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/Hazard_indicators_plot
+      - file: notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/Hazard_indicators_plot_change
+      - file: notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/Risk_assessment_airports
 
 - caption: Resources
   chapters:

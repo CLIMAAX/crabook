@@ -29,3 +29,6 @@
 [submodule "crabook/assets/dashboards"]
 	path = crabook/assets/dashboards
 	url = https://github.com/CLIMAAX/dashboards.git
+[submodule "crabook/notebooks/workflows/MULTI"]
+	path = crabook/notebooks/workflows/MULTI
+	url = https://github.com/CLIMAAX/MULTI.git

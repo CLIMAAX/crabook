@@ -123,7 +123,7 @@ These workflows will allow for the climate risk assessment using both historical
     - Wind damage map
 
 *   - 
-    - Multi-hazard
+    - [Multi-hazard](../../notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/workflow_description)
     - Risk index method
     - Precipitation and temperature thresholds as proxy of floods and heatwaves
     - Airports and sensitivity and adaptive-capacity indicators
@@ -226,7 +226,7 @@ These workflows will allow for the climate risk assessment using both historical
     - Winter windstorm indicators
 
 *   - 
-    - Multi-hazard
+    - [Multi-hazard](../../notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/workflow_description)
     - Historical (e.g. 1961 to 2019) and three future periods (2011-2100)
     - RCP2.6, RCP4.5, RCP8.5
     - UERRA MESCAN-SURFEX; EURO-CORDEX

@@ -200,6 +200,9 @@ Spatial coverage
 
 Resolution
 : 11 km (UERRA-HARMONIE) and 5.5 km (MESCAN-SURFEX) horizontal
+
+In workflows
+: [Multi-hazard Infrastructure](../../notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/workflow_description)
 :::
 
 (hazard-datasets-climate-model-projections)=
@@ -291,7 +294,8 @@ In workflows
 : <img src="../../images/icon_s/icon_s_heavy_rainfall.png" alt="" class="hazard-icon"> [Extreme precipitation](../../notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Intro),
   <img src="../../images/icon_s/icon_s_heatwaves.png" alt="" class="hazard-icon"> [Urban heatwaves](../../notebooks/workflows/HEATWAVES/01_Urban_heatwaves/heatwave_intro),
   <img src="../../images/icon_s/icon_s_droughts.png" alt="" class="hazard-icon"> [Agricultural drought](../../notebooks/workflows/DROUGHTS/02_agriculture_drought/AGRICULTURE_Risk_workflow_description),
-  <img src="../../images/icon_s/icon_s_snow.png" alt="" class="hazard-icon"> [Heavy snowfall & blizzards](../../notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Risk_workflow_description_SNOW_BLIZZARDS)
+  <img src="../../images/icon_s/icon_s_snow.png" alt="" class="hazard-icon"> [Heavy snowfall & blizzards](../../notebooks/workflows/SNOW/01_Heavy_snowfall_and_blizzards/Risk_workflow_description_SNOW_BLIZZARDS),
+  [Multi-hazard Infrastructure](../../notebooks/workflows/MULTI/01_Infrastructure_heat_precipitation/workflow_description)
 :::
 
 
