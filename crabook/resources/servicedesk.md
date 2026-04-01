@@ -35,3 +35,4 @@ The regular schedule for the drop-in session ended at the end of August 2025.
 Further sessions are only scheduled on-demand from now on and will be listed here in advance.
 
 - 23 March 2026: 15:30 CET (14:30 UTC): template for the 3rd deliverable (M22).
+- 13 April 2026: 11:00 CEST (09:00 UTC): exchange on heavy rainfall and flash flooding.
