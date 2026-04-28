@@ -40,7 +40,12 @@ More information can be found in the [Climate Atlas announcement](https://climat
 
 ## Model bias and uncertainty for EURO-CORDEX CMIP5
 
-A [dashboard](https://handbook.climaax.eu/dashboards/bias-uncertainty/) to explore regional model biases and projection uncertainty on NUTS2 level.
+CLIMAAX has created a [dashboard](https://handbook.climaax.eu/dashboards/bias-uncertainty/) to explore regional model biases and projection uncertainty on NUTS2 level.
+
+```{figure} ../images/euro_dasboards_cordex_bias_uncertainty.png
+:align: center
+:target: https://handbook.climaax.eu/dashboards/bias-uncertainty/
+```
 
 
 
