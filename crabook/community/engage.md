@@ -37,5 +37,6 @@ Click on the {octicon}`eye;0.9em` **Watch** button of the repository to see avai
 ## See how others have used the Handbook
 
 - [](../resources/guiding_questions.md): insights from our pilot regions.
+- Look out for webinar recordings on the risk workflow hazard overview pages.
 - Explore the [catalogue of workflow applications](https://github.com/CLIMAAX/examples) on GitHub.
 - Find regional CRAs following the CLIMAAX methodology in our [Zenodo community](https://zenodo.org/communities/climaax).

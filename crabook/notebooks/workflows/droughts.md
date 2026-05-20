@@ -52,6 +52,10 @@ The cascade between drought types is governed by the severity (i.e., magnitude),
 
 ## Community of Practice
 
-[Agriculture Drought Risk Assessment: Learning from Regions](https://www.climaax.eu/events/community-of-practice-agriculture-drought-risk-assessment-learning-from-regions/) webinar (16 April 2026):
+[**Agriculture Drought Risk Assessment**: Learning from Regions](https://www.climaax.eu/events/community-of-practice-agriculture-drought-risk-assessment-learning-from-regions/) webinar (16 April 2026):
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-yc_gOpMJKo?si=XBfBkMCcvAXvN5rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-yc_gOpMJKo?si=XBfBkMCcvAXvN5rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+[**Relative Drought Risk Assessment**: Learning from Regions](https://www.climaax.eu/events/community-of-practice-relative-drought-risk-assessment-learning-from-regions/) webinar (14 May 2026):
+
+<p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/p_bRcJI3yGg?si=wMG-DzcEwdCM7VLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
