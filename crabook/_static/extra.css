@@ -264,3 +264,21 @@ table.monitoring-table th { background-color: var(--pst-color-table-heading-bg);
 .scenarios-widget #plotDiv {
     margin-top: 1rem;
 }
+
+
+.geonode-optional, table.geonode-optional td {
+    background-color: var(--climaax-cyan-bg);
+}
+.geonode-mandatory, table.geonode-mandatory td {
+    background-color: var(--climaax-orange-bg);
+}
+table.geonode-table td {
+    border-left-color: var(--pst-color-text-base);
+    border-color: var(--pst-color-text-base);
+}
+table.geonode-table ul li p {
+    margin-bottom: 0;
+}
+table.geonode-table p:not(:last-child), table.geonode-table ul:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
