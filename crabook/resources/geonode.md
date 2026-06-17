@@ -33,8 +33,10 @@ If you generated, modified, processed, or adapted a dataset for your project, up
 
 :::{important}
 
-At this stage, you do not need to upload datasets to Zenodo yourself!
+At this stage, you do not need to upload *datasets* to Zenodo yourself!
 The CLIMAAX team will handle the Zenodo upload process internally for each project, based on the datasets and information provided via GeoNode and the Deliverable Platform.
+
+If you wish to upload supplementary material that is *not a dataset*, you are still welcome to submit a record to the [CLIMAAX Zenodo community](https://zenodo.org/communities/climaax).
 :::
 
 
