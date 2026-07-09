@@ -25,7 +25,7 @@ Our main objective is to create a cleaner and more homogeneous dataset repositor
 If you generated, modified, processed, or adapted a dataset for your project, upload and share it to GeoNode and list it in the Deliverable Platform dataset window.
 
 - This includes hazard, exposure, vulnerability, risk, impact, threshold, indicator, IDF, return-period, bias-corrected, reclassified, aggregated, or other derived datasets used to produce your results.
-- Do not upload large raw public datasets such as ERA5, EURO-CORDEX, CORINE Land Cover, CHELSA, or other original source data.
+- Do not upload large raw public datasets such as ERA5, EURO-CORDEX, CORINE Land Cover, CHELSA, Landsat images, or other original source data.
   However, if you extracted, clipped, bias-corrected, reclassified, aggregated, or otherwise processed these datasets for your region, the resulting project-specific outputs should be uploaded and shared.
 - For local input datasets, upload and share them when they are public or have no access restrictions.
   If a local dataset is restricted, do not upload the raw data; instead, list it in the Deliverable Platform, clearly describe the restriction, and provide a derived, anonymised, or post-processed version whenever possible.
@@ -69,7 +69,7 @@ Click "Register" and complete the registration form.
 1. Go to "All resources".
 2. Click "Add Resource".
 3. Select "Upload Dataset".
-4. Click "Select files" and choose the dataset file.
+4. Click "Select files" and choose the dataset file. The maximum file size accepted is 300 MB.
 5. Finish by clicking “Upload”.
 
 :::{figure} ../images/geonode/geonode-1-1.png
