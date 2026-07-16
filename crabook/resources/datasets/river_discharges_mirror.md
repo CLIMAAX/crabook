@@ -48,7 +48,7 @@ Dataset type
 :::{warning}
 This mirror is provided for the convenice of CLIMAAX workflow users only.
 Please use the original data source for citations and general access.
-Availability of and URLs associated with this dataset may change without announcement.
+We do not guarantee the long-term availability of the data and URLs associated with this dataset may change without announcement.
 :::
 
 
