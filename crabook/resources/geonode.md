@@ -72,6 +72,15 @@ Click "Register" and complete the registration form.
 4. Click "Select files" and choose the dataset file. The maximum file size accepted is 300 MB.
 5. Finish by clicking “Upload”.
 
+:::{dropdown} Accepted file formats
+
+- **ESRI Shapefile** (.shp, .shx, .dbf, .prj): The standard vector format needs to be uploaded at once.
+- **GeoPackage** (.gpkg): An open, lightweight, and platform-independent spatial format for vector datasets.
+- **GeoTIFF** (.tif, .tiff): The standard format for raster data, satellite imagery, and georeferenced maps.
+- **KML / KMZ** (.kml, .kmz): Keyhole Markup Language formats used in geospatial mapping and Google Earth.
+- **CSV** (.csv): Comma-separated value files containing spatial coordinates (latitude/longitude) or tabular spatial attributes. 
+:::
+
 :::{figure} ../images/geonode/geonode-1-1.png
 
 Open the "All resources" page and choose "Add Resource" → "Upload Dataset".
@@ -82,6 +91,7 @@ Open the "All resources" page and choose "Add Resource" → "Upload Dataset".
 
 Click "Select files", choose the dataset, and complete the upload.
 :::
+
 
 
 (geonode-step-style)=
