@@ -196,6 +196,12 @@ aside.sidebar > :last-child {
     padding: 0;
 }
 
+/* Extra vertical padding for code cell dropdowns */
+div.tag_hide-input > details > summary > p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 img.hazard-icon {
     width: 1.25em;
     vertical-align: text-top;
