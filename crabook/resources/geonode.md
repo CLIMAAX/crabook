@@ -137,7 +137,8 @@ The following points are essential:
 :::{admonition} Recommendation
 :class: tip
 
-The `.sld` style file may be prepared in GIS software environments such as QGIS ([instructions](https://docs.geoserver.org/main/en/user/styling/qgis/#exporting-vector-symbology)) or ArcGIS ([instructions](https://onegeology.org/wmsCookbook/appendixJ.html)), where the desired symbology can be defined and exported.
+The `.sld` style file may be prepared in GIS software environments such as QGIS ([instructions](https://docs.geoserver.org/main/en/user/styling/qgis/#exporting-vector-symbology)), where the desired symbology can be defined and exported.
+ArcGIS style files can be converted to the `.sld` format ([Python tool](https://github.com/GeoCat/bridge-style)).
 Alternatively, it may be created by manually following the essential SLD structure and styling rules.
 The use of **AI assistance** may also help with the preparation of simple style files.
 In all cases, the final style should be validated before upload to ensure full compatibility with the dataset and correct visualization in GeoNode.
