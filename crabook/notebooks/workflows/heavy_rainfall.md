@@ -39,6 +39,14 @@ Although there is an ongoing debate on the estimated socio-economic losses that 
 ::::
 
 
+## Community of Practice
+
+[**Heavy Rainfall Risk Assessment**: Learning from Regions](https://www.climaax.eu/events/community-of-practice-heavy-rainfall-risk-assessment-learning-from-regions/) webinar (16 July 2026):
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hQpjh4H53X4?si=gbGhZXMWMXNUogpl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
 ## References
 
 - Centre for Research on the Epidemiology of Disasters. (2021). *Extreme weather events in Europe*. https://www.cred.be/sites/default/files/CredCrunch64.pdf
