@@ -1,8 +1,7 @@
 # Wildfire training and vulnerability data
 
-:::{important}
-This dataset is still under construction and contents may change without announcement.
-:::
+Hazard, vulnerability and exposure sample data for Catalonia for the CLIMAAX wildfire (ML approach) workflow.
+
 
 ## General
 
@@ -15,14 +14,24 @@ Spatial coverage
 In workflows
 : [<img src="../../images/icon_s/icon_s_fire.png" class="hazard-icon"> Wildfire (ML approach)](../../notebooks/workflows/FIRE/01_wildfire_ML/Risk_workflow_description_FIRE_ML)
 
-Authors
-: TODO
+DOI
+: [10.5281/zenodo.21620813](https://doi.org/10.5281/zenodo.21620813)
+
+Contributors
+: Farzad Ghasemiazma and Andrea Trucchia, CIMA Research Foundation
 
 Attribution
-: Data in *data_Catalonia/climate* derived from the [CHELSA](https://www.doi.org/10.16904/envidat.150) (subfolder *CHELSA_Historical*) and [ECLIPS2.0](https://doi.org/10.5281/zenodo.3952159) (other files) datasets.
+: Some data were provided by the European Forest Fire Information System – EFFIS (https://forest-fire.emergency.copernicus.eu) of the European Commission Joint Research Centre.
+
+  - [10.16904/envidat.150](https://doi.org/10.16904/envidat.150)
+  - [10.5281/zenodo.3952159](https://doi.org/10.5281/zenodo.3952159)
+  - [10.2909/960998c1-1870-4e82-8051-6485205ebbac](https://doi.org/10.2909/960998c1-1870-4e82-8051-6485205ebbac)
 
 Year
 : 2024
+
+License
+: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 
 ## Technical

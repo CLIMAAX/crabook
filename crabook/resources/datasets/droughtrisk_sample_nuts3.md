@@ -1,5 +1,7 @@
 # Drought risk data
 
+Sample hazard, exposure and vulnerability data at NUTS3 level for the CLIMAAX relative drought workflow.
+
 
 ## General
 
@@ -12,14 +14,24 @@ Spatial coverage
 In workflows
 : [<img src="../../images/icon_s/icon_s_droughts.png" class="hazard-icon"> Relative drought](../../notebooks/workflows/DROUGHTS/01_relative_drought/Risk_workflow_description_RELATIVE_DROUGHT)
 
-Authors
+DOI
+: [10.5281/zenodo.21620672](https://doi.org/10.5281/zenodo.21620672)
+
+Contributors
 : This dataset was prepared by [Silvia Artuso](https://iiasa.ac.at/staff/silvia-artuso) and [Dor Fridman](https://iiasa.ac.at/staff/dor-fridman) from [IIASA’s Water Security Research Group](https://iiasa.ac.at/programs/biodiversity-and-natural-resources-bnr/water-security).
 
 Attribution
-: Based on ISIMIP3b bias-adjusted atmospheric climate input data (DOI: [10.48364/ISIMIP.842396.1](https://doi.org/10.48364/ISIMIP.842396.1)).
+: - [10.48364/ISIMIP.842396.1](https://doi.org/10.48364/ISIMIP.842396.1)
+  - [10.46830/writn.23.00061](https://doi.org/10.46830/writn.23.00061)
+  - [10.7910/DVN/PRFF8V](https://doi.org/10.7910/DVN/PRFF8V)
+  - [10.6084/m9.figshare.23542860](https://doi.org/10.6084/m9.figshare.23542860)
+  - [10.5281/zenodo.5880037](https://doi.org/10.5281/zenodo.5880037)
 
 Year
 : 2024
+
+License
+: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
 
 ## Technical
