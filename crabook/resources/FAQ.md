@@ -163,6 +163,51 @@ The [reproject_match](https://corteva.github.io/rioxarray/stable/rioxarray.html#
 :::
 
 
+:::{dropdown} How can I export gridded data in GeoTIFF format?
+
+Here is an annotated code snippet that takes the NetCDF output from the [agricultural drought workflow hazard assessment](../notebooks/workflows/DROUGHTS/02_agriculture_drought/AGRICULTURE_DROUGHT_Hazard.ipynb#hazard-indicators-for-all-selected-crops) and writes one of the yield loss layers in GeoTIFF format.
+
+It is also possible to export directly from an xarray `DataArray` or `Dataset` loaded in memory while executing a workflow notebook.
+Generally, we recommend creating such xarray objects first, then exporting via the [rioxarray](https://corteva.github.io/rioxarray/stable/index.html) backend as shown in the example.
+
+```python
+import cartopy.crs as ccrs
+import numpy as np
+import rasterio
+import xarray as xr
+
+ds_all = xr.open_dataset("path/to/agridrought_hazard_etc.nc")
+
+# Coordinate reference system (CRS) of the input data
+data_crs = ccrs.RotatedPole(pole_latitude=39.25, pole_longitude=-162)
+
+da_export = (
+    # Choose the data to export. GeoTIFF only supports one or more 2D fields,
+    # so a subselection might be necessary. Here, only a single field (the usual
+    # GeoTIFF term is "band") for one variable is selected:
+    ds_all["yield_loss"].sel(crop="maize")
+    # Assign a coordinate reference system that matches the x and y coordinates.
+    # You may need to rename your coordinates or call .set_spatial_dims() to
+    # have the coordinates recognised correctly.
+    .rio.write_crs(data_crs)
+    # Optional: mark values that indicate no data is available. Adapt to the
+    # convention of your dataset. Here, not a number (NaN) values are marked.
+    .rio.write_nodata(np.nan)
+    # Optional: Reprojection to a different CRS. Choose a resampling method that
+    # aligns with the data. E.g., never interpolate categorical data.
+    .drop_vars(["lat", "lon"])  # remove extra coordinates
+    .rio.reproject("EPSG:4326", resampling=rasterio.enums.Resampling.nearest)
+)
+# Now write the GeoTIFF
+da_export.rio.to_raster("path/to/output_yield_loss_maize.tif")
+```
+
+The rotated pole CRS in the example works for most (but not all!) EURO- and MED-CORDEX models.
+Because the rotated pole coordinate system is not always supported by other software, a reprojection to a more common regular (non-rotated) latitude-longitude grid is carried out in the example.
+:::
+
+
+
 ## Software issues
 
 :::{dropdown} How do I fix a validation error when downloading files with Pooch?
