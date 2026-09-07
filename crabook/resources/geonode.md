@@ -81,6 +81,15 @@ Click "Register" and complete the registration form.
 - **CSV** (.csv): Comma-separated value files containing spatial coordinates (latitude/longitude) or tabular spatial attributes. 
 :::
 
+
+:::{dropdown} File name restrictions
+
+Special characters such as quotation marks, question marks, accents, or national characters may cause a validation error on upload.
+We recommend sticking to the ASCII set of characters to avoid any issues.
+See step 3.1 for more information.
+:::
+
+
 :::{figure} ../images/geonode/geonode-1-1.png
 
 Open the "All resources" page and choose "Add Resource" → "Upload Dataset".
