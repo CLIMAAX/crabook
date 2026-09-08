@@ -19,3 +19,40 @@ repository-code: 'https://github.com/CLIMAAX/crabook'
 license:
   - Apache-2.0
   - CC-BY-4.0
+references:
+  - type: article
+    title: >-
+      A harmonised and inclusive climate risk assessment
+      framework: standardising flexibility for regions and
+      communities in Europe
+    authors:
+      - given-names: Michaela
+        family-names: Bachmann
+      - given-names: Reinhard
+        family-names: Mechler
+      - given-names: Oscar
+        family-names: Higuera Roa
+      - given-names: Dace
+        family-names: Zandersone
+      - given-names: Anna
+        family-names: Pirani
+      - given-names: Jeremy
+        family-names: Pal
+      - given-names: Gloria
+        family-names: Mozzi
+      - given-names: Dana
+        family-names: Stuparu
+      - given-names: Fulvio
+        family-names: Biddau
+      - given-names: Maurizio
+        family-names: Mazzoleni
+      - given-names: Frederiek
+        family-names: Sperna Weiland
+      - given-names: Bart
+        family-names: van den Hurk
+    journal: Environmental Research Communications
+    volume: 8
+    issue: 8
+    year: 2026
+    doi: 10.1088/2515-7620/ae9d06
+    url: 'https://doi.org/10.1088/2515-7620/ae9d06'

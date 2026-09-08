@@ -33,4 +33,9 @@ Highlights of the CLIMAAX Framework and Toolbox entail:
 
 :::{note}
 A full, advanced description of the CLIMAAX CRA Framework can be found [here](https://files.cmcc.it/climaax/Deliverables/CLIMAAX_D1.4_Climate%20Risk%20Assessment%20Framework_revised.pdf).
+It is also described in a peer-reviewed publication by [Bachmann et al. (2026)](https://doi.org/10.1088/2515-7620/ae9d06).
 :::
+
+## References
+
+- Bachmann, M., Mechler, R., Higuera Roa, O., Zandersone, D., Pirani, A., Pal, J., Mozzi, G., Stuparu, D., Biddau, F., Mazzoleni, M., Sperna Weiland, F., & van den Hurk, B. (2026). A harmonised and inclusive climate risk assessment framework: standardising flexibility for regions and communities in Europe. *Environmental Research Communications*, 8(8), 085038. https://doi.org/10.1088/2515-7620/ae9d06
