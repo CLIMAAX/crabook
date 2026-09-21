@@ -189,6 +189,8 @@ For the **other title elements**, it is recommended to use abbreviations and des
 
 - Use lowercase letters and underscores between words.
 - Avoid very long names.
+  Only the first 49 characters of the name are actually used to identify it.
+  If two datasets do not differ in the first 49 characters, their upload may fail due to a naming conflict.
 - Avoid special characters such as quotation marks, question marks, accents, or national characters that may cause upload problems.
 - Keep the filename consistent with the agreed CLIMAAX naming convention.
 
