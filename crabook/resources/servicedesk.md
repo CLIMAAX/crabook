@@ -18,20 +18,5 @@ Service desk requests are otherwise private.
 
 :::{note}
 
-The support team will provide a first response to **eligible requests**, i.e., requests from the selected regions of the CLIMAAX Open Calls, within **3 working days**.
-Other requests are processed without a response guarantee based on the availability of the support team.
-
-We determine **eligibility** for service desk support via the submitting account's email address.
-Please inform us about email addresses to be added our list with a service desk request from an account that is already known to us through the list of eligible accounts.
-The list is initialized with the contact points from the open call process.
+Requests are processed without a response guarantee based on the availability of the support team.
 :::
-
-
-## Drop-in sessions
-
-Drop-in sessions organized by the CLIMAAX support team are accessible to all selected regions of the Open Calls and members of our [Community of Practice](https://www.climaax.eu/community-of-practice/).
-
-The regular schedule for the drop-in session ended at the end of August 2025. 
-Further sessions are only scheduled on-demand from now on and will be listed here in advance.
-
-- 6 July 2026: 14:00 CEST (12:00 UTC): Q&A about the [GeoNode data submissions](./geonode).

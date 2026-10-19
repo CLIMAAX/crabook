@@ -6,9 +6,6 @@ We recommend to always check the Handbook for information before reaching out to
 See our [release notes](https://github.com/CLIMAAX/crabook/releases) for the latest updates to the Handbook and the [FAQ](FAQ.md) for answers to frequently asked questions.
 A search function is available in the top left under our logo or you can use your favourite search engine.
 
-When reaching out to us, please use GitHub and the service desk, rather than contacting individuals from the CLIMAAX team directly via email.
-This way we can process requests more efficiently and transparently.
-
 
 (support-github)=
 ## On GitHub
