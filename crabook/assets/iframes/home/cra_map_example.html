@@ -47,7 +47,16 @@
     );
     // .setView([38.533, -8.886], 12)
     // Zilina position: [49.224, 18.736]
-    
+
+    var tile_layer = L.tileLayer(
+        "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+        {
+            "attribution": "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ",
+            "maxZoom": 16
+        }
+    ).addTo(map_container);;
+
+    /*
     var tile_layer = L.tileLayer(
         "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
         {
@@ -63,7 +72,6 @@
         }
     ).addTo(map_container);
     
-    /*
     var eu_hw_projection = L.tileLayer.wms(
         "https://dev-ichange.kajoservices.com/geoserver/wms",
         {
