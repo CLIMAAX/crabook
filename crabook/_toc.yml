@@ -117,6 +117,8 @@ parts:
         title: Risk assessment
       - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/EXTREME_PRECIPITATION_Risk_Assessment_examples
         title: Risk assessment examples
+      - file: notebooks/workflows/HEAVY_RAINFALL/01_Extreme_precipitation/Extreme_precipitation_Pathways
+        title: Applications from regions
   - file: notebooks/workflows/heatwaves
     title: HEATWAVES
     sections:
